@@ -1,0 +1,50 @@
+2015-11-20 14:56:02 INFO  StepsDefinitions:30 - 
+ ---------------------------------------------------- Starting Test ----------------------------------------------------
+2015-11-20 14:56:02 INFO  StepsDefinitions:46 - ------------ Environmental Configurations ------------
+2015-11-20 14:56:02 INFO  StepsDefinitions:47 - screenshotsPath = Screenshots/
+2015-11-20 14:56:02 INFO  StepsDefinitions:48 - browser=IE
+2015-11-20 14:56:02 INFO  StepsDefinitions:49 - ------------------------------------------------------
+2015-11-20 14:56:03 INFO  Database:30 - Database connection established
+2015-11-20 14:56:03 INFO  Database:63 - get obj
+2015-11-20 14:56:03 INFO  StepsDefinitions:36 - Open page https://www.businessinsider.com/
+2015-11-20 14:56:13 INFO  screenshot:49 - Partial screenshot taken and saved at Screenshots/partialscreenshot.png
+2015-11-20 14:57:11 INFO  StepsDefinitions:30 - 
+ ---------------------------------------------------- Starting Test ----------------------------------------------------
+2015-11-20 14:57:11 INFO  StepsDefinitions:46 - ------------ Environmental Configurations ------------
+2015-11-20 14:57:11 INFO  StepsDefinitions:47 - screenshotsPath = Screenshots/
+2015-11-20 14:57:11 INFO  StepsDefinitions:48 - browser=Chrome
+2015-11-20 14:57:11 INFO  StepsDefinitions:49 - ------------------------------------------------------
+2015-11-20 14:57:11 INFO  Database:30 - Database connection established
+2015-11-20 14:57:11 INFO  Database:63 - get obj
+2015-11-20 14:57:11 INFO  StepsDefinitions:36 - Open page https://www.businessinsider.com/
+2015-11-20 14:57:18 INFO  screenshot:49 - Partial screenshot taken and saved at Screenshots/partialscreenshot.png
+2015-11-20 14:58:23 INFO  StepsDefinitions:30 - 
+ ---------------------------------------------------- Starting Test ----------------------------------------------------
+2015-11-20 14:58:23 INFO  StepsDefinitions:46 - ------------ Environmental Configurations ------------
+2015-11-20 14:58:23 INFO  StepsDefinitions:47 - screenshotsPath = Screenshots/
+2015-11-20 14:58:23 INFO  StepsDefinitions:48 - browser=Chrome
+2015-11-20 14:58:23 INFO  StepsDefinitions:49 - ------------------------------------------------------
+2015-11-20 14:58:23 INFO  Database:30 - Database connection established
+2015-11-20 14:58:23 INFO  Database:63 - get obj
+2015-11-20 14:58:23 INFO  StepsDefinitions:36 - Open page https://www.businessinsider.com/
+2015-11-20 14:58:29 INFO  screenshot:49 - Partial screenshot taken and saved at Screenshots/partialscreenshot.png
+2015-11-20 15:04:07 INFO  StepsDefinitions:30 - 
+ ---------------------------------------------------- Starting Test ----------------------------------------------------
+2015-11-20 15:04:07 INFO  StepsDefinitions:46 - ------------ Environmental Configurations ------------
+2015-11-20 15:04:07 INFO  StepsDefinitions:47 - screenshotsPath = Screenshots/
+2015-11-20 15:04:07 INFO  StepsDefinitions:48 - browser=IE
+2015-11-20 15:04:07 INFO  StepsDefinitions:49 - ------------------------------------------------------
+2015-11-20 15:04:07 INFO  Database:30 - Database connection established
+2015-11-20 15:04:07 INFO  Database:63 - get obj
+2015-11-20 15:04:07 INFO  StepsDefinitions:36 - Open page https://www.businessinsider.com/
+2015-11-20 15:04:15 INFO  screenshot:49 - Partial screenshot taken and saved at Screenshots/partialscreenshot.png
+2015-11-20 15:04:34 INFO  StepsDefinitions:30 - 
+ ---------------------------------------------------- Starting Test ----------------------------------------------------
+2015-11-20 15:04:34 INFO  StepsDefinitions:46 - ------------ Environmental Configurations ------------
+2015-11-20 15:04:34 INFO  StepsDefinitions:47 - screenshotsPath = Screenshots/
+2015-11-20 15:04:34 INFO  StepsDefinitions:48 - browser=IE
+2015-11-20 15:04:34 INFO  StepsDefinitions:49 - ------------------------------------------------------
+2015-11-20 15:04:34 INFO  Database:30 - Database connection established
+2015-11-20 15:04:34 INFO  Database:63 - get obj
+2015-11-20 15:04:34 INFO  StepsDefinitions:36 - Open page https://www.businessinsider.com/
+2015-11-20 15:04:40 INFO  screenshot:49 - Partial screenshot taken and saved at Screenshots/partialscreenshot.png
