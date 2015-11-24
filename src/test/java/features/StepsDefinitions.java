@@ -7,10 +7,17 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 
+import java.io.IOException;
+import java.sql.SQLException;
+
 /**
  * Created by rpalacios on 11/13/15.
  */
 public class StepsDefinitions extends AutomationSetUp{
+
+    public StepsDefinitions() throws IOException, SQLException {
+        driverSetUp();
+    }
 
     @Given("^There are (\\d+) cucumbers$")
     public void there_are_cucumbers(int arg1) throws Throwable {
