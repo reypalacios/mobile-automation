@@ -60,7 +60,6 @@ public class Database extends AutomationSetUp
         rs.close();
         s.close();
         //System.out.println(count + " rows were retrieved");
-        logger.info("get obj");
         return e;
     }
 }

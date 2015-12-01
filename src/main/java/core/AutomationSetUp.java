@@ -19,7 +19,7 @@ import java.util.Properties;
  */
 public class AutomationSetUp{
 
-    public static WebDriver driver;
+    public WebDriver driver;
     public static Logger logger;
     public static String browser;
     public static Environment environment;
@@ -84,7 +84,9 @@ public class AutomationSetUp{
     }
 
     public void driverCloseUp() throws java.sql.SQLException {
-        driver.close();
+        //driver.close();
+        driver.quit();
+        //driver.close();
     }
 
 }

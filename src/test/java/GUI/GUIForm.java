@@ -1,8 +1,5 @@
 package GUI;
 
-import features.CucumberRunner;
-import org.junit.runner.JUnitCore;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -41,7 +38,9 @@ public class GUIForm extends JFrame{
                     properties.store(out, null);
                     out.close();
 
-                    new JUnitCore().run(CucumberRunner.class);
+                    (new Runnable()).start();
+
+                    //new JUnitCore().run(CucumberRunner.class);
 
                     //JOptionPane.showConfirmDialog(GUIForm.this, "Test is running");
                 }
