@@ -2,7 +2,6 @@ package features;
 
 import com.thoughtworks.selenium.SeleniumException;
 import core.AutomationSetUp;
-import core.commands.screenshot;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -18,7 +17,9 @@ public class StepsDefinitions extends AutomationSetUp{
                 driverSetUp();
                 //        new screenshot().fullScreenshot(driver);
                 //      new screenshot().elementScreenshot(driver.findElement(By.xpath("//div[@class='span3 span3-mh']/a[@class='sprites logo']")),driver);
-                new screenshot().partialScreenshot(driver.findElement(By.xpath("//div[@class='span3 span3-mh']/a[@class='sprites logo']")), driver);
+                //new screenshot().partialScreenshot(driver.findElement(By.xpath("//div[@class='span3 span3-mh']/a[@class='sprites logo']")), driver);
+                driver.findElement(By.xpath("//div[@class='hamburger']")).click();
+                Thread.sleep(10000);
             }catch (SeleniumException e){
                 logger.error(e.getMessage());
                 e.printStackTrace();

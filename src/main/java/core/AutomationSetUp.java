@@ -51,15 +51,13 @@ public class AutomationSetUp{
                 driver = new SafariDriver();
 
             driver.get(environment.getUrl());
-        }catch(UnreachableBrowserException e){
+        } catch (UnreachableBrowserException e) {
             logger.error(e.getMessage());
             e.printStackTrace();
         }
-
     }
 
     public void environmentSetUp() {
-
         try {
             environment = (Environment) new Database().get(Environment.class, 1);
 
@@ -70,8 +68,8 @@ public class AutomationSetUp{
             browser = properties.getProperty("browser");
 
             logger.info("------------ Environmental Configurations ------------");
-            logger.info("browser="+browser);
-            logger.info("URL="+environment.getUrl());
+            logger.info("browser = "+browser);
+            logger.info("URL = "+environment.getUrl());
             logger.info("------------------------------------------------------");
 
         } catch (SQLException e) {
@@ -88,5 +86,4 @@ public class AutomationSetUp{
         driver.quit();
         //driver.close();
     }
-
 }

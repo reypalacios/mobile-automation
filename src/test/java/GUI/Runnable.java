@@ -6,13 +6,19 @@ package GUI;
 */
 
 
+import Appium.LaunchAppEmulator;
 import features.CucumberRunner;
 import org.junit.runner.JUnitCore;
 
 public class Runnable extends Thread {
 
     public void run(){
-        new JUnitCore().run(CucumberRunner.class);
+
+        if (GUIForm.launchOn.equals("Android") || GUIForm.launchOn.equals("iOS"))
+            new JUnitCore().run(LaunchAppEmulator.class);
+        if (GUIForm.launchOn.equals("Desktop"))
+            new JUnitCore().run(CucumberRunner.class);
+
     }
 
 }
