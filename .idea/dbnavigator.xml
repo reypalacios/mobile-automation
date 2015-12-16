@@ -37,6 +37,7 @@
         <condition column="" operator="=" value="" active="true" />
       </filter>
     </filter-list>
+    <filter-list connection-id="6b9a530b-cb08-48ba-aeb3-6d43d3ae56e5" dataset="MySQLAutomation.Script" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />

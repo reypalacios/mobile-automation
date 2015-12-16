@@ -1,5 +1,6 @@
 package GUI;
 
+import database.Database;
 import org.apache.log4j.Logger;
 
 import javax.swing.*;
@@ -42,7 +43,9 @@ public class GUIForm extends JFrame{
         pack();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-        appP.setVisible(false);
+        appP.setVisible(false); //Android is the default Mobile OS - only BIApp can be tested.
+        Database db = new Database();
+        db.get
         runB.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

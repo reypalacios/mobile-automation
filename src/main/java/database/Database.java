@@ -62,4 +62,31 @@ public class Database extends AutomationSetUp
         //System.out.println(count + " rows were retrieved");
         return e;
     }
+
+    public Object get(String query) throws SQLException {
+        Statement s =  connection().createStatement();
+        s.executeQuery(query);
+        ResultSet rs = s.getResultSet();
+        Environment e = new Environment();
+        int count = 0;
+
+        while (rs.next()) {
+            e.setId(rs.getInt("id"));
+            e.setName(rs.getString("name"));
+            e.setUrl(rs.getString("url"));
+
+            int idVal = rs.getInt("id");
+            String nameVal = rs.getString("name");
+            String urlVal = rs.getString("url");
+            /*System.out.println(
+                    "id = " + idVal
+                            + ", name = " + nameVal
+                            + ", url = " + urlVal);
+            */++count;
+        }
+        rs.close();
+        s.close();
+        //System.out.println(count + " rows were retrieved");
+        return e;
+    }
 }
