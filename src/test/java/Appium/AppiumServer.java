@@ -1,6 +1,5 @@
-package Appium;
+package appium;
 
-import core.AutomationSetUp;
 import org.apache.commons.exec.CommandLine;
 import org.apache.commons.exec.DefaultExecuteResultHandler;
 import org.apache.commons.exec.DefaultExecutor;
@@ -8,7 +7,7 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 
-public class AppiumServer extends AutomationSetUp {
+public class AppiumServer {
 
     Logger logger = Logger.getLogger(this.getClass());
     //Appium Launch on Mac
@@ -25,7 +24,7 @@ public class AppiumServer extends AutomationSetUp {
         command.addArgument("7200");
         //command.addArgument("--session-override", true);
         command.addArgument("--log", false);
-        command.addArgument("/Users/rpalacios/IdeaProjects/Automation/appium.log");
+        command.addArgument("/Users/rpalacios/IdeaProjects/Automation/Logs/appium.log");
         command.addArgument("--debug-log-spacing");
         command.addArgument("--address", false);
         command.addArgument("127.0.0.1");
@@ -38,15 +37,14 @@ public class AppiumServer extends AutomationSetUp {
         command.addArgument("--show-ios-log", true);
         command.addArgument("--launch-timeout",false);
         command.addArgument("110000");
-        //command.addArgument("--waitForAppScript", true);
-
+        command.addArgument("--no-reset", true);
 
         DefaultExecuteResultHandler resultHandler = new DefaultExecuteResultHandler();
         DefaultExecutor executor = new DefaultExecutor();
         executor.setExitValue(1);
         try {
             executor.execute(command, resultHandler);
-            Thread.sleep(5000);
+            Thread.sleep(10000);
             logger.info("Appium server started.");
         } catch (IOException e) {
             logger.error(e.getMessage());
@@ -62,7 +60,7 @@ public class AppiumServer extends AutomationSetUp {
         String[] command = { "/usr/bin/killall", "-KILL", "node" };
         try {
             Runtime.getRuntime().exec(command);
-            System.out.println("Appium server stopped.");
+            logger.info("Appium server stopped.");
         } catch (IOException e) {
             e.printStackTrace();
         }

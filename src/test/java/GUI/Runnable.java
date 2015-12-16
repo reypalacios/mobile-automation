@@ -6,19 +6,22 @@ package GUI;
 */
 
 
-import Appium.LaunchAppEmulator;
 import features.CucumberRunner;
 import org.junit.runner.JUnitCore;
 
 public class Runnable extends Thread {
 
     public void run(){
+        try {
+            if (GUIForm.launchOn.equals("Android") || GUIForm.launchOn.equals("iOS"))
 
-        if (GUIForm.launchOn.equals("Android") || GUIForm.launchOn.equals("iOS"))
-            new JUnitCore().run(LaunchAppEmulator.class);
-        if (GUIForm.launchOn.equals("Desktop"))
-            new JUnitCore().run(CucumberRunner.class);
+                    new JUnitCore().run(Class.forName("mobileScripts."+GUIForm.script.replaceAll(" ","")));
 
+            if (GUIForm.launchOn.equals("Desktop"))
+                new JUnitCore().run(CucumberRunner.class);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
 }

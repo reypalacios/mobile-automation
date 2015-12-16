@@ -17,7 +17,9 @@ import java.util.Properties;
 public class GUIForm extends JFrame{
 
     public static String launchOn;
-    public static String AVD;
+    public static String VD;
+    public static String app;
+    public static String script;
     public static String platformName;
     private JPanel rootpanel;
     private JButton runB;
@@ -26,6 +28,10 @@ public class GUIForm extends JFrame{
     public JComboBox launchonCB;
     private JLabel launchonL;
     private JPanel browserP;
+    private JComboBox appCB;
+    private JPanel appP;
+    private JComboBox scriptCB;
+    private JPanel scriptP;
     Logger logger = Logger.getLogger(this.getClass());
 
     public GUIForm() {
@@ -36,21 +42,29 @@ public class GUIForm extends JFrame{
         pack();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-
+        appP.setVisible(false);
         runB.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                try{
+                try {
                     launchOn = (String) launchonCB.getSelectedItem();
-                    AVD = (String) browserCB.getSelectedItem();
+                    VD = (String) browserCB.getSelectedItem();
+                    app = (String) appCB.getSelectedItem();
+                    script = (String) scriptCB.getSelectedItem();
 
                     logger.info("------------ Environmental Configurations ------------");
-                    logger.info("OS = "+launchOn);
-                    logger.info("AVD = "+AVD);
+                    logger.info("OS = " + launchOn);
+                    if (launchOn.equals("Android"))
+                        logger.info("AVD = " + VD);
+                    if (launchOn.equals("iOS")){
+                        logger.info("Simulator = " + VD);
+                        logger.info("App = " + app);
+                    }
+                    logger.info("Script = "+ script);
                     logger.info("------------------------------------------------------");
 
-                    FileOutputStream out = new FileOutputStream(System.getProperty("user.dir")+"/target/classes/config.properties");
+                    FileOutputStream out = new FileOutputStream(System.getProperty("user.dir") + "/target/classes/config.properties");
                     Properties properties = new Properties();
                     properties.setProperty("screenshotsPath", "screenshots/");
                     //properties.setProperty("laucher", (String) launcherCB.getSelectedItem());
@@ -61,9 +75,8 @@ public class GUIForm extends JFrame{
                     (new Runnable()).start();
 
                     //JOptionPane.showConfirmDialog(GUIForm.this, "Test is running");
-                }
-                catch (IOException ioe){
-                    JOptionPane.showMessageDialog(GUIForm.this,ioe.getMessage());
+                } catch (IOException ioe) {
+                    JOptionPane.showMessageDialog(GUIForm.this, ioe.getMessage());
                 }
             }
         });
@@ -79,6 +92,7 @@ public class GUIForm extends JFrame{
 
                 if (selectedItem.equals("Android")) {
 
+                    appP.setVisible(false);
                     browserL.setText("AVD");
                     browserCB.removeAllItems();
                     browserCB.addItem("Nexus_S_API_19");
@@ -87,14 +101,16 @@ public class GUIForm extends JFrame{
                 }
                 if (selectedItem.equals("iOS")) {
 
-                    browserL.setText("Device");
+                    appP.setVisible(true);
+                    browserL.setText("Simulator");
                     browserCB.removeAllItems();
-                    browserCB.addItem("iPhone");
-                    //browserCB.addItem("Galaxy_Nexus_API_19");
+                    browserCB.addItem("iPhone 6 (9.1)");
+                    browserCB.addItem("iPhone 6 (9.0)");
 
                 }
-                if(selectedItem.equals("Desktop")) {
+                if (selectedItem.equals("Desktop")) {
 
+                    appP.setVisible(false);
                     browserL.setText("Browser");
                     browserCB.removeAllItems();
                     browserCB.addItem("Firefox");
@@ -108,7 +124,22 @@ public class GUIForm extends JFrame{
             @Override
             public void itemStateChanged(ItemEvent e) {
                 Object selected[] = e.getItemSelectable().getSelectedObjects();
-                AVD = ((selected.length == 0) ? "null" : (String) selected[0]);
+                VD = ((selected.length == 0) ? "null" : (String) selected[0]);
+            }
+        });
+
+        appCB.addItemListener(new ItemListener() {
+            @Override
+            public void itemStateChanged(ItemEvent e) {
+                Object selected[] = e.getItemSelectable().getSelectedObjects();
+                app = ((selected.length == 0) ? "null" : (String) selected[0]);
+            }
+        });
+        scriptCB.addItemListener(new ItemListener() {
+            @Override
+            public void itemStateChanged(ItemEvent e) {
+                Object selected[] = e.getItemSelectable().getSelectedObjects();
+                script = ((selected.length == 0) ? "null" : (String) selected[0]);
             }
         });
     }
