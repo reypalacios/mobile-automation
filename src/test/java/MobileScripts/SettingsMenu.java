@@ -11,7 +11,7 @@ import org.junit.Test;
 public class SettingsMenu extends App {
 
     @Before
-    public void setUp() {
+    public void setUp() throws InterruptedException {
         new App().launch();
     }
 

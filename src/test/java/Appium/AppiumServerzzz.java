@@ -7,9 +7,10 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 
-public class AppiumServer {
+public class AppiumServerzzz {
 
     Logger logger = Logger.getLogger(this.getClass());
+
     //Appium Launch on Mac
 
     public void startAppiumonMac(){
@@ -39,13 +40,18 @@ public class AppiumServer {
         command.addArgument("110000");
         command.addArgument("--no-reset", true);
 
-        DefaultExecuteResultHandler resultHandler = new DefaultExecuteResultHandler();
-        DefaultExecutor executor = new DefaultExecutor();
-        executor.setExitValue(1);
-        try {
+
+        try{
+
+
+
+            DefaultExecuteResultHandler resultHandler = new DefaultExecuteResultHandler();
+            DefaultExecutor executor = new DefaultExecutor();
+            executor.setExitValue(1);
             executor.execute(command, resultHandler);
-            Thread.sleep(10000);
-            logger.info("Appium server started.");
+            Thread.sleep(3000);
+
+            logger.info("Starting Appium server...");
         } catch (IOException e) {
             logger.error(e.getMessage());
             e.printStackTrace();

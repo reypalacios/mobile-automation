@@ -45,7 +45,7 @@ public class GUIForm extends JFrame{
         setVisible(true);
         appP.setVisible(false); //Android is the default Mobile OS - only BIApp can be tested.
         Database db = new Database();
-        db.get
+        //db.get
         runB.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

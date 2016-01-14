@@ -24,10 +24,12 @@ public class HamburgerMenu {
         PageFactory.initElements(new AppiumFieldDecorator(wd), this);
     }
 
-    public void clickHamburger(){
+    public void clickHamburger() {
         //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-        icon.click();
-        logger.info("Click Hamburger Icon");
-    }
 
+            icon.click();
+            logger.info("Click Hamburger Icon");
+
+
+    }
 }
