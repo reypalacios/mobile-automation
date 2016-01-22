@@ -13,11 +13,11 @@
     <url>http://maven.apache.org</url>
 
     <dependencies>
-        <dependency>
+       <!-- <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.9.9</version>
-        </dependency>
+        </dependency>-->
        <!-- <dependency> Only need it when using DefaultSelenium
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -49,12 +49,12 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
+       <!-- <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-jvm</artifactId>
             <version>1.2.4</version>
             <type>pom</type>
-        </dependency>
+        </dependency>-->
 
         <!--Logs-->
         <dependency>
@@ -150,7 +150,7 @@
 
 
 
-    <!-- Environment Settings -->
+    <!--&lt;!&ndash; Environment Settings &ndash;&gt;
     <profiles>
         <profile>
             <id>dev</id>
@@ -166,15 +166,15 @@
                     </resource>
                 </resources>
 
-                <!--<filters>
+                &lt;!&ndash;<filters>
                     <filter>config.properties</filter>
-                </filters>-->
+                </filters>&ndash;&gt;
             </build>
 
-            <!--<properties>
+            &lt;!&ndash;<properties>
                 <logfile.name>Logs/dev.log</logfile.name>
-            </properties>-->
+            </properties>&ndash;&gt;
 
         </profile>
-    </profiles>
+    </profiles>-->
 </project>

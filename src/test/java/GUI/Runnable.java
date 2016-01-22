@@ -6,8 +6,8 @@ package GUI;
 */
 
 
-import cucumberRunners.CucumberRunnerFeature1Test;
-import cucumberRunners.CucumberRunnerFeature2;
+import runner.CucumberRunnerFeature1Test;
+import runner.CucumberRunnerFeature2Tes;
 import org.junit.runner.JUnitCore;
 
 public class Runnable extends Thread {
@@ -22,7 +22,7 @@ public class Runnable extends Thread {
                     new JUnitCore().run(CucumberRunnerFeature1Test.class);
 
                 if (GUIForm.script.equals("Settings Menu"))
-                    new JUnitCore().run(CucumberRunnerFeature2.class);
+                    new JUnitCore().run(CucumberRunnerFeature2Tes.class);
 
             }
             if (GUIForm.launchOn.equals("Desktop"))
