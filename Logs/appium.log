@@ -1,479 +1,284 @@
-2016-01-22 16:22:32:122 - info: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
-2016-01-22 16:22:32:125 - info: Appium REST http interface listener started on 127.0.0.1:4723
-2016-01-22 16:22:32:129 - info: [debug] Non-default server args: {"address":"127.0.0.1","noReset":true,"launchTimeout":"110000","log":"/Users/rpalacios/IdeaProjects/Automation/Logs/appium.log","localTimezone":true,"nativeInstrumentsLib":true,"showIOSLog":true,"defaultCommandTimeout":7200,"debugLogSpacing":true}
-2016-01-22 16:22:32:129 - info: Console LogLevel: debug
-2016-01-22 16:22:32:129 - info: File LogLevel: debug
-2016-01-22 16:22:32:356 - info: --> GET /wd/hub/status {}
-2016-01-22 16:22:32:357 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
-2016-01-22 16:22:32:363 - info: <-- GET /wd/hub/status 200 7.971 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
-2016-01-22 16:22:33:401 - info: --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"}}
-2016-01-22 16:22:33:402 - info: Client User-Agent string: Apache-HttpClient/4.3.3 (java 1.5)
-2016-01-22 16:22:33:403 - info: *************************************
-2016-01-22 16:22:33:403 - info: *************************************
-2016-01-22 16:22:33:403 - info: *************************************
-2016-01-22 16:22:33:403 - info: *************************************
-2016-01-22 16:22:33:403 - info: *************************************
-2016-01-22 16:22:33:403 - info: *************************************
-2016-01-22 16:22:33:403 - info: *************************************
-2016-01-22 16:22:33:403 - info: *************************************
-2016-01-22 16:22:33:404 - info: ****        NEW SESSION           ***
-2016-01-22 16:22:33:404 - info: ****        NEW SESSION           ***
-2016-01-22 16:22:33:405 - info: ****        NEW SESSION           ***
-2016-01-22 16:22:33:405 - info: ****        NEW SESSION           ***
-2016-01-22 16:22:33:405 - info: ****        NEW SESSION           ***
-2016-01-22 16:22:33:405 - info: ****        NEW SESSION           ***
-2016-01-22 16:22:33:405 - info: ****        NEW SESSION           ***
-2016-01-22 16:22:33:406 - info: ****        NEW SESSION           ***
-2016-01-22 16:22:33:406 - info: *************************************
-2016-01-22 16:22:33:406 - info: *************************************
-2016-01-22 16:22:33:406 - info: *************************************
-2016-01-22 16:22:33:407 - info: *************************************
-2016-01-22 16:22:33:407 - info: *************************************
-2016-01-22 16:22:33:407 - info: *************************************
-2016-01-22 16:22:33:408 - info: *************************************
-2016-01-22 16:22:33:408 - info: *************************************
-2016-01-22 16:22:33:409 - info: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : appium-version
-2016-01-22 16:22:33:412 - info: [debug] Using local app from desired caps: /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-01-22 16:22:33:413 - info: [debug] Creating new appium session 770f1de7-8829-417b-8094-6d7bdd9a98a4
-2016-01-22 16:22:33:414 - info: Starting android appium
-2016-01-22 16:22:33:415 - info: [debug] Getting Java version
-2016-01-22 16:22:33:627 - info: Java version is: 1.8.0_66
-2016-01-22 16:22:33:629 - info: [debug] Checking whether adb is present
-2016-01-22 16:22:33:632 - info: [debug] Using adb from /Users/rpalacios/Library/Android/sdk/platform-tools/adb
-2016-01-22 16:22:33:633 - info: [debug] Using fast reset? false
-2016-01-22 16:22:33:633 - info: [debug] Preparing device for session
-2016-01-22 16:22:33:634 - info: [debug] Checking whether app is actually present
-2016-01-22 16:22:33:635 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:33:635 - info: [debug] Getting connected emulators
-2016-01-22 16:22:33:636 - info: [debug] Getting connected devices...
-2016-01-22 16:22:33:640 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:33:720 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:33:720 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:33:721 - info: [debug] Launching Emulator with AVD Nexus_S_API_19, launchTimeout 120000ms and readyTimeout 120000ms
-2016-01-22 16:22:33:721 - info: [debug] Checking whether emulator is present
-2016-01-22 16:22:33:722 - info: [debug] Using emulator from /Users/rpalacios/Library/Android/sdk/tools/emulator
-2016-01-22 16:22:33:754 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:33:754 - info: [debug] Getting connected emulators
-2016-01-22 16:22:33:754 - info: [debug] Getting connected devices...
-2016-01-22 16:22:33:756 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:33:815 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:33:816 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:35:818 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:35:818 - info: [debug] Getting connected emulators
-2016-01-22 16:22:35:819 - info: [debug] Getting connected devices...
-2016-01-22 16:22:35:819 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:35:880 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:35:882 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:37:886 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:37:886 - info: [debug] Getting connected emulators
-2016-01-22 16:22:37:886 - info: [debug] Getting connected devices...
-2016-01-22 16:22:37:887 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:37:949 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:37:950 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:39:950 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:39:950 - info: [debug] Getting connected emulators
-2016-01-22 16:22:39:950 - info: [debug] Getting connected devices...
-2016-01-22 16:22:39:951 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:40:016 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:40:017 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:42:018 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:42:018 - info: [debug] Getting connected emulators
-2016-01-22 16:22:42:019 - info: [debug] Getting connected devices...
-2016-01-22 16:22:42:038 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:42:117 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:42:117 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:44:121 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:44:121 - info: [debug] Getting connected emulators
-2016-01-22 16:22:44:122 - info: [debug] Getting connected devices...
-2016-01-22 16:22:44:122 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:44:239 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:44:239 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:46:243 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:46:244 - info: [debug] Getting connected emulators
-2016-01-22 16:22:46:244 - info: [debug] Getting connected devices...
-2016-01-22 16:22:46:245 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:46:334 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:46:334 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:48:339 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:48:339 - info: [debug] Getting connected emulators
-2016-01-22 16:22:48:340 - info: [debug] Getting connected devices...
-2016-01-22 16:22:48:340 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:48:441 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:48:442 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:50:445 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:50:445 - info: [debug] Getting connected emulators
-2016-01-22 16:22:50:446 - info: [debug] Getting connected devices...
-2016-01-22 16:22:50:446 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:50:521 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:50:521 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:52:523 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:52:523 - info: [debug] Getting connected emulators
-2016-01-22 16:22:52:523 - info: [debug] Getting connected devices...
-2016-01-22 16:22:52:524 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:52:625 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:52:626 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:54:629 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:54:629 - info: [debug] Getting connected emulators
-2016-01-22 16:22:54:629 - info: [debug] Getting connected devices...
-2016-01-22 16:22:54:630 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:54:717 - info: [debug] 0 device(s) connected
-2016-01-22 16:22:54:718 - info: [debug] 0 emulator(s) connected
-2016-01-22 16:22:56:723 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:22:56:723 - info: [debug] Getting connected emulators
-2016-01-22 16:22:56:724 - info: [debug] Getting connected devices...
-2016-01-22 16:22:56:724 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:22:56:817 - info: [debug] 1 device(s) connected
-2016-01-22 16:22:56:817 - info: [debug] 1 emulator(s) connected
-2016-01-22 16:22:56:818 - info: [debug] Sending telnet command to device: avd name
-2016-01-22 16:22:56:818 - info: [debug] Getting running emulator port
-2016-01-22 16:22:56:823 - info: [debug] Socket connection to device created
-2016-01-22 16:22:56:824 - info: [debug] Socket connection to device ready
-2016-01-22 16:22:56:825 - info: [debug] Telnet command got response: Nexus_S_API_19
-2016-01-22 16:22:56:828 - info: [debug] Found emulator Nexus_S_API_19 in port 5554
-2016-01-22 16:22:56:829 - info: [debug] Setting device id to emulator-5554
-2016-01-22 16:22:56:830 - info: [debug] Waiting until emulator is ready
-2016-01-22 16:22:56:831 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop init.svc.bootanim"
-2016-01-22 16:22:56:931 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
-2016-01-22 16:22:56:931 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 wait-for-device
-2016-01-22 16:22:57:009 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "echo 'ready'"
-2016-01-22 16:22:58:249 - info: [debug] Starting logcat capture
-2016-01-22 16:22:58:309 - info: [debug] Getting device API level
-2016-01-22 16:22:58:309 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-01-22 16:22:58:403 - info: [debug] Device is at API Level 19
-2016-01-22 16:22:58:403 - info: Device API level is: 19
-2016-01-22 16:22:58:404 - info: [debug] Extracting strings for language: default
-2016-01-22 16:22:58:405 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop persist.sys.language"
-2016-01-22 16:22:58:509 - info: [debug] Current device persist.sys.language: en
-2016-01-22 16:22:58:510 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk" "/tmp/com.freerange360.mpp.businessinsider" en
-2016-01-22 16:22:59:611 - info: [debug] No strings.xml for language 'en', getting default strings.xml
-2016-01-22 16:22:59:611 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk" "/tmp/com.freerange360.mpp.businessinsider"
-2016-01-22 16:23:00:352 - info: [debug] Reading strings from converted strings.json
-2016-01-22 16:23:00:355 - info: [debug] Setting language to default
-2016-01-22 16:23:00:355 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/tmp/com.freerange360.mpp.businessinsider/strings.json" /data/local/tmp
-2016-01-22 16:23:00:442 - info: [debug] Checking whether aapt is present
-2016-01-22 16:23:00:446 - info: [debug] Using aapt from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt
-2016-01-22 16:23:00:446 - info: [debug] Retrieving process from manifest.
-2016-01-22 16:23:00:447 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt dump xmltree /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk AndroidManifest.xml
-2016-01-22 16:23:00:532 - info: [debug] Set app process to: com.freerange360.mpp.businessinsider
-2016-01-22 16:23:00:532 - info: [debug] Not uninstalling app since server not started with --full-reset
-2016-01-22 16:23:00:533 - info: [debug] Checking app cert for /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk.
-2016-01-22 16:23:00:533 - info: [debug] executing cmd: java -jar /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/verify.jar /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-01-22 16:23:01:191 - info: [debug] App already signed.
-2016-01-22 16:23:01:192 - info: [debug] Zip-aligning /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-01-22 16:23:01:192 - info: [debug] Checking whether zipalign is present
-2016-01-22 16:23:01:196 - info: [debug] Using zipalign from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign
-2016-01-22 16:23:01:197 - info: [debug] Zip-aligning apk.
-2016-01-22 16:23:01:198 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign -f 4 /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk /var/folders/0h/2trx149s6ms0cx8sk1k6n3fw0000gn/T/116022-38588-1fi4v1d/appium.tmp
-2016-01-22 16:23:01:325 - info: [debug] MD5 for app is 01f77565d5b6bf6ab99dea811034a05e
-2016-01-22 16:23:01:326 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ls /data/local/tmp/01f77565d5b6bf6ab99dea811034a05e.apk"
-2016-01-22 16:23:01:418 - info: [debug] Getting install status for com.freerange360.mpp.businessinsider
-2016-01-22 16:23:01:418 - info: [debug] Getting device API level
-2016-01-22 16:23:01:419 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-01-22 16:23:02:738 - info: [debug] Device is at API Level 19
-2016-01-22 16:23:02:739 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "pm list packages -3 com.freerange360.mpp.businessinsider"
-2016-01-22 16:23:03:145 - info: [debug] App is installed
-2016-01-22 16:23:03:145 - info: [debug] Forwarding system:4724 to device:4724
-2016-01-22 16:23:03:146 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 forward tcp:4724 tcp:4724
-2016-01-22 16:23:03:214 - info: [debug] Pushing appium bootstrap to device...
-2016-01-22 16:23:03:216 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/android_bootstrap/AppiumBootstrap.jar" /data/local/tmp/
-2016-01-22 16:23:03:376 - info: [debug] Pushing settings apk to device...
-2016-01-22 16:23:03:379 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/settings_apk/settings_apk-debug.apk"
-2016-01-22 16:23:04:000 - info: [debug] Pushing unlock helper app to device...
-2016-01-22 16:23:04:002 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/unlock_apk/unlock_apk-debug.apk"
-2016-01-22 16:23:04:489 - info: Starting App
-2016-01-22 16:23:04:490 - info: [debug] Attempting to kill all 'uiautomator' processes
-2016-01-22 16:23:04:490 - info: [debug] Getting all processes with 'uiautomator'
-2016-01-22 16:23:04:491 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ps 'uiautomator'"
-2016-01-22 16:23:04:566 - info: [debug] No matching processes found
-2016-01-22 16:23:04:566 - info: [debug] Running bootstrap
-2016-01-22 16:23:04:567 - info: [debug] spawning: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.freerange360.mpp.businessinsider -e disableAndroidWatchers false
-2016-01-22 16:23:04:647 - info: [debug] [UIAUTOMATOR STDOUT] WARNING: linker:
-2016-01-22 16:23:04:647 - info: [debug] [UIAUTOMATOR STDOUT] libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
-2016-01-22 16:23:04:788 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
-2016-01-22 16:23:04:789 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
-2016-01-22 16:23:04:789 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
-2016-01-22 16:23:04:790 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-2016-01-22 16:23:04:790 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
-2016-01-22 16:23:04:792 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
-2016-01-22 16:23:04:793 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
-2016-01-22 16:23:04:793 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
-2016-01-22 16:23:04:798 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
-2016-01-22 16:23:04:800 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
-2016-01-22 16:23:04:800 - info: [debug] [BOOTSTRAP] [debug] Loading json...
-2016-01-22 16:23:04:801 - info: [debug] Waking up device if it's not alive
-2016-01-22 16:23:04:802 - info: [debug] Pushing command to appium work queue: ["wake",{}]
-2016-01-22 16:23:04:807 - info: [debug] [BOOTSTRAP] [debug] json loading complete.
-2016-01-22 16:23:04:810 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
-2016-01-22 16:23:04:813 - info: [debug] [BOOTSTRAP] [debug] Client connected
-2016-01-22 16:23:04:813 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
-2016-01-22 16:23:04:814 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-01-22 16:23:04:817 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
-2016-01-22 16:23:04:818 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
-2016-01-22 16:23:04:820 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window"
-2016-01-22 16:23:04:906 - info: Unlocking screen
-2016-01-22 16:23:04:906 - info: [debug] Screen is locked, trying to unlock
-2016-01-22 16:23:04:907 - info: [debug] Getting device API level
-2016-01-22 16:23:04:908 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-01-22 16:23:04:974 - info: [debug] Device is at API Level 19
-2016-01-22 16:23:04:975 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n io.appium.unlock/.Unlock"
-2016-01-22 16:23:05:986 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window"
-2016-01-22 16:23:06:092 - info: [debug] Screen is unlocked, continuing
-2016-01-22 16:23:06:093 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
-2016-01-22 16:23:06:098 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
-2016-01-22 16:23:06:098 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-01-22 16:23:06:099 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
-2016-01-22 16:23:06:099 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"\/data","status":0}
-2016-01-22 16:23:06:099 - info: [debug] dataDir set to: /data
-2016-01-22 16:23:06:100 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
-2016-01-22 16:23:06:106 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
-2016-01-22 16:23:06:106 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-01-22 16:23:06:106 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
-2016-01-22 16:23:06:109 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":false,"status":0}
-2016-01-22 16:23:06:110 - info: [debug] Getting device API level
-2016-01-22 16:23:06:111 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-01-22 16:23:06:194 - info: [debug] Device is at API Level 19
-2016-01-22 16:23:06:195 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.freerange360.mpp.businessinsider/com.businessinsider.app.MainActivity"
-2016-01-22 16:23:07:106 - info: [debug] Waiting for pkg "com.freerange360.mpp.businessinsider" and activity "com.businessinsider.app.MainActivity" to be focused
-2016-01-22 16:23:07:107 - info: [debug] Getting focused package and activity
-2016-01-22 16:23:07:107 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window windows"
-2016-01-22 16:23:07:722 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.release"
-2016-01-22 16:23:07:815 - info: [debug] Device is at release version 4.4.4
-2016-01-22 16:23:07:816 - info: [debug] Device launched! Ready for commands
-2016-01-22 16:23:07:817 - info: [debug] Setting command timeout to the default of 7200 secs
-2016-01-22 16:23:07:818 - info: [debug] Appium session started with sessionId 770f1de7-8829-417b-8094-6d7bdd9a98a4
-2016-01-22 16:23:07:822 - info: <-- POST /wd/hub/session 303 34420.717 ms - 74 
-2016-01-22 16:23:07:858 - info: --> GET /wd/hub/session/770f1de7-8829-417b-8094-6d7bdd9a98a4 {}
-2016-01-22 16:23:07:861 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"770f1de7-8829-417b-8094-6d7bdd9a98a4"}
-2016-01-22 16:23:07:865 - info: <-- GET /wd/hub/session/770f1de7-8829-417b-8094-6d7bdd9a98a4 200 7.651 ms - 990 {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"770f1de7-8829-417b-8094-6d7bdd9a98a4"}
-2016-01-22 16:23:07:916 - info: --> POST /wd/hub/session/770f1de7-8829-417b-8094-6d7bdd9a98a4/timeouts {"type":"implicit","ms":100000}
-2016-01-22 16:23:07:921 - info: [debug] Set Android implicit wait to 100000ms
-2016-01-22 16:23:07:922 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"770f1de7-8829-417b-8094-6d7bdd9a98a4"}
-2016-01-22 16:23:07:923 - info: <-- POST /wd/hub/session/770f1de7-8829-417b-8094-6d7bdd9a98a4/timeouts 200 7.318 ms - 76 {"status":0,"value":null,"sessionId":"770f1de7-8829-417b-8094-6d7bdd9a98a4"}
-2016-01-22 16:23:10:941 - info: --> POST /wd/hub/session/770f1de7-8829-417b-8094-6d7bdd9a98a4/appium/app/close {}
-2016-01-22 16:23:10:943 - info: [debug] Pressing the HOME button
-2016-01-22 16:23:10:943 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "input keyevent 3"
-2016-01-22 16:23:11:503 - info: [debug] Stopping logcat capture
-2016-01-22 16:23:11:508 - info: [debug] Logcat terminated with code null, signal SIGTERM
-2016-01-22 16:23:11:523 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
-2016-01-22 16:23:11:525 - info: [debug] Sent shutdown command, waiting for UiAutomator to stop...
-2016-01-22 16:23:11:527 - info: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
-2016-01-22 16:23:11:527 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"OK, shutting down","status":0}
-2016-01-22 16:23:11:535 - info: [debug] [BOOTSTRAP] [debug] Closed client connection
-2016-01-22 16:23:11:539 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
-2016-01-22 16:23:11:540 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.
-2016-01-22 16:23:11:541 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-2016-01-22 16:23:11:541 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
-2016-01-22 16:23:11:542 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
-2016-01-22 16:23:11:542 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
-2016-01-22 16:23:11:542 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0
-2016-01-22 16:23:11:543 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
-2016-01-22 16:23:11:543 - info: [debug] [UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.
-2016-01-22 16:23:11:543 - info: [debug] [UIAUTOMATOR STDOUT] Time: 6.76
-2016-01-22 16:23:11:543 - info: [debug] [UIAUTOMATOR STDOUT] OK (1 test)
-2016-01-22 16:23:11:544 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1
-2016-01-22 16:23:11:546 - info: [debug] UiAutomator shut down normally
-2016-01-22 16:23:11:546 - info: [debug] Cleaning up android objects
-2016-01-22 16:23:11:546 - info: [debug] Responding to client with success: {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk] app.","sessionId":"770f1de7-8829-417b-8094-6d7bdd9a98a4"}
-2016-01-22 16:23:11:548 - info: <-- POST /wd/hub/session/770f1de7-8829-417b-8094-6d7bdd9a98a4/appium/app/close 200 607.039 ms - 208 {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk] app.","sessionId":"770f1de7-8829-417b-8094-6d7bdd9a98a4"}
-2016-01-22 16:23:11:553 - info: --> DELETE /wd/hub/session/770f1de7-8829-417b-8094-6d7bdd9a98a4 {}
-2016-01-22 16:23:11:555 - info: Shutting down appium session
-2016-01-22 16:23:11:555 - info: [debug] Cleaning up android objects
-2016-01-22 16:23:11:556 - info: [debug] Cleaning up appium session
-2016-01-22 16:23:11:556 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"770f1de7-8829-417b-8094-6d7bdd9a98a4"}
-2016-01-22 16:23:11:557 - info: <-- DELETE /wd/hub/session/770f1de7-8829-417b-8094-6d7bdd9a98a4 200 3.874 ms - 76 {"status":0,"value":null,"sessionId":"770f1de7-8829-417b-8094-6d7bdd9a98a4"}
-2016-01-22 16:23:11:580 - info: --> GET /wd/hub/status {}
-2016-01-22 16:23:11:581 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
-2016-01-22 16:23:11:582 - info: <-- GET /wd/hub/status 200 2.332 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
-2016-01-22 16:23:11:590 - info: --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"}}
-2016-01-22 16:23:11:591 - info: Client User-Agent string: Apache-HttpClient/4.3.3 (java 1.5)
-2016-01-22 16:23:11:591 - info: *************************************
-2016-01-22 16:23:11:591 - info: *************************************
-2016-01-22 16:23:11:591 - info: *************************************
-2016-01-22 16:23:11:591 - info: *************************************
-2016-01-22 16:23:11:592 - info: *************************************
-2016-01-22 16:23:11:592 - info: *************************************
-2016-01-22 16:23:11:593 - info: *************************************
-2016-01-22 16:23:11:593 - info: *************************************
-2016-01-22 16:23:11:593 - info: ****        NEW SESSION           ***
-2016-01-22 16:23:11:593 - info: ****        NEW SESSION           ***
-2016-01-22 16:23:11:593 - info: ****        NEW SESSION           ***
-2016-01-22 16:23:11:593 - info: ****        NEW SESSION           ***
-2016-01-22 16:23:11:594 - info: ****        NEW SESSION           ***
-2016-01-22 16:23:11:594 - info: ****        NEW SESSION           ***
-2016-01-22 16:23:11:594 - info: ****        NEW SESSION           ***
-2016-01-22 16:23:11:594 - info: ****        NEW SESSION           ***
-2016-01-22 16:23:11:594 - info: *************************************
-2016-01-22 16:23:11:594 - info: *************************************
-2016-01-22 16:23:11:594 - info: *************************************
-2016-01-22 16:23:11:595 - info: *************************************
-2016-01-22 16:23:11:595 - info: *************************************
-2016-01-22 16:23:11:595 - info: *************************************
-2016-01-22 16:23:11:595 - info: *************************************
-2016-01-22 16:23:11:595 - info: *************************************
-2016-01-22 16:23:11:596 - info: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : appium-version
-2016-01-22 16:23:11:598 - info: [debug] Using local app from desired caps: /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-01-22 16:23:11:600 - info: [debug] Creating new appium session 8cc511a0-2d66-4a4e-944f-48805035f589
-2016-01-22 16:23:11:600 - info: Starting android appium
-2016-01-22 16:23:11:602 - info: [debug] Getting Java version
-2016-01-22 16:23:11:776 - info: Java version is: 1.8.0_66
-2016-01-22 16:23:11:777 - info: [debug] Checking whether adb is present
-2016-01-22 16:23:11:779 - info: [debug] Using adb from /Users/rpalacios/Library/Android/sdk/platform-tools/adb
-2016-01-22 16:23:11:780 - info: [debug] Using fast reset? false
-2016-01-22 16:23:11:780 - info: [debug] Preparing device for session
-2016-01-22 16:23:11:780 - info: [debug] Checking whether app is actually present
-2016-01-22 16:23:11:781 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-01-22 16:23:11:781 - info: [debug] Getting connected emulators
-2016-01-22 16:23:11:782 - info: [debug] Getting connected devices...
-2016-01-22 16:23:11:782 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-01-22 16:23:11:853 - info: [debug] 1 device(s) connected
-2016-01-22 16:23:11:853 - info: [debug] 1 emulator(s) connected
-2016-01-22 16:23:11:854 - info: [debug] Sending telnet command to device: avd name
-2016-01-22 16:23:11:854 - info: [debug] Getting running emulator port
-2016-01-22 16:23:11:856 - info: [debug] Socket connection to device created
-2016-01-22 16:23:11:857 - info: [debug] Socket connection to device ready
-2016-01-22 16:23:11:858 - info: [debug] Telnet command got response: Nexus_S_API_19
-2016-01-22 16:23:11:860 - info: [debug] Found emulator Nexus_S_API_19 in port 5554
-2016-01-22 16:23:11:861 - info: [debug] Setting device id to emulator-5554
-2016-01-22 16:23:11:861 - info: [debug] Did not launch AVD because it was already running.
-2016-01-22 16:23:11:862 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
-2016-01-22 16:23:11:863 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 wait-for-device
-2016-01-22 16:23:11:943 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "echo 'ready'"
-2016-01-22 16:23:12:037 - info: [debug] Starting logcat capture
-2016-01-22 16:23:12:114 - info: [debug] Getting device API level
-2016-01-22 16:23:12:115 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-01-22 16:23:12:216 - info: [debug] Device is at API Level 19
-2016-01-22 16:23:12:216 - info: Device API level is: 19
-2016-01-22 16:23:12:217 - info: [debug] Extracting strings for language: default
-2016-01-22 16:23:12:218 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop persist.sys.language"
-2016-01-22 16:23:12:326 - info: [debug] Current device persist.sys.language: en
-2016-01-22 16:23:12:326 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk" "/tmp/com.freerange360.mpp.businessinsider" en
-2016-01-22 16:23:13:086 - info: [debug] No strings.xml for language 'en', getting default strings.xml
-2016-01-22 16:23:13:086 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk" "/tmp/com.freerange360.mpp.businessinsider"
-2016-01-22 16:23:13:865 - info: [debug] Reading strings from converted strings.json
-2016-01-22 16:23:13:868 - info: [debug] Setting language to default
-2016-01-22 16:23:13:868 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/tmp/com.freerange360.mpp.businessinsider/strings.json" /data/local/tmp
-2016-01-22 16:23:13:989 - info: [debug] Checking whether aapt is present
-2016-01-22 16:23:13:990 - info: [debug] Using aapt from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt
-2016-01-22 16:23:13:990 - info: [debug] Retrieving process from manifest.
-2016-01-22 16:23:13:990 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt dump xmltree /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk AndroidManifest.xml
-2016-01-22 16:23:14:008 - info: [debug] Set app process to: com.freerange360.mpp.businessinsider
-2016-01-22 16:23:14:009 - info: [debug] Not uninstalling app since server not started with --full-reset
-2016-01-22 16:23:14:024 - info: [debug] Checking app cert for /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk.
-2016-01-22 16:23:14:025 - info: [debug] executing cmd: java -jar /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/verify.jar /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-01-22 16:23:14:468 - info: [debug] App already signed.
-2016-01-22 16:23:14:468 - info: [debug] Zip-aligning /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-01-22 16:23:14:468 - info: [debug] Checking whether zipalign is present
-2016-01-22 16:23:14:469 - info: [debug] Using zipalign from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign
-2016-01-22 16:23:14:470 - info: [debug] Zip-aligning apk.
-2016-01-22 16:23:14:470 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign -f 4 /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk /var/folders/0h/2trx149s6ms0cx8sk1k6n3fw0000gn/T/116022-38588-2xowvz/appium.tmp
-2016-01-22 16:23:14:543 - info: [debug] MD5 for app is 01f77565d5b6bf6ab99dea811034a05e
-2016-01-22 16:23:14:543 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ls /data/local/tmp/01f77565d5b6bf6ab99dea811034a05e.apk"
-2016-01-22 16:23:14:603 - info: [debug] Getting install status for com.freerange360.mpp.businessinsider
-2016-01-22 16:23:14:604 - info: [debug] Getting device API level
-2016-01-22 16:23:14:604 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-01-22 16:23:14:665 - info: [debug] Device is at API Level 19
-2016-01-22 16:23:14:665 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "pm list packages -3 com.freerange360.mpp.businessinsider"
-2016-01-22 16:23:15:059 - info: [debug] App is installed
-2016-01-22 16:23:15:059 - info: [debug] Forwarding system:4724 to device:4724
-2016-01-22 16:23:15:060 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 forward tcp:4724 tcp:4724
-2016-01-22 16:23:15:173 - info: [debug] Pushing appium bootstrap to device...
-2016-01-22 16:23:15:174 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/android_bootstrap/AppiumBootstrap.jar" /data/local/tmp/
-2016-01-22 16:23:15:280 - info: [debug] Pushing settings apk to device...
-2016-01-22 16:23:15:280 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/settings_apk/settings_apk-debug.apk"
-2016-01-22 16:23:15:709 - info: [debug] Pushing unlock helper app to device...
-2016-01-22 16:23:15:709 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/unlock_apk/unlock_apk-debug.apk"
-2016-01-22 16:23:16:119 - info: Starting App
-2016-01-22 16:23:16:119 - info: [debug] Attempting to kill all 'uiautomator' processes
-2016-01-22 16:23:16:119 - info: [debug] Getting all processes with 'uiautomator'
-2016-01-22 16:23:16:120 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ps 'uiautomator'"
-2016-01-22 16:23:16:182 - info: [debug] No matching processes found
-2016-01-22 16:23:16:182 - info: [debug] Running bootstrap
-2016-01-22 16:23:16:182 - info: [debug] spawning: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.freerange360.mpp.businessinsider -e disableAndroidWatchers false
-2016-01-22 16:23:16:249 - info: [debug] [UIAUTOMATOR STDOUT] WARNING: linker:
-2016-01-22 16:23:16:250 - info: [debug] [UIAUTOMATOR STDOUT] libdvm.so
-2016-01-22 16:23:16:253 - info: [debug] [UIAUTOMATOR STDOUT] has text relocations. This is wasting memory and is a security risk. Please fix.
-2016-01-22 16:23:16:360 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
-2016-01-22 16:23:16:362 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
-2016-01-22 16:23:16:362 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
-2016-01-22 16:23:16:362 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-2016-01-22 16:23:16:363 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
-2016-01-22 16:23:16:363 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
-2016-01-22 16:23:16:363 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
-2016-01-22 16:23:16:363 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
-2016-01-22 16:23:16:367 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
-2016-01-22 16:23:16:371 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
-2016-01-22 16:23:16:371 - info: [debug] [BOOTSTRAP] [debug] Loading json...
-2016-01-22 16:23:16:372 - info: [debug] Waking up device if it's not alive
-2016-01-22 16:23:16:372 - info: [debug] Pushing command to appium work queue: ["wake",{}]
-2016-01-22 16:23:16:375 - info: [debug] [BOOTSTRAP] [debug] json loading complete.
-2016-01-22 16:23:16:375 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
-2016-01-22 16:23:16:377 - info: [debug] [BOOTSTRAP] [debug] Client connected
-2016-01-22 16:23:16:378 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
-2016-01-22 16:23:16:378 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-01-22 16:23:16:378 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
-2016-01-22 16:23:16:379 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window"
-2016-01-22 16:23:16:383 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
-2016-01-22 16:23:16:444 - info: [debug] Screen already unlocked, continuing.
-2016-01-22 16:23:16:444 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
-2016-01-22 16:23:16:448 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
-2016-01-22 16:23:16:448 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-01-22 16:23:16:448 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
-2016-01-22 16:23:16:448 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"\/data","status":0}
-2016-01-22 16:23:16:448 - info: [debug] dataDir set to: /data
-2016-01-22 16:23:16:449 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
-2016-01-22 16:23:16:452 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
-2016-01-22 16:23:16:452 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-01-22 16:23:16:453 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
-2016-01-22 16:23:16:453 - info: [debug] Getting device API level
-2016-01-22 16:23:16:453 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-01-22 16:23:16:456 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":false,"status":0}
-2016-01-22 16:23:16:516 - info: [debug] Device is at API Level 19
-2016-01-22 16:23:16:516 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.freerange360.mpp.businessinsider/com.businessinsider.app.MainActivity"
-2016-01-22 16:23:17:255 - info: [debug] Waiting for pkg "com.freerange360.mpp.businessinsider" and activity "com.businessinsider.app.MainActivity" to be focused
-2016-01-22 16:23:17:255 - info: [debug] Getting focused package and activity
-2016-01-22 16:23:17:255 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window windows"
-2016-01-22 16:23:17:830 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.release"
-2016-01-22 16:23:17:898 - info: [debug] Device is at release version 4.4.4
-2016-01-22 16:23:17:899 - info: [debug] Device launched! Ready for commands
-2016-01-22 16:23:17:899 - info: [debug] Setting command timeout to the default of 7200 secs
-2016-01-22 16:23:17:899 - info: [debug] Appium session started with sessionId 8cc511a0-2d66-4a4e-944f-48805035f589
-2016-01-22 16:23:17:901 - info: <-- POST /wd/hub/session 303 6310.209 ms - 74 
-2016-01-22 16:23:17:904 - info: --> GET /wd/hub/session/8cc511a0-2d66-4a4e-944f-48805035f589 {}
-2016-01-22 16:23:17:905 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"8cc511a0-2d66-4a4e-944f-48805035f589"}
-2016-01-22 16:23:17:906 - info: <-- GET /wd/hub/session/8cc511a0-2d66-4a4e-944f-48805035f589 200 1.146 ms - 990 {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"8cc511a0-2d66-4a4e-944f-48805035f589"}
-2016-01-22 16:23:17:912 - info: --> POST /wd/hub/session/8cc511a0-2d66-4a4e-944f-48805035f589/timeouts {"type":"implicit","ms":100000}
-2016-01-22 16:23:17:913 - info: [debug] Set Android implicit wait to 100000ms
-2016-01-22 16:23:17:913 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"8cc511a0-2d66-4a4e-944f-48805035f589"}
-2016-01-22 16:23:17:914 - info: <-- POST /wd/hub/session/8cc511a0-2d66-4a4e-944f-48805035f589/timeouts 200 1.658 ms - 76 {"status":0,"value":null,"sessionId":"8cc511a0-2d66-4a4e-944f-48805035f589"}
-2016-01-22 16:23:20:926 - info: --> POST /wd/hub/session/8cc511a0-2d66-4a4e-944f-48805035f589/appium/app/close {}
-2016-01-22 16:23:20:927 - info: [debug] Pressing the HOME button
-2016-01-22 16:23:20:928 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "input keyevent 3"
-2016-01-22 16:23:21:489 - info: [debug] Stopping logcat capture
-2016-01-22 16:23:21:491 - info: [debug] Logcat terminated with code null, signal SIGTERM
-2016-01-22 16:23:21:497 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
-2016-01-22 16:23:21:497 - info: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
-2016-01-22 16:23:21:497 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"OK, shutting down","status":0}
-2016-01-22 16:23:21:498 - info: [debug] [BOOTSTRAP] [debug] Closed client connection
-2016-01-22 16:23:21:498 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
-2016-01-22 16:23:21:498 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.
-2016-01-22 16:23:21:498 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-2016-01-22 16:23:21:499 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
-2016-01-22 16:23:21:499 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
-2016-01-22 16:23:21:499 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
-2016-01-22 16:23:21:500 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0
-2016-01-22 16:23:21:500 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
-2016-01-22 16:23:21:501 - info: [debug] [UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.
-2016-01-22 16:23:21:501 - info: [debug] [UIAUTOMATOR STDOUT] Time: 5.151
-2016-01-22 16:23:21:501 - info: [debug] [UIAUTOMATOR STDOUT] OK (1 test)
-2016-01-22 16:23:21:501 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1
-2016-01-22 16:23:21:501 - info: [debug] Sent shutdown command, waiting for UiAutomator to stop...
-2016-01-22 16:23:21:508 - info: [debug] UiAutomator shut down normally
-2016-01-22 16:23:21:508 - info: [debug] Cleaning up android objects
-2016-01-22 16:23:21:508 - info: [debug] Responding to client with success: {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk] app.","sessionId":"8cc511a0-2d66-4a4e-944f-48805035f589"}
-2016-01-22 16:23:21:509 - info: <-- POST /wd/hub/session/8cc511a0-2d66-4a4e-944f-48805035f589/appium/app/close 200 582.833 ms - 208 {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk] app.","sessionId":"8cc511a0-2d66-4a4e-944f-48805035f589"}
-2016-01-22 16:23:21:514 - info: --> DELETE /wd/hub/session/8cc511a0-2d66-4a4e-944f-48805035f589 {}
-2016-01-22 16:23:21:514 - info: Shutting down appium session
-2016-01-22 16:23:21:514 - info: [debug] Cleaning up android objects
-2016-01-22 16:23:21:515 - info: [debug] Cleaning up appium session
-2016-01-22 16:23:21:515 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"8cc511a0-2d66-4a4e-944f-48805035f589"}
-2016-01-22 16:23:21:516 - info: <-- DELETE /wd/hub/session/8cc511a0-2d66-4a4e-944f-48805035f589 200 1.889 ms - 76 {"status":0,"value":null,"sessionId":"8cc511a0-2d66-4a4e-944f-48805035f589"}
+2016-02-01 11:11:31:574 - info: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
+2016-02-01 11:11:31:577 - info: Appium REST http interface listener started on 127.0.0.1:4723
+2016-02-01 11:11:31:579 - info: [debug] Non-default server args: {"address":"127.0.0.1","noReset":true,"launchTimeout":"110000","log":"/Users/rpalacios/IdeaProjects/Automation/Logs/appium.log","localTimezone":true,"nativeInstrumentsLib":true,"showIOSLog":true,"defaultCommandTimeout":7200,"debugLogSpacing":true}
+2016-02-01 11:11:31:580 - info: Console LogLevel: debug
+2016-02-01 11:11:31:580 - info: File LogLevel: debug
+2016-02-01 11:11:31:973 - info: --> GET /wd/hub/status {}
+2016-02-01 11:11:31:975 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-02-01 11:11:31:984 - info: <-- GET /wd/hub/status 200 11.432 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-02-01 11:11:31:999 - info: --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"}}
+2016-02-01 11:11:32:000 - info: Client User-Agent string: Apache-HttpClient/4.3.3 (java 1.5)
+2016-02-01 11:11:32:000 - info: *************************************
+2016-02-01 11:11:32:000 - info: *************************************
+2016-02-01 11:11:32:000 - info: *************************************
+2016-02-01 11:11:32:000 - info: *************************************
+2016-02-01 11:11:32:000 - info: *************************************
+2016-02-01 11:11:32:001 - info: *************************************
+2016-02-01 11:11:32:001 - info: *************************************
+2016-02-01 11:11:32:001 - info: *************************************
+2016-02-01 11:11:32:001 - info: ****        NEW SESSION           ***
+2016-02-01 11:11:32:001 - info: ****        NEW SESSION           ***
+2016-02-01 11:11:32:001 - info: ****        NEW SESSION           ***
+2016-02-01 11:11:32:001 - info: ****        NEW SESSION           ***
+2016-02-01 11:11:32:001 - info: ****        NEW SESSION           ***
+2016-02-01 11:11:32:002 - info: ****        NEW SESSION           ***
+2016-02-01 11:11:32:002 - info: ****        NEW SESSION           ***
+2016-02-01 11:11:32:002 - info: ****        NEW SESSION           ***
+2016-02-01 11:11:32:002 - info: *************************************
+2016-02-01 11:11:32:002 - info: *************************************
+2016-02-01 11:11:32:002 - info: *************************************
+2016-02-01 11:11:32:002 - info: *************************************
+2016-02-01 11:11:32:002 - info: *************************************
+2016-02-01 11:11:32:002 - info: *************************************
+2016-02-01 11:11:32:002 - info: *************************************
+2016-02-01 11:11:32:003 - info: *************************************
+2016-02-01 11:11:32:004 - info: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : appium-version
+2016-02-01 11:11:32:005 - info: [debug] Using local app from desired caps: /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
+2016-02-01 11:11:32:007 - info: [debug] Creating new appium session 69d06528-fd85-40fe-b312-5316daaec4e0
+2016-02-01 11:11:32:007 - info: Starting android appium
+2016-02-01 11:11:32:009 - info: [debug] Getting Java version
+2016-02-01 11:11:32:100 - info: Java version is: 1.8.0_66
+2016-02-01 11:11:32:101 - info: [debug] Checking whether adb is present
+2016-02-01 11:11:32:102 - info: [debug] Using adb from /Users/rpalacios/Library/Android/sdk/platform-tools/adb
+2016-02-01 11:11:32:102 - info: [debug] Using fast reset? false
+2016-02-01 11:11:32:102 - info: [debug] Preparing device for session
+2016-02-01 11:11:32:102 - info: [debug] Checking whether app is actually present
+2016-02-01 11:11:32:104 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:32:104 - info: [debug] Getting connected emulators
+2016-02-01 11:11:32:104 - info: [debug] Getting connected devices...
+2016-02-01 11:11:32:106 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:35:160 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:35:160 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:35:161 - info: [debug] Launching Emulator with AVD Nexus_S_API_19, launchTimeout 120000ms and readyTimeout 120000ms
+2016-02-01 11:11:35:161 - info: [debug] Checking whether emulator is present
+2016-02-01 11:11:35:162 - info: [debug] Using emulator from /Users/rpalacios/Library/Android/sdk/tools/emulator
+2016-02-01 11:11:35:165 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:35:165 - info: [debug] Getting connected emulators
+2016-02-01 11:11:35:165 - info: [debug] Getting connected devices...
+2016-02-01 11:11:35:166 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:35:196 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:35:196 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:37:200 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:37:200 - info: [debug] Getting connected emulators
+2016-02-01 11:11:37:200 - info: [debug] Getting connected devices...
+2016-02-01 11:11:37:201 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:37:232 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:37:235 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:39:240 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:39:240 - info: [debug] Getting connected emulators
+2016-02-01 11:11:39:240 - info: [debug] Getting connected devices...
+2016-02-01 11:11:39:241 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:39:273 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:39:274 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:41:276 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:41:276 - info: [debug] Getting connected emulators
+2016-02-01 11:11:41:276 - info: [debug] Getting connected devices...
+2016-02-01 11:11:41:277 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:41:302 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:41:302 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:43:306 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:43:306 - info: [debug] Getting connected emulators
+2016-02-01 11:11:43:306 - info: [debug] Getting connected devices...
+2016-02-01 11:11:43:307 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:43:356 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:43:356 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:45:362 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:45:362 - info: [debug] Getting connected emulators
+2016-02-01 11:11:45:362 - info: [debug] Getting connected devices...
+2016-02-01 11:11:45:363 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:45:393 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:45:393 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:47:398 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:47:398 - info: [debug] Getting connected emulators
+2016-02-01 11:11:47:399 - info: [debug] Getting connected devices...
+2016-02-01 11:11:47:399 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:47:443 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:47:444 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:49:448 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:49:448 - info: [debug] Getting connected emulators
+2016-02-01 11:11:49:448 - info: [debug] Getting connected devices...
+2016-02-01 11:11:49:449 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:49:475 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:49:475 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:51:479 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:51:479 - info: [debug] Getting connected emulators
+2016-02-01 11:11:51:480 - info: [debug] Getting connected devices...
+2016-02-01 11:11:51:480 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:51:507 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:51:508 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:53:510 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:53:511 - info: [debug] Getting connected emulators
+2016-02-01 11:11:53:511 - info: [debug] Getting connected devices...
+2016-02-01 11:11:53:511 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:53:544 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:53:544 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:55:549 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:55:550 - info: [debug] Getting connected emulators
+2016-02-01 11:11:55:550 - info: [debug] Getting connected devices...
+2016-02-01 11:11:55:550 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:55:578 - info: [debug] 0 device(s) connected
+2016-02-01 11:11:55:578 - info: [debug] 0 emulator(s) connected
+2016-02-01 11:11:57:583 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-02-01 11:11:57:584 - info: [debug] Getting connected emulators
+2016-02-01 11:11:57:584 - info: [debug] Getting connected devices...
+2016-02-01 11:11:57:585 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-02-01 11:11:57:610 - info: [debug] 1 device(s) connected
+2016-02-01 11:11:57:610 - info: [debug] 1 emulator(s) connected
+2016-02-01 11:11:57:611 - info: [debug] Sending telnet command to device: avd name
+2016-02-01 11:11:57:611 - info: [debug] Getting running emulator port
+2016-02-01 11:11:57:615 - info: [debug] Socket connection to device created
+2016-02-01 11:11:57:615 - info: [debug] Socket connection to device ready
+2016-02-01 11:11:57:616 - info: [debug] Telnet command got response: Nexus_S_API_19
+2016-02-01 11:11:57:618 - info: [debug] Found emulator Nexus_S_API_19 in port 5554
+2016-02-01 11:11:57:620 - info: [debug] Setting device id to emulator-5554
+2016-02-01 11:11:57:621 - info: [debug] Waiting until emulator is ready
+2016-02-01 11:11:57:621 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop init.svc.bootanim"
+2016-02-01 11:11:59:106 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-02-01 11:11:59:106 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 wait-for-device
+2016-02-01 11:11:59:132 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "echo 'ready'"
+2016-02-01 11:11:59:162 - info: [debug] Starting logcat capture
+2016-02-01 11:11:59:194 - info: [debug] Getting device API level
+2016-02-01 11:11:59:195 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
+2016-02-01 11:11:59:233 - info: [debug] Device is at API Level 19
+2016-02-01 11:11:59:234 - info: Device API level is: 19
+2016-02-01 11:11:59:234 - info: [debug] Extracting strings for language: default
+2016-02-01 11:11:59:235 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop persist.sys.language"
+2016-02-01 11:11:59:277 - info: [debug] Current device persist.sys.language: en
+2016-02-01 11:11:59:278 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk" "/tmp/com.freerange360.mpp.businessinsider" en
+2016-02-01 11:11:59:935 - info: [debug] No strings.xml for language 'en', getting default strings.xml
+2016-02-01 11:11:59:936 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk" "/tmp/com.freerange360.mpp.businessinsider"
+2016-02-01 11:12:00:528 - info: [debug] Reading strings from converted strings.json
+2016-02-01 11:12:00:531 - info: [debug] Setting language to default
+2016-02-01 11:12:00:532 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/tmp/com.freerange360.mpp.businessinsider/strings.json" /data/local/tmp
+2016-02-01 11:12:00:605 - info: [debug] Checking whether aapt is present
+2016-02-01 11:12:00:605 - info: [debug] Using aapt from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt
+2016-02-01 11:12:00:606 - info: [debug] Retrieving process from manifest.
+2016-02-01 11:12:00:606 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt dump xmltree /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk AndroidManifest.xml
+2016-02-01 11:12:00:623 - info: [debug] Set app process to: com.freerange360.mpp.businessinsider
+2016-02-01 11:12:00:623 - info: [debug] Not uninstalling app since server not started with --full-reset
+2016-02-01 11:12:00:624 - info: [debug] Checking app cert for /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk.
+2016-02-01 11:12:00:624 - info: [debug] executing cmd: java -jar /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/verify.jar /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
+2016-02-01 11:12:01:096 - info: [debug] App already signed.
+2016-02-01 11:12:01:097 - info: [debug] Zip-aligning /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
+2016-02-01 11:12:01:097 - info: [debug] Checking whether zipalign is present
+2016-02-01 11:12:01:098 - info: [debug] Using zipalign from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign
+2016-02-01 11:12:01:099 - info: [debug] Zip-aligning apk.
+2016-02-01 11:12:01:099 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign -f 4 /Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk /var/folders/0h/2trx149s6ms0cx8sk1k6n3fw0000gn/T/11611-50558-1doyacf/appium.tmp
+2016-02-01 11:12:01:183 - info: [debug] MD5 for app is 01f77565d5b6bf6ab99dea811034a05e
+2016-02-01 11:12:01:184 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ls /data/local/tmp/01f77565d5b6bf6ab99dea811034a05e.apk"
+2016-02-01 11:12:01:224 - info: [debug] Getting install status for com.freerange360.mpp.businessinsider
+2016-02-01 11:12:01:224 - info: [debug] Getting device API level
+2016-02-01 11:12:01:224 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
+2016-02-01 11:12:01:258 - info: [debug] Device is at API Level 19
+2016-02-01 11:12:01:258 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "pm list packages -3 com.freerange360.mpp.businessinsider"
+2016-02-01 11:12:01:616 - info: [debug] App is installed
+2016-02-01 11:12:01:616 - info: [debug] Forwarding system:4724 to device:4724
+2016-02-01 11:12:01:617 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 forward tcp:4724 tcp:4724
+2016-02-01 11:12:01:643 - info: [debug] Pushing appium bootstrap to device...
+2016-02-01 11:12:01:644 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/android_bootstrap/AppiumBootstrap.jar" /data/local/tmp/
+2016-02-01 11:12:02:594 - info: [debug] Pushing settings apk to device...
+2016-02-01 11:12:02:595 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/settings_apk/settings_apk-debug.apk"
+2016-02-01 11:12:03:102 - info: [debug] Pushing unlock helper app to device...
+2016-02-01 11:12:03:102 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/unlock_apk/unlock_apk-debug.apk"
+2016-02-01 11:12:03:501 - info: Starting App
+2016-02-01 11:12:03:502 - info: [debug] Attempting to kill all 'uiautomator' processes
+2016-02-01 11:12:03:502 - info: [debug] Getting all processes with 'uiautomator'
+2016-02-01 11:12:03:503 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ps 'uiautomator'"
+2016-02-01 11:12:03:536 - info: [debug] No matching processes found
+2016-02-01 11:12:03:537 - info: [debug] Running bootstrap
+2016-02-01 11:12:03:537 - info: [debug] spawning: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.freerange360.mpp.businessinsider -e disableAndroidWatchers false
+2016-02-01 11:12:03:585 - info: [debug] [UIAUTOMATOR STDOUT] WARNING: linker:
+2016-02-01 11:12:03:587 - info: [debug] [UIAUTOMATOR STDOUT] libdvm.so
+2016-02-01 11:12:03:588 - info: [debug] [UIAUTOMATOR STDOUT] has text relocations. This is wasting memory and is a security risk. Please fix.
+2016-02-01 11:12:03:706 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2016-02-01 11:12:03:707 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2016-02-01 11:12:03:708 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
+2016-02-01 11:12:03:708 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2016-02-01 11:12:03:709 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2016-02-01 11:12:03:710 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2016-02-01 11:12:03:710 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2016-02-01 11:12:03:710 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
+2016-02-01 11:12:03:713 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+2016-02-01 11:12:03:716 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+2016-02-01 11:12:03:716 - info: [debug] [BOOTSTRAP] [debug] Loading json...
+2016-02-01 11:12:03:717 - info: [debug] Waking up device if it's not alive
+2016-02-01 11:12:03:717 - info: [debug] Pushing command to appium work queue: ["wake",{}]
+2016-02-01 11:12:03:722 - info: [debug] [BOOTSTRAP] [debug] json loading complete.
+2016-02-01 11:12:03:725 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window"
+2016-02-01 11:12:03:728 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+2016-02-01 11:12:03:729 - info: [debug] [BOOTSTRAP] [debug] Client connected
+2016-02-01 11:12:03:729 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+2016-02-01 11:12:03:729 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-01 11:12:03:729 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
+2016-02-01 11:12:03:729 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
+2016-02-01 11:12:03:767 - info: Unlocking screen
+2016-02-01 11:12:03:767 - info: [debug] Screen is locked, trying to unlock
+2016-02-01 11:12:03:768 - info: [debug] Getting device API level
+2016-02-01 11:12:03:768 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
+2016-02-01 11:12:03:802 - info: [debug] Device is at API Level 19
+2016-02-01 11:12:03:803 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n io.appium.unlock/.Unlock"
+2016-02-01 11:12:04:787 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window"
+2016-02-01 11:12:04:924 - info: [debug] Screen is unlocked, continuing
+2016-02-01 11:12:04:925 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+2016-02-01 11:12:04:929 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+2016-02-01 11:12:04:929 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-01 11:12:04:929 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+2016-02-01 11:12:04:930 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"\/data","status":0}
+2016-02-01 11:12:04:930 - info: [debug] dataDir set to: /data
+2016-02-01 11:12:04:931 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+2016-02-01 11:12:04:934 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+2016-02-01 11:12:04:935 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-01 11:12:04:935 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+2016-02-01 11:12:04:937 - info: [debug] Getting device API level
+2016-02-01 11:12:04:937 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
+2016-02-01 11:12:04:941 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":false,"status":0}
+2016-02-01 11:12:04:973 - info: [debug] Device is at API Level 19
+2016-02-01 11:12:04:974 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.freerange360.mpp.businessinsider/com.businessinsider.app.MainActivity"
+2016-02-01 11:12:05:766 - info: [debug] Waiting for pkg "com.freerange360.mpp.businessinsider" and activity "com.businessinsider.app.MainActivity" to be focused
+2016-02-01 11:12:05:767 - info: [debug] Getting focused package and activity
+2016-02-01 11:12:05:767 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window windows"
+2016-02-01 11:12:06:394 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.release"
+2016-02-01 11:12:06:469 - info: [debug] Device is at release version 4.4.4
+2016-02-01 11:12:06:470 - info: [debug] Device launched! Ready for commands
+2016-02-01 11:12:06:470 - info: [debug] Setting command timeout to the default of 7200 secs
+2016-02-01 11:12:06:470 - info: [debug] Appium session started with sessionId 69d06528-fd85-40fe-b312-5316daaec4e0
+2016-02-01 11:12:06:473 - info: <-- POST /wd/hub/session 303 34471.991 ms - 74 
+2016-02-01 11:12:06:508 - info: --> GET /wd/hub/session/69d06528-fd85-40fe-b312-5316daaec4e0 {}
+2016-02-01 11:12:06:510 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"69d06528-fd85-40fe-b312-5316daaec4e0"}
+2016-02-01 11:12:06:513 - info: <-- GET /wd/hub/session/69d06528-fd85-40fe-b312-5316daaec4e0 200 4.574 ms - 990 {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"69d06528-fd85-40fe-b312-5316daaec4e0"}
+2016-02-01 11:12:06:549 - info: --> POST /wd/hub/session/69d06528-fd85-40fe-b312-5316daaec4e0/timeouts {"type":"implicit","ms":100000}
+2016-02-01 11:12:06:552 - info: [debug] Set Android implicit wait to 100000ms
+2016-02-01 11:12:06:552 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"69d06528-fd85-40fe-b312-5316daaec4e0"}
+2016-02-01 11:12:06:553 - info: <-- POST /wd/hub/session/69d06528-fd85-40fe-b312-5316daaec4e0/timeouts 200 3.914 ms - 76 {"status":0,"value":null,"sessionId":"69d06528-fd85-40fe-b312-5316daaec4e0"}
+2016-02-01 11:12:09:566 - info: --> POST /wd/hub/session/69d06528-fd85-40fe-b312-5316daaec4e0/appium/app/close {}
+2016-02-01 11:12:09:568 - info: [debug] Pressing the HOME button
+2016-02-01 11:12:09:569 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "input keyevent 3"
+2016-02-01 11:12:10:108 - info: [debug] Stopping logcat capture
+2016-02-01 11:12:10:111 - info: [debug] Logcat terminated with code null, signal SIGTERM
+2016-02-01 11:12:10:134 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
+2016-02-01 11:12:10:134 - info: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
+2016-02-01 11:12:10:134 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"OK, shutting down","status":0}
+2016-02-01 11:12:10:134 - info: [debug] [BOOTSTRAP] [debug] Closed client connection
+2016-02-01 11:12:10:135 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2016-02-01 11:12:10:135 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.
+2016-02-01 11:12:10:135 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2016-02-01 11:12:10:135 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2016-02-01 11:12:10:135 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2016-02-01 11:12:10:135 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2016-02-01 11:12:10:136 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2016-02-01 11:12:10:136 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2016-02-01 11:12:10:136 - info: [debug] [UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.
+2016-02-01 11:12:10:136 - info: [debug] [UIAUTOMATOR STDOUT] Time: 6.437
+2016-02-01 11:12:10:136 - info: [debug] [UIAUTOMATOR STDOUT] OK (1 test)
+2016-02-01 11:12:10:137 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2016-02-01 11:12:10:137 - info: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+2016-02-01 11:12:10:173 - info: [debug] UiAutomator shut down normally
+2016-02-01 11:12:10:174 - info: [debug] Cleaning up android objects
+2016-02-01 11:12:10:174 - info: [debug] Responding to client with success: {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk] app.","sessionId":"69d06528-fd85-40fe-b312-5316daaec4e0"}
+2016-02-01 11:12:10:175 - info: <-- POST /wd/hub/session/69d06528-fd85-40fe-b312-5316daaec4e0/appium/app/close 200 608.897 ms - 208 {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/Automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk] app.","sessionId":"69d06528-fd85-40fe-b312-5316daaec4e0"}
+2016-02-01 11:12:10:188 - info: --> DELETE /wd/hub/session/69d06528-fd85-40fe-b312-5316daaec4e0 {}
+2016-02-01 11:12:10:189 - info: Shutting down appium session
+2016-02-01 11:12:10:190 - info: [debug] Cleaning up android objects
+2016-02-01 11:12:10:190 - info: [debug] Cleaning up appium session
+2016-02-01 11:12:10:191 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"69d06528-fd85-40fe-b312-5316daaec4e0"}
+2016-02-01 11:12:10:191 - info: <-- DELETE /wd/hub/session/69d06528-fd85-40fe-b312-5316daaec4e0 200 3.426 ms - 76 {"status":0,"value":null,"sessionId":"69d06528-fd85-40fe-b312-5316daaec4e0"}

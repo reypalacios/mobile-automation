@@ -3742,3 +3742,104 @@ Driver info: appium.App$1
 2016-01-22 16:23:20 INFO  App:134 - App has launched
 2016-01-22 16:23:20 INFO  StepsDefinitions2:48 - Feature2 @When
 2016-01-22 16:23:21 INFO  App:185 - Test Done
+2016-02-01 11:00:09 INFO  App:50 - Starting Appium Server...
+2016-02-01 11:00:37 INFO  App:71 - ------------ Environmental Configurations ------------
+2016-02-01 11:00:37 INFO  App:72 - OS = 
+2016-02-01 11:00:37 INFO  App:80 - ------------------------------------------------------
+2016-02-01 11:00:38 ERROR App:162 - A new session could not be created. (Original error: Could not determine your device from Appium arguments or desired capabilities. Please make sure to specify the 'deviceName' and 'platformName' capabilities) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 480 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '192.168.3.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-02-01 11:00:38 INFO  StepsDefinitions1:46 - Feature1 @when
+2016-02-01 11:00:38 INFO  App:185 - Test Done
+2016-02-01 11:00:38 INFO  StepsDefinitions2:18 - Feature2
+2016-02-01 11:00:38 ERROR App:162 - A new session could not be created. (Original error: Could not determine your device from Appium arguments or desired capabilities. Please make sure to specify the 'deviceName' and 'platformName' capabilities) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '192.168.3.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-02-01 11:00:38 INFO  StepsDefinitions2:48 - Feature2 @When
+2016-02-01 11:00:38 INFO  App:185 - Test Done
+2016-02-01 11:01:02 INFO  App:71 - ------------ Environmental Configurations ------------
+2016-02-01 11:01:02 INFO  App:72 - OS = 
+2016-02-01 11:01:02 INFO  App:80 - ------------------------------------------------------
+2016-02-01 11:01:02 ERROR App:154 - Unable to launch device
+2016-02-01 11:01:02 INFO  StepsDefinitions1:46 - Feature1 @when
+2016-02-01 11:01:02 INFO  App:185 - Test Done
+2016-02-01 11:01:02 INFO  StepsDefinitions2:18 - Feature2
+2016-02-01 11:01:02 INFO  App:50 - Starting Appium Server...
+2016-02-01 11:01:07 ERROR App:162 - A new session could not be created. (Original error: Could not determine your device from Appium arguments or desired capabilities. Please make sure to specify the 'deviceName' and 'platformName' capabilities) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '192.168.3.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-02-01 11:01:07 INFO  StepsDefinitions2:48 - Feature2 @When
+2016-02-01 11:01:07 INFO  App:185 - Test Done
+2016-02-01 11:02:44 INFO  App:71 - ------------ Environmental Configurations ------------
+2016-02-01 11:02:44 INFO  App:72 - OS = 
+2016-02-01 11:02:44 INFO  App:80 - ------------------------------------------------------
+2016-02-01 11:02:44 ERROR App:154 - Unable to launch device
+2016-02-01 11:02:44 INFO  StepsDefinitions1:46 - Feature1 @when
+2016-02-01 11:02:44 INFO  App:185 - Test Done
+2016-02-01 11:02:45 INFO  StepsDefinitions2:18 - Feature2
+2016-02-01 11:02:45 INFO  App:50 - Starting Appium Server...
+2016-02-01 11:02:48 ERROR App:162 - A new session could not be created. (Original error: Could not determine your device from Appium arguments or desired capabilities. Please make sure to specify the 'deviceName' and 'platformName' capabilities) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '192.168.3.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-02-01 11:02:48 INFO  StepsDefinitions2:48 - Feature2 @When
+2016-02-01 11:02:48 INFO  App:185 - Test Done
+2016-02-01 11:03:31 INFO  App:71 - ------------ Environmental Configurations ------------
+2016-02-01 11:03:31 INFO  App:72 - OS = Android
+2016-02-01 11:03:31 INFO  App:74 - AVD = Nexus_S_API_19
+2016-02-01 11:03:31 INFO  App:80 - ------------------------------------------------------
+2016-02-01 11:03:31 ERROR App:154 - Unable to launch device
+2016-02-01 11:03:31 INFO  StepsDefinitions1:46 - Feature1 @when
+2016-02-01 11:03:31 INFO  App:185 - Test Done
+2016-02-01 11:03:32 INFO  StepsDefinitions2:18 - Feature2
+2016-02-01 11:03:32 INFO  App:50 - Starting Appium Server...
+2016-02-01 11:07:10 INFO  App:50 - Starting Appium Server...
+2016-02-01 11:07:14 INFO  App:71 - ------------ Environmental Configurations ------------
+2016-02-01 11:07:14 INFO  App:72 - OS = Android
+2016-02-01 11:07:14 INFO  App:74 - AVD = Nexus_S_API_19
+2016-02-01 11:07:14 INFO  App:80 - ------------------------------------------------------
+2016-02-01 11:07:48 INFO  App:134 - App has launched
+2016-02-01 11:07:48 INFO  StepsDefinitions1:46 - Feature1 @when
+2016-02-01 11:07:49 INFO  App:185 - Test Done
+2016-02-01 11:07:49 INFO  StepsDefinitions2:18 - Feature2
+2016-02-01 11:07:59 INFO  App:134 - App has launched
+2016-02-01 11:07:59 INFO  StepsDefinitions2:48 - Feature2 @When
+2016-02-01 11:07:59 INFO  App:185 - Test Done
+2016-02-01 11:10:08 INFO  App:50 - Starting Appium Server...
+2016-02-01 11:10:12 INFO  App:71 - ------------ Environmental Configurations ------------
+2016-02-01 11:10:12 INFO  App:72 - OS = 
+2016-02-01 11:10:12 INFO  App:80 - ------------------------------------------------------
+2016-02-01 11:10:13 ERROR App:162 - A new session could not be created. (Original error: Could not determine your device from Appium arguments or desired capabilities. Please make sure to specify the 'deviceName' and 'platformName' capabilities) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 244 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '192.168.3.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-02-01 11:10:13 INFO  StepsDefinitions1:46 - Feature1 @when
+2016-02-01 11:10:13 INFO  App:185 - Test Done
+2016-02-01 11:10:13 INFO  StepsDefinitions2:18 - Feature2
+2016-02-01 11:10:13 ERROR App:162 - A new session could not be created. (Original error: Could not determine your device from Appium arguments or desired capabilities. Please make sure to specify the 'deviceName' and 'platformName' capabilities) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '192.168.3.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-02-01 11:10:13 INFO  StepsDefinitions2:48 - Feature2 @When
+2016-02-01 11:10:13 INFO  App:185 - Test Done
+2016-02-01 11:11:28 INFO  App:71 - ------------ Environmental Configurations ------------
+2016-02-01 11:11:28 INFO  App:72 - OS = Android
+2016-02-01 11:11:28 INFO  App:74 - AVD = Nexus_S_API_19
+2016-02-01 11:11:28 INFO  App:80 - ------------------------------------------------------
+2016-02-01 11:11:28 ERROR App:154 - Unable to launch device
+2016-02-01 11:11:28 INFO  StepsDefinitions1:46 - Feature1 @when
+2016-02-01 11:11:28 INFO  App:185 - Test Done
+2016-02-01 11:11:28 INFO  StepsDefinitions2:18 - Feature2
+2016-02-01 11:11:28 INFO  App:50 - Starting Appium Server...
+2016-02-01 11:12:09 INFO  App:134 - App has launched
+2016-02-01 11:12:09 INFO  StepsDefinitions2:48 - Feature2 @When
+2016-02-01 11:12:10 INFO  App:185 - Test Done
