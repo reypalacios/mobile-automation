@@ -36,7 +36,7 @@ public class App {
             serverArguments.setArgument("--address", "127.0.0.1");
             serverArguments.setArgument("--no-reset", true);
             serverArguments.setArgument("--local-timezone", true);
-            serverArguments.setArgument("--log", "/Users/rpalacios/IdeaProjects/Automation/Logs/appium.log");
+            serverArguments.setArgument("--log", "/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log");
 
             serverArguments.setArgument("--command-timeout","7200");
             serverArguments.setArgument("--debug-log-spacing", true);
@@ -48,7 +48,9 @@ public class App {
 
             if (!as.isServerRunning()) {
                 logger.info("Starting Appium Server...");
+                Thread.currentThread().setName("AppiumServer");
                 as.startServer();
+
             }
             /*if(as.isServerRunning()) {
                 logger.info("Stopping Appium Server...");
@@ -112,7 +114,10 @@ public class App {
                 capabilities.setCapability("app", file.getAbsolutePath());
             }
 
-
+            if(!as.isServerRunning()) {
+                logger.info("Starting Appium Server....");
+                as.startServer();
+            }
             wd = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
                 @Override
                 public WebElement scrollTo(String s) {

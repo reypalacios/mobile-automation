@@ -72,10 +72,10 @@
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
+          <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="3306" />
           <database value="MySQLAutomation" />
-          <url-type value="DATABASE" />
           <os-authentication value="false" />
           <empty-password value="false" />
           <user value="root" />

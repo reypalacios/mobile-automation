@@ -25,7 +25,7 @@ public class AppiumServerzzz {
         command.addArgument("7200");
         //command.addArgument("--session-override", true);
         command.addArgument("--log", false);
-        command.addArgument("/Users/rpalacios/IdeaProjects/Automation/Logs/appium.log");
+        command.addArgument("/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log");
         command.addArgument("--debug-log-spacing");
         command.addArgument("--address", false);
         command.addArgument("127.0.0.1");

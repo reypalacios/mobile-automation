@@ -31,7 +31,7 @@ public class AutomationSetUp{
         //BasicConfigurator.configure();
         logger = Logger.getLogger(this.getClass());
         logger.info("\n ---------------------------------------------------- Starting Test ----------------------------------------------------");
-        // System.setProperty("logfile.name","Logs/dev.log");
+        // System.setProperty("logfile.name","logs/dev.log");
 
         environmentSetUp();
         openBrowser();
