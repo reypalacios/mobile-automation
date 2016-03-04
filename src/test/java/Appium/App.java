@@ -32,11 +32,14 @@ public class App {
 
             //new AppiumServer().startAppiumonMac();
 
+            logger.info("Working Directory = " +
+                    System.getProperty("user.dir"));
 
             serverArguments.setArgument("--address", "127.0.0.1");
             serverArguments.setArgument("--no-reset", true);
             serverArguments.setArgument("--local-timezone", true);
-            serverArguments.setArgument("--log", "/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log");
+            //serverArguments.setArgument("--log", "/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log");
+            //serverArguments.setArgument("--log", System.getProperty("user.dir")+"/src/logs/appium.log");
 
             serverArguments.setArgument("--command-timeout","7200");
             serverArguments.setArgument("--debug-log-spacing", true);
