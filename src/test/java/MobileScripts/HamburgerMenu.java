@@ -1,6 +1,7 @@
 package mobileScripts;
 
 import appium.App;
+import objectModels.HeaderNavObject;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
@@ -20,16 +21,15 @@ public class HamburgerMenu extends App {
 
     @Test
     public void testHamburgerOptions(){
-        try {
-            objectModels.HamburgerMenu hm = new objectModels.HamburgerMenu(wd);
-            hm.clickHamburger();
-            Thread.sleep(3000);
-            hm.clickHamburger();
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            logger.error(e.getMessage());
-            e.printStackTrace();
-        }
+
+        HeaderNavObject HeaderNav = new HeaderNavObject(wd);
+
+        HeaderNav.clickHamburgerMenu();
+        HeaderNav.clickHamburgerMenu();
+        HeaderNav.clickBI();
+        HeaderNav.clickSearch();
+        HeaderNav.clickCloseSearch();
+        HeaderNav.clickKebabMenu();
 
     }
 
