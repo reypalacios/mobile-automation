@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by rpalacios on 12/11/15.
  */
-public class HeaderNavObject {
+public class MastHeadObject {
 
     Logger logger = Logger.getLogger(this.getClass());
 
@@ -34,7 +34,7 @@ public class HeaderNavObject {
     public static WebElement KebabMenu;
 
 
-    public HeaderNavObject(AppiumDriver<WebElement> wd) {
+    public MastHeadObject(AppiumDriver<WebElement> wd) {
         PageFactory.initElements(new AppiumFieldDecorator(wd), this);
     }
 
