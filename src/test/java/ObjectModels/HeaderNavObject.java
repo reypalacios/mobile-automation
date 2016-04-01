@@ -1,4 +1,4 @@
-package ObjectModels;
+package objectModels;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -18,30 +18,49 @@ public class HeaderNavObject {
     @AndroidFindBy(id = "android:id/up")
     @iOSFindBy(name = "EasyMenu Icon")
     public static WebElement HamburgerMenu;
-    @iOSFindBy(name = "EasySearch Icon")
+
+    @AndroidFindBy(id = "android:id/home")
+    public static WebElement BI;
+
+    @AndroidFindBy(id = "com.businessinsider.app.debug:id/search_articles_option")
+    @iOSFindBy(name = "")
     public static WebElement Search;
+
+    @AndroidFindBy(id = "com.businessinsider.app.debug:id/search_close_button")
+    @iOSFindBy(name = "")
+    public static WebElement CloseSearch;
+
+    @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[2]/android.widget.ImageButton[1]")
+    public static WebElement KebabMenu;
 
 
     public HeaderNavObject(AppiumDriver<WebElement> wd) {
         PageFactory.initElements(new AppiumFieldDecorator(wd), this);
     }
 
-    public void clickHamburger() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickHamburgerMenu() {
         HamburgerMenu.click();
-        logger.info("Click Hamburger Icon");
-
-
+        logger.info("Click Hamburger menu");
     }
 
-    public void ClickSearch() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
+    public void clickBI() {
+        BI.click();
+        logger.info("Click BI");
+    }
 
-      Search.click();
-        logger.info("Click Search Icon");
+    public void clickSearch() {
+        Search.click();
+        logger.info("Click Search");
+    }
 
+    public void clickCloseSearch() {
+        CloseSearch.click();
+        logger.info("Click Close Search");
+    }
 
+    public void clickKebabMenu() {
+        KebabMenu.click();
+        logger.info("Click Kebab Menu");
     }
 }
 
