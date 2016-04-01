@@ -1,4 +1,4 @@
-package ObjectModels;
+package objectModels;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -15,261 +15,245 @@ public class VerticalObject {
 
     Logger logger = Logger.getLogger(this.getClass());
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='FAVORITES']")
+    @iOSFindBy()
+    public static WebElement favorites;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='HOME']")
     @iOSFindBy(xpath= "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[2]/UIATableCell[2]")
     public static WebElement home;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Latest']")
     @iOSFindBy(name = "Latest")
     public static WebElement latest;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='TECH']")
     @iOSFindBy(name = "TECH")
     public static WebElement tech;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Enterprise']")
     @iOSFindBy(name = "Enterprise")
     public static WebElement enterprise;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Science']")
     @iOSFindBy(name = "Science")
     public static WebElement science;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='FINANCE']")
     @iOSFindBy(name = "FINANCE")
     public static WebElement finance;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Markets']")
     @iOSFindBy(name = "markets")
     public static WebElement markets;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Your Money']")
     @iOSFindBy(name = "Your Money")
     public static WebElement YourMoney;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Wealth Advisor']")
     @iOSFindBy(name = "Wealth Advisor")
     public static WebElement weathAdvisor;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='POLITICS']")
     @iOSFindBy(name = "Politics")
     public static WebElement politics;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Military & Defense']")
     @iOSFindBy(name = "Military & Defense")
     public static WebElement militarydefense;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Law & Order']")
     @iOSFindBy(name = "Law & Order")
     public static WebElement laworder;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Wealth Advisor']")
     @iOSFindBy(name = "STRATEGY")
     public static WebElement strategy;
+
     @iOSFindBy(name = "Careers")
     public static WebElement Careers;
+
     @iOSFindBy(name = "Advertising")
     public static WebElement Advertising;
+
     @iOSFindBy(name = "Retail")
     public static WebElement Retail;
+
     @iOSFindBy(name = "Small Business")
     public static WebElement SmallBusiness;
+
     @iOSFindBy(name = "LIFE")
     public static WebElement life;
+
     @iOSFindBy(name = "Transportation")
     public static WebElement Transportation;
+
     @iOSFindBy(name = "Education")
     public static WebElement education;
+
     @iOSFindBy(name = "ENTERTAINMENT")
     public static WebElement entertainment;
+
     @iOSFindBy(name = "Sports")
     public static WebElement Sports;
+
     @iOSFindBy(name = "ABOUT BI")
     public static WebElement aboutbi;
+
     @iOSFindBy(name = "Legal Fine Print")
     public static WebElement legalfineprint;
+
     @iOSFindBy(name = "Send Feedback")
     public static WebElement SendFeedback;
+
     @iOSFindBy(name = "Settings")
     public static WebElement Settings;
+
     @iOSFindBy(name = "©2015 Business Insider, Inc. All rights reserved.  Use of this app constitutes acceptance of our  Terms of Service and Privacy Policy.")
     public static WebElement copyright;
-
-
-
-
 
     public VerticalObject(AppiumDriver<WebElement> wd) {
         PageFactory.initElements(new AppiumFieldDecorator(wd), this);
     }
 
-    public void Clickhome() {
+    public void clickFavorites() {
+        favorites.click();
+        logger.info("Click Favorites");
+    }
 
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickhome() {
         home.click();
-        logger.info("Click home Vertical");
-
-
+        logger.info("click home Vertical");
     }
 
-    public void ClickLatest() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickLatest() {
         latest.click();
-        logger.info("Click Latest Vertical");
-
-
+        logger.info("click Latest Vertical");
     }
 
-    public void Clicktech() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clicktech() {
         tech.click();
-        logger.info("Click tech Vertical");
+        logger.info("click tech Vertical");
     }
 
-    public void Clickenterprise() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickenterprise() {
         enterprise.click();
-        logger.info("Click enterprise Vertical");
+        logger.info("click enterprise Vertical");
     }
 
-    public void ClickScience() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickScience() {
         science.click();
-        logger.info("Click Science Vertical");
+        logger.info("click Science Vertical");
     }
 
-    public void Clickfinance() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
+    public void clickfinance() {
         finance.click();
-        logger.info("Click finance Vertical");
+        logger.info("click finance Vertical");
     }
 
-    public void ClickYourMoney() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
-
-    YourMoney.click();
-
-    logger.info("Click yourmoney Vertical");
+    public void clickMarkets() {
+        markets.click();
+        logger.info("click markets Vertical");
     }
 
-    public void ClickWealthAdvisor() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
+    public void clickYourMoney() {
+        YourMoney.click();
+        logger.info("click yourmoney Vertical");
+    }
 
+    public void clickWealthAdvisor() {
         weathAdvisor.click();
-        logger.info("Click wealthadvisor Vertical");
-
+        logger.info("click wealthadvisor Vertical");
     }
 
-    public void Clickpolitics() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickpolitics() {
         politics.click();
-        logger.info("Click politics Vertical");
+        logger.info("click politics Vertical");
     }
 
-    public void Clickmilitarydefense() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
-       militarydefense.click();
-        logger.info("Click militarydefense Vertical");
-
-
+    public void clickmilitarydefense() {
+        militarydefense.click();
+        logger.info("click militarydefense Vertical");
     }
 
-    public void Clicklaworder() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clicklaworder() {
         laworder.click();
-        logger.info("Click law order Vertical");
-
+        logger.info("click law order Vertical");
     }
 
-    public void Clickstrategy() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickstrategy() {
         strategy.click();
-        logger.info("Click strategy Vertical");
-
+        logger.info("click strategy Vertical");
     }
 
-    public void ClickCarrers() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickCarrers() {
         Careers.click();
-        logger.info("Click Careers Vertical");
+        logger.info("click Careers Vertical");
     }
 
-    public void ClickAdvertising() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickAdvertising() {
         Advertising.click();
-        logger.info("Click Advertising vertical");
-
+        logger.info("click Advertising vertical");
     }
 
-    public void ClickRetail() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickRetail() {
         Retail.click();
-        logger.info("Click Retail vertical");
+        logger.info("click Retail vertical");
     }
 
-    public void ClickSmallBusiness() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickSmallBusiness() {
         SmallBusiness.click();
-        logger.info("Click Small Business vertical");
+        logger.info("click Small Business vertical");
     }
 
-    public void ClickLife() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickLife() {
         life.click();
-        logger.info("Click life vertical");
+        logger.info("click life vertical");
     }
 
-    public void ClickTransportation() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickTransportation() {
         Transportation.click();
-        logger.info("Click Transportation Vertical");
+        logger.info("click Transportation Vertical");
     }
 
-    public void ClickEducation() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickEducation() {
         education.click();
-        logger.info("Click Education Vertical");
+        logger.info("click Education Vertical");
     }
 
-    public void ClickEntertainment() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickEntertainment() {
         entertainment.click();
-        logger.info("Click Entertainment vertical");
+        logger.info("click Entertainment vertical");
     }
 
-    public void ClickSports() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickSports() {
         Sports.click();
         logger.info("click Sports vertical");
     }
 
-    public void Clickaboutbi() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickaboutbi() {
         aboutbi.click();
-        logger.info("Click on about bi vertical");
+        logger.info("click on about bi vertical");
     }
 
-    public void Clicklegalfineprint() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clicklegalfineprint() {
         legalfineprint.click();
-        logger.info("Click on Legal Fine Print vertical");
+        logger.info("click on Legal Fine Print vertical");
     }
 
-    public void Clicksendfeedback() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clicksendfeedback() {
         SendFeedback.click();
-        logger.info("Click sendfeedback vertical");
+        logger.info("click sendfeedback vertical");
     }
 
-    public void Clicksettings() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clicksettings() {
         Settings.click();
-        logger.info("Click Settings vertical");
+        logger.info("click Settings vertical");
     }
 
-    public void Clickcopyright() {
-        //wd.findElement(By.xpath("//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]")).click();
-
+    public void clickcopyright() {
        copyright.click();
-        logger.info(" Click copyright ");
+       logger.info("click copyright ");
     }
-
-    }
+}

@@ -1,0 +1,11 @@
+mytest:
+  build: .
+  links:
+   - mvn:maven
+  volumes:
+   - ../:/mobile-automation
+  ports:
+   - "4445:4445"
+
+mvn:
+   image: maven:latest

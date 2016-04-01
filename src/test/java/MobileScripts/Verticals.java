@@ -1,8 +1,8 @@
-package MobileScripts;
+package mobileScripts;
 
-import Appium.App;
-import ObjectModels.HeaderNavObject;
-import ObjectModels.VerticalObject;
+import appium.App;
+import objectModels.MastHeadObject;
+import objectModels.VerticalObject;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
@@ -23,57 +23,61 @@ public class Verticals extends App{
 
     @Test
     public void testVerticals() {
-        try {HeaderNavObject hm = new HeaderNavObject(wd);
-            VerticalObject vo = new VerticalObject(wd);
+        MastHeadObject mastHead = new MastHeadObject(wd);
+        VerticalObject vertical = new VerticalObject(wd);
 
-            hm.clickHamburger();
+        mastHead.clickHamburgerMenu();
+        vertical.clickFavorites();
+        mastHead.clickHamburgerMenu();
+        vertical.clickhome();
+        try {
             Thread.sleep(5000);
-
-
-
- //           vo.Clickhome();
- //           Thread.sleep(3000);
-  /*         vo.ClickLatest();
-            Thread.sleep(3000);
-            hm.clickHamburger();
-            vo.Clicktech();
-            Thread.sleep(3000);
-            hm.clickHamburger();
-            Thread.sleep(1000);
-
-           vo.Clickenterprise();
-            Thread.sleep(1000);
-            hm.clickHamburger();
-            Thread.sleep(1000);
-
-            vo.ClickScience();
-            Thread.sleep(1000);
-            hm.clickHamburger();*/
-            vo.Clickfinance();
-            Thread.sleep(1000);
-            hm.clickHamburger();
-            vo.ClickYourMoney();
-            Thread.sleep(1000);
-            hm.clickHamburger();
-            vo.ClickWealthAdvisor();
-            Thread.sleep(1000);
-            hm.clickHamburger();
-            vo.Clickpolitics();
-            Thread.sleep(1000);
-            hm.clickHamburger();
-            vo.Clickmilitarydefense();
-            Thread.sleep(1000);
-            hm.clickHamburger();
-            vo.Clicklaworder();
-            Thread.sleep(1000);
-            hm.clickHamburger();
-            vo.Clickstrategy();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-}
-
+/*        mastHead.clickHamburgerMenu();
+        vertical.clickLatest();
+        mastHead.clickHamburgerMenu();
+        vertical.clicktech();
+        mastHead.clickHamburgerMenu();
+        vertical.clickenterprise();
+        mastHead.clickHamburgerMenu();
+        vertical.clickScience();
+        mastHead.clickHamburgerMenu();
+        vertical.clickfinance();
+        mastHead.clickHamburgerMenu();
+        vertical.clickMarkets();
+        mastHead.clickHamburgerMenu();
+        vertical.clickYourMoney();
+        mastHead.clickHamburgerMenu();
+        vertical.clickWealthAdvisor();
+        mastHead.clickHamburgerMenu();
+        vertical.clickpolitics();
+        mastHead.clickHamburgerMenu();
+        vertical.clickmilitarydefense();
+        mastHead.clickHamburgerMenu();
+        vertical.clicklaworder();
+        mastHead.clickHamburgerMenu();
+        vertical.clickstrategy();
+        mastHead.clickHamburgerMenu();
+        vertical.clickCarrers();
+        mastHead.clickHamburgerMenu();
+        vertical.clickAdvertising();
+        mastHead.clickHamburgerMenu();
+        vertical.clickRetail();
+        mastHead.clickHamburgerMenu();
+        vertical.clickSmallBusiness();
+        mastHead.clickHamburgerMenu();
+        vertical.clickLife();
+        mastHead.clickHamburgerMenu();
+        vertical.clickTransportation();
+        mastHead.clickHamburgerMenu();
+        vertical.clickEducation();
+        mastHead.clickHamburgerMenu();
+        vertical.clickEntertainment();
+        mastHead.clickHamburgerMenu();
+        vertical.clickSports();*/
+    }
 
     @After
     public void CloseAppEmulator() throws Exception {

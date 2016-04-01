@@ -103,3 +103,542 @@
 2016-03-03 19:28:41 INFO  App:35 - Working Directory = /mobile-automation
 2016-03-03 14:36:59 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
 2016-03-03 15:07:51 INFO  App:53 - Starting Appium Server...
+2016-03-17 09:51:35 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 09:51:35 INFO  App:53 - Starting Appium Server...
+2016-03-17 09:51:56 INFO  App:76 - ------------ Environmental Configurations ------------
+2016-03-17 09:51:56 INFO  App:77 - OS = null
+2016-03-17 09:51:56 INFO  StepsDefinitions2:18 - Feature2
+2016-03-17 09:51:56 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 09:51:56 INFO  App:76 - ------------ Environmental Configurations ------------
+2016-03-17 09:51:56 INFO  App:77 - OS = null
+2016-03-17 09:52:09 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 09:52:09 INFO  App:76 - ------------ Environmental Configurations ------------
+2016-03-17 09:52:09 INFO  App:77 - OS = null
+2016-03-17 09:52:09 INFO  StepsDefinitions2:18 - Feature2
+2016-03-17 09:52:09 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 09:52:09 INFO  App:53 - Starting Appium Server...
+2016-03-17 09:52:15 INFO  App:76 - ------------ Environmental Configurations ------------
+2016-03-17 09:52:15 INFO  App:77 - OS = null
+2016-03-17 09:52:21 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 09:52:22 INFO  App:76 - ------------ Environmental Configurations ------------
+2016-03-17 09:52:22 INFO  App:77 - OS = null
+2016-03-17 09:52:22 INFO  StepsDefinitions2:18 - Feature2
+2016-03-17 09:52:22 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 09:52:22 INFO  App:53 - Starting Appium Server...
+2016-03-17 09:52:26 INFO  App:76 - ------------ Environmental Configurations ------------
+2016-03-17 09:52:26 INFO  App:77 - OS = null
+2016-03-17 14:56:27 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 14:56:29 INFO  App:76 - ------------ Environmental Configurations ------------
+2016-03-17 14:56:29 INFO  App:77 - OS = null
+2016-03-17 14:56:29 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 14:56:29 INFO  App:53 - Starting Appium Server...
+2016-03-17 14:56:37 INFO  App:76 - ------------ Environmental Configurations ------------
+2016-03-17 14:56:37 INFO  App:77 - OS = null
+2016-03-17 15:13:52 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 15:13:52 INFO  App:52 - Starting Appium Server...
+2016-03-17 15:14:00 INFO  App:75 - ------------ Environmental Configurations ------------
+2016-03-17 15:14:00 INFO  App:76 - OS = null
+2016-03-17 15:14:00 INFO  App:192 - Test Done
+2016-03-17 15:40:45 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 15:40:46 INFO  App:75 - ------------ Environmental Configurations ------------
+2016-03-17 15:40:46 INFO  App:76 - OS = null
+2016-03-17 15:40:46 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 15:40:46 INFO  App:52 - Starting Appium Server...
+2016-03-17 15:41:07 INFO  App:75 - ------------ Environmental Configurations ------------
+2016-03-17 15:41:07 INFO  App:76 - OS = null
+2016-03-17 15:41:34 INFO  App:35 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 16:42:16 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 16:42:16 INFO  App:54 - Starting Appium Server...
+2016-03-17 16:42:23 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-17 16:42:23 INFO  App:81 - OS = Android
+2016-03-17 16:42:23 INFO  App:83 - AVD = Nexus_S_API_19
+2016-03-17 16:42:23 INFO  App:89 - ------------------------------------------------------
+2016-03-17 16:43:03 INFO  App:146 - App has launched
+2016-03-17 16:43:03 INFO  StepsDefinitions1:46 - Feature1 @when
+2016-03-17 16:43:03 INFO  App:203 - Test Done
+2016-03-17 16:43:03 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-17 16:43:14 INFO  App:146 - App has launched
+2016-03-17 16:43:14 INFO  StepsDefinitions2:48 - Feature2 @When
+2016-03-17 16:43:14 INFO  App:203 - Test Done
+2016-03-28 12:32:54 INFO  GUIForm:59 - ------------ Environmental Configurations ------------
+2016-03-28 12:32:54 INFO  GUIForm:60 - OS = Android
+2016-03-28 12:32:54 INFO  GUIForm:62 - AVD = Nexus_S_API_19
+2016-03-28 12:32:54 INFO  GUIForm:67 - Script = Hamburger Menu
+2016-03-28 12:32:54 INFO  GUIForm:68 - ------------------------------------------------------
+2016-03-28 12:32:55 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-28 12:32:55 INFO  App:54 - Starting Appium Server...
+2016-03-28 12:33:03 INFO  GUIForm:59 - ------------ Environmental Configurations ------------
+2016-03-28 12:33:03 INFO  GUIForm:60 - OS = Android
+2016-03-28 12:33:03 INFO  GUIForm:62 - AVD = Nexus_S_API_19
+2016-03-28 12:33:03 INFO  GUIForm:67 - Script = Hamburger Menu
+2016-03-28 12:33:03 INFO  GUIForm:68 - ------------------------------------------------------
+2016-03-28 12:33:03 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-28 12:33:03 INFO  App:54 - Starting Appium Server...
+2016-03-28 12:33:04 INFO  GUIForm:59 - ------------ Environmental Configurations ------------
+2016-03-28 12:33:04 INFO  GUIForm:60 - OS = Android
+2016-03-28 12:33:04 INFO  GUIForm:62 - AVD = Nexus_S_API_19
+2016-03-28 12:33:04 INFO  GUIForm:67 - Script = Hamburger Menu
+2016-03-28 12:33:04 INFO  GUIForm:68 - ------------------------------------------------------
+2016-03-28 12:33:04 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-28 12:33:04 INFO  App:54 - Starting Appium Server...
+2016-03-28 12:33:04 INFO  GUIForm:59 - ------------ Environmental Configurations ------------
+2016-03-28 12:33:04 INFO  GUIForm:60 - OS = Android
+2016-03-28 12:33:04 INFO  GUIForm:62 - AVD = Nexus_S_API_19
+2016-03-28 12:33:04 INFO  GUIForm:67 - Script = Hamburger Menu
+2016-03-28 12:33:04 INFO  GUIForm:68 - ------------------------------------------------------
+2016-03-28 12:33:04 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-28 12:33:04 INFO  App:54 - Starting Appium Server...
+2016-03-28 12:33:04 INFO  GUIForm:59 - ------------ Environmental Configurations ------------
+2016-03-28 12:33:04 INFO  GUIForm:60 - OS = Android
+2016-03-28 12:33:04 INFO  GUIForm:62 - AVD = Nexus_S_API_19
+2016-03-28 12:33:04 INFO  GUIForm:67 - Script = Hamburger Menu
+2016-03-28 12:33:04 INFO  GUIForm:68 - ------------------------------------------------------
+2016-03-28 12:33:04 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-28 12:33:04 INFO  App:54 - Starting Appium Server...
+2016-03-28 12:33:18 ERROR App:174 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 115 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-28 12:33:26 INFO  StepsDefinitions1:46 - Feature1 @when
+2016-03-28 12:33:26 INFO  App:212 - Test Done
+2016-03-28 12:33:26 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-28 12:33:26 ERROR App:174 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-28 12:33:37 INFO  StepsDefinitions2:48 - Feature2 @When
+2016-03-28 12:33:37 INFO  App:212 - Test Done
+2016-03-28 12:34:43 INFO  GUIForm:59 - ------------ Environmental Configurations ------------
+2016-03-28 12:34:43 INFO  GUIForm:60 - OS = Android
+2016-03-28 12:34:43 INFO  GUIForm:62 - AVD = Nexus_S_API_19
+2016-03-28 12:34:43 INFO  GUIForm:67 - Script = Hamburger Menu
+2016-03-28 12:34:43 INFO  GUIForm:68 - ------------------------------------------------------
+2016-03-28 12:34:44 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-28 12:34:44 INFO  App:54 - Starting Appium Server...
+2016-03-28 12:35:21 INFO  App:146 - App has launched
+2016-03-28 12:35:21 INFO  StepsDefinitions1:46 - Feature1 @when
+2016-03-28 12:35:22 INFO  App:212 - Test Done
+2016-03-28 12:35:22 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-28 12:35:32 INFO  App:146 - App has launched
+2016-03-28 12:35:32 INFO  StepsDefinitions2:48 - Feature2 @When
+2016-03-28 12:35:32 INFO  App:212 - Test Done
+2016-03-28 12:50:10 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-28 12:50:10 INFO  App:54 - Starting Appium Server...
+2016-03-28 12:50:17 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-28 12:50:17 INFO  App:81 - OS = Android
+2016-03-28 12:50:17 INFO  App:83 - AVD = null
+2016-03-28 12:50:17 INFO  App:89 - ------------------------------------------------------
+2016-03-28 12:50:29 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-28 12:50:29 INFO  App:54 - Starting Appium Server...
+2016-03-28 12:51:04 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-28 12:51:04 INFO  App:81 - OS = Android
+2016-03-28 12:51:04 INFO  App:83 - AVD = null
+2016-03-28 12:51:04 INFO  App:89 - ------------------------------------------------------
+2016-03-28 12:51:32 ERROR App:177 - A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27.84 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-28 12:53:57 INFO  App:215 - Test Done
+2016-03-31 14:26:47 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 14:26:47 INFO  App:54 - Starting Appium Server...
+2016-03-31 14:27:08 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 14:27:08 INFO  App:81 - OS = Android
+2016-03-31 14:27:08 INFO  App:83 - AVD = null
+2016-03-31 14:27:08 INFO  App:89 - ------------------------------------------------------
+2016-03-31 14:27:39 ERROR App:177 - A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31.02 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 14:27:39 INFO  App:215 - Test Done
+2016-03-31 14:27:44 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 14:27:45 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 14:27:45 INFO  App:81 - OS = Android
+2016-03-31 14:27:45 INFO  App:83 - AVD = null
+2016-03-31 14:27:45 INFO  App:89 - ------------------------------------------------------
+2016-03-31 14:27:45 INFO  App:128 - Starting Appium Server....
+2016-03-31 14:28:17 ERROR App:177 - A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27.80 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 14:28:17 INFO  App:215 - Test Done
+2016-03-31 14:28:30 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 14:28:31 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 14:28:31 INFO  App:81 - OS = Android
+2016-03-31 14:28:31 INFO  App:83 - AVD = null
+2016-03-31 14:28:31 INFO  App:89 - ------------------------------------------------------
+2016-03-31 14:28:31 INFO  App:128 - Starting Appium Server....
+2016-03-31 14:29:04 ERROR App:177 - A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27.78 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 14:29:04 INFO  App:215 - Test Done
+2016-03-31 14:29:51 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 14:29:51 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 14:29:51 INFO  App:81 - OS = Android
+2016-03-31 14:29:51 INFO  App:83 - AVD = null
+2016-03-31 14:29:51 INFO  App:89 - ------------------------------------------------------
+2016-03-31 14:29:51 INFO  App:128 - Starting Appium Server....
+2016-03-31 14:30:24 ERROR App:177 - A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27.75 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 14:30:24 INFO  App:215 - Test Done
+2016-03-31 14:39:47 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 14:41:13 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 14:41:13 INFO  App:81 - OS = Android
+2016-03-31 14:41:13 INFO  App:83 - AVD = null
+2016-03-31 14:41:13 INFO  App:89 - ------------------------------------------------------
+2016-03-31 14:41:16 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 14:41:48 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 14:41:48 INFO  App:81 - OS = Android
+2016-03-31 14:41:48 INFO  App:83 - AVD = null
+2016-03-31 14:41:48 INFO  App:89 - ------------------------------------------------------
+2016-03-31 14:41:52 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 14:42:07 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 14:42:07 INFO  App:81 - OS = Android
+2016-03-31 14:42:07 INFO  App:83 - AVD = null
+2016-03-31 14:42:07 INFO  App:89 - ------------------------------------------------------
+2016-03-31 14:44:26 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 14:45:26 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 14:45:28 INFO  App:81 - OS = Android
+2016-03-31 14:45:32 INFO  App:83 - AVD = Galaxy_S5_API_22
+2016-03-31 14:45:42 INFO  App:89 - ------------------------------------------------------
+2016-03-31 14:46:49 INFO  App:128 - Starting Appium Server....
+2016-03-31 14:47:47 ERROR App:177 - A new session could not be created. (Original error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51.23 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 14:49:08 INFO  App:218 - Test Done
+2016-03-31 14:49:13 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 14:49:13 INFO  App:54 - Starting Appium Server...
+2016-03-31 14:49:24 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 14:49:24 INFO  App:81 - OS = Android
+2016-03-31 14:49:24 INFO  App:83 - AVD = Galaxy_S5_API_22
+2016-03-31 14:49:24 INFO  App:89 - ------------------------------------------------------
+2016-03-31 14:50:14 ERROR App:176 - A new session could not be created. (Original error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48.07 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 14:50:36 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 14:50:36 INFO  App:54 - Starting Appium Server...
+2016-03-31 14:50:52 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 14:50:52 INFO  App:81 - OS = Android
+2016-03-31 14:50:52 INFO  App:83 - AVD = Galaxy_S5_API_22
+2016-03-31 14:50:52 INFO  App:89 - ------------------------------------------------------
+2016-03-31 14:51:42 INFO  App:148 - App has launched
+2016-03-31 14:51:43 INFO  HamburgerMenu:31 - Click Hamburger Icon
+2016-03-31 14:51:46 INFO  HamburgerMenu:31 - Click Hamburger Icon
+2016-03-31 14:52:32 INFO  App:217 - Test Done
+2016-03-31 16:43:29 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 16:43:29 INFO  App:54 - Starting Appium Server...
+2016-03-31 16:43:51 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 16:43:51 INFO  App:81 - OS = Android
+2016-03-31 16:43:51 INFO  App:83 - AVD = Galaxy_S5_API_22
+2016-03-31 16:43:51 INFO  App:89 - ------------------------------------------------------
+2016-03-31 16:46:00 ERROR App:176 - A new session could not be created. (Original error: Could not parse activity from dumpsys) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 127.71 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 16:46:00 INFO  App:217 - Test Done
+2016-03-31 16:46:10 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 16:46:10 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 16:46:10 INFO  App:81 - OS = Android
+2016-03-31 16:46:10 INFO  App:83 - AVD = Galaxy_S5_API_22
+2016-03-31 16:46:10 INFO  App:89 - ------------------------------------------------------
+2016-03-31 16:46:10 INFO  App:128 - Starting Appium Server....
+2016-03-31 16:46:27 INFO  App:148 - App has launched
+2016-03-31 16:46:28 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-03-31 16:46:29 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-03-31 16:46:31 INFO  HeaderNavObject:48 - Click BI
+2016-03-31 16:46:33 INFO  App:217 - Test Done
+2016-03-31 16:47:53 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 16:47:54 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 16:47:54 INFO  App:81 - OS = Android
+2016-03-31 16:47:54 INFO  App:83 - AVD = Galaxy_S5_API_22
+2016-03-31 16:47:54 INFO  App:89 - ------------------------------------------------------
+2016-03-31 16:47:56 ERROR App:176 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 883 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 16:47:56 INFO  App:217 - Test Done
+2016-03-31 16:48:51 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 16:48:52 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 16:48:52 INFO  App:81 - OS = Android
+2016-03-31 16:48:52 INFO  App:83 - AVD = Galaxy_S5_API_22
+2016-03-31 16:48:52 INFO  App:89 - ------------------------------------------------------
+2016-03-31 16:50:14 ERROR App:176 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.14 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 16:50:14 INFO  App:217 - Test Done
+2016-03-31 16:50:21 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 16:50:23 INFO  App:80 - ------------ Environmental Configurations ------------
+2016-03-31 16:50:23 INFO  App:81 - OS = Android
+2016-03-31 16:50:23 INFO  App:83 - AVD = Galaxy_S5_API_22
+2016-03-31 16:50:23 INFO  App:89 - ------------------------------------------------------
+2016-03-31 16:50:29 INFO  App:149 - App has launched
+2016-03-31 16:51:28 INFO  App:218 - Test Done
+2016-03-31 16:51:34 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 16:51:50 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-03-31 16:51:50 INFO  App:71 - OS = Android
+2016-03-31 16:51:50 INFO  App:73 - AVD = Galaxy_S5_API_22
+2016-03-31 16:51:50 INFO  App:79 - ------------------------------------------------------
+2016-03-31 16:52:31 ERROR App:166 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.32 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 16:52:31 INFO  App:207 - Test Done
+2016-03-31 16:52:38 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 16:52:41 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-03-31 16:52:41 INFO  App:71 - OS = Android
+2016-03-31 16:52:41 INFO  App:73 - AVD = Galaxy_S5_API_22
+2016-03-31 16:52:41 INFO  App:79 - ------------------------------------------------------
+2016-03-31 16:53:53 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 16:53:55 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-03-31 16:53:55 INFO  App:71 - OS = Android
+2016-03-31 16:53:55 INFO  App:73 - AVD = Galaxy_S5_API_22
+2016-03-31 16:53:55 INFO  App:79 - ------------------------------------------------------
+2016-03-31 16:53:57 ERROR App:167 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 505 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 16:54:05 INFO  App:208 - Test Done
+2016-03-31 16:54:08 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 16:54:10 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-03-31 16:54:10 INFO  App:71 - OS = Android
+2016-03-31 16:54:10 INFO  App:73 - AVD = Galaxy_S5_API_22
+2016-03-31 16:54:10 INFO  App:79 - ------------------------------------------------------
+2016-03-31 16:54:45 ERROR App:167 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 426 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 17:38:15 INFO  App:208 - Test Done
+2016-03-31 17:38:21 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 17:38:23 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-03-31 17:38:23 INFO  App:73 - OS = Android
+2016-03-31 17:38:23 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-03-31 17:38:23 INFO  App:81 - ------------------------------------------------------
+2016-03-31 17:38:27 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 430 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-03-31 17:38:41 INFO  App:210 - Test Done
+2016-03-31 17:38:44 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 17:38:45 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-03-31 17:38:45 INFO  App:73 - OS = Android
+2016-03-31 17:38:45 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-03-31 17:38:45 INFO  App:81 - ------------------------------------------------------
+2016-03-31 17:38:57 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 17:38:58 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-03-31 17:38:58 INFO  App:73 - OS = Android
+2016-03-31 17:38:58 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-03-31 17:38:58 INFO  App:81 - ------------------------------------------------------
+2016-03-31 17:39:18 INFO  App:141 - App has launched
+2016-03-31 17:39:18 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-03-31 17:39:19 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-03-31 17:39:21 INFO  HeaderNavObject:48 - Click BI
+2016-03-31 17:39:22 INFO  HeaderNavObject:53 - Click Search
+2016-03-31 17:39:24 INFO  HeaderNavObject:58 - Click Close Search
+2016-03-31 17:39:25 INFO  HeaderNavObject:63 - Click Kebab Menu
+2016-03-31 17:39:32 INFO  App:210 - Test Done
+2016-03-31 17:41:30 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-03-31 17:41:31 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-03-31 17:41:31 INFO  App:73 - OS = Android
+2016-03-31 17:41:31 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-03-31 17:41:31 INFO  App:81 - ------------------------------------------------------
+2016-03-31 17:41:40 INFO  App:141 - App has launched
+2016-03-31 17:41:41 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-03-31 17:41:42 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-03-31 17:41:43 INFO  HeaderNavObject:48 - Click BI
+2016-03-31 17:41:45 INFO  HeaderNavObject:53 - Click Search
+2016-03-31 17:41:46 INFO  HeaderNavObject:58 - Click Close Search
+2016-03-31 17:41:48 INFO  HeaderNavObject:63 - Click Kebab Menu
+2016-03-31 17:42:25 INFO  App:210 - Test Done
+2016-04-01 14:17:58 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:17:59 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:17:59 INFO  App:73 - OS = Android
+2016-04-01 14:17:59 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:17:59 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:18:02 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 820 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:18:02 INFO  App:210 - Test Done
+2016-04-01 14:18:30 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:18:31 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:18:31 INFO  App:73 - OS = Android
+2016-04-01 14:18:31 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:18:31 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:18:33 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 751 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:18:33 INFO  App:210 - Test Done
+2016-04-01 14:18:51 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:18:52 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:18:52 INFO  App:73 - OS = Android
+2016-04-01 14:18:52 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:18:52 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:18:54 ERROR App:169 - A new session could not be created. (Original error: Bad app: /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_3_MA-377-DEBUG.apk. App paths need to be absolute, or relative to the appium server install dir, or a URL to compressed file, or a special app name. cause: Error: Error locating the app: ENOENT, stat '/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_3_MA-377-DEBUG.apk') (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 433 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:18:54 INFO  App:210 - Test Done
+2016-04-01 14:19:19 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:19:20 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:19:20 INFO  App:73 - OS = Android
+2016-04-01 14:19:20 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:19:20 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:20:20 INFO  App:141 - App has launched
+2016-04-01 14:20:21 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-04-01 14:20:22 INFO  VerticalObject:111 - Click Favorites
+2016-04-01 14:20:24 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-04-01 14:21:02 INFO  App:210 - Test Done
+2016-04-01 14:21:55 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:21:56 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:21:56 INFO  App:73 - OS = Android
+2016-04-01 14:21:56 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:21:56 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:22:25 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:22:26 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:22:26 INFO  App:73 - OS = Android
+2016-04-01 14:22:26 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:22:26 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:22:28 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 661 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:22:28 INFO  App:210 - Test Done
+2016-04-01 14:22:37 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:22:38 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:22:38 INFO  App:73 - OS = Android
+2016-04-01 14:22:38 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:22:38 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:22:41 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 770 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:22:41 INFO  App:210 - Test Done
+2016-04-01 14:23:01 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:23:02 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:23:02 INFO  App:73 - OS = Android
+2016-04-01 14:23:02 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:23:02 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:23:54 INFO  App:141 - App has launched
+2016-04-01 14:23:55 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-04-01 14:23:56 INFO  VerticalObject:111 - Click Favorites
+2016-04-01 14:23:58 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-04-01 14:24:36 INFO  App:210 - Test Done
+2016-04-01 14:35:49 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:35:50 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:35:50 INFO  App:73 - OS = Android
+2016-04-01 14:35:50 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:35:50 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:37:03 ERROR App:161 - Unable to launch device
+2016-04-01 14:37:03 INFO  App:210 - Test Done
+2016-04-01 14:46:19 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:46:20 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:46:20 INFO  App:73 - OS = Android
+2016-04-01 14:46:20 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:46:20 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:46:22 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 638 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:46:22 INFO  App:210 - Test Done
+2016-04-01 14:46:29 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:46:30 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:46:30 INFO  App:73 - OS = Android
+2016-04-01 14:46:30 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:46:30 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:46:32 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 583 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:46:32 INFO  App:210 - Test Done
+2016-04-01 14:46:43 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:46:44 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:46:44 INFO  App:73 - OS = Android
+2016-04-01 14:46:44 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:46:44 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:46:46 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 656 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:46:46 INFO  App:210 - Test Done
+2016-04-01 14:46:51 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:46:51 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:46:51 INFO  App:73 - OS = Android
+2016-04-01 14:46:51 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:46:51 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:46:53 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 824 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:46:53 INFO  App:210 - Test Done
+2016-04-01 14:47:04 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:47:04 INFO  App:56 - Starting Appium Server...
+2016-04-01 14:47:10 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:47:10 INFO  App:73 - OS = Android
+2016-04-01 14:47:10 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:47:10 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:49:17 ERROR App:169 - A new session could not be created. (Original error: Could not parse activity from dumpsys) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 127.19 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:49:17 INFO  App:210 - Test Done
+2016-04-01 14:49:48 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:49:49 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:49:49 INFO  App:73 - OS = Android
+2016-04-01 14:49:49 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:49:49 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:49:49 INFO  App:120 - Starting Appium Server....
+2016-04-01 14:50:29 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:50:29 INFO  App:56 - Starting Appium Server...
+2016-04-01 14:50:33 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:50:33 INFO  App:73 - OS = Android
+2016-04-01 14:50:33 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:50:33 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:52:05 ERROR App:169 - A new session could not be created. (Original error: UiAutomator quit before it successfully launched) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 91.15 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-01 14:52:05 INFO  App:210 - Test Done
+2016-04-01 14:53:17 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-01 14:53:17 INFO  App:56 - Starting Appium Server...
+2016-04-01 14:53:21 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-01 14:53:21 INFO  App:73 - OS = Android
+2016-04-01 14:53:21 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-01 14:53:21 INFO  App:81 - ------------------------------------------------------
+2016-04-01 14:54:26 INFO  App:141 - App has launched
+2016-04-01 14:54:27 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-04-01 14:54:28 INFO  VerticalObject:111 - Click Favorites
+2016-04-01 14:54:29 INFO  HeaderNavObject:43 - Click Hamburger menu
+2016-04-01 14:55:08 INFO  App:210 - Test Done

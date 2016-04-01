@@ -20,8 +20,10 @@ public class GUIForm extends JFrame{
     public static String launchOn;
     public static String VD;
     public static String app;
+    public static String apk;
     public static String script;
     public static String platformName;
+    public static String platformVersion;
     private JPanel rootpanel;
     private JButton runB;
     private JLabel browserL;

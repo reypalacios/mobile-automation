@@ -1,7 +1,7 @@
 package mobileScripts;
 
 import appium.App;
-import objectModels.HeaderNavObject;
+import objectModels.MastHeadObject;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
@@ -22,7 +22,7 @@ public class HamburgerMenu extends App {
     @Test
     public void testHamburgerOptions(){
 
-        HeaderNavObject HeaderNav = new HeaderNavObject(wd);
+        MastHeadObject HeaderNav = new MastHeadObject(wd);
 
         HeaderNav.clickHamburgerMenu();
         HeaderNav.clickHamburgerMenu();

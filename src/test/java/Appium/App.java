@@ -12,8 +12,10 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.UnreachableBrowserException;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -32,8 +34,7 @@ public class App {
 
             //new AppiumServer().startAppiumonMac();
 
-            logger.info("Working Directory = " +
-                    System.getProperty("user.dir"));
+            logger.info("Working Directory = " + System.getProperty("user.dir"));
 
             serverArguments.setArgument("--address", "127.0.0.1");
             serverArguments.setArgument("--no-reset", true);
@@ -47,31 +48,26 @@ public class App {
             serverArguments.setArgument("--native-instruments-lib", true);
             serverArguments.setArgument("--show-ios-log", true);
             serverArguments.setArgument("--launch-timeout","110000");
+            serverArguments.setArgument("--session-override", true);
+
             as = new AppiumServer(serverArguments);
 
             if (!as.isServerRunning()) {
                 logger.info("Starting Appium Server...");
                 Thread.currentThread().setName("AppiumServer");
                 as.startServer();
-
             }
-            /*if(as.isServerRunning()) {
-                logger.info("Stopping Appium Server...");
-                as.stopServer();
-                logger.info("Starting Appium Server...");
-                as.startServer();
-            }else{
-                logger.info("Starting Appium Server...");
-                as.startServer();
-            }*/
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("appium-version", "1.0");
 
             if(GUIForm.launchOn == null) {
                 GUIForm.launchOn = System.getProperty("launchOn");
-                GUIForm.VD = System.getProperty("VD");
-                GUIForm.app = System.getProperty("app");
+                if(GUIForm.launchOn == null) {
+                    readProperties();
+                }
+                //GUIForm.VD = System.getProperty("VD");
+                //GUIForm.app = System.getProperty("app");
 
                 logger.info("------------ Environmental Configurations ------------");
                 logger.info("OS = " + GUIForm.launchOn);
@@ -87,13 +83,16 @@ public class App {
 
             capabilities.setCapability("platformName", GUIForm.launchOn);
             if (GUIForm.launchOn.equals("Android")) {
-                capabilities.setCapability("platformVersion", "4.4");
+                capabilities.setCapability("platformVersion", GUIForm.platformVersion);
                 capabilities.setCapability("avd", GUIForm.VD);
                 capabilities.setCapability("deviceName", "Android Emulator");
 
-                File file = new File("AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk");
+                /*if (GUIForm.apk==null){
+                    GUIForm.apk="com.freerange360.mpp.businessinsider-120150427.apk";
+                }*/
+                File file = new File("AndroidApps/"+GUIForm.apk);
                 capabilities.setCapability("app", file.getAbsolutePath());
-                capabilities.setCapability("appPackage", "com.freerange360.mpp.businessinsider");
+                //capabilities.setCapability("appPackage", "com.freerange360.mpp.businessinsider");
                 capabilities.setCapability("appActivity", "com.businessinsider.app.MainActivity");
 
             }
@@ -121,6 +120,7 @@ public class App {
                 logger.info("Starting Appium Server....");
                 as.startServer();
             }
+
             wd = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
                 @Override
                 public WebElement scrollTo(String s) {
@@ -133,8 +133,7 @@ public class App {
                 }
             };
 
-
-            wd.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+            wd.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
             //wd.get("http://www.businessinsider.com/");
             //wd.switchTo().alert().dismiss();
             Thread.sleep(3000);
@@ -171,6 +170,24 @@ public class App {
             s.printStackTrace();
         }
 
+    }
+
+    private void readProperties() {
+        try {
+            Properties properties = new Properties();
+            properties.load(this.getClass().getResourceAsStream("/config.properties"));
+            GUIForm.launchOn = properties.getProperty("OS");
+            GUIForm.VD = properties.getProperty("VD");
+            GUIForm.platformVersion = properties.getProperty("platformVersion");
+            GUIForm.app = properties.getProperty("app");
+            GUIForm.apk = properties.getProperty("apk");
+
+
+
+        } catch (IOException e) {
+            logger.error(e.getMessage());
+            e.printStackTrace();
+        }
     }
 
     public void close()
