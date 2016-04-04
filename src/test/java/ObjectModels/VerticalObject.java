@@ -15,11 +15,14 @@ public class VerticalObject {
 
     Logger logger = Logger.getLogger(this.getClass());
 
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='FAVORITES']")
+    @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.TextView[1]")
+
+
     @iOSFindBy()
     public static WebElement favorites;
 
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='HOME']")
+    @AndroidFindBy(xpath = "//android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[1]")
+    //@AndroidFindBy(xpath = "//android.widget.TextView[@text='HOME']")
     @iOSFindBy(xpath= "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[2]/UIATableCell[2]")
     public static WebElement home;
 
@@ -71,30 +74,39 @@ public class VerticalObject {
     @iOSFindBy(name = "STRATEGY")
     public static WebElement strategy;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Careers']")
     @iOSFindBy(name = "Careers")
     public static WebElement Careers;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Advertising']")
     @iOSFindBy(name = "Advertising")
     public static WebElement Advertising;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Retail']")
     @iOSFindBy(name = "Retail")
     public static WebElement Retail;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Small Business']")
     @iOSFindBy(name = "Small Business")
     public static WebElement SmallBusiness;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='LIFE']")
     @iOSFindBy(name = "LIFE")
     public static WebElement life;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Transportation']")
     @iOSFindBy(name = "Transportation")
     public static WebElement Transportation;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Education']")
     @iOSFindBy(name = "Education")
     public static WebElement education;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Entertainment']")
     @iOSFindBy(name = "ENTERTAINMENT")
     public static WebElement entertainment;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Sports']")
     @iOSFindBy(name = "Sports")
     public static WebElement Sports;
 

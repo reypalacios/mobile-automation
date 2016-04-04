@@ -22,23 +22,22 @@ public class Verticals extends App{
 
 
     @Test
-    public void testVerticals() {
+    public void testVerticals() throws InterruptedException {
         MastHeadObject mastHead = new MastHeadObject(wd);
         VerticalObject vertical = new VerticalObject(wd);
 
         mastHead.clickHamburgerMenu();
         vertical.clickFavorites();
+        Thread.sleep(4000);
         mastHead.clickHamburgerMenu();
         vertical.clickhome();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-/*        mastHead.clickHamburgerMenu();
+        Thread.sleep(4000);
+        mastHead.clickHamburgerMenu();
         vertical.clickLatest();
+        Thread.sleep(4000);
         mastHead.clickHamburgerMenu();
         vertical.clicktech();
+        Thread.sleep(4000);
         mastHead.clickHamburgerMenu();
         vertical.clickenterprise();
         mastHead.clickHamburgerMenu();
@@ -76,7 +75,7 @@ public class Verticals extends App{
         mastHead.clickHamburgerMenu();
         vertical.clickEntertainment();
         mastHead.clickHamburgerMenu();
-        vertical.clickSports();*/
+        vertical.clickSports();
     }
 
     @After
