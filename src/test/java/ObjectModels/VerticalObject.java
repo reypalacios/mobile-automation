@@ -15,9 +15,7 @@ public class VerticalObject {
 
     Logger logger = Logger.getLogger(this.getClass());
 
-    @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.TextView[1]")
-
-
+    @AndroidFindBy(xpath = "//android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]")
     @iOSFindBy()
     public static WebElement favorites;
 

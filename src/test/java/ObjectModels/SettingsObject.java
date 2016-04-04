@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by rpalacios on 12/11/15.
  */
-public class SettingsMenu {
+public class SettingsObject {
 
     Logger logger = Logger.getLogger(this.getClass());
 
@@ -20,7 +20,7 @@ public class SettingsMenu {
     public static WebElement icon;
 
 
-    public SettingsMenu(AppiumDriver<WebElement> wd) {
+    public SettingsObject(AppiumDriver<WebElement> wd) {
         PageFactory.initElements(new AppiumFieldDecorator(wd), this);
     }
 
