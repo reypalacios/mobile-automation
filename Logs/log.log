@@ -642,3 +642,1503 @@ Driver info: appium.App$1
 2016-04-01 14:54:28 INFO  VerticalObject:111 - Click Favorites
 2016-04-01 14:54:29 INFO  HeaderNavObject:43 - Click Hamburger menu
 2016-04-01 14:55:08 INFO  App:210 - Test Done
+2016-04-04 09:28:05 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:28:07 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:28:07 INFO  App:73 - OS = Android
+2016-04-04 09:28:07 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:28:07 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:28:09 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 658 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 09:28:09 INFO  App:210 - Test Done
+2016-04-04 09:31:33 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:31:33 INFO  App:56 - Starting Appium Server...
+2016-04-04 09:31:39 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:31:39 INFO  App:73 - OS = Android
+2016-04-04 09:31:39 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:31:39 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:31:54 INFO  App:141 - App has launched
+2016-04-04 09:31:54 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:31:56 INFO  VerticalObject:122 - Click Favorites
+2016-04-04 09:31:57 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:31:58 INFO  VerticalObject:127 - click home Vertical
+2016-04-04 09:32:04 INFO  App:210 - Test Done
+2016-04-04 09:33:25 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:33:26 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:33:26 INFO  App:73 - OS = Android
+2016-04-04 09:33:26 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:33:26 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:33:37 INFO  App:141 - App has launched
+2016-04-04 09:33:38 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:33:40 INFO  VerticalObject:122 - Click Favorites
+2016-04-04 09:33:41 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:33:42 INFO  VerticalObject:127 - click home Vertical
+2016-04-04 09:33:51 INFO  App:210 - Test Done
+2016-04-04 09:35:02 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:35:02 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:35:02 INFO  App:73 - OS = Android
+2016-04-04 09:35:02 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:35:02 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:35:13 INFO  App:141 - App has launched
+2016-04-04 09:35:14 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:35:15 INFO  VerticalObject:122 - Click Favorites
+2016-04-04 09:35:17 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:35:18 INFO  VerticalObject:127 - click home Vertical
+2016-04-04 09:35:24 INFO  App:210 - Test Done
+2016-04-04 09:40:13 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:40:13 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:40:13 INFO  App:73 - OS = Android
+2016-04-04 09:40:13 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:40:13 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:40:26 INFO  App:141 - App has launched
+2016-04-04 09:40:27 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:28 INFO  VerticalObject:131 - Click Favorites
+2016-04-04 09:40:29 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:31 INFO  VerticalObject:136 - click home Vertical
+2016-04-04 09:40:32 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:33 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-04 09:40:34 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:36 INFO  VerticalObject:146 - click tech Vertical
+2016-04-04 09:40:37 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:38 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-04 09:40:39 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:41 INFO  VerticalObject:156 - click Science Vertical
+2016-04-04 09:40:42 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:43 INFO  VerticalObject:161 - click finance Vertical
+2016-04-04 09:40:44 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:45 INFO  VerticalObject:166 - click markets Vertical
+2016-04-04 09:40:47 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:48 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-04 09:40:49 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:50 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-04 09:40:52 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:53 INFO  VerticalObject:181 - click politics Vertical
+2016-04-04 09:40:55 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:56 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-04 09:40:57 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:40:59 INFO  VerticalObject:191 - click law order Vertical
+2016-04-04 09:41:00 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:41:01 INFO  VerticalObject:196 - click strategy Vertical
+2016-04-04 09:41:02 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:41:04 INFO  VerticalObject:201 - click Careers Vertical
+2016-04-04 09:41:05 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:41:07 INFO  VerticalObject:206 - click Advertising vertical
+2016-04-04 09:41:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:41:11 INFO  App:210 - Test Done
+2016-04-04 09:47:37 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:47:39 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:47:39 INFO  App:73 - OS = Android
+2016-04-04 09:47:39 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:47:39 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:47:50 INFO  App:141 - App has launched
+2016-04-04 09:47:51 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:47:53 INFO  VerticalObject:131 - Click Favorites
+2016-04-04 09:47:54 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:47:55 INFO  VerticalObject:136 - click home Vertical
+2016-04-04 09:47:57 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:47:58 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-04 09:48:00 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:01 INFO  VerticalObject:146 - click tech Vertical
+2016-04-04 09:48:02 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:04 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-04 09:48:05 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:06 INFO  VerticalObject:156 - click Science Vertical
+2016-04-04 09:48:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:09 INFO  VerticalObject:161 - click finance Vertical
+2016-04-04 09:48:10 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:11 INFO  VerticalObject:166 - click markets Vertical
+2016-04-04 09:48:13 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:14 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-04 09:48:15 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:16 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-04 09:48:18 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:19 INFO  VerticalObject:181 - click politics Vertical
+2016-04-04 09:48:20 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:21 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-04 09:48:23 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:24 INFO  VerticalObject:191 - click law order Vertical
+2016-04-04 09:48:25 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:27 INFO  VerticalObject:196 - click strategy Vertical
+2016-04-04 09:48:28 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:29 INFO  VerticalObject:201 - click Careers Vertical
+2016-04-04 09:48:31 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:32 INFO  VerticalObject:206 - click Advertising vertical
+2016-04-04 09:48:33 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:35 INFO  VerticalObject:211 - click Retail vertical
+2016-04-04 09:48:36 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:37 INFO  VerticalObject:216 - click Small Business vertical
+2016-04-04 09:48:38 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:48:40 INFO  App:210 - Test Done
+2016-04-04 09:53:15 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:53:15 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:53:15 INFO  App:73 - OS = Android
+2016-04-04 09:53:15 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:53:15 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:53:29 INFO  App:141 - App has launched
+2016-04-04 09:53:30 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:53:31 INFO  VerticalObject:131 - Click Favorites
+2016-04-04 09:53:36 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:53:37 INFO  VerticalObject:136 - click home Vertical
+2016-04-04 09:53:41 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:53:43 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-04 09:53:44 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:53:45 INFO  VerticalObject:146 - click tech Vertical
+2016-04-04 09:53:47 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:53:48 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-04 09:53:49 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:53:51 INFO  VerticalObject:156 - click Science Vertical
+2016-04-04 09:53:52 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:53:53 INFO  VerticalObject:161 - click finance Vertical
+2016-04-04 09:53:55 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:53:56 INFO  VerticalObject:166 - click markets Vertical
+2016-04-04 09:53:57 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:53:59 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-04 09:54:00 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:54:01 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-04 09:54:03 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:54:04 INFO  VerticalObject:181 - click politics Vertical
+2016-04-04 09:54:06 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:54:13 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:54:14 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:54:14 INFO  App:73 - OS = Android
+2016-04-04 09:54:14 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:54:14 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:54:16 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 609 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 09:54:17 INFO  App:210 - Test Done
+2016-04-04 09:54:47 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:54:48 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:54:48 INFO  App:73 - OS = Android
+2016-04-04 09:54:48 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:54:48 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:54:50 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 747 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 09:54:50 INFO  App:210 - Test Done
+2016-04-04 09:54:56 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:54:57 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:54:57 INFO  App:73 - OS = Android
+2016-04-04 09:54:57 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:54:57 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:54:59 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 777 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 09:54:59 INFO  App:210 - Test Done
+2016-04-04 09:55:05 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:55:06 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:55:06 INFO  App:73 - OS = Android
+2016-04-04 09:55:06 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:55:06 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:55:08 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 605 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 09:55:08 INFO  App:210 - Test Done
+2016-04-04 09:55:45 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 09:55:45 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 09:55:45 INFO  App:73 - OS = Android
+2016-04-04 09:55:45 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 09:55:45 INFO  App:81 - ------------------------------------------------------
+2016-04-04 09:55:56 INFO  App:141 - App has launched
+2016-04-04 09:55:57 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:55:58 INFO  VerticalObject:131 - Click Favorites
+2016-04-04 09:56:02 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:56:03 INFO  VerticalObject:136 - click home Vertical
+2016-04-04 09:56:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:56:09 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-04 09:56:13 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:56:14 INFO  VerticalObject:146 - click tech Vertical
+2016-04-04 09:56:19 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:56:20 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-04 09:56:22 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:56:23 INFO  VerticalObject:156 - click Science Vertical
+2016-04-04 09:56:24 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:56:26 INFO  VerticalObject:161 - click finance Vertical
+2016-04-04 09:56:27 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:56:28 INFO  VerticalObject:166 - click markets Vertical
+2016-04-04 09:56:30 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:56:31 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-04 09:56:33 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:56:34 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-04 09:56:35 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 09:56:37 INFO  VerticalObject:181 - click politics Vertical
+2016-04-04 09:56:39 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 10:34:07 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 10:34:09 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 10:34:09 INFO  App:73 - OS = Android
+2016-04-04 10:34:09 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 10:34:09 INFO  App:81 - ------------------------------------------------------
+2016-04-04 10:34:11 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 672 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 10:34:11 INFO  App:210 - Test Done
+2016-04-04 10:34:44 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 10:34:45 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 10:34:45 INFO  App:73 - OS = Android
+2016-04-04 10:34:45 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 10:34:45 INFO  App:81 - ------------------------------------------------------
+2016-04-04 10:34:55 INFO  App:141 - App has launched
+2016-04-04 10:34:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 10:34:58 INFO  VerticalObject:134 - Click Favorites
+2016-04-04 10:35:02 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 10:35:04 INFO  App:210 - Test Done
+2016-04-04 10:35:41 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 10:35:41 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 10:35:41 INFO  App:73 - OS = Android
+2016-04-04 10:35:41 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 10:35:41 INFO  App:81 - ------------------------------------------------------
+2016-04-04 10:35:53 INFO  App:141 - App has launched
+2016-04-04 10:35:53 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 10:35:55 INFO  VerticalObject:134 - Click Favorites
+2016-04-04 10:35:59 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 10:36:03 INFO  App:210 - Test Done
+2016-04-04 11:22:49 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 11:22:51 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 11:22:51 INFO  App:73 - OS = Android
+2016-04-04 11:22:51 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 11:22:51 INFO  App:81 - ------------------------------------------------------
+2016-04-04 11:23:02 INFO  App:141 - App has launched
+2016-04-04 11:23:03 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 11:23:04 INFO  VerticalObject:134 - Click Favorites
+2016-04-04 11:23:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 11:23:47 INFO  App:210 - Test Done
+2016-04-04 11:28:58 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 11:29:00 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 11:29:00 INFO  App:73 - OS = Android
+2016-04-04 11:29:00 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 11:29:00 INFO  App:81 - ------------------------------------------------------
+2016-04-04 11:30:33 ERROR App:169 - A new session could not be created. (Original error: Could not parse activity from dumpsys) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 91.66 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 11:30:33 INFO  App:210 - Test Done
+2016-04-04 11:30:38 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 11:30:39 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 11:30:39 INFO  App:73 - OS = Android
+2016-04-04 11:30:39 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 11:30:39 INFO  App:81 - ------------------------------------------------------
+2016-04-04 11:31:00 INFO  App:141 - App has launched
+2016-04-04 11:31:01 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 11:31:02 INFO  VerticalObject:134 - Click Favorites
+2016-04-04 11:31:06 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 11:31:45 INFO  App:210 - Test Done
+2016-04-04 12:06:44 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 12:06:46 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 12:06:46 INFO  App:73 - OS = Android
+2016-04-04 12:06:46 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 12:06:46 INFO  App:81 - ------------------------------------------------------
+2016-04-04 12:06:58 INFO  App:141 - App has launched
+2016-04-04 12:06:58 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 12:07:00 INFO  VerticalObject:134 - Click Favorites
+2016-04-04 12:07:04 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 12:07:06 INFO  VerticalObject:139 - click home Vertical
+2016-04-04 12:07:10 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 12:07:11 INFO  VerticalObject:144 - click Latest Vertical
+2016-04-04 12:07:16 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 12:07:17 INFO  VerticalObject:149 - click tech Vertical
+2016-04-04 12:08:36 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 12:08:37 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 12:08:37 INFO  App:73 - OS = Android
+2016-04-04 12:08:37 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 12:08:37 INFO  App:81 - ------------------------------------------------------
+2016-04-04 12:08:39 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 758 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 12:08:39 INFO  App:210 - Test Done
+2016-04-04 12:08:48 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 12:08:49 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 12:08:49 INFO  App:73 - OS = Android
+2016-04-04 12:08:49 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 12:08:49 INFO  App:81 - ------------------------------------------------------
+2016-04-04 12:08:51 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 882 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 12:08:51 INFO  App:210 - Test Done
+2016-04-04 12:09:01 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 12:09:02 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 12:09:02 INFO  App:73 - OS = Android
+2016-04-04 12:09:02 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 12:09:02 INFO  App:81 - ------------------------------------------------------
+2016-04-04 12:09:04 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 523 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 12:09:04 INFO  App:210 - Test Done
+2016-04-04 12:10:20 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 12:10:20 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 12:10:20 INFO  App:73 - OS = Android
+2016-04-04 12:10:20 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 12:10:20 INFO  App:81 - ------------------------------------------------------
+2016-04-04 12:10:36 INFO  App:141 - App has launched
+2016-04-04 12:11:07 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 12:11:08 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 12:11:08 INFO  App:73 - OS = Android
+2016-04-04 12:11:08 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 12:11:08 INFO  App:81 - ------------------------------------------------------
+2016-04-04 12:11:10 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 581 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 12:11:10 INFO  App:210 - Test Done
+2016-04-04 12:11:14 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 12:11:15 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 12:11:15 INFO  App:73 - OS = Android
+2016-04-04 12:11:15 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 12:11:15 INFO  App:81 - ------------------------------------------------------
+2016-04-04 12:11:16 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 577 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 12:11:16 INFO  App:210 - Test Done
+2016-04-04 12:11:23 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 12:11:23 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 12:11:23 INFO  App:73 - OS = Android
+2016-04-04 12:11:23 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 12:11:23 INFO  App:81 - ------------------------------------------------------
+2016-04-04 12:11:25 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 418 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 12:11:25 INFO  App:210 - Test Done
+2016-04-04 12:12:22 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 12:12:23 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 12:12:23 INFO  App:73 - OS = Android
+2016-04-04 12:12:23 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 12:12:23 INFO  App:81 - ------------------------------------------------------
+2016-04-04 12:12:25 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 721 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 12:12:25 INFO  App:210 - Test Done
+2016-04-04 12:13:52 INFO  App:37 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 12:13:53 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 12:13:53 INFO  App:73 - OS = Android
+2016-04-04 12:13:53 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 12:13:53 INFO  App:81 - ------------------------------------------------------
+2016-04-04 12:18:18 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 308 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 12:18:21 INFO  App:210 - Test Done
+2016-04-04 13:05:23 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 13:05:25 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 13:05:25 INFO  App:73 - OS = Android
+2016-04-04 13:05:25 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 13:05:25 INFO  App:81 - ------------------------------------------------------
+2016-04-04 13:05:31 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 327 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 13:05:52 INFO  App:198 - App has launched
+2016-04-04 13:05:52 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 13:05:54 INFO  VerticalObject:134 - Click Favorites
+2016-04-04 13:05:59 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 13:06:00 INFO  VerticalObject:139 - click home Vertical
+2016-04-04 13:06:05 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 13:06:06 INFO  VerticalObject:144 - click Latest Vertical
+2016-04-04 13:59:38 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 13:59:38 INFO  App:57 - Starting Appium Server...
+2016-04-04 13:59:45 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 13:59:45 INFO  App:73 - OS = Android
+2016-04-04 13:59:45 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 13:59:45 INFO  App:81 - ------------------------------------------------------
+2016-04-04 14:00:05 INFO  App:141 - App has launched
+2016-04-04 14:00:06 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 14:00:07 INFO  VerticalObject:134 - Click Favorites
+2016-04-04 14:00:12 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 14:00:13 INFO  VerticalObject:139 - click home Vertical
+2016-04-04 14:00:18 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 14:00:19 INFO  VerticalObject:144 - click Latest Vertical
+2016-04-04 14:00:24 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 14:00:25 INFO  VerticalObject:149 - click tech Vertical
+2016-04-04 14:01:44 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 14:01:44 INFO  App:57 - Starting Appium Server...
+2016-04-04 14:01:50 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 14:01:50 INFO  App:73 - OS = Android
+2016-04-04 14:01:50 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 14:01:50 INFO  App:81 - ------------------------------------------------------
+2016-04-04 14:02:05 INFO  App:141 - App has launched
+2016-04-04 14:02:05 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 14:02:07 INFO  VerticalObject:134 - Click Favorites
+2016-04-04 14:02:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 14:02:10 INFO  VerticalObject:144 - click Latest Vertical
+2016-04-04 14:02:14 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 14:02:15 INFO  VerticalObject:149 - click tech Vertical
+2016-04-04 14:03:03 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 14:03:03 INFO  App:57 - Starting Appium Server...
+2016-04-04 14:03:09 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 14:03:09 INFO  App:73 - OS = Android
+2016-04-04 14:03:09 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 14:03:09 INFO  App:81 - ------------------------------------------------------
+2016-04-04 14:03:20 INFO  App:141 - App has launched
+2016-04-04 14:03:21 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 14:04:00 INFO  App:238 - Test Done
+2016-04-04 14:30:42 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 14:30:44 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 14:30:44 INFO  App:73 - OS = Android
+2016-04-04 14:30:44 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 14:30:44 INFO  App:81 - ------------------------------------------------------
+2016-04-04 14:32:43 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 800 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 14:34:45 INFO  App:238 - Test Done
+2016-04-04 14:35:17 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 14:35:18 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 14:35:18 INFO  App:73 - OS = Android
+2016-04-04 14:35:18 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 14:35:18 INFO  App:81 - ------------------------------------------------------
+2016-04-04 14:35:18 INFO  App:120 - Starting Appium Server....
+2016-04-04 14:35:57 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 14:35:58 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 14:35:58 INFO  App:73 - OS = Android
+2016-04-04 14:35:58 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 14:35:58 INFO  App:81 - ------------------------------------------------------
+2016-04-04 14:37:00 ERROR App:161 - Unable to launch device
+2016-04-04 14:37:00 INFO  App:238 - Test Done
+2016-04-04 14:37:17 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 14:37:18 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 14:37:18 INFO  App:73 - OS = Android
+2016-04-04 14:37:18 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 14:37:18 INFO  App:81 - ------------------------------------------------------
+2016-04-04 14:38:29 INFO  App:141 - App has launched
+2016-04-04 14:38:29 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 14:38:32 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 14:39:25 INFO  App:238 - Test Done
+2016-04-04 14:42:26 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 14:42:28 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 14:42:28 INFO  App:73 - OS = Android
+2016-04-04 14:42:28 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 14:42:28 INFO  App:81 - ------------------------------------------------------
+2016-04-04 14:46:18 ERROR App:169 - A new session could not be created. (Original error: Could not parse activity from dumpsys) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 83.25 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 14:48:05 INFO  App:238 - Test Done
+2016-04-04 14:48:14 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 14:48:16 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 14:48:16 INFO  App:73 - OS = Android
+2016-04-04 14:48:16 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 14:48:16 INFO  App:81 - ------------------------------------------------------
+2016-04-04 14:48:16 INFO  App:120 - Starting Appium Server....
+2016-04-04 14:50:09 ERROR App:169 - A new session could not be created. (Original error: Could not parse activity from dumpsys) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 85.34 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 14:51:32 INFO  App:238 - Test Done
+2016-04-04 14:52:33 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 14:52:34 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 14:52:34 INFO  App:73 - OS = Android
+2016-04-04 14:52:34 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 14:52:34 INFO  App:81 - ------------------------------------------------------
+2016-04-04 14:52:34 INFO  App:120 - Starting Appium Server....
+2016-04-04 14:54:05 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 14:54:05 INFO  App:57 - Starting Appium Server...
+2016-04-04 14:54:11 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 14:54:11 INFO  App:73 - OS = Android
+2016-04-04 14:54:11 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 14:54:11 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:06:59 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:06:59 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:07:06 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:07:06 INFO  App:73 - OS = Android
+2016-04-04 15:07:06 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:07:06 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:08:33 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:08:34 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:08:34 INFO  App:73 - OS = Android
+2016-04-04 15:08:34 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:08:34 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:10:07 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:10:09 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:10:09 INFO  App:73 - OS = Android
+2016-04-04 15:10:09 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:10:09 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:10:14 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 758 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 15:12:20 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:12:20 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:12:25 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:12:25 INFO  App:73 - OS = Android
+2016-04-04 15:12:25 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:12:25 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:12:36 INFO  App:141 - App has launched
+2016-04-04 15:12:37 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:12:38 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:13:16 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:13:16 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:13:21 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:13:21 INFO  App:73 - OS = Android
+2016-04-04 15:13:21 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:13:21 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:14:49 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:14:49 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:14:56 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:14:56 INFO  App:73 - OS = Android
+2016-04-04 15:14:56 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:14:56 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:15:14 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:15:14 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:15:18 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:15:18 INFO  App:73 - OS = Android
+2016-04-04 15:15:18 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:15:18 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:16:54 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:16:54 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:17:03 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:17:03 INFO  App:73 - OS = Android
+2016-04-04 15:17:03 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:17:03 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:17:55 INFO  App:141 - App has launched
+2016-04-04 15:17:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:17:58 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:18:02 INFO  App:238 - Test Done
+2016-04-04 15:18:09 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:18:10 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:18:10 INFO  App:73 - OS = Android
+2016-04-04 15:18:10 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:18:10 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:18:10 INFO  App:120 - Starting Appium Server....
+2016-04-04 15:18:26 INFO  App:141 - App has launched
+2016-04-04 15:18:26 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:18:28 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:18:31 INFO  App:238 - Test Done
+2016-04-04 15:19:04 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:19:05 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:19:05 INFO  App:73 - OS = Android
+2016-04-04 15:19:05 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:19:05 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:19:05 INFO  App:120 - Starting Appium Server....
+2016-04-04 15:19:20 INFO  App:141 - App has launched
+2016-04-04 15:19:21 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:19:22 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:19:26 INFO  App:238 - Test Done
+2016-04-04 15:19:56 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:19:57 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:19:57 INFO  App:73 - OS = Android
+2016-04-04 15:19:57 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:19:57 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:19:57 INFO  App:120 - Starting Appium Server....
+2016-04-04 15:20:12 INFO  App:141 - App has launched
+2016-04-04 15:20:13 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:20:14 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:20:16 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:20:17 INFO  VerticalObject:142 - click Latest Vertical
+2016-04-04 15:20:21 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:20:23 INFO  VerticalObject:137 - click home Vertical
+2016-04-04 15:21:00 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:21:00 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:21:05 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:21:05 INFO  App:73 - OS = Android
+2016-04-04 15:21:05 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:21:05 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:21:16 INFO  App:141 - App has launched
+2016-04-04 15:21:17 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:21:19 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:21:21 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:21:21 INFO  VerticalObject:142 - click Latest Vertical
+2016-04-04 15:21:26 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:21:27 INFO  VerticalObject:137 - click home Vertical
+2016-04-04 15:22:13 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:22:13 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:22:20 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:22:20 INFO  App:73 - OS = Android
+2016-04-04 15:22:20 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:22:20 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:22:29 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:22:30 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:22:36 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:22:36 INFO  App:73 - OS = Android
+2016-04-04 15:22:36 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:22:36 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:22:46 INFO  App:141 - App has launched
+2016-04-04 15:22:47 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:22:49 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:22:50 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:22:52 INFO  VerticalObject:142 - click Latest Vertical
+2016-04-04 15:22:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:22:57 INFO  VerticalObject:137 - click home Vertical
+2016-04-04 15:24:56 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:24:56 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:25:01 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:25:01 INFO  App:73 - OS = Android
+2016-04-04 15:25:01 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:25:01 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:25:10 INFO  App:141 - App has launched
+2016-04-04 15:25:11 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:25:12 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:25:14 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:25:16 INFO  App:238 - Test Done
+2016-04-04 15:27:19 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:27:20 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:27:20 INFO  App:73 - OS = Android
+2016-04-04 15:27:20 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:27:20 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:27:25 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 826 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 15:27:30 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:27:33 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:27:33 INFO  App:73 - OS = Android
+2016-04-04 15:27:33 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:27:33 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:27:46 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 700 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 15:27:59 INFO  App:198 - App has launched
+2016-04-04 15:28:00 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:28:01 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:28:03 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:28:04 INFO  VerticalObject:142 - click Latest Vertical
+2016-04-04 15:28:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:28:09 INFO  VerticalObject:137 - click home Vertical
+2016-04-04 15:28:14 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:28:15 INFO  VerticalObject:147 - click tech Vertical
+2016-04-04 15:28:19 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:29:37 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:29:37 INFO  App:57 - Starting Appium Server...
+2016-04-04 15:29:41 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:29:41 INFO  App:73 - OS = Android
+2016-04-04 15:29:41 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:29:41 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:29:52 INFO  App:141 - App has launched
+2016-04-04 15:29:52 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:29:54 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:29:55 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:29:57 INFO  VerticalObject:142 - click Latest Vertical
+2016-04-04 15:30:01 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:30:02 INFO  VerticalObject:137 - click home Vertical
+2016-04-04 15:30:06 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:30:08 INFO  App:238 - Test Done
+2016-04-04 15:30:24 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:30:25 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:30:25 INFO  App:73 - OS = Android
+2016-04-04 15:30:25 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:30:25 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:30:25 INFO  App:120 - Starting Appium Server....
+2016-04-04 15:30:39 INFO  App:141 - App has launched
+2016-04-04 15:30:40 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:30:41 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:30:43 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:30:45 INFO  VerticalObject:142 - click Latest Vertical
+2016-04-04 15:30:49 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:30:50 INFO  VerticalObject:137 - click home Vertical
+2016-04-04 15:30:55 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:30:57 INFO  App:238 - Test Done
+2016-04-04 15:31:33 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:31:34 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:31:34 INFO  App:73 - OS = Android
+2016-04-04 15:31:34 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:31:34 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:31:34 INFO  App:120 - Starting Appium Server....
+2016-04-04 15:31:47 INFO  App:141 - App has launched
+2016-04-04 15:31:48 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:31:49 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:31:51 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:31:52 INFO  VerticalObject:142 - click Latest Vertical
+2016-04-04 15:31:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:31:57 INFO  VerticalObject:137 - click home Vertical
+2016-04-04 15:32:02 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:32:04 INFO  App:238 - Test Done
+2016-04-04 15:33:06 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:33:06 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:33:06 INFO  App:73 - OS = Android
+2016-04-04 15:33:06 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:33:06 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:33:06 INFO  App:120 - Starting Appium Server....
+2016-04-04 15:33:20 INFO  App:141 - App has launched
+2016-04-04 15:33:21 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:33:22 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 15:33:24 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:33:25 INFO  VerticalObject:142 - click Latest Vertical
+2016-04-04 15:33:30 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:33:31 INFO  VerticalObject:137 - click home Vertical
+2016-04-04 15:33:35 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 15:33:37 INFO  App:238 - Test Done
+2016-04-04 15:36:42 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:36:44 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:36:44 INFO  App:73 - OS = Android
+2016-04-04 15:36:44 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:36:44 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:37:49 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.11 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 15:37:56 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 15:37:57 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 15:37:57 INFO  App:73 - OS = Android
+2016-04-04 15:37:57 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 15:37:57 INFO  App:81 - ------------------------------------------------------
+2016-04-04 15:38:02 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 742 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 15:38:02 INFO  App:238 - Test Done
+2016-04-04 16:16:39 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:16:42 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:16:42 INFO  App:73 - OS = Android
+2016-04-04 16:16:42 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:16:42 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:17:17 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 459 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 16:17:17 INFO  App:238 - Test Done
+2016-04-04 16:17:29 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:17:31 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:17:31 INFO  App:73 - OS = Android
+2016-04-04 16:17:31 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:17:31 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:17:35 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 810 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 16:17:35 INFO  App:238 - Test Done
+2016-04-04 16:17:43 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:17:44 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:17:44 INFO  App:73 - OS = Android
+2016-04-04 16:17:44 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:17:44 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:17:50 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 936 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 16:18:08 INFO  App:198 - App has launched
+2016-04-04 16:18:09 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:18:11 INFO  VerticalObject:131 - Click Favorites
+2016-04-04 16:18:12 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:18:13 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-04 16:18:18 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:18:19 INFO  VerticalObject:136 - click home Vertical
+2016-04-04 16:18:23 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:18:24 INFO  VerticalObject:146 - click tech Vertical
+2016-04-04 16:18:29 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:18:37 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:18:37 INFO  App:57 - Starting Appium Server...
+2016-04-04 16:19:24 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:19:24 INFO  App:73 - OS = Android
+2016-04-04 16:19:24 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:19:24 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:19:35 INFO  App:141 - App has launched
+2016-04-04 16:19:36 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:19:37 INFO  VerticalObject:131 - Click Favorites
+2016-04-04 16:19:39 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:19:40 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-04 16:19:44 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:19:46 INFO  VerticalObject:136 - click home Vertical
+2016-04-04 16:19:50 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:19:51 INFO  VerticalObject:146 - click tech Vertical
+2016-04-04 16:19:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:19:57 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-04 16:19:58 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:19:59 INFO  VerticalObject:156 - click Science Vertical
+2016-04-04 16:20:00 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:24:26 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:24:54 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:24:54 INFO  App:73 - OS = Android
+2016-04-04 16:24:54 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:24:54 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:24:58 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 581 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.59', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-04 16:25:26 INFO  App:198 - App has launched
+2016-04-04 16:25:26 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:25:27 INFO  VerticalObject:131 - Click Favorites
+2016-04-04 16:25:29 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:25:30 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-04 16:25:35 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:25:36 INFO  VerticalObject:136 - click home Vertical
+2016-04-04 16:25:40 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:25:41 INFO  VerticalObject:146 - click tech Vertical
+2016-04-04 16:25:46 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:25:47 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-04 16:25:48 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:25:50 INFO  VerticalObject:156 - click Science Vertical
+2016-04-04 16:25:51 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:25:52 INFO  VerticalObject:161 - click finance Vertical
+2016-04-04 16:26:53 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:26:53 INFO  App:57 - Starting Appium Server...
+2016-04-04 16:36:26 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:36:26 INFO  App:73 - OS = Android
+2016-04-04 16:36:26 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:36:26 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:36:29 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:36:29 INFO  App:57 - Starting Appium Server...
+2016-04-04 16:50:28 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:50:28 INFO  App:73 - OS = Android
+2016-04-04 16:50:28 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:50:28 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:50:33 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:50:34 INFO  App:57 - Starting Appium Server...
+2016-04-04 16:50:57 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:50:57 INFO  App:73 - OS = Android
+2016-04-04 16:50:57 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:50:57 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:51:14 INFO  App:141 - App has launched
+2016-04-04 16:51:14 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:51:16 INFO  VerticalObject:131 - Click Favorites
+2016-04-04 16:51:17 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:51:19 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-04 16:51:23 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:51:24 INFO  VerticalObject:136 - click home Vertical
+2016-04-04 16:51:29 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:51:30 INFO  VerticalObject:146 - click tech Vertical
+2016-04-04 16:51:34 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:51:35 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-04 16:51:37 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:51:39 INFO  App:238 - Test Done
+2016-04-04 16:52:18 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:52:24 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:52:24 INFO  App:73 - OS = Android
+2016-04-04 16:52:24 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:52:24 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:52:24 INFO  App:120 - Starting Appium Server....
+2016-04-04 16:52:40 INFO  App:141 - App has launched
+2016-04-04 16:52:41 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:52:42 INFO  VerticalObject:131 - Click Favorites
+2016-04-04 16:52:44 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:52:45 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-04 16:52:49 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:52:51 INFO  VerticalObject:136 - click home Vertical
+2016-04-04 16:52:55 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:52:56 INFO  VerticalObject:146 - click tech Vertical
+2016-04-04 16:53:00 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:53:02 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-04 16:53:03 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:53:04 INFO  VerticalObject:156 - click Science Vertical
+2016-04-04 16:53:06 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:53:07 INFO  VerticalObject:161 - click finance Vertical
+2016-04-04 16:53:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:53:09 INFO  VerticalObject:166 - click markets Vertical
+2016-04-04 16:53:11 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:53:12 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-04 16:53:13 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:53:15 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-04 16:53:16 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:53:17 INFO  VerticalObject:181 - click politics Vertical
+2016-04-04 16:53:19 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:54:37 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:54:37 INFO  App:57 - Starting Appium Server...
+2016-04-04 16:54:47 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:54:47 INFO  App:73 - OS = Android
+2016-04-04 16:54:47 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:54:47 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:54:55 INFO  App:141 - App has launched
+2016-04-04 16:54:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:54:57 INFO  VerticalObject:131 - Click Favorites
+2016-04-04 16:54:59 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:00 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-04 16:55:04 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:06 INFO  VerticalObject:136 - click home Vertical
+2016-04-04 16:55:10 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:11 INFO  VerticalObject:146 - click tech Vertical
+2016-04-04 16:55:16 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:17 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-04 16:55:18 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:19 INFO  VerticalObject:156 - click Science Vertical
+2016-04-04 16:55:21 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:22 INFO  VerticalObject:161 - click finance Vertical
+2016-04-04 16:55:24 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:25 INFO  VerticalObject:166 - click markets Vertical
+2016-04-04 16:55:26 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:28 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-04 16:55:29 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:31 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-04 16:55:32 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:33 INFO  VerticalObject:181 - click politics Vertical
+2016-04-04 16:55:35 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:36 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-04 16:55:37 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:38 INFO  VerticalObject:191 - click law order Vertical
+2016-04-04 16:55:40 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:41 INFO  VerticalObject:196 - click strategy Vertical
+2016-04-04 16:55:42 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:43 INFO  VerticalObject:201 - click Careers Vertical
+2016-04-04 16:55:45 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:55:47 INFO  App:238 - Test Done
+2016-04-04 16:58:07 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-04 16:58:13 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-04 16:58:13 INFO  App:73 - OS = Android
+2016-04-04 16:58:13 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-04 16:58:13 INFO  App:81 - ------------------------------------------------------
+2016-04-04 16:58:13 INFO  App:120 - Starting Appium Server....
+2016-04-04 16:58:26 INFO  App:141 - App has launched
+2016-04-04 16:58:26 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:27 INFO  VerticalObject:132 - Click Favorites
+2016-04-04 16:58:29 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:30 INFO  VerticalObject:142 - click Latest Vertical
+2016-04-04 16:58:32 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:33 INFO  VerticalObject:137 - click home Vertical
+2016-04-04 16:58:34 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:36 INFO  VerticalObject:147 - click tech Vertical
+2016-04-04 16:58:37 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:38 INFO  VerticalObject:152 - click enterprise Vertical
+2016-04-04 16:58:40 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:41 INFO  VerticalObject:157 - click Science Vertical
+2016-04-04 16:58:43 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:44 INFO  VerticalObject:162 - click finance Vertical
+2016-04-04 16:58:45 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:46 INFO  VerticalObject:167 - click markets Vertical
+2016-04-04 16:58:47 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:49 INFO  VerticalObject:172 - click yourmoney Vertical
+2016-04-04 16:58:50 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:51 INFO  VerticalObject:177 - click wealthadvisor Vertical
+2016-04-04 16:58:53 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:54 INFO  VerticalObject:182 - click politics Vertical
+2016-04-04 16:58:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:57 INFO  VerticalObject:187 - click militarydefense Vertical
+2016-04-04 16:58:58 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:58:59 INFO  VerticalObject:192 - click law order Vertical
+2016-04-04 16:59:01 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:59:04 INFO  VerticalObject:197 - click strategy Vertical
+2016-04-04 16:59:05 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:59:06 INFO  VerticalObject:202 - click Careers Vertical
+2016-04-04 16:59:07 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:59:08 INFO  VerticalObject:207 - click Advertising vertical
+2016-04-04 16:59:10 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-04 16:59:12 INFO  App:238 - Test Done
+2016-04-05 10:06:23 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-05 10:06:29 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-05 10:06:29 INFO  App:73 - OS = Android
+2016-04-05 10:06:29 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-05 10:06:29 INFO  App:81 - ------------------------------------------------------
+2016-04-05 10:06:29 INFO  App:120 - Starting Appium Server....
+2016-04-05 10:07:41 INFO  App:141 - App has launched
+2016-04-05 10:07:42 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:07:43 INFO  VerticalObject:132 - Click Favorites
+2016-04-05 10:07:45 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:07:46 INFO  VerticalObject:142 - click Latest Vertical
+2016-04-05 10:07:48 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:07:50 INFO  VerticalObject:137 - click home Vertical
+2016-04-05 10:07:51 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:07:52 INFO  VerticalObject:147 - click tech Vertical
+2016-04-05 10:07:53 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:07:55 INFO  VerticalObject:152 - click enterprise Vertical
+2016-04-05 10:07:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:07:57 INFO  VerticalObject:157 - click Science Vertical
+2016-04-05 10:07:59 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:08:00 INFO  VerticalObject:162 - click finance Vertical
+2016-04-05 10:08:01 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:08:02 INFO  VerticalObject:167 - click markets Vertical
+2016-04-05 10:08:04 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:08:06 INFO  VerticalObject:172 - click yourmoney Vertical
+2016-04-05 10:08:07 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:08:08 INFO  VerticalObject:177 - click wealthadvisor Vertical
+2016-04-05 10:19:27 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-05 10:19:27 INFO  App:57 - Starting Appium Server...
+2016-04-05 10:19:33 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-05 10:19:33 INFO  App:73 - OS = Android
+2016-04-05 10:19:33 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-05 10:19:33 INFO  App:81 - ------------------------------------------------------
+2016-04-05 10:20:27 INFO  App:141 - App has launched
+2016-04-05 10:20:27 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:28 INFO  VerticalObject:131 - Click Favorites
+2016-04-05 10:20:30 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:32 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-05 10:20:34 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:35 INFO  VerticalObject:136 - click home Vertical
+2016-04-05 10:20:36 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:38 INFO  VerticalObject:146 - click tech Vertical
+2016-04-05 10:20:39 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:40 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-05 10:20:42 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:43 INFO  VerticalObject:156 - click Science Vertical
+2016-04-05 10:20:45 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:46 INFO  VerticalObject:161 - click finance Vertical
+2016-04-05 10:20:48 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:50 INFO  VerticalObject:166 - click markets Vertical
+2016-04-05 10:20:51 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:52 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-05 10:20:54 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:56 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-05 10:20:57 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:20:58 INFO  VerticalObject:181 - click politics Vertical
+2016-04-05 10:21:00 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:21:01 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-05 10:21:03 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:21:04 INFO  VerticalObject:191 - click law order Vertical
+2016-04-05 10:21:05 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:21:44 INFO  App:238 - Test Done
+2016-04-05 10:36:40 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-05 10:36:40 INFO  App:57 - Starting Appium Server...
+2016-04-05 10:36:46 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-05 10:36:46 INFO  App:73 - OS = Android
+2016-04-05 10:36:46 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-05 10:36:46 INFO  App:81 - ------------------------------------------------------
+2016-04-05 10:37:00 INFO  App:141 - App has launched
+2016-04-05 10:37:00 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:01 INFO  VerticalObject:131 - Click Favorites
+2016-04-05 10:37:03 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:05 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-05 10:37:06 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:07 INFO  VerticalObject:136 - click home Vertical
+2016-04-05 10:37:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:10 INFO  VerticalObject:146 - click tech Vertical
+2016-04-05 10:37:11 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:13 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-05 10:37:14 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:16 INFO  VerticalObject:156 - click Science Vertical
+2016-04-05 10:37:17 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:19 INFO  VerticalObject:161 - click finance Vertical
+2016-04-05 10:37:20 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:21 INFO  VerticalObject:166 - click markets Vertical
+2016-04-05 10:37:23 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:24 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-05 10:37:26 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:27 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-05 10:37:29 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:30 INFO  VerticalObject:181 - click politics Vertical
+2016-04-05 10:37:32 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:33 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-05 10:37:34 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:35 INFO  VerticalObject:191 - click law order Vertical
+2016-04-05 10:37:37 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:37:44 INFO  App:238 - Test Done
+2016-04-05 10:38:56 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-05 10:38:57 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-05 10:38:57 INFO  App:73 - OS = Android
+2016-04-05 10:38:57 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-05 10:38:57 INFO  App:81 - ------------------------------------------------------
+2016-04-05 10:38:57 INFO  App:120 - Starting Appium Server....
+2016-04-05 10:39:13 INFO  App:141 - App has launched
+2016-04-05 10:39:13 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:15 INFO  VerticalObject:131 - Click Favorites
+2016-04-05 10:39:17 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:18 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-05 10:39:19 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:21 INFO  VerticalObject:136 - click home Vertical
+2016-04-05 10:39:22 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:23 INFO  VerticalObject:146 - click tech Vertical
+2016-04-05 10:39:24 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:26 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-05 10:39:27 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:28 INFO  VerticalObject:156 - click Science Vertical
+2016-04-05 10:39:30 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:31 INFO  VerticalObject:161 - click finance Vertical
+2016-04-05 10:39:33 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:34 INFO  VerticalObject:166 - click markets Vertical
+2016-04-05 10:39:35 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:36 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-05 10:39:38 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:39 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-05 10:39:41 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:42 INFO  VerticalObject:181 - click politics Vertical
+2016-04-05 10:39:43 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:45 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-05 10:39:46 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:48 INFO  VerticalObject:191 - click law order Vertical
+2016-04-05 10:39:49 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:51 INFO  VerticalObject:196 - click strategy Vertical
+2016-04-05 10:39:53 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:54 INFO  VerticalObject:201 - click Careers Vertical
+2016-04-05 10:39:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:39:58 INFO  VerticalObject:206 - click Advertising vertical
+2016-04-05 10:39:59 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:40:01 INFO  VerticalObject:211 - click Retail vertical
+2016-04-05 10:40:02 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:40:03 INFO  VerticalObject:216 - click Small Business vertical
+2016-04-05 10:40:05 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:40:07 INFO  App:238 - Test Done
+2016-04-05 10:40:50 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-05 10:40:51 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-05 10:40:51 INFO  App:73 - OS = Android
+2016-04-05 10:40:51 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-05 10:40:51 INFO  App:81 - ------------------------------------------------------
+2016-04-05 10:40:51 INFO  App:120 - Starting Appium Server....
+2016-04-05 10:41:05 INFO  App:141 - App has launched
+2016-04-05 10:41:05 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:07 INFO  VerticalObject:131 - Click Favorites
+2016-04-05 10:41:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:10 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-05 10:41:11 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:12 INFO  VerticalObject:136 - click home Vertical
+2016-04-05 10:41:13 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:15 INFO  VerticalObject:146 - click tech Vertical
+2016-04-05 10:41:16 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:18 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-05 10:41:19 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:20 INFO  VerticalObject:156 - click Science Vertical
+2016-04-05 10:41:22 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:23 INFO  VerticalObject:161 - click finance Vertical
+2016-04-05 10:41:25 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:26 INFO  VerticalObject:166 - click markets Vertical
+2016-04-05 10:41:27 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:29 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-05 10:41:31 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:32 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-05 10:41:33 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:35 INFO  VerticalObject:181 - click politics Vertical
+2016-04-05 10:41:36 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:37 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-05 10:41:39 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:41 INFO  VerticalObject:191 - click law order Vertical
+2016-04-05 10:41:42 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:43 INFO  VerticalObject:196 - click strategy Vertical
+2016-04-05 10:41:45 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:46 INFO  VerticalObject:201 - click Careers Vertical
+2016-04-05 10:41:48 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:49 INFO  VerticalObject:206 - click Advertising vertical
+2016-04-05 10:41:50 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:51 INFO  VerticalObject:211 - click Retail vertical
+2016-04-05 10:41:53 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:54 INFO  VerticalObject:216 - click Small Business vertical
+2016-04-05 10:41:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:41:57 INFO  VerticalObject:221 - click life vertical
+2016-04-05 10:41:58 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 10:42:37 INFO  App:238 - Test Done
+2016-04-05 11:08:25 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-05 11:08:25 INFO  App:57 - Starting Appium Server...
+2016-04-05 11:08:31 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-05 11:08:31 INFO  App:73 - OS = Android
+2016-04-05 11:08:31 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-05 11:08:31 INFO  App:81 - ------------------------------------------------------
+2016-04-05 11:09:48 ERROR App:169 - A new session could not be created. (Original error: Could not parse activity from dumpsys) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 76.62 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.211.55.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-05 11:10:17 INFO  App:198 - App has launched
+2016-04-05 11:10:18 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:19 INFO  VerticalObject:131 - Click Favorites
+2016-04-05 11:10:21 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:22 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-05 11:10:25 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:27 INFO  VerticalObject:136 - click home Vertical
+2016-04-05 11:10:28 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:29 INFO  VerticalObject:146 - click tech Vertical
+2016-04-05 11:10:31 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:32 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-05 11:10:33 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:35 INFO  VerticalObject:156 - click Science Vertical
+2016-04-05 11:10:36 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:37 INFO  VerticalObject:161 - click finance Vertical
+2016-04-05 11:10:39 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:40 INFO  VerticalObject:166 - click markets Vertical
+2016-04-05 11:10:42 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:43 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-05 11:10:45 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:46 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-05 11:10:48 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:49 INFO  VerticalObject:181 - click politics Vertical
+2016-04-05 11:10:51 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:52 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-05 11:10:53 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:55 INFO  VerticalObject:191 - click law order Vertical
+2016-04-05 11:10:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:10:58 INFO  VerticalObject:196 - click strategy Vertical
+2016-04-05 11:10:59 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:11:01 INFO  VerticalObject:201 - click Careers Vertical
+2016-04-05 11:11:03 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:11:04 INFO  VerticalObject:206 - click Advertising vertical
+2016-04-05 11:11:06 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:11:07 INFO  VerticalObject:211 - click Retail vertical
+2016-04-05 11:11:09 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:11:11 INFO  VerticalObject:216 - click Small Business vertical
+2016-04-05 11:11:12 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:11:14 INFO  VerticalObject:221 - click life vertical
+2016-04-05 11:11:16 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:11:18 INFO  App:238 - Test Done
+2016-04-05 11:35:47 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-05 11:35:48 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-05 11:35:48 INFO  App:73 - OS = Android
+2016-04-05 11:35:48 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-05 11:35:48 INFO  App:81 - ------------------------------------------------------
+2016-04-05 11:35:48 INFO  App:120 - Starting Appium Server....
+2016-04-05 11:36:42 INFO  App:141 - App has launched
+2016-04-05 11:36:43 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:36:44 INFO  VerticalObject:131 - Click Favorites
+2016-04-05 11:36:46 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:36:47 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-05 11:36:49 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:36:51 INFO  VerticalObject:136 - click home Vertical
+2016-04-05 11:36:52 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:36:53 INFO  VerticalObject:146 - click tech Vertical
+2016-04-05 11:36:54 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:36:56 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-05 11:36:57 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:36:58 INFO  VerticalObject:156 - click Science Vertical
+2016-04-05 11:37:00 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:01 INFO  VerticalObject:161 - click finance Vertical
+2016-04-05 11:37:03 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:05 INFO  VerticalObject:166 - click markets Vertical
+2016-04-05 11:37:06 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:07 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-05 11:37:09 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:10 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-05 11:37:11 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:13 INFO  VerticalObject:181 - click politics Vertical
+2016-04-05 11:37:15 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:16 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-05 11:37:17 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:19 INFO  VerticalObject:191 - click law order Vertical
+2016-04-05 11:37:20 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:21 INFO  VerticalObject:196 - click strategy Vertical
+2016-04-05 11:37:22 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:24 INFO  VerticalObject:201 - click Careers Vertical
+2016-04-05 11:37:25 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:27 INFO  VerticalObject:206 - click Advertising vertical
+2016-04-05 11:37:28 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:30 INFO  VerticalObject:211 - click Retail vertical
+2016-04-05 11:37:32 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:34 INFO  VerticalObject:216 - click Small Business vertical
+2016-04-05 11:37:35 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:37:36 INFO  VerticalObject:221 - click life vertical
+2016-04-05 11:37:38 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 11:38:17 INFO  App:238 - Test Done
+2016-04-05 15:35:06 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-05 15:35:06 INFO  App:57 - Starting Appium Server...
+2016-04-05 15:35:28 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-05 15:35:28 INFO  App:73 - OS = Android
+2016-04-05 15:35:28 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-05 15:35:28 INFO  App:81 - ------------------------------------------------------
+2016-04-05 15:37:14 ERROR App:169 - A new session could not be created. (Original error: Could not parse activity from dumpsys) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 106.10 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.211.55.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-05 15:37:34 INFO  App:198 - App has launched
+2016-04-05 15:37:34 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:37:36 INFO  VerticalObject:131 - Click Favorites
+2016-04-05 15:37:37 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:37:39 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-05 15:37:40 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:37:42 INFO  VerticalObject:136 - click home Vertical
+2016-04-05 15:37:43 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:37:44 INFO  VerticalObject:146 - click tech Vertical
+2016-04-05 15:37:46 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:37:47 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-05 15:37:49 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:37:50 INFO  VerticalObject:156 - click Science Vertical
+2016-04-05 15:37:52 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:37:53 INFO  VerticalObject:161 - click finance Vertical
+2016-04-05 15:37:55 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:37:57 INFO  VerticalObject:166 - click markets Vertical
+2016-04-05 15:37:58 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:00 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-05 15:38:01 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:02 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-05 15:38:04 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:05 INFO  VerticalObject:181 - click politics Vertical
+2016-04-05 15:38:06 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:08 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-05 15:38:10 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:11 INFO  VerticalObject:191 - click law order Vertical
+2016-04-05 15:38:12 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:13 INFO  VerticalObject:196 - click strategy Vertical
+2016-04-05 15:38:15 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:16 INFO  VerticalObject:201 - click Careers Vertical
+2016-04-05 15:38:18 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:19 INFO  VerticalObject:206 - click Advertising vertical
+2016-04-05 15:38:21 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:22 INFO  VerticalObject:211 - click Retail vertical
+2016-04-05 15:38:23 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:25 INFO  VerticalObject:216 - click Small Business vertical
+2016-04-05 15:38:26 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:27 INFO  VerticalObject:221 - click life vertical
+2016-04-05 15:38:29 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 15:38:31 INFO  App:238 - Test Done
+2016-04-05 16:09:11 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-05 16:09:12 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-05 16:09:12 INFO  App:73 - OS = Android
+2016-04-05 16:09:12 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-05 16:09:12 INFO  App:81 - ------------------------------------------------------
+2016-04-05 16:09:12 INFO  App:120 - Starting Appium Server....
+2016-04-05 16:09:29 INFO  App:141 - App has launched
+2016-04-05 16:09:30 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:09:31 INFO  VerticalObject:131 - Click Favorites
+2016-04-05 16:09:33 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:09:34 INFO  VerticalObject:141 - click Latest Vertical
+2016-04-05 16:09:36 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:09:37 INFO  VerticalObject:136 - click home Vertical
+2016-04-05 16:09:38 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:09:39 INFO  VerticalObject:146 - click tech Vertical
+2016-04-05 16:09:41 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:09:42 INFO  VerticalObject:151 - click enterprise Vertical
+2016-04-05 16:09:44 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:09:45 INFO  VerticalObject:156 - click Science Vertical
+2016-04-05 16:09:46 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:09:48 INFO  VerticalObject:161 - click finance Vertical
+2016-04-05 16:09:49 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:09:51 INFO  VerticalObject:166 - click markets Vertical
+2016-04-05 16:09:52 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:09:54 INFO  VerticalObject:171 - click yourmoney Vertical
+2016-04-05 16:09:55 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:09:57 INFO  VerticalObject:176 - click wealthadvisor Vertical
+2016-04-05 16:09:59 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:10:00 INFO  VerticalObject:181 - click politics Vertical
+2016-04-05 16:10:02 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:10:03 INFO  VerticalObject:186 - click militarydefense Vertical
+2016-04-05 16:10:05 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:10:07 INFO  VerticalObject:191 - click law order Vertical
+2016-04-05 16:10:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:10:10 INFO  VerticalObject:196 - click strategy Vertical
+2016-04-05 16:10:11 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:10:13 INFO  VerticalObject:201 - click Careers Vertical
+2016-04-05 16:10:14 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:10:16 INFO  VerticalObject:206 - click Advertising vertical
+2016-04-05 16:10:17 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:10:18 INFO  VerticalObject:211 - click Retail vertical
+2016-04-05 16:10:20 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:10:21 INFO  VerticalObject:216 - click Small Business vertical
+2016-04-05 16:10:23 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:10:25 INFO  VerticalObject:221 - click life vertical
+2016-04-05 16:10:26 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:10:29 INFO  App:238 - Test Done
+2016-04-05 16:23:23 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-05 16:23:25 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-05 16:23:25 INFO  App:73 - OS = Android
+2016-04-05 16:23:25 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-05 16:23:25 INFO  App:81 - ------------------------------------------------------
+2016-04-05 16:23:26 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 532 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.211.55.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-05 16:24:19 INFO  App:198 - App has launched
+2016-04-05 16:24:19 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:21 INFO  VerticalObject:133 - Click Favorites
+2016-04-05 16:24:23 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:24 INFO  VerticalObject:143 - click Latest Vertical
+2016-04-05 16:24:25 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:27 INFO  VerticalObject:138 - click home Vertical
+2016-04-05 16:24:28 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:29 INFO  VerticalObject:148 - click tech Vertical
+2016-04-05 16:24:31 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:32 INFO  VerticalObject:153 - click enterprise Vertical
+2016-04-05 16:24:34 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:35 INFO  VerticalObject:158 - click Science Vertical
+2016-04-05 16:24:37 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:38 INFO  VerticalObject:163 - click finance Vertical
+2016-04-05 16:24:40 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:41 INFO  VerticalObject:168 - click markets Vertical
+2016-04-05 16:24:43 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:44 INFO  VerticalObject:173 - click yourmoney Vertical
+2016-04-05 16:24:46 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:47 INFO  VerticalObject:178 - click wealthadvisor Vertical
+2016-04-05 16:24:49 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:50 INFO  VerticalObject:183 - click politics Vertical
+2016-04-05 16:24:52 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:54 INFO  VerticalObject:188 - click militarydefense Vertical
+2016-04-05 16:24:56 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:24:57 INFO  VerticalObject:193 - click law order Vertical
+2016-04-05 16:24:58 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:25:00 INFO  VerticalObject:198 - click strategy Vertical
+2016-04-05 16:25:01 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:25:03 INFO  VerticalObject:203 - click Careers Vertical
+2016-04-05 16:25:04 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:25:06 INFO  VerticalObject:208 - click Advertising vertical
+2016-04-05 16:25:08 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:25:09 INFO  VerticalObject:213 - click Retail vertical
+2016-04-05 16:25:11 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:25:12 INFO  VerticalObject:218 - click Small Business vertical
+2016-04-05 16:25:13 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:25:14 INFO  VerticalObject:223 - click life vertical
+2016-04-05 16:25:16 INFO  MastHeadObject:43 - Click Hamburger menu
+2016-04-05 16:25:18 INFO  App:238 - Test Done
+2016-04-06 14:37:10 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-06 14:37:12 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-06 14:37:12 INFO  App:73 - OS = Android
+2016-04-06 14:37:12 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-06 14:37:12 INFO  App:81 - ------------------------------------------------------
+2016-04-06 14:37:14 ERROR App:169 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 835 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.211.55.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-06 14:37:41 INFO  App:238 - Test Done
+2016-04-06 14:37:55 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-06 14:37:56 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-06 14:37:56 INFO  App:73 - OS = Android
+2016-04-06 14:37:56 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-06 14:37:56 INFO  App:81 - ------------------------------------------------------
+2016-04-06 14:37:56 INFO  App:120 - Starting Appium Server....
+2016-04-06 14:38:03 ERROR App:169 - A new session could not be created. (Original error: Bad app: /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_7_MA-377-DEBUG.apk. App paths need to be absolute, or relative to the appium server install dir, or a URL to compressed file, or a special app name. cause: Error: Error locating the app: ENOENT, stat '/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_7_MA-377-DEBUG.apk') (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 238 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.211.55.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-06 14:38:09 INFO  App:238 - Test Done
+2016-04-06 14:38:38 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-06 14:38:39 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-06 14:38:39 INFO  App:73 - OS = Android
+2016-04-06 14:38:39 INFO  App:75 - AVD = Galaxy_S5_API_22
+2016-04-06 14:38:39 INFO  App:81 - ------------------------------------------------------
+2016-04-06 14:38:39 INFO  App:120 - Starting Appium Server....
+2016-04-06 14:38:44 ERROR App:169 - A new session could not be created. (Original error: Bad app: /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_7_MA-377-DEBUG.apk. App paths need to be absolute, or relative to the appium server install dir, or a URL to compressed file, or a special app name. cause: Error: Error locating the app: ENOENT, stat '/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_7_MA-377-DEBUG.apk') (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 211 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.211.55.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-04-06 14:38:48 INFO  App:238 - Test Done
+2016-04-06 14:55:41 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-06 14:56:06 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-06 14:56:06 INFO  App:73 - OS = iOS
+2016-04-06 14:56:06 INFO  App:77 - Simulator = iPhone 6 (9.0)
+2016-04-06 14:56:06 INFO  App:78 - App = business insider
+2016-04-06 14:56:06 INFO  App:81 - ------------------------------------------------------
+2016-04-06 14:56:06 INFO  App:243 - Test Done
+2016-04-06 16:30:13 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-06 16:30:13 INFO  App:57 - Starting Appium Server...
+2016-04-06 16:30:36 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-06 16:30:36 INFO  App:73 - OS = iOS
+2016-04-06 16:30:36 INFO  App:77 - Simulator = iPhone 6 (9.0)
+2016-04-06 16:30:36 INFO  App:78 - App = business insider
+2016-04-06 16:30:36 INFO  App:81 - ------------------------------------------------------
+2016-04-06 16:30:36 INFO  App:243 - Test Done
+2016-04-06 16:31:07 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-06 16:31:15 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-06 16:31:15 INFO  App:73 - OS = iOS
+2016-04-06 16:31:15 INFO  App:77 - Simulator = iPhone 6 (9.0)
+2016-04-06 16:31:15 INFO  App:78 - App = business insider
+2016-04-06 16:31:15 INFO  App:81 - ------------------------------------------------------
+2016-04-06 16:41:58 INFO  App:243 - Test Done
+2016-04-06 16:42:01 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-06 16:42:01 INFO  App:57 - Starting Appium Server...
+2016-04-06 16:42:11 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-04-06 16:42:11 INFO  App:73 - OS = iOS
+2016-04-06 16:42:11 INFO  App:77 - Simulator = iPhone 6 (9.0)
+2016-04-06 16:42:11 INFO  App:78 - App = Business Insider
+2016-04-06 16:42:11 INFO  App:81 - ------------------------------------------------------
+2016-04-06 16:43:01 INFO  App:141 - App has launched
+2016-04-06 16:43:02 INFO  App:243 - Test Done
