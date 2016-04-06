@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by rpalacios on 12/11/15.
  */
-public class SettingsObject {
+public class KebabSettingsObject {
 
     Logger logger = Logger.getLogger(this.getClass());
 
@@ -20,7 +20,7 @@ public class SettingsObject {
     public static WebElement icon;
 
 
-    public SettingsObject(AppiumDriver<WebElement> wd) {
+    public KebabSettingsObject(AppiumDriver<WebElement> wd) {
         PageFactory.initElements(new AppiumFieldDecorator(wd), this);
     }
 

@@ -1,6 +1,7 @@
 package mobileScripts;
 
 import appium.App;
+import objectModels.KebabSettingsObject;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,7 +20,7 @@ public class SettingsMenu extends App {
     public void testSettingsMenu(){
         try {
 
-            objectModels.SettingsMenu hm = new objectModels.SettingsMenu(wd);
+            KebabSettingsObject hm = new KebabSettingsObject(wd);
             hm.clickSettings();
             Thread.sleep(2000);
             hm.clickSettings();

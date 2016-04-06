@@ -28,54 +28,78 @@ public class Verticals extends App{
 
         mastHead.clickHamburgerMenu();
         vertical.clickFavorites();
-        Thread.sleep(4000);
+        wd.navigate().back();
+
+   /*     mastHead.clickHamburgerMenu();
+        vertical.clickLatest();
+        //Thread.sleep(4000);
+
         mastHead.clickHamburgerMenu();
         vertical.clickhome();
-        Thread.sleep(4000);
-        mastHead.clickHamburgerMenu();
-        vertical.clickLatest();
-        Thread.sleep(4000);
+        //Thread.sleep(4000);*/
+
         mastHead.clickHamburgerMenu();
         vertical.clicktech();
         Thread.sleep(4000);
-        mastHead.clickHamburgerMenu();
+
+      /*  mastHead.clickHamburgerMenu();
         vertical.clickenterprise();
+
         mastHead.clickHamburgerMenu();
         vertical.clickScience();
+
         mastHead.clickHamburgerMenu();
         vertical.clickfinance();
+
         mastHead.clickHamburgerMenu();
         vertical.clickMarkets();
+
         mastHead.clickHamburgerMenu();
         vertical.clickYourMoney();
+
         mastHead.clickHamburgerMenu();
         vertical.clickWealthAdvisor();
+
         mastHead.clickHamburgerMenu();
         vertical.clickpolitics();
+
         mastHead.clickHamburgerMenu();
         vertical.clickmilitarydefense();
+
         mastHead.clickHamburgerMenu();
         vertical.clicklaworder();
+
         mastHead.clickHamburgerMenu();
         vertical.clickstrategy();
+
         mastHead.clickHamburgerMenu();
         vertical.clickCarrers();
+
         mastHead.clickHamburgerMenu();
         vertical.clickAdvertising();
+
         mastHead.clickHamburgerMenu();
         vertical.clickRetail();
+
         mastHead.clickHamburgerMenu();
         vertical.clickSmallBusiness();
+
         mastHead.clickHamburgerMenu();
         vertical.clickLife();
+
         mastHead.clickHamburgerMenu();
         vertical.clickTransportation();
+
         mastHead.clickHamburgerMenu();
         vertical.clickEducation();
+
         mastHead.clickHamburgerMenu();
         vertical.clickEntertainment();
+
         mastHead.clickHamburgerMenu();
-        vertical.clickSports();
+        vertical.clickSports();*/
+
+
     }
 
     @After

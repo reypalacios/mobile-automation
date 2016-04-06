@@ -26,6 +26,7 @@ public class App {
     public static AppiumDriver wd;
     Logger logger = Logger.getLogger(this.getClass());
     ServerArguments serverArguments = new ServerArguments();
+    DesiredCapabilities capabilities = new DesiredCapabilities();
     public static AppiumServer as;
     int i =1;
 
@@ -58,7 +59,6 @@ public class App {
                 as.startServer();
             }
 
-            DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("appium-version", "1.0");
 
             if(GUIForm.launchOn == null) {
@@ -167,7 +167,35 @@ public class App {
             e.printStackTrace();
         } catch (SessionNotCreatedException s) {
             logger.error(s.getMessage());
-            s.printStackTrace();
+//            s.printStackTrace();
+            as.stopServer();
+            as.startServer();
+            try {
+                wd = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+                    @Override
+                    public WebElement scrollTo(String s) {
+                        return null;
+                    }
+
+                    @Override
+                    public WebElement scrollToExact(String s) {
+                        return null;
+                    }
+                };
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
+
+            wd.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
+            //wd.get("http://www.businessinsider.com/");
+            //wd.switchTo().alert().dismiss();
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            logger.info("App has launched");
         }
 
     }
@@ -177,6 +205,11 @@ public class App {
             Properties properties = new Properties();
             properties.load(this.getClass().getResourceAsStream("/config.properties"));
             GUIForm.launchOn = properties.getProperty("OS");
+            if(GUIForm.launchOn.equals("Android")){
+                properties.load(this.getClass().getResourceAsStream("/Android.properties"));
+            }else
+                properties.load(this.getClass().getResourceAsStream("/iOS.properties"));
+
             GUIForm.VD = properties.getProperty("VD");
             GUIForm.platformVersion = properties.getProperty("platformVersion");
             GUIForm.app = properties.getProperty("app");
