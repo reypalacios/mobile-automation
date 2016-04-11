@@ -4,15 +4,9 @@ import appium.App;
 import objectModels.KebabSettingsObject;
 import objectModels.MastHeadObject;
 import objectModels.PostResultsObject;
-import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-
-import java.io.File;
-import java.io.IOException;
 
 /**
  * Created by rpalacios on 12/15/15.
@@ -42,16 +36,11 @@ public class KebabMenu extends App {
             //Thread.sleep(2000);
 
             Masthead.clickHamburgerMenu();
+            Thread.sleep(2000);
             PostResults.clickTopPost();
 
-            File screenShotFile = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-            try {
-                FileUtils.copyFile(screenShotFile, new File("/screenshots/" + "appImage" + ".png"));
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            takeScreenshot();
 
-            //
             kebabSettings.clickKebabMenu();
             //Thread.sleep(2000);
             kebabSettings.clickSettings();
@@ -62,6 +51,8 @@ public class KebabMenu extends App {
 
             Masthead.clickHamburgerMenu();
             PostResults.clickTopPost();
+
+            takeScreenshot();
 
             Thread.sleep(2000);
         } catch (InterruptedException e) {

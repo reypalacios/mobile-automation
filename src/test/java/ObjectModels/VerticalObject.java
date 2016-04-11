@@ -1,5 +1,6 @@
 package objectModels;
 
+import appium.customException;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -16,7 +17,6 @@ public class VerticalObject {
     Logger logger = Logger.getLogger(this.getClass());
 
     @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.TextView[@text='FAVORITES']")
-    @iOSFindBy()
     public static WebElement favorites;
 
     @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[@text='HOME']")
@@ -124,6 +124,9 @@ public class VerticalObject {
 
     @iOSFindBy(name = "©2015 Business Insider, Inc. All rights reserved.  Use of this app constitutes acceptance of our  Terms of Service and Privacy Policy.")
     public static WebElement copyright;
+
+    @AndroidFindBy(id = "android:id/action_bar_title")
+    public static WebElement currentVertical;
 
     public VerticalObject(AppiumDriver<WebElement> wd) {
         PageFactory.initElements(new AppiumFieldDecorator(wd), this);
@@ -272,5 +275,11 @@ public class VerticalObject {
     public void currentVertical() {
         copyright.click();
         logger.info("click copyright ");
+    }
+
+    public void isCurrentVertical(String vertical) throws customException {
+        if (!currentVertical.getText().equals(vertical))
+            throw new customException("Verticals do not match: Current vertical is "+currentVertical.getText() + " and Expected vertical is "+vertical);
+
     }
 }

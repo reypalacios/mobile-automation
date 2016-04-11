@@ -20,7 +20,7 @@ public class HamburgerMenu extends App {
     }
 
     @Test
-    public void testHamburgerOptions(){
+    public void testHamburgerOptions() throws InterruptedException {
 
         MastHeadObject HeaderNav = new MastHeadObject(wd);
 

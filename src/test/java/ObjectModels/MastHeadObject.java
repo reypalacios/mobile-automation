@@ -38,8 +38,9 @@ public class MastHeadObject {
         PageFactory.initElements(new AppiumFieldDecorator(wd), this);
     }
 
-    public void clickHamburgerMenu() {
+    public void clickHamburgerMenu() throws InterruptedException {
         HamburgerMenu.click();
+        Thread.sleep(1000);
         logger.info("Click Hamburger menu");
     }
 

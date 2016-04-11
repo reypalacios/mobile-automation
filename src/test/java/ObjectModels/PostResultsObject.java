@@ -14,7 +14,7 @@ public class PostResultsObject {
 
     Logger logger = Logger.getLogger(this.getClass());
 
-    @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]")
+    @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]")
     public static WebElement topPost;
 
     public PostResultsObject(AppiumDriver<WebElement> wd) {
@@ -23,7 +23,7 @@ public class PostResultsObject {
 
     public void clickTopPost() throws InterruptedException {
         topPost.click();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         logger.info("Click Kebab menu icon");
     }
 }

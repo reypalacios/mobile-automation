@@ -1,6 +1,7 @@
 package mobileScripts;
 
 import appium.App;
+import appium.customException;
 import objectModels.MastHeadObject;
 import objectModels.VerticalObject;
 import org.apache.log4j.Logger;
@@ -22,13 +23,15 @@ public class Verticals extends App{
 
 
     @Test
-    public void testVerticals() throws InterruptedException {
+    public void testVerticals() throws Exception, customException {
         MastHeadObject mastHead = new MastHeadObject(wd);
         VerticalObject vertical = new VerticalObject(wd);
 
         mastHead.clickHamburgerMenu();
         vertical.clickFavorites();
+        vertical.isCurrentVertical("Favorites");
         wd.navigate().back();
+
 
    /*     mastHead.clickHamburgerMenu();
         vertical.clickLatest();
@@ -40,6 +43,7 @@ public class Verticals extends App{
 
         mastHead.clickHamburgerMenu();
         vertical.clicktech();
+        vertical.isCurrentVertical("Home");
         Thread.sleep(4000);
 
       /*  mastHead.clickHamburgerMenu();

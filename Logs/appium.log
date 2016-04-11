@@ -1,482 +1,430 @@
-2016-03-01 16:11:11:743 - info: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
-2016-03-01 16:11:11:746 - info: Appium REST http interface listener started on 127.0.0.1:4723
-2016-03-01 16:11:11:748 - info: [debug] Non-default server args: {"address":"127.0.0.1","noReset":true,"launchTimeout":"110000","log":"/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log","localTimezone":true,"nativeInstrumentsLib":true,"showIOSLog":true,"defaultCommandTimeout":7200,"debugLogSpacing":true}
-2016-03-01 16:11:11:748 - info: Console LogLevel: debug
-2016-03-01 16:11:11:748 - info: File LogLevel: debug
-2016-03-01 16:11:12:438 - info: --> GET /wd/hub/status {}
-2016-03-01 16:11:12:441 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
-2016-03-01 16:11:12:467 - info: <-- GET /wd/hub/status 200 28.732 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
-2016-03-01 16:11:13:085 - info: --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"}}
-2016-03-01 16:11:13:086 - info: Client User-Agent string: Apache-HttpClient/4.3.3 (java 1.5)
-2016-03-01 16:11:13:087 - info: *************************************
-2016-03-01 16:11:13:087 - info: *************************************
-2016-03-01 16:11:13:087 - info: *************************************
-2016-03-01 16:11:13:087 - info: *************************************
-2016-03-01 16:11:13:087 - info: *************************************
-2016-03-01 16:11:13:087 - info: *************************************
-2016-03-01 16:11:13:088 - info: *************************************
-2016-03-01 16:11:13:088 - info: *************************************
-2016-03-01 16:11:13:088 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:13:088 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:13:089 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:13:089 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:13:089 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:13:089 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:13:089 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:13:090 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:13:090 - info: *************************************
-2016-03-01 16:11:13:090 - info: *************************************
-2016-03-01 16:11:13:090 - info: *************************************
-2016-03-01 16:11:13:090 - info: *************************************
-2016-03-01 16:11:13:090 - info: *************************************
-2016-03-01 16:11:13:091 - info: *************************************
-2016-03-01 16:11:13:091 - info: *************************************
-2016-03-01 16:11:13:091 - info: *************************************
-2016-03-01 16:11:13:093 - info: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : appium-version
-2016-03-01 16:11:13:095 - info: [debug] Using local app from desired caps: /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-03-01 16:11:13:097 - info: [debug] Creating new appium session 6ab62d8c-108f-40cf-9e36-48e777cf20b9
-2016-03-01 16:11:13:097 - info: Starting android appium
-2016-03-01 16:11:13:100 - info: [debug] Getting Java version
-2016-03-01 16:11:13:196 - info: Java version is: 1.8.0_66
-2016-03-01 16:11:13:197 - info: [debug] Checking whether adb is present
-2016-03-01 16:11:13:199 - info: [debug] Using adb from /Users/rpalacios/Library/Android/sdk/platform-tools/adb
-2016-03-01 16:11:13:200 - info: [debug] Using fast reset? false
-2016-03-01 16:11:13:200 - info: [debug] Preparing device for session
-2016-03-01 16:11:13:201 - info: [debug] Checking whether app is actually present
-2016-03-01 16:11:13:202 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:13:202 - info: [debug] Getting connected emulators
-2016-03-01 16:11:13:203 - info: [debug] Getting connected devices...
-2016-03-01 16:11:13:206 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:13:234 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:13:234 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:13:235 - info: [debug] Launching Emulator with AVD Nexus_S_API_19, launchTimeout 120000ms and readyTimeout 120000ms
-2016-03-01 16:11:13:235 - info: [debug] Checking whether emulator is present
-2016-03-01 16:11:13:237 - info: [debug] Using emulator from /Users/rpalacios/Library/Android/sdk/tools/emulator
-2016-03-01 16:11:13:240 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:13:240 - info: [debug] Getting connected emulators
-2016-03-01 16:11:13:240 - info: [debug] Getting connected devices...
-2016-03-01 16:11:13:241 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:13:277 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:13:277 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:15:279 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:15:279 - info: [debug] Getting connected emulators
-2016-03-01 16:11:15:280 - info: [debug] Getting connected devices...
-2016-03-01 16:11:15:280 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:15:463 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:15:481 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:17:504 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:17:505 - info: [debug] Getting connected emulators
-2016-03-01 16:11:17:505 - info: [debug] Getting connected devices...
-2016-03-01 16:11:17:505 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:17:539 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:17:539 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:19:541 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:19:542 - info: [debug] Getting connected emulators
-2016-03-01 16:11:19:542 - info: [debug] Getting connected devices...
-2016-03-01 16:11:19:542 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:19:583 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:19:583 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:21:586 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:21:587 - info: [debug] Getting connected emulators
-2016-03-01 16:11:21:587 - info: [debug] Getting connected devices...
-2016-03-01 16:11:21:587 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:21:625 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:21:625 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:23:631 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:23:632 - info: [debug] Getting connected emulators
-2016-03-01 16:11:23:633 - info: [debug] Getting connected devices...
-2016-03-01 16:11:23:634 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:23:689 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:23:689 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:25:693 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:25:693 - info: [debug] Getting connected emulators
-2016-03-01 16:11:25:694 - info: [debug] Getting connected devices...
-2016-03-01 16:11:25:694 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:25:738 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:25:739 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:27:745 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:27:745 - info: [debug] Getting connected emulators
-2016-03-01 16:11:27:745 - info: [debug] Getting connected devices...
-2016-03-01 16:11:27:746 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:27:778 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:27:778 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:29:783 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:29:784 - info: [debug] Getting connected emulators
-2016-03-01 16:11:29:784 - info: [debug] Getting connected devices...
-2016-03-01 16:11:29:784 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:29:809 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:29:810 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:31:815 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:31:816 - info: [debug] Getting connected emulators
-2016-03-01 16:11:31:816 - info: [debug] Getting connected devices...
-2016-03-01 16:11:31:816 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:31:844 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:31:844 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:33:848 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:33:848 - info: [debug] Getting connected emulators
-2016-03-01 16:11:33:849 - info: [debug] Getting connected devices...
-2016-03-01 16:11:33:849 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:33:893 - info: [debug] 0 device(s) connected
-2016-03-01 16:11:33:893 - info: [debug] 0 emulator(s) connected
-2016-03-01 16:11:35:898 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:35:898 - info: [debug] Getting connected emulators
-2016-03-01 16:11:35:900 - info: [debug] Getting connected devices...
-2016-03-01 16:11:35:900 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:35:933 - info: [debug] 1 device(s) connected
-2016-03-01 16:11:35:933 - info: [debug] 1 emulator(s) connected
-2016-03-01 16:11:35:934 - info: [debug] Sending telnet command to device: avd name
-2016-03-01 16:11:35:935 - info: [debug] Getting running emulator port
-2016-03-01 16:11:35:939 - info: [debug] Socket connection to device created
-2016-03-01 16:11:35:940 - info: [debug] Socket connection to device ready
-2016-03-01 16:11:35:941 - info: [debug] Telnet command got response: Nexus_S_API_19
-2016-03-01 16:11:35:943 - info: [debug] Found emulator Nexus_S_API_19 in port 5554
-2016-03-01 16:11:35:944 - info: [debug] Setting device id to emulator-5554
-2016-03-01 16:11:35:945 - info: [debug] Waiting until emulator is ready
-2016-03-01 16:11:35:945 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop init.svc.bootanim"
-2016-03-01 16:11:35:982 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
-2016-03-01 16:11:35:983 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 wait-for-device
-2016-03-01 16:11:36:017 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "echo 'ready'"
-2016-03-01 16:11:36:054 - info: [debug] Starting logcat capture
-2016-03-01 16:11:36:088 - info: [debug] Getting device API level
-2016-03-01 16:11:36:088 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-03-01 16:11:36:135 - info: [debug] Device is at API Level 19
-2016-03-01 16:11:36:136 - info: Device API level is: 19
-2016-03-01 16:11:36:136 - info: [debug] Extracting strings for language: default
-2016-03-01 16:11:36:138 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop persist.sys.language"
-2016-03-01 16:11:36:205 - info: [debug] Current device persist.sys.language: en
-2016-03-01 16:11:36:206 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk" "/tmp/com.freerange360.mpp.businessinsider" en
-2016-03-01 16:11:36:916 - info: [debug] No strings.xml for language 'en', getting default strings.xml
-2016-03-01 16:11:36:917 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk" "/tmp/com.freerange360.mpp.businessinsider"
-2016-03-01 16:11:37:641 - info: [debug] Reading strings from converted strings.json
-2016-03-01 16:11:37:647 - info: [debug] Setting language to default
-2016-03-01 16:11:37:648 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/tmp/com.freerange360.mpp.businessinsider/strings.json" /data/local/tmp
-2016-03-01 16:11:37:729 - info: [debug] Checking whether aapt is present
-2016-03-01 16:11:37:735 - info: [debug] Using aapt from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt
-2016-03-01 16:11:37:736 - info: [debug] Retrieving process from manifest.
-2016-03-01 16:11:37:736 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt dump xmltree /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk AndroidManifest.xml
-2016-03-01 16:11:37:757 - info: [debug] Set app process to: com.freerange360.mpp.businessinsider
-2016-03-01 16:11:37:757 - info: [debug] Not uninstalling app since server not started with --full-reset
-2016-03-01 16:11:37:758 - info: [debug] Checking app cert for /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk.
-2016-03-01 16:11:37:758 - info: [debug] executing cmd: java -jar /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/verify.jar /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-03-01 16:11:38:252 - info: [debug] App already signed.
-2016-03-01 16:11:38:253 - info: [debug] Zip-aligning /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-03-01 16:11:38:253 - info: [debug] Checking whether zipalign is present
-2016-03-01 16:11:38:255 - info: [debug] Using zipalign from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign
-2016-03-01 16:11:38:257 - info: [debug] Zip-aligning apk.
-2016-03-01 16:11:38:257 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign -f 4 /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk /var/folders/0h/2trx149s6ms0cx8sk1k6n3fw0000gn/T/11621-80403-1u90ws7/appium.tmp
-2016-03-01 16:11:38:388 - info: [debug] MD5 for app is 01f77565d5b6bf6ab99dea811034a05e
-2016-03-01 16:11:38:389 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ls /data/local/tmp/01f77565d5b6bf6ab99dea811034a05e.apk"
-2016-03-01 16:11:38:447 - info: [debug] Getting install status for com.freerange360.mpp.businessinsider
-2016-03-01 16:11:38:448 - info: [debug] Getting device API level
-2016-03-01 16:11:38:449 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-03-01 16:11:38:491 - info: [debug] Device is at API Level 19
-2016-03-01 16:11:38:492 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "pm list packages -3 com.freerange360.mpp.businessinsider"
-2016-03-01 16:11:38:888 - info: [debug] App is installed
-2016-03-01 16:11:38:889 - info: [debug] Forwarding system:4724 to device:4724
-2016-03-01 16:11:38:890 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 forward tcp:4724 tcp:4724
-2016-03-01 16:11:38:932 - info: [debug] Pushing appium bootstrap to device...
-2016-03-01 16:11:38:934 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/android_bootstrap/AppiumBootstrap.jar" /data/local/tmp/
-2016-03-01 16:11:39:007 - info: [debug] Pushing settings apk to device...
-2016-03-01 16:11:39:009 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/settings_apk/settings_apk-debug.apk"
-2016-03-01 16:11:39:517 - info: [debug] Pushing unlock helper app to device...
-2016-03-01 16:11:39:519 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/unlock_apk/unlock_apk-debug.apk"
-2016-03-01 16:11:39:943 - info: Starting App
-2016-03-01 16:11:39:944 - info: [debug] Attempting to kill all 'uiautomator' processes
-2016-03-01 16:11:39:944 - info: [debug] Getting all processes with 'uiautomator'
-2016-03-01 16:11:39:945 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ps 'uiautomator'"
-2016-03-01 16:11:39:994 - info: [debug] No matching processes found
-2016-03-01 16:11:39:995 - info: [debug] Running bootstrap
-2016-03-01 16:11:39:995 - info: [debug] spawning: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.freerange360.mpp.businessinsider -e disableAndroidWatchers false
-2016-03-01 16:11:40:051 - info: [debug] [UIAUTOMATOR STDOUT] WARNING: linker:
-2016-03-01 16:11:40:051 - info: [debug] [UIAUTOMATOR STDOUT] libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
-2016-03-01 16:11:40:186 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
-2016-03-01 16:11:40:189 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
-2016-03-01 16:11:40:190 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
-2016-03-01 16:11:40:190 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-2016-03-01 16:11:40:192 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
-2016-03-01 16:11:40:195 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
-2016-03-01 16:11:40:195 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
-2016-03-01 16:11:40:196 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
-2016-03-01 16:11:40:202 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
-2016-03-01 16:11:40:206 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
-2016-03-01 16:11:40:206 - info: [debug] [BOOTSTRAP] [debug] Loading json...
-2016-03-01 16:11:40:208 - info: [debug] Waking up device if it's not alive
-2016-03-01 16:11:40:208 - info: [debug] Pushing command to appium work queue: ["wake",{}]
-2016-03-01 16:11:40:217 - info: [debug] [BOOTSTRAP] [debug] json loading complete.
-2016-03-01 16:11:40:218 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
-2016-03-01 16:11:40:220 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window"
-2016-03-01 16:11:40:225 - info: [debug] [BOOTSTRAP] [debug] Client connected
-2016-03-01 16:11:40:225 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
-2016-03-01 16:11:40:225 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-03-01 16:11:40:225 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
-2016-03-01 16:11:40:226 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
-2016-03-01 16:11:40:269 - info: Unlocking screen
-2016-03-01 16:11:40:270 - info: [debug] Screen is locked, trying to unlock
-2016-03-01 16:11:40:270 - info: [debug] Getting device API level
-2016-03-01 16:11:40:271 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-03-01 16:11:40:311 - info: [debug] Device is at API Level 19
-2016-03-01 16:11:40:311 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n io.appium.unlock/.Unlock"
-2016-03-01 16:11:41:327 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window"
-2016-03-01 16:11:41:471 - info: [debug] Screen is unlocked, continuing
-2016-03-01 16:11:41:472 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
-2016-03-01 16:11:41:492 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
-2016-03-01 16:11:41:492 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-03-01 16:11:41:494 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
-2016-03-01 16:11:41:496 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"\/data","status":0}
-2016-03-01 16:11:41:500 - info: [debug] dataDir set to: /data
-2016-03-01 16:11:41:500 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
-2016-03-01 16:11:41:503 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
-2016-03-01 16:11:41:524 - info: [debug] Getting device API level
-2016-03-01 16:11:41:525 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-03-01 16:11:41:530 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-03-01 16:11:41:530 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
-2016-03-01 16:11:41:531 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":false,"status":0}
-2016-03-01 16:11:41:593 - info: [debug] Device is at API Level 19
-2016-03-01 16:11:41:593 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.freerange360.mpp.businessinsider/com.businessinsider.app.MainActivity"
-2016-03-01 16:11:42:469 - info: [debug] Waiting for pkg "com.freerange360.mpp.businessinsider" and activity "com.businessinsider.app.MainActivity" to be focused
-2016-03-01 16:11:42:470 - info: [debug] Getting focused package and activity
-2016-03-01 16:11:42:471 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window windows"
-2016-03-01 16:11:43:104 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.release"
-2016-03-01 16:11:43:145 - info: [debug] Device is at release version 4.4.4
-2016-03-01 16:11:43:146 - info: [debug] Device launched! Ready for commands
-2016-03-01 16:11:43:146 - info: [debug] Setting command timeout to the default of 7200 secs
-2016-03-01 16:11:43:147 - info: [debug] Appium session started with sessionId 6ab62d8c-108f-40cf-9e36-48e777cf20b9
-2016-03-01 16:11:43:150 - info: <-- POST /wd/hub/session 303 30063.183 ms - 74 
-2016-03-01 16:11:43:178 - info: --> GET /wd/hub/session/6ab62d8c-108f-40cf-9e36-48e777cf20b9 {}
-2016-03-01 16:11:43:179 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"6ab62d8c-108f-40cf-9e36-48e777cf20b9"}
-2016-03-01 16:11:43:182 - info: <-- GET /wd/hub/session/6ab62d8c-108f-40cf-9e36-48e777cf20b9 200 4.661 ms - 1004 {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"6ab62d8c-108f-40cf-9e36-48e777cf20b9"}
-2016-03-01 16:11:43:208 - info: --> POST /wd/hub/session/6ab62d8c-108f-40cf-9e36-48e777cf20b9/timeouts {"type":"implicit","ms":100000}
-2016-03-01 16:11:43:212 - info: [debug] Set Android implicit wait to 100000ms
-2016-03-01 16:11:43:212 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"6ab62d8c-108f-40cf-9e36-48e777cf20b9"}
-2016-03-01 16:11:43:213 - info: <-- POST /wd/hub/session/6ab62d8c-108f-40cf-9e36-48e777cf20b9/timeouts 200 4.836 ms - 76 {"status":0,"value":null,"sessionId":"6ab62d8c-108f-40cf-9e36-48e777cf20b9"}
-2016-03-01 16:11:46:230 - info: --> POST /wd/hub/session/6ab62d8c-108f-40cf-9e36-48e777cf20b9/appium/app/close {}
-2016-03-01 16:11:46:231 - info: [debug] Pressing the HOME button
-2016-03-01 16:11:46:231 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "input keyevent 3"
-2016-03-01 16:11:46:832 - info: [debug] Stopping logcat capture
-2016-03-01 16:11:46:836 - info: [debug] Logcat terminated with code null, signal SIGTERM
-2016-03-01 16:11:46:841 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
-2016-03-01 16:11:46:842 - info: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
-2016-03-01 16:11:46:842 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"OK, shutting down","status":0}
-2016-03-01 16:11:46:842 - info: [debug] [BOOTSTRAP] [debug] Closed client connection
-2016-03-01 16:11:46:842 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
-2016-03-01 16:11:46:842 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.
-2016-03-01 16:11:46:842 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-2016-03-01 16:11:46:842 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
-2016-03-01 16:11:46:843 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
-2016-03-01 16:11:46:843 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
-2016-03-01 16:11:46:843 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0
-2016-03-01 16:11:46:843 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
-2016-03-01 16:11:46:843 - info: [debug] [UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.
-2016-03-01 16:11:46:843 - info: [debug] [UIAUTOMATOR STDOUT] Time: 6.674
-2016-03-01 16:11:46:843 - info: [debug] [UIAUTOMATOR STDOUT] OK (1 test)
-2016-03-01 16:11:46:844 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1
-2016-03-01 16:11:46:844 - info: [debug] Sent shutdown command, waiting for UiAutomator to stop...
-2016-03-01 16:11:46:897 - info: [debug] UiAutomator shut down normally
-2016-03-01 16:11:46:897 - info: [debug] Cleaning up android objects
-2016-03-01 16:11:46:897 - info: [debug] Responding to client with success: {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk] app.","sessionId":"6ab62d8c-108f-40cf-9e36-48e777cf20b9"}
-2016-03-01 16:11:46:898 - info: <-- POST /wd/hub/session/6ab62d8c-108f-40cf-9e36-48e777cf20b9/appium/app/close 200 668.465 ms - 215 {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk] app.","sessionId":"6ab62d8c-108f-40cf-9e36-48e777cf20b9"}
-2016-03-01 16:11:46:907 - info: --> DELETE /wd/hub/session/6ab62d8c-108f-40cf-9e36-48e777cf20b9 {}
-2016-03-01 16:11:46:909 - info: Shutting down appium session
-2016-03-01 16:11:46:909 - info: [debug] Cleaning up android objects
-2016-03-01 16:11:46:911 - info: [debug] Cleaning up appium session
-2016-03-01 16:11:46:912 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"6ab62d8c-108f-40cf-9e36-48e777cf20b9"}
-2016-03-01 16:11:46:913 - info: <-- DELETE /wd/hub/session/6ab62d8c-108f-40cf-9e36-48e777cf20b9 200 6.232 ms - 76 {"status":0,"value":null,"sessionId":"6ab62d8c-108f-40cf-9e36-48e777cf20b9"}
-2016-03-01 16:11:46:930 - info: --> GET /wd/hub/status {}
-2016-03-01 16:11:46:930 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
-2016-03-01 16:11:46:932 - info: <-- GET /wd/hub/status 200 1.859 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
-2016-03-01 16:11:46:935 - info: --> GET /wd/hub/status {}
-2016-03-01 16:11:46:935 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
-2016-03-01 16:11:46:936 - info: <-- GET /wd/hub/status 200 1.089 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
-2016-03-01 16:11:46:945 - info: --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"}}
-2016-03-01 16:11:46:945 - info: Client User-Agent string: Apache-HttpClient/4.3.3 (java 1.5)
-2016-03-01 16:11:46:945 - info: *************************************
-2016-03-01 16:11:46:946 - info: *************************************
-2016-03-01 16:11:46:946 - info: *************************************
-2016-03-01 16:11:46:946 - info: *************************************
-2016-03-01 16:11:46:946 - info: *************************************
-2016-03-01 16:11:46:946 - info: *************************************
-2016-03-01 16:11:46:946 - info: *************************************
-2016-03-01 16:11:46:946 - info: *************************************
-2016-03-01 16:11:46:947 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:46:947 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:46:947 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:46:947 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:46:947 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:46:947 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:46:947 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:46:948 - info: ****        NEW SESSION           ***
-2016-03-01 16:11:46:948 - info: *************************************
-2016-03-01 16:11:46:948 - info: *************************************
-2016-03-01 16:11:46:948 - info: *************************************
-2016-03-01 16:11:46:948 - info: *************************************
-2016-03-01 16:11:46:948 - info: *************************************
-2016-03-01 16:11:46:948 - info: *************************************
-2016-03-01 16:11:46:948 - info: *************************************
-2016-03-01 16:11:46:948 - info: *************************************
-2016-03-01 16:11:46:950 - info: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : appium-version
-2016-03-01 16:11:46:951 - info: [debug] Using local app from desired caps: /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-03-01 16:11:46:954 - info: [debug] Creating new appium session 2ff86f12-378b-4a60-8104-db1460a3ac33
-2016-03-01 16:11:46:954 - info: Starting android appium
-2016-03-01 16:11:46:955 - info: [debug] Getting Java version
-2016-03-01 16:11:47:060 - info: Java version is: 1.8.0_66
-2016-03-01 16:11:47:060 - info: [debug] Checking whether adb is present
-2016-03-01 16:11:47:061 - info: [debug] Using adb from /Users/rpalacios/Library/Android/sdk/platform-tools/adb
-2016-03-01 16:11:47:061 - info: [debug] Using fast reset? false
-2016-03-01 16:11:47:062 - info: [debug] Preparing device for session
-2016-03-01 16:11:47:062 - info: [debug] Checking whether app is actually present
-2016-03-01 16:11:47:062 - info: [debug] Trying to find Nexus_S_API_19 emulator
-2016-03-01 16:11:47:063 - info: [debug] Getting connected emulators
-2016-03-01 16:11:47:063 - info: [debug] Getting connected devices...
-2016-03-01 16:11:47:063 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
-2016-03-01 16:11:47:101 - info: [debug] 1 device(s) connected
-2016-03-01 16:11:47:101 - info: [debug] 1 emulator(s) connected
-2016-03-01 16:11:47:101 - info: [debug] Sending telnet command to device: avd name
-2016-03-01 16:11:47:102 - info: [debug] Getting running emulator port
-2016-03-01 16:11:47:106 - info: [debug] Socket connection to device created
-2016-03-01 16:11:47:107 - info: [debug] Socket connection to device ready
-2016-03-01 16:11:47:108 - info: [debug] Telnet command got response: Nexus_S_API_19
-2016-03-01 16:11:47:109 - info: [debug] Found emulator Nexus_S_API_19 in port 5554
-2016-03-01 16:11:47:109 - info: [debug] Setting device id to emulator-5554
-2016-03-01 16:11:47:110 - info: [debug] Did not launch AVD because it was already running.
-2016-03-01 16:11:47:110 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
-2016-03-01 16:11:47:111 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 wait-for-device
-2016-03-01 16:11:47:151 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "echo 'ready'"
-2016-03-01 16:11:47:202 - info: [debug] Starting logcat capture
-2016-03-01 16:11:47:241 - info: [debug] Getting device API level
-2016-03-01 16:11:47:242 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-03-01 16:11:47:295 - info: [debug] Device is at API Level 19
-2016-03-01 16:11:47:295 - info: Device API level is: 19
-2016-03-01 16:11:47:296 - info: [debug] Extracting strings for language: default
-2016-03-01 16:11:47:297 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop persist.sys.language"
-2016-03-01 16:11:47:352 - info: [debug] Current device persist.sys.language: en
-2016-03-01 16:11:47:353 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk" "/tmp/com.freerange360.mpp.businessinsider" en
-2016-03-01 16:11:48:163 - info: [debug] No strings.xml for language 'en', getting default strings.xml
-2016-03-01 16:11:48:163 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk" "/tmp/com.freerange360.mpp.businessinsider"
-2016-03-01 16:11:48:954 - info: [debug] Reading strings from converted strings.json
-2016-03-01 16:11:48:956 - info: [debug] Setting language to default
-2016-03-01 16:11:48:957 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/tmp/com.freerange360.mpp.businessinsider/strings.json" /data/local/tmp
-2016-03-01 16:11:49:026 - info: [debug] Checking whether aapt is present
-2016-03-01 16:11:49:026 - info: [debug] Using aapt from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt
-2016-03-01 16:11:49:027 - info: [debug] Retrieving process from manifest.
-2016-03-01 16:11:49:028 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt dump xmltree /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk AndroidManifest.xml
-2016-03-01 16:11:49:040 - info: [debug] Set app process to: com.freerange360.mpp.businessinsider
-2016-03-01 16:11:49:040 - info: [debug] Not uninstalling app since server not started with --full-reset
-2016-03-01 16:11:49:041 - info: [debug] Checking app cert for /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk.
-2016-03-01 16:11:49:041 - info: [debug] executing cmd: java -jar /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/verify.jar /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-03-01 16:11:49:675 - info: [debug] App already signed.
-2016-03-01 16:11:49:676 - info: [debug] Zip-aligning /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk
-2016-03-01 16:11:49:676 - info: [debug] Checking whether zipalign is present
-2016-03-01 16:11:49:677 - info: [debug] Using zipalign from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign
-2016-03-01 16:11:49:679 - info: [debug] Zip-aligning apk.
-2016-03-01 16:11:49:679 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign -f 4 /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk /var/folders/0h/2trx149s6ms0cx8sk1k6n3fw0000gn/T/11621-80403-1dnrxfq/appium.tmp
-2016-03-01 16:11:49:773 - info: [debug] MD5 for app is 01f77565d5b6bf6ab99dea811034a05e
-2016-03-01 16:11:49:775 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ls /data/local/tmp/01f77565d5b6bf6ab99dea811034a05e.apk"
-2016-03-01 16:11:49:850 - info: [debug] Getting install status for com.freerange360.mpp.businessinsider
-2016-03-01 16:11:49:850 - info: [debug] Getting device API level
-2016-03-01 16:11:49:851 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-03-01 16:11:49:912 - info: [debug] Device is at API Level 19
-2016-03-01 16:11:49:912 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "pm list packages -3 com.freerange360.mpp.businessinsider"
-2016-03-01 16:11:50:327 - info: [debug] App is installed
-2016-03-01 16:11:50:328 - info: [debug] Forwarding system:4724 to device:4724
-2016-03-01 16:11:50:328 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 forward tcp:4724 tcp:4724
-2016-03-01 16:11:50:368 - info: [debug] Pushing appium bootstrap to device...
-2016-03-01 16:11:50:369 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/android_bootstrap/AppiumBootstrap.jar" /data/local/tmp/
-2016-03-01 16:11:50:459 - info: [debug] Pushing settings apk to device...
-2016-03-01 16:11:50:460 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/settings_apk/settings_apk-debug.apk"
-2016-03-01 16:11:50:953 - info: [debug] Pushing unlock helper app to device...
-2016-03-01 16:11:50:954 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/unlock_apk/unlock_apk-debug.apk"
-2016-03-01 16:11:51:376 - info: Starting App
-2016-03-01 16:11:51:377 - info: [debug] Attempting to kill all 'uiautomator' processes
-2016-03-01 16:11:51:377 - info: [debug] Getting all processes with 'uiautomator'
-2016-03-01 16:11:51:378 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ps 'uiautomator'"
-2016-03-01 16:11:51:421 - info: [debug] No matching processes found
-2016-03-01 16:11:51:421 - info: [debug] Running bootstrap
-2016-03-01 16:11:51:422 - info: [debug] spawning: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.freerange360.mpp.businessinsider -e disableAndroidWatchers false
-2016-03-01 16:11:51:480 - info: [debug] [UIAUTOMATOR STDOUT] WARNING: linker:
-2016-03-01 16:11:51:481 - info: [debug] [UIAUTOMATOR STDOUT] libdvm.so
-2016-03-01 16:11:51:483 - info: [debug] [UIAUTOMATOR STDOUT] has text relocations. This is wasting memory and is a security risk. Please fix.
-2016-03-01 16:11:51:616 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
-2016-03-01 16:11:51:619 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
-2016-03-01 16:11:51:619 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
-2016-03-01 16:11:51:619 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-2016-03-01 16:11:51:620 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
-2016-03-01 16:11:51:620 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
-2016-03-01 16:11:51:620 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
-2016-03-01 16:11:51:620 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
-2016-03-01 16:11:51:625 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
-2016-03-01 16:11:51:627 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
-2016-03-01 16:11:51:627 - info: [debug] [BOOTSTRAP] [debug] Loading json...
-2016-03-01 16:11:51:628 - info: [debug] Waking up device if it's not alive
-2016-03-01 16:11:51:629 - info: [debug] Pushing command to appium work queue: ["wake",{}]
-2016-03-01 16:11:51:637 - info: [debug] [BOOTSTRAP] [debug] json loading complete.
-2016-03-01 16:11:51:644 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
-2016-03-01 16:11:51:650 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window"
-2016-03-01 16:11:51:654 - info: [debug] [BOOTSTRAP] [debug] Client connected
-2016-03-01 16:11:51:655 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
-2016-03-01 16:11:51:655 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-03-01 16:11:51:655 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
-2016-03-01 16:11:51:656 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
-2016-03-01 16:11:51:707 - info: [debug] Screen already unlocked, continuing.
-2016-03-01 16:11:51:707 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
-2016-03-01 16:11:51:711 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
-2016-03-01 16:11:51:711 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-03-01 16:11:51:711 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
-2016-03-01 16:11:51:712 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"\/data","status":0}
-2016-03-01 16:11:51:712 - info: [debug] dataDir set to: /data
-2016-03-01 16:11:51:713 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
-2016-03-01 16:11:51:717 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
-2016-03-01 16:11:51:717 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-2016-03-01 16:11:51:717 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
-2016-03-01 16:11:51:718 - info: [debug] Getting device API level
-2016-03-01 16:11:51:719 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
-2016-03-01 16:11:51:722 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":false,"status":0}
-2016-03-01 16:11:51:768 - info: [debug] Device is at API Level 19
-2016-03-01 16:11:51:769 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.freerange360.mpp.businessinsider/com.businessinsider.app.MainActivity"
-2016-03-01 16:11:52:547 - info: [debug] Waiting for pkg "com.freerange360.mpp.businessinsider" and activity "com.businessinsider.app.MainActivity" to be focused
-2016-03-01 16:11:52:548 - info: [debug] Getting focused package and activity
-2016-03-01 16:11:52:548 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window windows"
-2016-03-01 16:11:53:181 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.release"
-2016-03-01 16:11:53:228 - info: [debug] Device is at release version 4.4.4
-2016-03-01 16:11:53:228 - info: [debug] Device launched! Ready for commands
-2016-03-01 16:11:53:229 - info: [debug] Setting command timeout to the default of 7200 secs
-2016-03-01 16:11:53:229 - info: [debug] Appium session started with sessionId 2ff86f12-378b-4a60-8104-db1460a3ac33
-2016-03-01 16:11:53:230 - info: <-- POST /wd/hub/session 303 6284.937 ms - 74 
-2016-03-01 16:11:53:235 - info: --> GET /wd/hub/session/2ff86f12-378b-4a60-8104-db1460a3ac33 {}
-2016-03-01 16:11:53:235 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"2ff86f12-378b-4a60-8104-db1460a3ac33"}
-2016-03-01 16:11:53:236 - info: <-- GET /wd/hub/session/2ff86f12-378b-4a60-8104-db1460a3ac33 200 1.660 ms - 1004 {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"4.4","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk","appPackage":"com.freerange360.mpp.businessinsider","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"2ff86f12-378b-4a60-8104-db1460a3ac33"}
-2016-03-01 16:11:53:243 - info: --> POST /wd/hub/session/2ff86f12-378b-4a60-8104-db1460a3ac33/timeouts {"type":"implicit","ms":100000}
-2016-03-01 16:11:53:244 - info: [debug] Set Android implicit wait to 100000ms
-2016-03-01 16:11:53:244 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"2ff86f12-378b-4a60-8104-db1460a3ac33"}
-2016-03-01 16:11:53:245 - info: <-- POST /wd/hub/session/2ff86f12-378b-4a60-8104-db1460a3ac33/timeouts 200 1.894 ms - 76 {"status":0,"value":null,"sessionId":"2ff86f12-378b-4a60-8104-db1460a3ac33"}
-2016-03-01 16:11:56:257 - info: --> POST /wd/hub/session/2ff86f12-378b-4a60-8104-db1460a3ac33/appium/app/close {}
-2016-03-01 16:11:56:258 - info: [debug] Pressing the HOME button
-2016-03-01 16:11:56:259 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "input keyevent 3"
-2016-03-01 16:11:56:759 - info: [debug] Stopping logcat capture
-2016-03-01 16:11:56:761 - info: [debug] Logcat terminated with code null, signal SIGTERM
-2016-03-01 16:11:56:775 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
-2016-03-01 16:11:56:775 - info: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
-2016-03-01 16:11:56:775 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"OK, shutting down","status":0}
-2016-03-01 16:11:56:775 - info: [debug] [BOOTSTRAP] [debug] Closed client connection
-2016-03-01 16:11:56:776 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
-2016-03-01 16:11:56:776 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.
-2016-03-01 16:11:56:776 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-2016-03-01 16:11:56:777 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
-2016-03-01 16:11:56:777 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
-2016-03-01 16:11:56:778 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
-2016-03-01 16:11:56:780 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0
-2016-03-01 16:11:56:780 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
-2016-03-01 16:11:56:780 - info: [debug] [UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.
-2016-03-01 16:11:56:780 - info: [debug] [UIAUTOMATOR STDOUT] Time: 5.169
-2016-03-01 16:11:56:781 - info: [debug] [UIAUTOMATOR STDOUT] OK (1 test)
-2016-03-01 16:11:56:781 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1
-2016-03-01 16:11:56:782 - info: [debug] Sent shutdown command, waiting for UiAutomator to stop...
-2016-03-01 16:11:56:784 - info: [debug] UiAutomator shut down normally
-2016-03-01 16:11:56:784 - info: [debug] Cleaning up android objects
-2016-03-01 16:11:56:784 - info: [debug] Responding to client with success: {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk] app.","sessionId":"2ff86f12-378b-4a60-8104-db1460a3ac33"}
-2016-03-01 16:11:56:785 - info: <-- POST /wd/hub/session/2ff86f12-378b-4a60-8104-db1460a3ac33/appium/app/close 200 527.477 ms - 215 {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/com.freerange360.mpp.businessinsider-120150427.apk] app.","sessionId":"2ff86f12-378b-4a60-8104-db1460a3ac33"}
-2016-03-01 16:11:56:790 - info: --> DELETE /wd/hub/session/2ff86f12-378b-4a60-8104-db1460a3ac33 {}
-2016-03-01 16:11:56:791 - info: Shutting down appium session
-2016-03-01 16:11:56:792 - info: [debug] Cleaning up android objects
-2016-03-01 16:11:56:793 - info: [debug] Cleaning up appium session
-2016-03-01 16:11:56:794 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"2ff86f12-378b-4a60-8104-db1460a3ac33"}
-2016-03-01 16:11:56:795 - info: <-- DELETE /wd/hub/session/2ff86f12-378b-4a60-8104-db1460a3ac33 200 5.300 ms - 76 {"status":0,"value":null,"sessionId":"2ff86f12-378b-4a60-8104-db1460a3ac33"}
+2016-04-11 12:08:17:306 - info: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
+2016-04-11 12:08:17:315 - info: Appium REST http interface listener started on 127.0.0.1:4723
+2016-04-11 12:08:17:321 - info: [debug] Non-default server args: {"address":"127.0.0.1","sessionOverride":true,"noReset":true,"launchTimeout":"100000","log":"/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log","localTimezone":true,"nativeInstrumentsLib":true,"showIOSLog":true,"defaultCommandTimeout":7200,"debugLogSpacing":true}
+2016-04-11 12:08:17:322 - info: Console LogLevel: debug
+2016-04-11 12:08:17:322 - info: File LogLevel: debug
+2016-04-11 12:08:17:351 - info: --> GET /wd/hub/status {}
+2016-04-11 12:08:17:355 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-04-11 12:08:17:420 - info: <-- GET /wd/hub/status 200 19.657 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-04-11 12:08:18:651 - info: --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"5.1","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"}}
+2016-04-11 12:08:18:652 - info: Client User-Agent string: Apache-HttpClient/4.3.3 (java 1.5)
+2016-04-11 12:08:18:653 - info: *************************************
+2016-04-11 12:08:18:653 - info: *************************************
+2016-04-11 12:08:18:653 - info: *************************************
+2016-04-11 12:08:18:653 - info: *************************************
+2016-04-11 12:08:18:654 - info: *************************************
+2016-04-11 12:08:18:654 - info: *************************************
+2016-04-11 12:08:18:654 - info: *************************************
+2016-04-11 12:08:18:654 - info: *************************************
+2016-04-11 12:08:18:654 - info: ****        NEW SESSION           ***
+2016-04-11 12:08:18:654 - info: ****        NEW SESSION           ***
+2016-04-11 12:08:18:655 - info: ****        NEW SESSION           ***
+2016-04-11 12:08:18:655 - info: ****        NEW SESSION           ***
+2016-04-11 12:08:18:656 - info: ****        NEW SESSION           ***
+2016-04-11 12:08:18:656 - info: ****        NEW SESSION           ***
+2016-04-11 12:08:18:656 - info: ****        NEW SESSION           ***
+2016-04-11 12:08:18:657 - info: ****        NEW SESSION           ***
+2016-04-11 12:08:18:657 - info: *************************************
+2016-04-11 12:08:18:657 - info: *************************************
+2016-04-11 12:08:18:657 - info: *************************************
+2016-04-11 12:08:18:657 - info: *************************************
+2016-04-11 12:08:18:657 - info: *************************************
+2016-04-11 12:08:18:658 - info: *************************************
+2016-04-11 12:08:18:658 - info: *************************************
+2016-04-11 12:08:18:658 - info: *************************************
+2016-04-11 12:08:18:660 - info: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : appium-version
+2016-04-11 12:08:18:662 - info: [debug] No appPackage desired capability or server param. Parsing from apk.
+2016-04-11 12:08:18:663 - info: [debug] Using local app from desired caps: /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk
+2016-04-11 12:08:18:664 - info: [debug] Creating new appium session 4dcb78a8-06d3-430a-bb8a-30b89a12a54f
+2016-04-11 12:08:18:665 - info: Starting android appium
+2016-04-11 12:08:18:666 - info: [debug] Getting Java version
+2016-04-11 12:08:18:933 - info: Java version is: 1.8.0_66
+2016-04-11 12:08:18:935 - info: [debug] Checking whether adb is present
+2016-04-11 12:08:18:936 - info: [debug] Using adb from /Users/rpalacios/Library/Android/sdk/platform-tools/adb
+2016-04-11 12:08:18:937 - info: [debug] Parsing package and activity from app manifest
+2016-04-11 12:08:18:937 - info: [debug] Checking whether aapt is present
+2016-04-11 12:08:18:938 - info: [debug] Using aapt from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt
+2016-04-11 12:08:18:938 - info: [debug] Extracting package and launch activity from manifest.
+2016-04-11 12:08:18:940 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt dump badging /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk
+2016-04-11 12:08:19:007 - info: [debug] badging package: com.freerange360.mpp.businessinsider
+2016-04-11 12:08:19:007 - info: [debug] badging act: com.businessinsider.app.MainActivity
+2016-04-11 12:08:19:008 - info: [debug] Parsed package and activity are: com.freerange360.mpp.businessinsider/com.businessinsider.app.MainActivity
+2016-04-11 12:08:19:009 - info: [debug] Using fast reset? false
+2016-04-11 12:08:19:009 - info: [debug] Preparing device for session
+2016-04-11 12:08:19:010 - info: [debug] Checking whether app is actually present
+2016-04-11 12:08:19:011 - info: [debug] Trying to find Nexus_S_API_19 emulator
+2016-04-11 12:08:19:012 - info: [debug] Getting connected emulators
+2016-04-11 12:08:19:012 - info: [debug] Getting connected devices...
+2016-04-11 12:08:19:014 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 12:08:19:095 - info: [debug] 1 device(s) connected
+2016-04-11 12:08:19:096 - info: [debug] 1 emulator(s) connected
+2016-04-11 12:08:19:097 - info: [debug] Sending telnet command to device: avd name
+2016-04-11 12:08:19:097 - info: [debug] Getting running emulator port
+2016-04-11 12:08:19:101 - info: [debug] Socket connection to device created
+2016-04-11 12:08:19:102 - info: [debug] Socket connection to device ready
+2016-04-11 12:08:19:103 - info: [debug] Telnet command got response: Nexus_S_API_19
+2016-04-11 12:08:19:106 - info: [debug] Found emulator Nexus_S_API_19 in port 5554
+2016-04-11 12:08:19:108 - info: [debug] Setting device id to emulator-5554
+2016-04-11 12:08:19:108 - info: [debug] Did not launch AVD because it was already running.
+2016-04-11 12:08:19:108 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-04-11 12:08:19:110 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 wait-for-device
+2016-04-11 12:08:19:194 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "echo 'ready'"
+2016-04-11 12:08:20:607 - info: [debug] Starting logcat capture
+2016-04-11 12:08:20:689 - info: [debug] Getting device API level
+2016-04-11 12:08:20:690 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
+2016-04-11 12:08:20:850 - info: [debug] Device is at API Level 19
+2016-04-11 12:08:20:850 - info: Device API level is: 19
+2016-04-11 12:08:20:851 - info: [debug] Extracting strings for language: default
+2016-04-11 12:08:20:852 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop persist.sys.language"
+2016-04-11 12:08:20:961 - info: [debug] Current device persist.sys.language: en
+2016-04-11 12:08:20:962 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk" "/tmp/com.freerange360.mpp.businessinsider" en
+2016-04-11 12:08:22:163 - info: [debug] No strings.xml for language 'en', getting default strings.xml
+2016-04-11 12:08:22:163 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk" "/tmp/com.freerange360.mpp.businessinsider"
+2016-04-11 12:08:23:183 - info: [debug] Reading strings from converted strings.json
+2016-04-11 12:08:23:186 - info: [debug] Setting language to default
+2016-04-11 12:08:23:187 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/tmp/com.freerange360.mpp.businessinsider/strings.json" /data/local/tmp
+2016-04-11 12:08:23:280 - info: [debug] Checking whether aapt is present
+2016-04-11 12:08:23:281 - info: [debug] Using aapt from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt
+2016-04-11 12:08:23:281 - info: [debug] Retrieving process from manifest.
+2016-04-11 12:08:23:281 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/aapt dump xmltree /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk AndroidManifest.xml
+2016-04-11 12:08:23:299 - info: [debug] Set app process to: com.freerange360.mpp.businessinsider
+2016-04-11 12:08:23:300 - info: [debug] Not uninstalling app since server not started with --full-reset
+2016-04-11 12:08:23:300 - info: [debug] Checking app cert for /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk.
+2016-04-11 12:08:23:302 - info: [debug] executing cmd: java -jar /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/verify.jar /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk
+2016-04-11 12:08:24:295 - info: [debug] App already signed.
+2016-04-11 12:08:24:295 - info: [debug] Zip-aligning /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk
+2016-04-11 12:08:24:296 - info: [debug] Checking whether zipalign is present
+2016-04-11 12:08:24:297 - info: [debug] Using zipalign from /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign
+2016-04-11 12:08:24:299 - info: [debug] Zip-aligning apk.
+2016-04-11 12:08:24:299 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/build-tools/23.0.2/zipalign -f 4 /Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk /var/folders/0h/2trx149s6ms0cx8sk1k6n3fw0000gn/T/116311-97206-16y9bkp/appium.tmp
+2016-04-11 12:08:24:466 - info: [debug] MD5 for app is e57dffe871dc7e610793cd683a715317
+2016-04-11 12:08:24:473 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ls /data/local/tmp/e57dffe871dc7e610793cd683a715317.apk"
+2016-04-11 12:08:24:568 - info: [debug] Getting install status for com.freerange360.mpp.businessinsider
+2016-04-11 12:08:24:568 - info: [debug] Getting device API level
+2016-04-11 12:08:24:569 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
+2016-04-11 12:08:24:664 - info: [debug] Device is at API Level 19
+2016-04-11 12:08:24:664 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "pm list packages -3 com.freerange360.mpp.businessinsider"
+2016-04-11 12:08:25:074 - info: [debug] App is installed
+2016-04-11 12:08:25:074 - info: [debug] Forwarding system:4724 to device:4724
+2016-04-11 12:08:25:074 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 forward tcp:4724 tcp:4724
+2016-04-11 12:08:25:164 - info: [debug] Pushing appium bootstrap to device...
+2016-04-11 12:08:25:165 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 push "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/android_bootstrap/AppiumBootstrap.jar" /data/local/tmp/
+2016-04-11 12:08:25:281 - info: [debug] Pushing settings apk to device...
+2016-04-11 12:08:25:282 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/settings_apk/settings_apk-debug.apk"
+2016-04-11 12:08:25:778 - info: [debug] Pushing unlock helper app to device...
+2016-04-11 12:08:25:780 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/unlock_apk/unlock_apk-debug.apk"
+2016-04-11 12:08:27:102 - info: Starting App
+2016-04-11 12:08:27:102 - info: [debug] Attempting to kill all 'uiautomator' processes
+2016-04-11 12:08:27:103 - info: [debug] Getting all processes with 'uiautomator'
+2016-04-11 12:08:27:103 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "ps 'uiautomator'"
+2016-04-11 12:08:27:193 - info: [debug] No matching processes found
+2016-04-11 12:08:27:194 - info: [debug] Running bootstrap
+2016-04-11 12:08:27:194 - info: [debug] spawning: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.freerange360.mpp.businessinsider -e disableAndroidWatchers false
+2016-04-11 12:08:27:308 - info: [debug] [UIAUTOMATOR STDOUT] WARNING: linker:
+2016-04-11 12:08:27:310 - info: [debug] [UIAUTOMATOR STDOUT] libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+2016-04-11 12:08:27:415 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2016-04-11 12:08:27:417 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2016-04-11 12:08:27:417 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
+2016-04-11 12:08:27:417 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2016-04-11 12:08:27:417 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2016-04-11 12:08:27:418 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2016-04-11 12:08:27:419 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2016-04-11 12:08:27:421 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
+2016-04-11 12:08:27:426 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+2016-04-11 12:08:27:428 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+2016-04-11 12:08:27:428 - info: [debug] [BOOTSTRAP] [debug] Loading json...
+2016-04-11 12:08:27:430 - info: [debug] Waking up device if it's not alive
+2016-04-11 12:08:27:430 - info: [debug] Pushing command to appium work queue: ["wake",{}]
+2016-04-11 12:08:27:434 - info: [debug] [BOOTSTRAP] [debug] json loading complete.
+2016-04-11 12:08:27:438 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+2016-04-11 12:08:27:440 - info: [debug] [BOOTSTRAP] [debug] Client connected
+2016-04-11 12:08:27:444 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+2016-04-11 12:08:27:447 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:27:447 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
+2016-04-11 12:08:27:448 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
+2016-04-11 12:08:27:451 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window"
+2016-04-11 12:08:27:579 - info: [debug] Screen already unlocked, continuing.
+2016-04-11 12:08:27:579 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+2016-04-11 12:08:27:584 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+2016-04-11 12:08:27:586 - info: [debug] dataDir set to: /data
+2016-04-11 12:08:27:586 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+2016-04-11 12:08:27:587 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:27:588 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+2016-04-11 12:08:27:588 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"\/data","status":0}
+2016-04-11 12:08:27:592 - info: [debug] Getting device API level
+2016-04-11 12:08:27:593 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.sdk"
+2016-04-11 12:08:27:597 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+2016-04-11 12:08:27:597 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:27:597 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+2016-04-11 12:08:27:598 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":false,"status":0}
+2016-04-11 12:08:27:685 - info: [debug] Device is at API Level 19
+2016-04-11 12:08:27:686 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.freerange360.mpp.businessinsider/com.businessinsider.app.MainActivity"
+2016-04-11 12:08:28:393 - info: [debug] Waiting for pkg "com.freerange360.mpp.businessinsider" and activity "com.businessinsider.app.MainActivity" to be focused
+2016-04-11 12:08:28:394 - info: [debug] Getting focused package and activity
+2016-04-11 12:08:28:394 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "dumpsys window windows"
+2016-04-11 12:08:28:585 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "getprop ro.build.version.release"
+2016-04-11 12:08:28:697 - info: [debug] Device is at release version 4.4.4
+2016-04-11 12:08:28:698 - info: [debug] Device launched! Ready for commands
+2016-04-11 12:08:28:699 - info: [debug] Setting command timeout to the default of 7200 secs
+2016-04-11 12:08:28:700 - info: [debug] Appium session started with sessionId 4dcb78a8-06d3-430a-bb8a-30b89a12a54f
+2016-04-11 12:08:28:705 - info: <-- POST /wd/hub/session 303 10052.976 ms - 74 
+2016-04-11 12:08:28:746 - info: --> GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f {}
+2016-04-11 12:08:28:748 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"5.1","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:28:750 - info: <-- GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f 200 4.085 ms - 876 {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.4","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformVersion":"5.1","platformName":"Android","deviceName":"Android Emulator","avd":"Nexus_S_API_19"},"app":"/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk","appActivity":"com.businessinsider.app.MainActivity","appium-version":"1.0","platformName":"Android","deviceName":"emulator-5554","avd":"Nexus_S_API_19"},"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:28:853 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":8000000}
+2016-04-11 12:08:28:857 - info: [debug] Set Android implicit wait to 8000000ms
+2016-04-11 12:08:28:858 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:28:859 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 6.314 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:173 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":0}
+2016-04-11 12:08:34:174 - info: [debug] Set Android implicit wait to 0ms
+2016-04-11 12:08:34:174 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:175 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 2.195 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:198 - info: --> GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context {}
+2016-04-11 12:08:34:199 - info: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:200 - info: <-- GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context 200 1.899 ms - 84 {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:208 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements {"using":"xpath","value":"//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[2]/android.widget.ImageButton[1]"}
+2016-04-11 12:08:34:209 - info: [debug] Waiting up to 0ms for condition
+2016-04-11 12:08:34:210 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[2]/android.widget.ImageButton[1]","context":"","multiple":true}]
+2016-04-11 12:08:34:219 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[2]/android.widget.ImageButton[1]","context":"","multiple":true}}
+2016-04-11 12:08:34:219 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:34:219 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-04-11 12:08:34:219 - info: [debug] [BOOTSTRAP] [debug] Finding //android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[2]/android.widget.ImageButton[1] using XPATH with the contextId:  multiple: true
+2016-04-11 12:08:34:335 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.ImageButton, INSTANCE=0]
+2016-04-11 12:08:34:336 - info: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageButton, INSTANCE=0]
+2016-04-11 12:08:34:336 - info: [debug] [BOOTSTRAP] [debug] Selector ends with instance.
+2016-04-11 12:08:34:405 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":[{"ELEMENT":"1"}],"status":0}
+2016-04-11 12:08:34:407 - info: [debug] Responding to client with success: {"status":0,"value":[{"ELEMENT":"1"}],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:409 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements 200 200.728 ms - 89 {"status":0,"value":[{"ELEMENT":"1"}],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:435 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":1000}
+2016-04-11 12:08:34:436 - info: [debug] Set Android implicit wait to 1000ms
+2016-04-11 12:08:34:436 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:437 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 1.829 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:444 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/element/1/click {"id":"1"}
+2016-04-11 12:08:34:444 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"1"}]
+2016-04-11 12:08:34:463 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2016-04-11 12:08:34:464 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:34:464 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-04-11 12:08:34:733 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
+2016-04-11 12:08:34:734 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:755 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/element/1/click 200 309.565 ms - 76 {"status":0,"value":true,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:761 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":0}
+2016-04-11 12:08:34:761 - info: [debug] Set Android implicit wait to 0ms
+2016-04-11 12:08:34:762 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:763 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 1.594 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:767 - info: --> GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context {}
+2016-04-11 12:08:34:768 - info: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:769 - info: <-- GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context 200 1.347 ms - 84 {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:34:776 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements {"using":"xpath","value":"//android.widget.ListView[1]/android.widget.LinearLayout[3]/android.widget.RelativeLayout[1]/android.widget.TextView[1]"}
+2016-04-11 12:08:34:777 - info: [debug] Waiting up to 0ms for condition
+2016-04-11 12:08:34:777 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.ListView[1]/android.widget.LinearLayout[3]/android.widget.RelativeLayout[1]/android.widget.TextView[1]","context":"","multiple":true}]
+2016-04-11 12:08:34:783 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ListView[1]/android.widget.LinearLayout[3]/android.widget.RelativeLayout[1]/android.widget.TextView[1]","context":"","multiple":true}}
+2016-04-11 12:08:34:784 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:34:784 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-04-11 12:08:34:785 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.ListView[1]/android.widget.LinearLayout[3]/android.widget.RelativeLayout[1]/android.widget.TextView[1] using XPATH with the contextId:  multiple: true
+2016-04-11 12:08:34:824 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=2]
+2016-04-11 12:08:34:828 - info: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=2]
+2016-04-11 12:08:34:835 - info: [debug] [BOOTSTRAP] [debug] Selector ends with instance.
+2016-04-11 12:08:35:444 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":[{"ELEMENT":"2"}],"status":0}
+2016-04-11 12:08:35:445 - info: [debug] Responding to client with success: {"status":0,"value":[{"ELEMENT":"2"}],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:35:446 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements 200 670.663 ms - 89 {"status":0,"value":[{"ELEMENT":"2"}],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:35:452 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":1000}
+2016-04-11 12:08:35:453 - info: [debug] Set Android implicit wait to 1000ms
+2016-04-11 12:08:35:453 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:35:454 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 2.062 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:35:460 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/element/2/click {"id":"2"}
+2016-04-11 12:08:35:461 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"2"}]
+2016-04-11 12:08:35:464 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2016-04-11 12:08:35:465 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:35:465 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-04-11 12:08:35:862 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
+2016-04-11 12:08:35:863 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:35:864 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/element/2/click 200 404.659 ms - 76 {"status":0,"value":true,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:35:873 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":0}
+2016-04-11 12:08:35:874 - info: [debug] Set Android implicit wait to 0ms
+2016-04-11 12:08:35:874 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:35:875 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 1.616 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:35:881 - info: --> GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context {}
+2016-04-11 12:08:35:881 - info: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:35:882 - info: <-- GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context 200 1.393 ms - 84 {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:35:892 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements {"using":"xpath","value":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]"}
+2016-04-11 12:08:35:893 - info: [debug] Waiting up to 0ms for condition
+2016-04-11 12:08:35:893 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]","context":"","multiple":true}]
+2016-04-11 12:08:35:902 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]","context":"","multiple":true}}
+2016-04-11 12:08:35:902 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:35:903 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-04-11 12:08:35:903 - info: [debug] [BOOTSTRAP] [debug] Finding //android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1] using XPATH with the contextId:  multiple: true
+2016-04-11 12:08:36:087 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=3]
+2016-04-11 12:08:36:088 - info: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=3]
+2016-04-11 12:08:36:088 - info: [debug] [BOOTSTRAP] [debug] Selector ends with instance.
+2016-04-11 12:08:36:551 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":[{"ELEMENT":"3"}],"status":0}
+2016-04-11 12:08:36:552 - info: [debug] Responding to client with success: {"status":0,"value":[{"ELEMENT":"3"}],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:36:553 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements 200 660.688 ms - 89 {"status":0,"value":[{"ELEMENT":"3"}],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:36:567 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":1000}
+2016-04-11 12:08:36:569 - info: [debug] Set Android implicit wait to 1000ms
+2016-04-11 12:08:36:570 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:36:572 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 4.901 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:36:580 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/element/3/click {"id":"3"}
+2016-04-11 12:08:36:581 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"3"}]
+2016-04-11 12:08:36:588 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2016-04-11 12:08:36:588 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:36:588 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-04-11 12:08:36:901 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
+2016-04-11 12:08:36:903 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:36:903 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/element/3/click 200 323.481 ms - 76 {"status":0,"value":true,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:36:909 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":0}
+2016-04-11 12:08:36:910 - info: [debug] Set Android implicit wait to 0ms
+2016-04-11 12:08:36:910 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:36:910 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 1.543 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:36:917 - info: --> GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context {}
+2016-04-11 12:08:36:918 - info: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:36:919 - info: <-- GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context 200 1.751 ms - 84 {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:36:927 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements {"using":"xpath","value":"//android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.ListView[1]/android.widget.CheckedTextView[3]"}
+2016-04-11 12:08:36:928 - info: [debug] Waiting up to 0ms for condition
+2016-04-11 12:08:36:929 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.ListView[1]/android.widget.CheckedTextView[3]","context":"","multiple":true}]
+2016-04-11 12:08:36:959 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.ListView[1]/android.widget.CheckedTextView[3]","context":"","multiple":true}}
+2016-04-11 12:08:36:987 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:36:987 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-04-11 12:08:36:987 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.ListView[1]/android.widget.CheckedTextView[3] using XPATH with the contextId:  multiple: true
+2016-04-11 12:08:37:052 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.CheckedTextView, INSTANCE=2]
+2016-04-11 12:08:37:052 - info: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[CLASS=android.widget.CheckedTextView, INSTANCE=2]
+2016-04-11 12:08:37:052 - info: [debug] [BOOTSTRAP] [debug] Selector ends with instance.
+2016-04-11 12:08:37:717 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":[{"ELEMENT":"4"}],"status":0}
+2016-04-11 12:08:37:718 - info: [debug] Responding to client with success: {"status":0,"value":[{"ELEMENT":"4"}],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:37:720 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements 200 793.090 ms - 89 {"status":0,"value":[{"ELEMENT":"4"}],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:37:729 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":1000}
+2016-04-11 12:08:37:731 - info: [debug] Set Android implicit wait to 1000ms
+2016-04-11 12:08:37:731 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:37:731 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 2.455 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:37:738 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/element/4/click {"id":"4"}
+2016-04-11 12:08:37:739 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"4"}]
+2016-04-11 12:08:37:744 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2016-04-11 12:08:37:744 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:37:744 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-04-11 12:08:40:891 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
+2016-04-11 12:08:40:893 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:40:893 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/element/4/click 200 3155.172 ms - 76 {"status":0,"value":true,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:40:899 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":0}
+2016-04-11 12:08:40:899 - info: [debug] Set Android implicit wait to 0ms
+2016-04-11 12:08:40:899 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:40:900 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 1.682 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:40:905 - info: --> GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context {}
+2016-04-11 12:08:40:906 - info: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:40:907 - info: <-- GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context 200 1.388 ms - 84 {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:40:911 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements {"using":"id","value":"android:id/up"}
+2016-04-11 12:08:40:912 - info: [debug] Waiting up to 0ms for condition
+2016-04-11 12:08:40:912 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"android:id/up","context":"","multiple":true}]
+2016-04-11 12:08:40:923 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"android:id/up","context":"","multiple":true}}
+2016-04-11 12:08:40:924 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:40:924 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-04-11 12:08:40:924 - info: [debug] [BOOTSTRAP] [debug] Finding android:id/up using ID with the contextId:  multiple: true
+2016-04-11 12:08:40:924 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[RESOURCE_ID=android:id/up]
+2016-04-11 12:08:40:924 - info: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[RESOURCE_ID=android:id/up]
+2016-04-11 12:08:40:925 - info: [debug] [BOOTSTRAP] [debug] Element[] is null: (0)
+2016-04-11 12:08:40:925 - info: [debug] [BOOTSTRAP] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=android:id/up]
+2016-04-11 12:08:40:970 - info: [debug] [BOOTSTRAP] [debug] Element[] is null: (1)
+2016-04-11 12:08:40:971 - info: [debug] [BOOTSTRAP] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=android:id/up]
+2016-04-11 12:08:41:120 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":[{"ELEMENT":"5"}],"status":0}
+2016-04-11 12:08:41:130 - info: [debug] Responding to client with success: {"status":0,"value":[{"ELEMENT":"5"}],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:41:132 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements 200 220.270 ms - 89 {"status":0,"value":[{"ELEMENT":"5"}],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:41:139 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":1000}
+2016-04-11 12:08:41:139 - info: [debug] Set Android implicit wait to 1000ms
+2016-04-11 12:08:41:140 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:41:140 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 1.892 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:41:147 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/element/5/click {"id":"5"}
+2016-04-11 12:08:41:147 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"5"}]
+2016-04-11 12:08:41:160 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"5"}}
+2016-04-11 12:08:41:165 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:41:165 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-04-11 12:08:41:593 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
+2016-04-11 12:08:41:594 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:41:595 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/element/5/click 200 448.534 ms - 76 {"status":0,"value":true,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:43:606 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":0}
+2016-04-11 12:08:43:606 - info: [debug] Set Android implicit wait to 0ms
+2016-04-11 12:08:43:607 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:43:607 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 1.695 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:43:613 - info: --> GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context {}
+2016-04-11 12:08:43:614 - info: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:43:615 - info: <-- GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context 200 1.540 ms - 84 {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:43:619 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements {"using":"xpath","value":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]"}
+2016-04-11 12:08:43:620 - info: [debug] Waiting up to 0ms for condition
+2016-04-11 12:08:43:621 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]","context":"","multiple":true}]
+2016-04-11 12:08:43:629 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]","context":"","multiple":true}}
+2016-04-11 12:08:43:629 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:43:629 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-04-11 12:08:43:629 - info: [debug] [BOOTSTRAP] [debug] Finding //android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1] using XPATH with the contextId:  multiple: true
+2016-04-11 12:08:43:747 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-04-11 12:08:43:749 - info: [debug] [BOOTSTRAP] [debug] Finding //android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1] using XPATH with the contextId:  multiple: true
+2016-04-11 12:08:43:829 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":[],"status":0}
+2016-04-11 12:08:43:829 - info: [debug] Condition unmet after 208ms. Timing out.
+2016-04-11 12:08:43:829 - info: [debug] Responding to client with success: {"status":0,"value":[],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:43:830 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements 200 210.693 ms - 74 {"status":0,"value":[],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:44:336 - info: --> GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context {}
+2016-04-11 12:08:44:337 - info: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:44:338 - info: <-- GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context 200 2.024 ms - 84 {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:44:343 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements {"using":"xpath","value":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]"}
+2016-04-11 12:08:44:344 - info: [debug] Waiting up to 0ms for condition
+2016-04-11 12:08:44:344 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]","context":"","multiple":true}]
+2016-04-11 12:08:44:350 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]","context":"","multiple":true}}
+2016-04-11 12:08:44:350 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:44:351 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-04-11 12:08:44:361 - info: [debug] [BOOTSTRAP] [debug] Finding //android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1] using XPATH with the contextId:  multiple: true
+2016-04-11 12:08:44:490 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-04-11 12:08:44:491 - info: [debug] [BOOTSTRAP] [debug] Finding //android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1] using XPATH with the contextId:  multiple: true
+2016-04-11 12:08:44:558 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":[],"status":0}
+2016-04-11 12:08:44:559 - info: [debug] Condition unmet after 214ms. Timing out.
+2016-04-11 12:08:44:559 - info: [debug] Responding to client with success: {"status":0,"value":[],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:44:559 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements 200 216.854 ms - 74 {"status":0,"value":[],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:45:068 - info: --> GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context {}
+2016-04-11 12:08:45:069 - info: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:45:070 - info: <-- GET /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/context 200 2.036 ms - 84 {"status":0,"value":"NATIVE_APP","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:45:075 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements {"using":"xpath","value":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]"}
+2016-04-11 12:08:45:076 - info: [debug] Waiting up to 0ms for condition
+2016-04-11 12:08:45:076 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]","context":"","multiple":true}]
+2016-04-11 12:08:45:080 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]","context":"","multiple":true}}
+2016-04-11 12:08:45:081 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-11 12:08:45:081 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-04-11 12:08:45:081 - info: [debug] [BOOTSTRAP] [debug] Finding //android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1] using XPATH with the contextId:  multiple: true
+2016-04-11 12:08:45:176 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-04-11 12:08:45:178 - info: [debug] [BOOTSTRAP] [debug] Finding //android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.ListView[1]/android.widget.FrameLayout[1] using XPATH with the contextId:  multiple: true
+2016-04-11 12:08:45:256 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":[],"status":0}
+2016-04-11 12:08:45:257 - info: [debug] Condition unmet after 180ms. Timing out.
+2016-04-11 12:08:45:257 - info: [debug] Responding to client with success: {"status":0,"value":[],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:45:258 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/elements 200 182.706 ms - 74 {"status":0,"value":[],"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:45:264 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts {"type":"implicit","ms":1000}
+2016-04-11 12:08:45:265 - info: [debug] Set Android implicit wait to 1000ms
+2016-04-11 12:08:45:266 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:45:268 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/timeouts 200 4.069 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:45:274 - info: --> POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/appium/app/close {}
+2016-04-11 12:08:45:276 - info: [debug] Pressing the HOME button
+2016-04-11 12:08:45:276 - info: [debug] executing cmd: /Users/rpalacios/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell "input keyevent 3"
+2016-04-11 12:08:45:955 - info: [debug] Stopping logcat capture
+2016-04-11 12:08:45:960 - info: [debug] Logcat terminated with code null, signal SIGTERM
+2016-04-11 12:08:45:972 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
+2016-04-11 12:08:45:973 - info: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
+2016-04-11 12:08:45:973 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"OK, shutting down","status":0}
+2016-04-11 12:08:45:974 - info: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+2016-04-11 12:08:45:986 - info: [debug] [BOOTSTRAP] [debug] Closed client connection
+2016-04-11 12:08:46:019 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2016-04-11 12:08:46:019 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.
+2016-04-11 12:08:46:019 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2016-04-11 12:08:46:019 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2016-04-11 12:08:46:019 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2016-04-11 12:08:46:020 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2016-04-11 12:08:46:020 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2016-04-11 12:08:46:020 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2016-04-11 12:08:46:020 - info: [debug] [UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.
+2016-04-11 12:08:46:020 - info: [debug] [UIAUTOMATOR STDOUT] Time: 18.613
+2016-04-11 12:08:46:020 - info: [debug] [UIAUTOMATOR STDOUT] OK (1 test)
+2016-04-11 12:08:46:020 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2016-04-11 12:08:46:022 - info: [debug] UiAutomator shut down normally
+2016-04-11 12:08:46:022 - info: [debug] Cleaning up android objects
+2016-04-11 12:08:46:023 - info: [debug] Responding to client with success: {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk] app.","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:46:024 - info: <-- POST /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f/appium/app/close 200 749.878 ms - 203 {"status":0,"value":"Successfully closed the [/Users/rpalacios/IdeaProjects/mobile-automation/AndroidApps/BI_Post_Design_RC_8_MA-377-RELEASE.apk] app.","sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:46:030 - info: --> DELETE /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f {}
+2016-04-11 12:08:46:031 - info: Shutting down appium session
+2016-04-11 12:08:46:032 - info: [debug] Cleaning up android objects
+2016-04-11 12:08:46:032 - info: [debug] Cleaning up appium session
+2016-04-11 12:08:46:033 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:08:46:034 - info: <-- DELETE /wd/hub/session/4dcb78a8-06d3-430a-bb8a-30b89a12a54f 200 4.765 ms - 76 {"status":0,"value":null,"sessionId":"4dcb78a8-06d3-430a-bb8a-30b89a12a54f"}
+2016-04-11 12:09:33:709 - info: --> GET /wd/hub/status {}
+2016-04-11 12:09:33:709 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}

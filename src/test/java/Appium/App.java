@@ -4,10 +4,9 @@ import GUI.GUIForm;
 import com.github.genium_framework.appium.support.server.AppiumServer;
 import com.github.genium_framework.server.ServerArguments;
 import io.appium.java_client.AppiumDriver;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.SessionNotCreatedException;
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.UnreachableBrowserException;
 
@@ -34,6 +33,7 @@ public class App {
         try {
 
             //new AppiumServer().startAppiumonMac();
+            screenshotCleanup();
 
             logger.info("Working Directory = " + System.getProperty("user.dir"));
 
@@ -199,6 +199,16 @@ public class App {
 
     }
 
+    private void screenshotCleanup() {
+        StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
+        File file = new File("screenshots/");
+        File[] listOfFiles = file.listFiles();
+        for (File f:listOfFiles){
+            if(f.getName().contains(stackTraceElements[3].getClassName()))
+                f.delete();
+        }
+    }
+
     private void readProperties() {
         try {
             Properties properties = new Properties();
@@ -241,4 +251,16 @@ public class App {
         }
         logger.info("Test Done");
     }
+
+    public void takeScreenshot()
+    {
+        try {
+            StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
+            File screenShotFile = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(screenShotFile, new File("screenshots/" + stackTraceElements[2] + ".png"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
