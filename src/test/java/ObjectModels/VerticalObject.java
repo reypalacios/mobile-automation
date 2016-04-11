@@ -1,6 +1,6 @@
 package objectModels;
 
-import appium.customException;
+import appium.MobileException;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -277,9 +277,10 @@ public class VerticalObject {
         logger.info("click copyright ");
     }
 
-    public void isCurrentVertical(String vertical) throws customException {
-        if (!currentVertical.getText().equals(vertical))
-            throw new customException("Verticals do not match: Current vertical is "+currentVertical.getText() + " and Expected vertical is "+vertical);
-
+    public void isCurrentVertical(String expectedVertical) throws MobileException {
+        if (!currentVertical.getText().equals(expectedVertical))
+            throw new MobileException("Verticals do not match: Current vertical is "+currentVertical.getText() + " and Expected vertical is "+expectedVertical);
+        else
+            logger.info("Current vertical ("+currentVertical.getText() + ") is matching Expected vertical ("+expectedVertical+")");
     }
 }
