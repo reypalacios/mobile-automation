@@ -40,15 +40,13 @@ public class App {
             serverArguments.setArgument("--address", "127.0.0.1");
             serverArguments.setArgument("--no-reset", true);
             serverArguments.setArgument("--local-timezone", true);
-            //serverArguments.setArgument("--log", "/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log");
-            //serverArguments.setArgument("--log", System.getProperty("user.dir")+"/src/logs/appium.log");
-
+            serverArguments.setArgument("--log", System.getProperty("user.dir")+"/logs/appium.log");
             serverArguments.setArgument("--command-timeout","7200");
             serverArguments.setArgument("--debug-log-spacing", true);
             serverArguments.setArgument("--port", "4723");
             serverArguments.setArgument("--native-instruments-lib", true);
             serverArguments.setArgument("--show-ios-log", true);
-            serverArguments.setArgument("--launch-timeout","110000");
+            serverArguments.setArgument("--launch-timeout","100000");
             serverArguments.setArgument("--session-override", true);
 
             as = new AppiumServer(serverArguments);
@@ -99,7 +97,7 @@ public class App {
             if (GUIForm.launchOn.equals("iOS")) {
 
                 capabilities.setCapability("deviceName", GUIForm.VD.split(" \\(")[0]);
-                capabilities.setCapability("platformVersion", GUIForm.VD.split("\\(")[1].replaceAll("\\)", ""));
+                capabilities.setCapability("platformVersion", GUIForm.VD.split("\\(")[1].replaceAll("\\)", "").replace(")",""));
                 //capabilities.setCapability("udid", GUIForm.VD.split(" \\(")[0]);
                 //capabilities.setCapability("autoAcceptAlerts", "false");
                 //capabilities.setCapability("browserName", "safari");
@@ -109,6 +107,7 @@ public class App {
                 File file = null;
                 if (GUIForm.app.equals("Business Insider") || GUIForm.app.equals("Business_Insider")) {
                     file = new File("iOSApps/iPhoneBI.app");
+                    //file = new File("/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app");
                 }
                 if (GUIForm.app.equals("Tech Insider") || GUIForm.app.equals("Tech_Insider")) {
                     file = new File("iOSApps/iPhoneTI.app");
@@ -133,10 +132,10 @@ public class App {
                 }
             };
 
-            wd.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
+            wd.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
             //wd.get("http://www.businessinsider.com/");
             //wd.switchTo().alert().dismiss();
-            Thread.sleep(3000);
+            Thread.sleep(5000);
 
             logger.info("App has launched");
 
@@ -167,8 +166,8 @@ public class App {
             e.printStackTrace();
         } catch (SessionNotCreatedException s) {
             logger.error(s.getMessage());
-//            s.printStackTrace();
-            as.stopServer();
+            s.printStackTrace();
+/*            as.stopServer();
             as.startServer();
             try {
                 wd = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
@@ -195,7 +194,7 @@ public class App {
                 e.printStackTrace();
             }
 
-            logger.info("App has launched");
+            logger.info("App has launched");*/
         }
 
     }

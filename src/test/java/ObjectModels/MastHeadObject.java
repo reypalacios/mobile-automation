@@ -23,11 +23,11 @@ public class MastHeadObject {
     public static WebElement BI;
 
     @AndroidFindBy(id = "com.businessinsider.app.debug:id/search_articles_option")
-    @iOSFindBy(name = "")
+   // @iOSFindBy(name = "")
     public static WebElement Search;
 
     @AndroidFindBy(id = "com.businessinsider.app.debug:id/search_close_button")
-    @iOSFindBy(name = "")
+   // @iOSFindBy(name = "")
     public static WebElement CloseSearch;
 
     @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[2]/android.widget.ImageButton[1]")
