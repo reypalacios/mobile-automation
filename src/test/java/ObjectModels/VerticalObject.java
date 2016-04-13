@@ -281,6 +281,6 @@ public class VerticalObject {
         if (!currentVertical.getText().equals(expectedVertical))
             throw new MobileException("Verticals do not match: Current vertical is "+currentVertical.getText() + " and Expected vertical is "+expectedVertical);
         else
-            logger.info("Current vertical ("+currentVertical.getText() + ") is matching Expected vertical ("+expectedVertical+")");
+            logger.info("Current vertical is "+expectedVertical);
     }
 }

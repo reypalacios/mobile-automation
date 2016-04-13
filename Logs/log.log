@@ -3396,3 +3396,346 @@ Driver info: appium.App$1
 2016-04-11 16:24:33 INFO  App:71 - OS = Android
 2016-04-11 16:24:33 INFO  App:73 - AVD = Nexus_S_API_19
 2016-04-11 16:24:33 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:25:52 INFO  App:140 - App has launched
+2016-04-11 16:25:55 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:25:56 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:25:59 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:26:00 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:26:03 ERROR customException:12 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-11 16:26:04 INFO  App:252 - Test Done
+2016-04-11 16:27:28 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:27:30 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:27:30 INFO  App:71 - OS = Android
+2016-04-11 16:27:30 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:27:30 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:27:54 INFO  App:140 - App has launched
+2016-04-11 16:28:00 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:28:03 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:28:05 INFO  VerticalObject:284 - Current vertical, Favorites matches Expected vertical, Favorites
+2016-04-11 16:28:08 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:28:09 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:28:13 ERROR customException:12 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-11 16:28:15 INFO  App:252 - Test Done
+2016-04-11 16:35:18 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:35:20 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:35:20 INFO  App:71 - OS = Android
+2016-04-11 16:35:20 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:35:20 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:35:42 INFO  App:140 - App has launched
+2016-04-11 16:35:44 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:35:45 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:35:47 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:35:49 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:35:50 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:35:52 ERROR customException:12 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-11 16:35:53 INFO  App:252 - Test Done
+2016-04-11 16:41:36 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:41:39 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:41:39 INFO  App:71 - OS = Android
+2016-04-11 16:41:39 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:41:39 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:41:56 INFO  App:140 - App has launched
+2016-04-11 16:41:58 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:41:59 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:42:00 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:42:03 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:42:05 INFO  App:252 - Test Done
+2016-04-11 16:43:43 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:43:44 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:43:44 INFO  App:71 - OS = Android
+2016-04-11 16:43:44 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:43:44 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:43:59 INFO  App:140 - App has launched
+2016-04-11 16:44:01 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:44:02 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:44:03 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:44:05 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:44:09 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:44:10 INFO  VerticalObject:284 - Current vertical (Home) is matching Expected vertical (Home)
+2016-04-11 16:44:16 INFO  App:252 - Test Done
+2016-04-11 16:45:10 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:45:12 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:45:12 INFO  App:71 - OS = Android
+2016-04-11 16:45:12 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:45:12 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:45:21 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:45:22 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:45:22 INFO  App:71 - OS = Android
+2016-04-11 16:45:22 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:45:22 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:45:37 INFO  App:140 - App has launched
+2016-04-11 16:45:40 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:45:41 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:45:48 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:45:50 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:45:51 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:46:24 ERROR MobileException:19 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-11 16:46:26 INFO  App:252 - Test Done
+2016-04-11 16:46:50 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:46:52 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:46:52 INFO  App:71 - OS = Android
+2016-04-11 16:46:52 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:46:52 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:47:08 INFO  App:140 - App has launched
+2016-04-11 16:47:10 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:47:11 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:47:13 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:47:15 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:47:17 INFO  App:252 - Test Done
+2016-04-11 16:47:31 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:47:32 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:47:32 INFO  App:71 - OS = Android
+2016-04-11 16:47:32 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:47:32 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:47:47 INFO  App:140 - App has launched
+2016-04-11 16:47:51 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:47:52 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:47:53 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:47:55 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:47:59 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:47:59 INFO  VerticalObject:284 - Current vertical (Home) is matching Expected vertical (Home)
+2016-04-11 16:48:05 INFO  App:252 - Test Done
+2016-04-11 16:48:14 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:48:16 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:48:16 INFO  App:71 - OS = Android
+2016-04-11 16:48:16 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:48:16 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:48:31 INFO  App:140 - App has launched
+2016-04-11 16:48:33 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:48:34 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:48:35 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:48:37 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:48:38 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:49:00 ERROR MobileException:19 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-11 16:49:00 INFO  App:252 - Test Done
+2016-04-11 16:49:21 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:49:23 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:49:23 INFO  App:71 - OS = Android
+2016-04-11 16:49:23 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:49:23 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:49:38 INFO  App:140 - App has launched
+2016-04-11 16:49:39 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:49:41 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:49:42 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:49:44 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:49:44 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:50:25 ERROR MobileException:19 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-11 16:50:31 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:50:33 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:50:33 INFO  App:71 - OS = Android
+2016-04-11 16:50:33 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:50:33 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:50:50 INFO  App:140 - App has launched
+2016-04-11 16:50:54 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:50:57 INFO  App:252 - Test Done
+2016-04-11 16:51:22 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:51:23 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:51:23 INFO  App:71 - OS = Android
+2016-04-11 16:51:23 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:51:23 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:51:38 INFO  App:140 - App has launched
+2016-04-11 16:51:41 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:51:44 INFO  App:252 - Test Done
+2016-04-11 16:51:52 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:51:53 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:51:53 INFO  App:71 - OS = Android
+2016-04-11 16:51:53 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:51:53 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:52:08 INFO  App:140 - App has launched
+2016-04-11 16:52:10 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:52:11 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:52:12 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:52:14 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:52:14 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:52:36 ERROR MobileException:19 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-11 16:52:39 INFO  App:252 - Test Done
+2016-04-11 16:53:14 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:53:15 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:53:15 INFO  App:71 - OS = Android
+2016-04-11 16:53:15 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:53:15 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:53:31 INFO  App:140 - App has launched
+2016-04-11 16:53:34 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:53:35 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:53:36 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:53:38 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:53:42 INFO  App:252 - Test Done
+2016-04-11 16:53:59 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:54:00 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:54:00 INFO  App:71 - OS = Android
+2016-04-11 16:54:00 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:54:00 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:54:15 INFO  App:140 - App has launched
+2016-04-11 16:54:19 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:54:19 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:54:21 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:54:23 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:54:25 INFO  App:252 - Test Done
+2016-04-11 16:54:54 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:54:55 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:54:55 INFO  App:71 - OS = Android
+2016-04-11 16:54:55 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:54:55 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:55:11 INFO  App:140 - App has launched
+2016-04-11 16:55:13 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:55:16 INFO  App:252 - Test Done
+2016-04-11 16:55:24 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:55:25 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:55:25 INFO  App:71 - OS = Android
+2016-04-11 16:55:25 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:55:25 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:55:41 INFO  App:140 - App has launched
+2016-04-11 16:55:44 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:55:45 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:55:46 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:55:49 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:55:50 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:57:15 ERROR MobileException:19 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-11 16:57:16 INFO  App:252 - Test Done
+2016-04-11 16:58:18 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:58:19 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:58:19 INFO  App:71 - OS = Android
+2016-04-11 16:58:19 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:58:19 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:58:35 INFO  App:140 - App has launched
+2016-04-11 16:58:36 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:58:39 INFO  App:252 - Test Done
+2016-04-11 16:58:48 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:58:50 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:58:50 INFO  App:71 - OS = Android
+2016-04-11 16:58:50 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:58:50 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:58:54 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:58:55 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:58:55 INFO  App:71 - OS = Android
+2016-04-11 16:58:55 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:58:55 INFO  App:79 - ------------------------------------------------------
+2016-04-11 16:59:05 INFO  App:252 - Test Done
+2016-04-11 16:59:22 INFO  App:140 - App has launched
+2016-04-11 16:59:24 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:59:25 INFO  VerticalObject:137 - Click Favorites
+2016-04-11 16:59:26 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-11 16:59:29 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 16:59:33 INFO  VerticalObject:152 - click tech Vertical
+2016-04-11 16:59:33 INFO  VerticalObject:284 - Current vertical (Home) is matching Expected vertical (Home)
+2016-04-11 16:59:39 INFO  App:252 - Test Done
+2016-04-11 16:59:54 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-11 16:59:55 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-11 16:59:55 INFO  App:71 - OS = Android
+2016-04-11 16:59:55 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-11 16:59:55 INFO  App:79 - ------------------------------------------------------
+2016-04-11 17:00:10 INFO  App:140 - App has launched
+2016-04-11 17:00:12 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-11 17:00:15 INFO  App:252 - Test Done
+2016-04-13 09:23:40 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:23:42 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:23:42 INFO  App:71 - OS = Android
+2016-04-13 09:23:42 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:23:42 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:23:56 INFO  App:140 - App has launched
+2016-04-13 09:23:58 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:23:59 INFO  VerticalObject:137 - Click Favorites
+2016-04-13 09:24:01 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-13 09:24:03 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:24:07 INFO  VerticalObject:152 - click tech Vertical
+2016-04-13 09:24:07 INFO  VerticalObject:284 - Current vertical (Home) is matching Expected vertical (Home)
+2016-04-13 09:24:12 INFO  App:252 - Test Done
+2016-04-13 09:24:50 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:24:51 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:24:51 INFO  App:71 - OS = Android
+2016-04-13 09:24:51 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:24:51 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:25:05 INFO  App:140 - App has launched
+2016-04-13 09:25:07 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:25:09 INFO  App:252 - Test Done
+2016-04-13 09:28:06 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:28:08 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:28:08 INFO  App:71 - OS = Android
+2016-04-13 09:28:08 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:28:08 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:28:21 INFO  App:140 - App has launched
+2016-04-13 09:28:24 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:28:26 INFO  App:252 - Test Done
+2016-04-13 09:28:37 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:28:38 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:28:38 INFO  App:71 - OS = Android
+2016-04-13 09:28:38 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:28:38 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:28:51 INFO  App:140 - App has launched
+2016-04-13 09:28:54 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:28:59 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:29:00 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:29:00 INFO  App:71 - OS = Android
+2016-04-13 09:29:00 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:29:00 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:29:38 INFO  App:252 - Test Done
+2016-04-13 09:30:04 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:30:04 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:30:04 INFO  App:71 - OS = Android
+2016-04-13 09:30:04 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:30:04 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:30:15 INFO  App:252 - Test Done
+2016-04-13 09:30:36 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:30:37 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:30:37 INFO  App:71 - OS = Android
+2016-04-13 09:30:37 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:30:37 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:30:48 INFO  App:252 - Test Done
+2016-04-13 09:31:31 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:31:31 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:31:31 INFO  App:71 - OS = Android
+2016-04-13 09:31:31 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:31:31 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:31:37 ERROR App:160 - Unable to launch device
+2016-04-13 09:31:37 INFO  App:252 - Test Done
+2016-04-13 09:31:42 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:31:42 INFO  App:55 - Starting Appium Server...
+2016-04-13 09:32:04 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:32:04 INFO  App:71 - OS = Android
+2016-04-13 09:32:04 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:32:04 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:32:44 INFO  App:140 - App has launched
+2016-04-13 09:32:47 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:32:47 INFO  VerticalObject:137 - Click Favorites
+2016-04-13 09:32:48 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-13 09:32:52 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:32:52 INFO  VerticalObject:152 - click tech Vertical
+2016-04-13 09:49:22 ERROR MobileException:19 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-13 09:49:23 INFO  App:252 - Test Done
+2016-04-13 09:50:06 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:50:07 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:50:07 INFO  App:71 - OS = Android
+2016-04-13 09:50:07 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:50:07 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:50:07 INFO  App:119 - Starting Appium Server....
+2016-04-13 09:50:27 INFO  App:140 - App has launched
+2016-04-13 09:50:29 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:50:29 INFO  VerticalObject:137 - Click Favorites
+2016-04-13 09:50:31 INFO  VerticalObject:284 - Current vertical (Favorites) is matching Expected vertical (Favorites)
+2016-04-13 09:50:33 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:50:34 INFO  VerticalObject:152 - click tech Vertical
+2016-04-13 09:50:42 ERROR MobileException:19 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-13 09:50:44 INFO  App:252 - Test Done
+2016-04-13 09:53:35 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:53:36 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:53:36 INFO  App:71 - OS = Android
+2016-04-13 09:53:36 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:53:36 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:53:36 INFO  App:119 - Starting Appium Server....
+2016-04-13 09:53:52 INFO  App:140 - App has launched
+2016-04-13 09:53:53 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:53:55 INFO  App:252 - Test Done
+2016-04-13 09:54:06 INFO  App:38 - Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-04-13 09:54:07 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-04-13 09:54:07 INFO  App:71 - OS = Android
+2016-04-13 09:54:07 INFO  App:73 - AVD = Nexus_S_API_19
+2016-04-13 09:54:07 INFO  App:79 - ------------------------------------------------------
+2016-04-13 09:54:07 INFO  App:119 - Starting Appium Server....
+2016-04-13 09:54:23 INFO  App:140 - App has launched
+2016-04-13 09:54:25 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:54:26 INFO  VerticalObject:137 - Click Favorites
+2016-04-13 09:54:27 INFO  VerticalObject:284 - Current vertical is matching expected vertical: (Favorites)
+2016-04-13 09:54:29 INFO  MastHeadObject:44 - Click Hamburger menu
+2016-04-13 09:54:30 INFO  VerticalObject:152 - click tech Vertical
+2016-04-13 09:54:44 ERROR MobileException:19 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
+2016-04-13 09:54:45 INFO  App:252 - Test Done
