@@ -258,6 +258,7 @@ public class App {
             StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
             File screenShotFile = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(screenShotFile, new File("screenshots/" + stackTraceElements[2] + ".png"));
+            logger.info("Screenshot saved as: "+screenShotFile.getName());
         } catch (IOException e) {
             e.printStackTrace();
         }
