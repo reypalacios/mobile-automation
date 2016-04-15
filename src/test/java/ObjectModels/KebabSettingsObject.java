@@ -1,6 +1,6 @@
 package objectModels;
 
-import io.appium.java_client.AppiumDriver;
+import appium.App;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -40,8 +40,8 @@ public class KebabSettingsObject {
     @AndroidFindBy(xpath = "//android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.ListView[1]/android.widget.CheckedTextView[3]")
     public static WebElement largeFont;
 
-    public KebabSettingsObject(AppiumDriver<WebElement> wd) {
-        PageFactory.initElements(new AppiumFieldDecorator(wd), this);
+    public KebabSettingsObject() {
+        PageFactory.initElements(new AppiumFieldDecorator(App.wd), this);
     }
 
     public void clickKebabMenu(){
