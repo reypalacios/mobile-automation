@@ -1,6 +1,6 @@
 package objectModels;
 
-import io.appium.java_client.AppiumDriver;
+import appium.App;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -34,8 +34,8 @@ public class MastHeadObject {
     public static WebElement KebabMenu;
 
 
-    public MastHeadObject(AppiumDriver<WebElement> wd) {
-        PageFactory.initElements(new AppiumFieldDecorator(wd), this);
+    public MastHeadObject() {
+        PageFactory.initElements(new AppiumFieldDecorator(App.wd), this);
     }
 
     public void clickHamburgerMenu() throws InterruptedException {

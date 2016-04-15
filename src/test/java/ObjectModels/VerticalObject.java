@@ -1,7 +1,7 @@
 package objectModels;
 
+import appium.App;
 import appium.MobileException;
-import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -128,8 +128,8 @@ public class VerticalObject {
     @AndroidFindBy(id = "android:id/action_bar_title")
     public static WebElement currentVertical;
 
-    public VerticalObject(AppiumDriver<WebElement> wd) {
-        PageFactory.initElements(new AppiumFieldDecorator(wd), this);
+    public VerticalObject() {
+        PageFactory.initElements(new AppiumFieldDecorator(App.wd), this);
     }
 
     public void clickFavorites() {

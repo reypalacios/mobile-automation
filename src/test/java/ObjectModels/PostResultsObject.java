@@ -1,6 +1,6 @@
 package objectModels;
 
-import io.appium.java_client.AppiumDriver;
+import appium.App;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.apache.log4j.Logger;
@@ -17,8 +17,8 @@ public class PostResultsObject {
     @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]")
     public static WebElement topPost;
 
-    public PostResultsObject(AppiumDriver<WebElement> wd) {
-        PageFactory.initElements(new AppiumFieldDecorator(wd), this);
+    public PostResultsObject() {
+        PageFactory.initElements(new AppiumFieldDecorator(App.wd), this);
     }
 
     public void clickTopPost() throws InterruptedException {
