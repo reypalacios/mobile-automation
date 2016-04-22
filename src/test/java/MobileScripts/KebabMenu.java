@@ -22,9 +22,9 @@ public class KebabMenu extends App {
     public void testSettingsMenu(){
         try {
 
-            KebabSettingsObject kebabSettings = new KebabSettingsObject(wd);
-            MastHeadObject Masthead = new MastHeadObject(wd);
-            PostResultsObject PostResults = new PostResultsObject(wd);
+            KebabSettingsObject kebabSettings = new KebabSettingsObject();
+            MastHeadObject Masthead = new MastHeadObject();
+            PostResultsObject PostResults = new PostResultsObject();
 
             kebabSettings.clickKebabMenu();
             //Thread.sleep(2000);

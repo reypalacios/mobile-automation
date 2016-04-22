@@ -120,6 +120,20 @@
             <version>1.0.4</version>
         </dependency>
 
+        <!-- slack -->
+        <dependency>
+            <groupId>in.ashwanthkumar</groupId>
+            <artifactId>slack-java-webhook</artifactId>
+            <version>0.0.5</version>
+        </dependency>
+
+        <!-- cucumber reports -->
+        <dependency>
+            <groupId>com.github.mkolisnyk</groupId>
+            <artifactId>cucumber-reports</artifactId>
+            <version>0.0.12</version>
+        </dependency>
+
     </dependencies>
 
 

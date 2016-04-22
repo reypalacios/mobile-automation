@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class App {
 
-    public static AppiumDriver wd;
+    public static AppiumDriver driver;
     Logger logger = Logger.getLogger(this.getClass());
     ServerArguments serverArguments = new ServerArguments();
     DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -120,7 +120,7 @@ public class App {
                 as.startServer();
             }
 
-            wd = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
                 @Override
                 public WebElement scrollTo(String s) {
                     return null;
@@ -132,7 +132,7 @@ public class App {
                 }
             };
 
-            wd.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
             //wd.get("http://www.businessinsider.com/");
             //wd.switchTo().alert().dismiss();
             Thread.sleep(5000);
@@ -203,6 +203,7 @@ public class App {
         StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
         File file = new File("screenshots/");
         File[] listOfFiles = file.listFiles();
+        if(listOfFiles!=null)
         for (File f:listOfFiles){
             if(f.getName().contains(stackTraceElements[3].getClassName()))
                 f.delete();
@@ -236,10 +237,10 @@ public class App {
     {
 
         try {
-            if(wd != null) {
-                wd.closeApp();
+            if(driver != null) {
+                driver.closeApp();
                 //wd.close();
-                wd.quit();
+                driver.quit();
                 //as.stopServer();
             }
             //as.stopServer();
@@ -256,7 +257,7 @@ public class App {
     {
         try {
             StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
-            File screenShotFile = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+            File screenShotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(screenShotFile, new File("screenshots/" + stackTraceElements[2] + ".png"));
             logger.info("Screenshot saved as: "+screenShotFile.getName());
         } catch (IOException e) {

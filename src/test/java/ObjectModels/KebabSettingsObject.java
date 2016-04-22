@@ -41,7 +41,7 @@ public class KebabSettingsObject {
     public static WebElement largeFont;
 
     public KebabSettingsObject() {
-        PageFactory.initElements(new AppiumFieldDecorator(App.wd), this);
+        PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
     }
 
     public void clickKebabMenu(){

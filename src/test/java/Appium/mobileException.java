@@ -23,7 +23,7 @@ public class MobileException extends Throwable {
     {
         try {
             StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
-            File screenShotFile = ((TakesScreenshot)App.wd).getScreenshotAs(OutputType.FILE);
+            File screenShotFile = ((TakesScreenshot)App.driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(screenShotFile, new File("screenshots/ERROR." + stackTraceElements[4] + ".png"));
         } catch (IOException e) {
             e.printStackTrace();

@@ -5,6 +5,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
@@ -35,13 +36,20 @@ public class MastHeadObject {
 
 
     public MastHeadObject() {
-        PageFactory.initElements(new AppiumFieldDecorator(App.wd), this);
+        PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
     }
 
     public void clickHamburgerMenu() throws InterruptedException {
         HamburgerMenu.click();
-        Thread.sleep(1000);
-        logger.info("Click Hamburger menu");
+        try {
+            WebElement menu = App.driver.findElementById("com.freerange360.mpp.businessinsider:id/menuDrawer");
+            /*if (menu.getSize().getWidth() < 400 )
+                HamburgerMenu.click();*/
+        }catch (NoSuchElementException e){
+            HamburgerMenu.click();
+            Thread.sleep(2500);
+        }
+        logger.info("Menu is open");
     }
 
     public void clickBI() {

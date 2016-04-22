@@ -18,7 +18,7 @@ public class PostResultsObject {
     public static WebElement topPost;
 
     public PostResultsObject() {
-        PageFactory.initElements(new AppiumFieldDecorator(App.wd), this);
+        PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
     }
 
     public void clickTopPost() throws InterruptedException {

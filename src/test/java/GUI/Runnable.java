@@ -6,7 +6,7 @@ package GUI;
 */
 
 
-import runner.CucumberRunnerFeature1Test;
+import runner.mobileCucumberRunnerTest;
 import runner.CucumberRunnerFeature2Tes;
 import org.junit.runner.JUnitCore;
 
@@ -19,14 +19,16 @@ public class Runnable extends Thread {
                 //new JUnitCore().run(Class.forName("mobileScripts."+GUIForm.script.replaceAll(" ","")));
 
                 if (GUIForm.script.equals("Hamburger Menu"))
-                    new JUnitCore().run(CucumberRunnerFeature1Test.class);
+                    new JUnitCore().run(mobileCucumberRunnerTest.class);
 
                 if (GUIForm.script.equals("Settings Menu"))
                     new JUnitCore().run(CucumberRunnerFeature2Tes.class);
 
             }
+/*
             if (GUIForm.launchOn.equals("Desktop"))
                 new JUnitCore().run(CucumberRunnerFeature1Test.class);
+*/
        /* } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }*/
