@@ -42,9 +42,8 @@ public class MastHeadObject {
     public void clickHamburgerMenu() throws InterruptedException {
         HamburgerMenu.click();
         try {
-            WebElement menu = App.driver.findElementById("com.freerange360.mpp.businessinsider:id/menuDrawer");
-            /*if (menu.getSize().getWidth() < 400 )
-                HamburgerMenu.click();*/
+            if (App.driver.findElementById("com.freerange360.mpp.businessinsider:id/menuDrawer").getSize().getWidth() < 400 )
+                HamburgerMenu.click();
         }catch (NoSuchElementException e){
             HamburgerMenu.click();
             Thread.sleep(2500);

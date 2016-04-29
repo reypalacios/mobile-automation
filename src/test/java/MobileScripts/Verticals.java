@@ -24,85 +24,104 @@ public class Verticals extends App{
 
     @Test
     public void testVerticals() throws Exception, MobileException {
-        MastHeadObject mastHead = new MastHeadObject(wd);
-        VerticalObject vertical = new VerticalObject(wd);
+        MastHeadObject mastHead = new MastHeadObject();
+        VerticalObject vertical = new VerticalObject();
 
-        mastHead.clickHamburgerMenu();
+
+        /*mastHead.clickHamburgerMenu();
         vertical.clickFavorites();
         vertical.isCurrentVertical("Favorites");
-        wd.navigate().back();
-        Thread.sleep(1000);
+        driver.navigate().back();
 
-   /*     mastHead.clickHamburgerMenu();
+        mastHead.clickHamburgerMenu();
         vertical.clickLatest();
-        //Thread.sleep(4000);
+        vertical.isCurrentVertical("Latest");
 
         mastHead.clickHamburgerMenu();
         vertical.clickhome();
-        //Thread.sleep(4000);*/
+        vertical.isCurrentVertical("HOME");
 
         mastHead.clickHamburgerMenu();
         vertical.clicktech();
-        vertical.isCurrentVertical("Home");
-        Thread.sleep(4000);
+        vertical.isCurrentVertical("TECH");
 
-      /*  mastHead.clickHamburgerMenu();
+        mastHead.clickHamburgerMenu();
         vertical.clickenterprise();
+        vertical.isCurrentVertical("Enterprise");
 
         mastHead.clickHamburgerMenu();
         vertical.clickScience();
+        vertical.isCurrentVertical("Science");
 
         mastHead.clickHamburgerMenu();
         vertical.clickfinance();
+        vertical.isCurrentVertical("FINANCE");
 
         mastHead.clickHamburgerMenu();
         vertical.clickMarkets();
+        vertical.isCurrentVertical("Markets");
 
         mastHead.clickHamburgerMenu();
         vertical.clickYourMoney();
+        vertical.isCurrentVertical("Your Money");
 
         mastHead.clickHamburgerMenu();
         vertical.clickWealthAdvisor();
+        vertical.isCurrentVertical("Wealth Advisor");*/
 
         mastHead.clickHamburgerMenu();
+        vertical.scrolldown(vertical.wealthadvisor);
         vertical.clickpolitics();
+        vertical.isCurrentVertical("POLITICS");
 
-        mastHead.clickHamburgerMenu();
+        /*mastHead.clickHamburgerMenu();
         vertical.clickmilitarydefense();
+        vertical.isCurrentVertical("Military & Defense");
 
         mastHead.clickHamburgerMenu();
         vertical.clicklaworder();
+        vertical.isCurrentVertical("Law & Order");
 
         mastHead.clickHamburgerMenu();
         vertical.clickstrategy();
+        vertical.isCurrentVertical("STRATEGY");
 
         mastHead.clickHamburgerMenu();
         vertical.clickCarrers();
+        vertical.isCurrentVertical("Careers");
 
         mastHead.clickHamburgerMenu();
         vertical.clickAdvertising();
+        vertical.isCurrentVertical("Advertising");
 
         mastHead.clickHamburgerMenu();
         vertical.clickRetail();
+        vertical.isCurrentVertical("Retails");
 
         mastHead.clickHamburgerMenu();
         vertical.clickSmallBusiness();
+        vertical.isCurrentVertical("Small Business");
 
         mastHead.clickHamburgerMenu();
         vertical.clickLife();
+        vertical.isCurrentVertical("LIFE");
 
         mastHead.clickHamburgerMenu();
         vertical.clickTransportation();
+        vertical.isCurrentVertical("Transportation");
 
         mastHead.clickHamburgerMenu();
+        vertical.scrolldown(vertical.transportation);
         vertical.clickEducation();
+        vertical.isCurrentVertical("Education");
 
         mastHead.clickHamburgerMenu();
         vertical.clickEntertainment();
+        vertical.isCurrentVertical("ENTERTAINMENT");
 
         mastHead.clickHamburgerMenu();
-        vertical.clickSports();*/
-
+        vertical.clickSports();
+        vertical.isCurrentVertical("Sports");*/
 
     }
 

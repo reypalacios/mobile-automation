@@ -14,7 +14,7 @@ import java.util.Date;
 
 @RunWith(ExtendedCucumber.class)
 @ExtendedCucumberOptions(jsonReport = "target/cucumber-mobile.json",
-        retryCount = 3,
+        retryCount = 2,
         detailedReport = true,
         detailedAggregatedReport = true,
         overviewReport = true,

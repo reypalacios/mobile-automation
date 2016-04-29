@@ -59,15 +59,15 @@ public class VerticalObject {
     //@AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[9]/android.widget.FrameLayout[1]/android.widget.TextView[@text='Your Money']")
     @AndroidFindBy(name = "Your Money")
     @iOSFindBy(name = "Your Money")
-    public static WebElement YourMoney;
+    public static WebElement yourmoney;
 
     //@AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[10]/android.widget.FrameLayout[1]/android.widget.TextView[@text='Wealth Advisor']")
     @AndroidFindBy(name = "Wealth Advisor")
     @iOSFindBy(name = "Wealth Advisor")
-    public static WebElement wealthAdvisor;
+    public static WebElement wealthadvisor;
 
     //@AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[11]/android.widget.RelativeLayout[1]/android.widget.TextView[@text='POLITICS']")
-    @AndroidFindBy(name = "Politics")
+    @AndroidFindBy(name = "POLITICS")
     @iOSFindBy(name = "Politics")
     public static WebElement politics;
 
@@ -89,17 +89,17 @@ public class VerticalObject {
     //@AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[15]/android.widget.FrameLayout[1]/android.widget.TextView[@text='Careers']")
     @AndroidFindBy(name = "Careers")
     @iOSFindBy(name = "Careers")
-    public static WebElement Careers;
+    public static WebElement careers;
 
     //@AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[16]/android.widget.FrameLayout[1]/android.widget.TextView[@text='Advertising']")
     @AndroidFindBy(name = "Advertising")
     @iOSFindBy(name = "Advertising")
-    public static WebElement Advertising;
+    public static WebElement advertising;
 
     //@AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[17]/android.widget.FrameLayout[1]/android.widget.TextView[@text='Retail']")
     @AndroidFindBy(name = "Retail")
     @iOSFindBy(name = "Retail")
-    public static WebElement Retail;
+    public static WebElement retail;
 
     //@AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[18]/android.widget.FrameLayout[1]/android.widget.TextView[@text='Small Business']")
     @AndroidFindBy(name = "Small Business")
@@ -161,13 +161,15 @@ public class VerticalObject {
         logger.info("click home Vertical");
     }
 
-    public void clickLatest() {
+    public void clickLatest() throws InterruptedException {
         latest.click();
+        Thread.sleep(2000);
         logger.info("click Latest Vertical");
     }
 
-    public void clicktech() {
+    public void clicktech() throws InterruptedException {
         tech.click();
+        Thread.sleep(1000);
         logger.info("click tech Vertical");
     }
 
@@ -177,8 +179,9 @@ public class VerticalObject {
         logger.info("click enterprise Vertical");
     }
 
-    public void clickScience() {
+    public void clickScience() throws InterruptedException {
         science.click();
+        Thread.sleep(1000);
         logger.info("click Science Vertical");
     }
 
@@ -193,12 +196,12 @@ public class VerticalObject {
     }
 
     public void clickYourMoney() {
-        YourMoney.click();
+        yourmoney.click();
         logger.info("click yourmoney Vertical");
     }
 
     public void clickWealthAdvisor() {
-        wealthAdvisor.click();
+        wealthadvisor.click();
         logger.info("click wealthadvisor Vertical");
     }
 
@@ -223,17 +226,17 @@ public class VerticalObject {
     }
 
     public void clickCarrers() {
-        Careers.click();
+        careers.click();
         logger.info("click Careers Vertical");
     }
 
     public void clickAdvertising() {
-        Advertising.click();
+        advertising.click();
         logger.info("click Advertising vertical");
     }
 
     public void clickRetail() {
-        Retail.click();
+        retail.click();
         logger.info("click Retail vertical");
     }
 

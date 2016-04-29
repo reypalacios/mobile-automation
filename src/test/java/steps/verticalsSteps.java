@@ -1,12 +1,16 @@
 package steps;
 
 import appium.App;
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import objectModels.MastHeadObject;
 import objectModels.VerticalObject;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 /**
  * Created by rpalacios on 11/13/15.
@@ -33,6 +37,16 @@ public class verticalsSteps {
         App.driver.navigate().back();
     }
 
+    @When("^I click the Latest$")
+    public void i_click_the_Latest() throws Throwable {
+        verticals.clickLatest();
+    }
+
+    @Then("^Verify Latest is rendered$")
+    public void verify_Latest_is_rendered() throws Throwable {
+        verticals.isCurrentVertical("Latest");
+    }
+
     @When("^I click the HOME$")
     public void i_click_the_HOME() throws Throwable {
         verticals.clickhome();
@@ -43,20 +57,10 @@ public class verticalsSteps {
         verticals.isCurrentVertical("HOME");
     }
 
-    @When("^I click the Latest$")
-    public void i_click_the_Latest() throws Throwable {
-        
-        verticals.clickLatest();
-    }
-
-    @Then("^Verify Latest is rendered$")
-    public void verify_Latest_is_rendered() throws Throwable {
-        verticals.isCurrentVertical("Latest");
-    }
-
     @When("^I click the TECH$")
     public void i_click_the_TECH() throws Throwable {
         verticals.clicktech();
+        Thread.sleep(1000);
     }
 
     @Then("^Verify TECH is rendered$")
@@ -116,6 +120,7 @@ public class verticalsSteps {
 
     @When("^I click the Wealth Advisor$")
     public void i_click_the_Wealth_Advisor() throws Throwable {
+        verticals.scrolldown(verticals.wealthadvisor);
         verticals.clickWealthAdvisor();
     }
 
@@ -126,7 +131,6 @@ public class verticalsSteps {
 
     @When("^I click the POLITICS$")
     public void i_click_the_POLITICS() throws Throwable {
-        verticals.scrolldown(verticals.wealthAdvisor);
         verticals.clickpolitics();
     }
 
@@ -138,6 +142,7 @@ public class verticalsSteps {
     @When("^I click the Military & Defense$")
     public void i_click_the_Military_Defense() throws Throwable {
         verticals.clickmilitarydefense();
+        Thread.sleep(1000);
     }
 
     @Then("^Verify Military & Defense is rendered$")
@@ -217,6 +222,7 @@ public class verticalsSteps {
 
     @When("^I click the Transportation$")
     public void i_click_the_Transportation() throws Throwable {
+        verticals.scrolldown(verticals.transportation);
         verticals.clickTransportation();
     }
 
@@ -227,7 +233,6 @@ public class verticalsSteps {
 
     @When("^I click the Education$")
     public void i_click_the_Education() throws Throwable {
-        verticals.scrolldown(verticals.transportation);
         verticals.clickEducation();
     }
 
@@ -254,5 +259,13 @@ public class verticalsSteps {
     @Then("^Verify Sports is rendered$")
     public void verify_Sports_is_rendered() throws Throwable {
         verticals.isCurrentVertical("Sports");
+    }
+
+    @After
+    public void after(Scenario scenario){
+        if(scenario.isFailed()) {
+            byte[] screenshot = ((TakesScreenshot) App.driver).getScreenshotAs(OutputType.BYTES);
+            scenario.embed(screenshot, "image/png");
+        }
     }
 }

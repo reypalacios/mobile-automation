@@ -1,6 +1,6 @@
 Feature: Verticals
 
- Scenario Outline: Verify <vertical> are appearing correctly. Users are able to scroll down verticals and click on them.
+ Scenario Outline: Verify verticals are appearing correctly. Users are able to scroll down verticals and click on them.
     Given Hamburger menu is open
     When I click the <vertical>
     Then Verify <vertical> is rendered
