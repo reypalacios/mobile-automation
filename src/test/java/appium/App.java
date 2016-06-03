@@ -3,7 +3,7 @@ package appium;
 import GUI.GUIForm;
 import com.github.genium_framework.appium.support.server.AppiumServer;
 import com.github.genium_framework.server.ServerArguments;
-import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
@@ -22,7 +22,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class App {
 
-    public static AppiumDriver driver;
+    public static AndroidDriver driver;
+
     Logger logger = Logger.getLogger(this.getClass());
     ServerArguments serverArguments = new ServerArguments();
     DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -54,6 +55,7 @@ public class App {
             if (!as.isServerRunning()) {
                 logger.info("Starting Appium Server...");
                 Thread.currentThread().setName("AppiumServer");
+                //as.stopServer();
                 as.startServer();
             }
 
@@ -120,7 +122,19 @@ public class App {
                 as.startServer();
             }
 
-            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+            /*driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+                @Override
+                public WebElement scrollTo(String s) {
+                    return null;
+                }
+
+                @Override
+                public WebElement scrollToExact(String s) {
+                    return null;
+                }
+            };*/
+
+            driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
                 @Override
                 public WebElement scrollTo(String s) {
                     return null;

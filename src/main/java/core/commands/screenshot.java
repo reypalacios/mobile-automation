@@ -7,7 +7,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.Point;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
+import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.awt.image.RasterFormatException;
 import java.io.File;
