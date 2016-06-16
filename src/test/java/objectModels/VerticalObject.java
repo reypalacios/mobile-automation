@@ -152,163 +152,164 @@ public class VerticalObject {
 
     public void clickFavorites() {
         favorites.click();
-        logger.info("Click Favorites");
+        System.out.println("Click Favorites");
     }
 
     public void clickhome() throws InterruptedException {
         home.click();
         Thread.sleep(1000);
-        logger.info("click home Vertical");
+        System.out.println("click home Vertical");
     }
 
     public void clickLatest() throws InterruptedException {
         latest.click();
         Thread.sleep(2000);
-        logger.info("click Latest Vertical");
+        System.out.println("click Latest Vertical");
     }
 
     public void clicktech() throws InterruptedException {
         tech.click();
         Thread.sleep(1000);
-        logger.info("click tech Vertical");
+        System.out.println("click tech Vertical");
     }
 
     public void clickenterprise() throws InterruptedException {
         enterprise.click();
         Thread.sleep(1000);
-        logger.info("click enterprise Vertical");
+        System.out.println("click enterprise Vertical");
     }
 
     public void clickScience() throws InterruptedException {
         science.click();
         Thread.sleep(1000);
-        logger.info("click Science Vertical");
+        System.out.println("click Science Vertical");
     }
 
-    public void clickfinance() {
+    public void clickfinance() throws InterruptedException {
         finance.click();
-        logger.info("click finance Vertical");
+        Thread.sleep(1000);
+        System.out.println("click finance Vertical");
     }
 
     public void clickMarkets() {
         markets.click();
-        logger.info("click markets Vertical");
+        System.out.println("click markets Vertical");
     }
 
     public void clickYourMoney() {
         yourmoney.click();
-        logger.info("click yourmoney Vertical");
+        System.out.println("click yourmoney Vertical");
     }
 
     public void clickWealthAdvisor() {
         wealthadvisor.click();
-        logger.info("click wealthadvisor Vertical");
+        System.out.println("click wealthadvisor Vertical");
     }
 
     public void clickpolitics() {
         politics.click();
-        logger.info("click politics Vertical");
+        System.out.println("click politics Vertical");
     }
 
     public void clickmilitarydefense() {
         militarydefense.click();
-        logger.info("click militarydefense Vertical");
+        System.out.println("click militarydefense Vertical");
     }
 
     public void clicklaworder() {
         laworder.click();
-        logger.info("click law order Vertical");
+        System.out.println("click law order Vertical");
     }
 
     public void clickstrategy() {
         strategy.click();
-        logger.info("click strategy Vertical");
+        System.out.println("click strategy Vertical");
     }
 
     public void clickCarrers() {
         careers.click();
-        logger.info("click Careers Vertical");
+        System.out.println("click Careers Vertical");
     }
 
     public void clickAdvertising() {
         advertising.click();
-        logger.info("click Advertising vertical");
+        System.out.println("click Advertising vertical");
     }
 
     public void clickRetail() {
         retail.click();
-        logger.info("click Retail vertical");
+        System.out.println("click Retail vertical");
     }
 
     public void clickSmallBusiness() {
         smallbusiness.click();
-        logger.info("click Small Business vertical");
+        System.out.println("click Small Business vertical");
     }
 
     public void clickLife() {
         life.click();
-        logger.info("click life vertical");
+        System.out.println("click life vertical");
     }
 
     public void clickTransportation() {
         transportation.click();
-        logger.info("click Transportation Vertical");
+        System.out.println("click Transportation Vertical");
     }
 
     public void clickEducation() {
         education.click();
-        logger.info("click Education Vertical");
+        System.out.println("click Education Vertical");
     }
 
     public void clickEntertainment() {
         entertainment.click();
-        logger.info("click Entertainment vertical");
+        System.out.println("click Entertainment vertical");
     }
 
     public void clickSports() {
         sports.click();
-        logger.info("click Sports vertical");
+        System.out.println("click Sports vertical");
     }
 
     public void clickaboutbi() {
         aboutbi.click();
-        logger.info("click on about bi vertical");
+        System.out.println("click on about bi vertical");
     }
 
     public void clicklegalfineprint() {
         legalfineprint.click();
-        logger.info("click on Legal Fine Print vertical");
+        System.out.println("click on Legal Fine Print vertical");
     }
 
     public void clicksendfeedback() {
         sendfeedback.click();
-        logger.info("click sendfeedback vertical");
+        System.out.println("click sendfeedback vertical");
     }
 
     public void clicksettings() {
         settings.click();
-        logger.info("click Settings vertical");
+        System.out.println("click Settings vertical");
     }
 
     public void clickcopyright() {
        copyright.click();
-       logger.info("click copyright");
+       System.out.println("click copyright");
     }
 
     public void currentVertical() {
         copyright.click();
-        logger.info("click copyright ");
+        System.out.println("click copyright ");
     }
 
     public void isCurrentVertical(String expectedVertical) throws MobileException {
         if (!currentVertical.getText().equalsIgnoreCase(expectedVertical))
             throw new MobileException("Verticals do not match: Current vertical is "+currentVertical.getText() + " and Expected vertical is "+expectedVertical);
         else
-            logger.info("Current vertical is "+expectedVertical);
+            System.out.println("Current vertical is "+expectedVertical);
     }
 
     public void scrolldown(WebElement element) throws InterruptedException {
-        //logger.info("Scrolling down");
+        //System.out.println("Scrolling down");
         /*JavascriptExecutor js = (JavascriptExecutor) App.wd;
         HashMap<String, String> scrollObject = new HashMap<String, String>();scrollObject.put("direction", "down");
         scrollObject.put("element", ((RemoteWebElement) life).getId());
@@ -323,7 +324,7 @@ public class VerticalObject {
         //Get the size of screen.
         Dimension size;
         size = App.driver.manage().window().getSize();
-        logger.info("Screen size is "+size);
+        System.out.println("Screen size is "+size);
         //Find swipe start and end point from screen's with and height.
         // Find starty point which is at bottom side of screen.
 
@@ -334,7 +335,7 @@ public class VerticalObject {
         // Find horizontal point where you want to swipe. It is in middle of screen width.
         int startx = size.width / 2;
 
-        logger.info("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
+        System.out.println("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
 
         // Swipe from Bottom to Top.
         App.driver.swipe(startx, starty, startx, endy, 3000);

@@ -27,7 +27,7 @@ public class Database extends AutomationSetUp
             String url = "jdbc:mysql://localhost/MySQLAutomation";
             Class.forName ("com.mysql.jdbc.Driver").newInstance ();
             connection = DriverManager.getConnection (url, userName, password);
-            logger.info("Database connection established");
+            System.out.println("Database connection established");
         }
         catch (Exception e)
         {

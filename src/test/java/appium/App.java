@@ -36,7 +36,7 @@ public class App {
             //new AppiumServer().startAppiumonMac();
             screenshotCleanup();
 
-            logger.info("Working Directory = " + System.getProperty("user.dir"));
+            System.out.println("Working Directory = " + System.getProperty("user.dir"));
 
             serverArguments.setArgument("--address", "127.0.0.1");
             serverArguments.setArgument("--no-reset", true);
@@ -53,7 +53,7 @@ public class App {
             as = new AppiumServer(serverArguments);
 
             if (!as.isServerRunning()) {
-                logger.info("Starting Appium Server...");
+                System.out.println("Starting Appium Server...");
                 Thread.currentThread().setName("AppiumServer");
                 //as.stopServer();
                 as.startServer();
@@ -69,16 +69,16 @@ public class App {
                 //GUIForm.VD = System.getProperty("VD");
                 //GUIForm.app = System.getProperty("app");
 
-                logger.info("------------ Environmental Configurations ------------");
-                logger.info("OS = " + GUIForm.launchOn);
+                System.out.println("------------ Environmental Configurations ------------");
+                System.out.println("OS = " + GUIForm.launchOn);
                 if (GUIForm.launchOn.equals("Android"))
-                    logger.info("AVD = " + GUIForm.VD);
+                    System.out.println("AVD = " + GUIForm.VD);
                 if (GUIForm.launchOn.equals("iOS")){
-                    logger.info("Simulator = " + GUIForm.VD);
-                    logger.info("App = " + GUIForm.app);
+                    System.out.println("Simulator = " + GUIForm.VD);
+                    System.out.println("App = " + GUIForm.app);
                 }
-                //logger.info("Script = "+  this.getClass().geco . script);
-                logger.info("------------------------------------------------------");
+                //System.out.println("Script = "+  this.getClass().geco . script);
+                System.out.println("------------------------------------------------------");
             }
 
             capabilities.setCapability("platformName", GUIForm.launchOn);
@@ -118,7 +118,7 @@ public class App {
             }
 
             if(!as.isServerRunning()) {
-                logger.info("Starting Appium Server....");
+                System.out.println("Starting Appium Server....");
                 as.startServer();
             }
 
@@ -151,7 +151,7 @@ public class App {
             //wd.switchTo().alert().dismiss();
             Thread.sleep(5000);
 
-            logger.info("App has launched");
+            System.out.println("App has launched");
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -159,7 +159,7 @@ public class App {
             /*if(e.getMessage().contains("server or browser start-up failure")){
 
                 while (i < 4){
-                    logger.info("Starting Appium Server - Try "+i);
+                    System.out.println("Starting Appium Server - Try "+i);
                     i++;
                     try {
                         Thread.sleep(3000);
@@ -208,7 +208,7 @@ public class App {
                 e.printStackTrace();
             }
 
-            logger.info("App has launched");*/
+            System.out.println("App has launched");*/
         }
 
     }
@@ -264,7 +264,7 @@ public class App {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        logger.info("Test Done");
+        System.out.println("Test Done");
     }
 
     public void takeScreenshot()
@@ -273,7 +273,7 @@ public class App {
             StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
             File screenShotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(screenShotFile, new File("screenshots/" + stackTraceElements[2] + ".png"));
-            logger.info("Screenshot saved as: "+screenShotFile.getName());
+            System.out.println("Screenshot saved as: "+screenShotFile.getName());
         } catch (IOException e) {
             e.printStackTrace();
         }

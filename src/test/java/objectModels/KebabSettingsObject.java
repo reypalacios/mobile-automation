@@ -46,35 +46,35 @@ public class KebabSettingsObject {
 
     public void clickKebabMenu(){
         kebabMenu.click();
-        logger.info("Click Kebab menu icon");
+        System.out.println("Click Kebab menu icon");
     }
     public void clickShareApp(){
         shareApp.click();
-        logger.info("Click Share App");
+        System.out.println("Click Share App");
     }
     public void clickSendFeedback(){
         sendFeedback.click();
-        logger.info("Click Send Feedback");
+        System.out.println("Click Send Feedback");
     }
     public void clickSettings(){
         settings.click();
-        logger.info("Click Settings");
+        System.out.println("Click Settings");
     }
     public void clickFontSize(){
         fontSize.click();
-        logger.info("Click Font Size");
+        System.out.println("Click Font Size");
     }
     public void clickSmallFont(){
         smallFont.click();
-        logger.info("Click Font Size");
+        System.out.println("Click Font Size");
     }
     public void clickRegularFont(){
         regularFont.click();
-        logger.info("Click Font Size");
+        System.out.println("Click Font Size");
     }
     public void clickLargeFont(){
         largeFont.click();
-        logger.info("Click Font Size");
+        System.out.println("Click Font Size");
     }
 
 }

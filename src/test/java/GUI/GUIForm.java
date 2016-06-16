@@ -58,19 +58,19 @@ public class GUIForm extends JFrame{
                     app = (String) appCB.getSelectedItem();
                     script = (String) scriptCB.getSelectedItem();
 
-                    logger.info("------------ Environmental Configurations ------------");
-                    logger.info("OS = " + launchOn);
+                    System.out.println("------------ Environmental Configurations ------------");
+                    System.out.println("OS = " + launchOn);
                     FileOutputStream out = null;
                     if (launchOn.equals("Android")) {
-                        logger.info("AVD = " + VD);
+                        System.out.println("AVD = " + VD);
                         out = new FileOutputStream(System.getProperty("user.dir") + "/target/classes/config.properties");
                     }if (launchOn.equals("iOS")){
-                        logger.info("Simulator = " + VD);
-                        logger.info("App = " + app);
+                        System.out.println("Simulator = " + VD);
+                        System.out.println("App = " + app);
                         out = new FileOutputStream(System.getProperty("user.dir") + "/target/classes/iOSConfig.properties");
                     }
-                    logger.info("Script = "+ script);
-                    logger.info("------------------------------------------------------");
+                    System.out.println("Script = "+ script);
+                    System.out.println("------------------------------------------------------");
 
                     //FileOutputStream out = new FileOutputStream(System.getProperty("user.dir") + "/target/classes/config.properties");
                     Properties properties = new Properties();

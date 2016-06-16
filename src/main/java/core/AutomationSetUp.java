@@ -30,7 +30,7 @@ public class AutomationSetUp{
         // logger = Logger.getLogger(this.getClass());
         //BasicConfigurator.configure();
         logger = Logger.getLogger(this.getClass());
-        logger.info("\n ---------------------------------------------------- Starting Test ----------------------------------------------------");
+        System.out.println("\n ---------------------------------------------------- Starting Test ----------------------------------------------------");
         // System.setProperty("logfile.name","logs/dev.log");
 
         environmentSetUp();
@@ -61,16 +61,16 @@ public class AutomationSetUp{
         try {
             environment = (Environment) new Database().get(Environment.class, 1);
 
-            //logger.info("Open page "+environment.getUrl());
+            //System.out.println("Open page "+environment.getUrl());
 
             Properties properties = new Properties();
             properties.load(this.getClass().getResourceAsStream("/config.properties"));
             browser = properties.getProperty("browser");
 
-            logger.info("------------ Environmental Configurations ------------");
-            logger.info("browser = "+browser);
-            logger.info("URL = "+environment.getUrl());
-            logger.info("------------------------------------------------------");
+            System.out.println("------------ Environmental Configurations ------------");
+            System.out.println("browser = "+browser);
+            System.out.println("URL = "+environment.getUrl());
+            System.out.println("------------------------------------------------------");
 
         } catch (SQLException e) {
             logger.error(e.getMessage());

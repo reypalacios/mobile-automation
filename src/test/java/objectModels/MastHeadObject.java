@@ -49,27 +49,27 @@ public class MastHeadObject {
             HamburgerMenu.click();
             Thread.sleep(2500);
         }
-        logger.info("Menu is open");
+        System.out.println("Menu is open");
     }
 
     public void clickBI() {
         BI.click();
-        logger.info("Click BI");
+        System.out.println("Click BI");
     }
 
     public void clickSearch() {
         Search.click();
-        logger.info("Click Search");
+        System.out.println("Click Search");
     }
 
     public void clickCloseSearch() {
         CloseSearch.click();
-        logger.info("Click Close Search");
+        System.out.println("Click Close Search");
     }
 
     public void clickKebabMenu() {
         KebabMenu.click();
-        logger.info("Click Kebab Menu");
+        System.out.println("Click Kebab Menu");
     }
 }
 

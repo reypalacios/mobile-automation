@@ -25,7 +25,7 @@ public class SearchObject {
     }
 
     public void type(String keys) {
-        logger.info("Typing "+keys);
+        System.out.println("Typing "+keys);
         textfield.sendKeys(keys);
 
 
@@ -49,7 +49,7 @@ public class SearchObject {
     }
 
     public void type(Keys key) {
-        logger.info("Typing "+key.toString());
+        System.out.println("Typing "+key.toString());
         textfield.sendKeys(key);
     }
 

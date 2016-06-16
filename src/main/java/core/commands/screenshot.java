@@ -22,7 +22,7 @@ public class screenshot extends AutomationSetUp{
 
     public void fullScreenshot(WebDriver driver) throws IOException {
        try{
-            logger.info("Full screenshot taken and saved at screenshots/fullscreenshot.png");
+            System.out.println("Full screenshot taken and saved at screenshots/fullscreenshot.png");
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(scrFile, new File("screenshots/fullscreenshot.png"));
         } catch (IOException e) {
@@ -33,7 +33,7 @@ public class screenshot extends AutomationSetUp{
 
     public void elementScreenshot(WebElement element, WebDriver driver) {
         try{
-            logger.info("Web element screenshot taken and saved at screenshots/elementscreenshot.png");
+            System.out.println("Web element screenshot taken and saved at screenshots/elementscreenshot.png");
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
             Point p = element.getLocation();
@@ -56,7 +56,7 @@ public class screenshot extends AutomationSetUp{
 
     public void partialScreenshot(WebElement element, WebDriver driver) {
         try{
-            logger.info("Partial screenshot taken and saved at screenshots/partialscreenshot.png");
+            System.out.println("Partial screenshot taken and saved at screenshots/partialscreenshot.png");
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             BufferedImage img = ImageIO.read(scrFile);
 

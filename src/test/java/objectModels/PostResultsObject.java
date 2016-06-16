@@ -24,6 +24,6 @@ public class PostResultsObject {
     public void clickTopPost() throws InterruptedException {
         topPost.click();
         Thread.sleep(4000);
-        logger.info("Click Kebab menu icon");
+        System.out.println("Click Kebab menu icon");
     }
 }
