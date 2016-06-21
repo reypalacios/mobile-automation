@@ -3,9 +3,9 @@ package appium;
 import GUI.GUIForm;
 import com.github.genium_framework.appium.support.server.AppiumServer;
 import com.github.genium_framework.server.ServerArguments;
-import io.appium.java_client.android.AndroidDriver;
+import cucumber.api.Scenario;
+import io.appium.java_client.AppiumDriver;
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.UnreachableBrowserException;
@@ -14,7 +14,6 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -22,24 +21,27 @@ import java.util.concurrent.TimeUnit;
  */
 public class App {
 
-    public static AndroidDriver driver;
+    public static AppiumDriver driver;
+    public static String SWIPE_RIGHT_TO_LEFT = "Swipe Right to Left";
+    public static org.apache.log4j.Logger logger;
+    public static Scenario scenario;
+    public static AppiumServer as;
 
-    Logger logger = Logger.getLogger(this.getClass());
     ServerArguments serverArguments = new ServerArguments();
     DesiredCapabilities capabilities = new DesiredCapabilities();
-    public static AppiumServer as;
-    int i =1;
+
+    static String SWIPE_LEFT_TO_RIGHT = "Swipe Left to Right";
 
     public void launch() {
         try {
 
-            //new AppiumServer().startAppiumonMac();
+            logger = Logger.getLogger();
             screenshotCleanup();
 
             System.out.println("Working Directory = " + System.getProperty("user.dir"));
 
             serverArguments.setArgument("--address", "127.0.0.1");
-            serverArguments.setArgument("--no-reset", true);
+            //serverArguments.setArgument("--no-reset", true);
             serverArguments.setArgument("--local-timezone", true);
             serverArguments.setArgument("--log", System.getProperty("user.dir")+"/logs/appium.log");
             serverArguments.setArgument("--command-timeout","7200");
@@ -64,7 +66,7 @@ public class App {
             if(GUIForm.launchOn == null) {
                 GUIForm.launchOn = System.getProperty("launchOn");
                 if(GUIForm.launchOn == null) {
-                    readProperties();
+                    new PropertyReader();
                 }
                 //GUIForm.VD = System.getProperty("VD");
                 //GUIForm.app = System.getProperty("app");
@@ -93,7 +95,7 @@ public class App {
                 File file = new File("AndroidApps/"+GUIForm.apk);
                 capabilities.setCapability("app", file.getAbsolutePath());
                 //capabilities.setCapability("appPackage", "com.freerange360.mpp.businessinsider");
-                capabilities.setCapability("appActivity", "com.businessinsider.app.MainActivity");
+                //capabilities.setCapability("appActivity", "com.businessinsider.app.MainActivity");
 
             }
             if (GUIForm.launchOn.equals("iOS")) {
@@ -122,19 +124,7 @@ public class App {
                 as.startServer();
             }
 
-            /*driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
-                @Override
-                public WebElement scrollTo(String s) {
-                    return null;
-                }
-
-                @Override
-                public WebElement scrollToExact(String s) {
-                    return null;
-                }
-            };*/
-
-            driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
                 @Override
                 public WebElement scrollTo(String s) {
                     return null;
@@ -149,7 +139,7 @@ public class App {
             driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
             //wd.get("http://www.businessinsider.com/");
             //wd.switchTo().alert().dismiss();
-            Thread.sleep(5000);
+            Thread.sleep(7000);
 
             System.out.println("App has launched");
 
@@ -224,29 +214,6 @@ public class App {
         }
     }
 
-    private void readProperties() {
-        try {
-            Properties properties = new Properties();
-            properties.load(this.getClass().getResourceAsStream("/config.properties"));
-            GUIForm.launchOn = properties.getProperty("OS");
-            if(GUIForm.launchOn.equals("Android")){
-                properties.load(this.getClass().getResourceAsStream("/Android.properties"));
-            }else
-                properties.load(this.getClass().getResourceAsStream("/iOS.properties"));
-
-            GUIForm.VD = properties.getProperty("VD");
-            GUIForm.platformVersion = properties.getProperty("platformVersion");
-            GUIForm.app = properties.getProperty("app");
-            GUIForm.apk = properties.getProperty("apk");
-
-
-
-        } catch (IOException e) {
-            logger.error(e.getMessage());
-            e.printStackTrace();
-        }
-    }
-
     public void close()
     {
 
@@ -279,4 +246,35 @@ public class App {
         }
     }
 
+    public static void swipingHorizontal(String swipe) throws InterruptedException {
+        System.out.println("Swiping Horizontal: "+swipe);
+        //Get the size of screen.
+        Dimension size;
+        size = App.driver.manage().window().getSize();
+        System.out.println("Screen Resolution: "+size);
+        //Find swipe start and end point from screen's with and height.
+        // Find startx point which is at right side of screen.
+        int startx = (int) (size.width * 0.80);
+        //Find endx point which is at left side of screen.
+        int endx = (int) (size.width * 0.10);
+        //Find vertical point where you wants to swipe. It is in middle of screen height.
+        int starty = size.height / 2;
+        System.out.println("startx = " + startx + " ,endx = " + endx + " , starty = " + starty);
+        if(swipe.equals(SWIPE_RIGHT_TO_LEFT)){
+            //Swipe from Right to Left.
+            App.driver.swipe(startx, starty, endx, starty, 3000);
+            Thread.sleep(2000);
+        }
+        if(swipe.equals(SWIPE_LEFT_TO_RIGHT)){
+            //Swipe from Left to Right.
+            App.driver.swipe(endx, starty, startx, starty, 3000);
+            Thread.sleep(2000);
+        }
+    }
+
+    public static void embedScreenshot() throws IOException {
+        System.out.println("Embedding screenshot...");
+        byte[] screenshot = ((TakesScreenshot) App.driver).getScreenshotAs(OutputType.BYTES);
+        scenario.embed(screenshot, "image/png");
+    }
 }

@@ -1,13 +1,15 @@
 package objectModels;
 
 import appium.App;
+import appium.MobileException;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+
+import java.io.IOException;
 
 /**
  * Created by rpalacios on 12/11/15.
@@ -16,13 +18,21 @@ public class MastHeadObject {
 
     Logger logger = Logger.getLogger(this.getClass());
 
-    @AndroidFindBy(id = "android:id/up")
+    @AndroidFindBy(id = "drawer_vertical_list")
+    public static WebElement Menu;
+
+    @AndroidFindBy(xpath = "//*[@content-desc='Open Drawer']")
     @iOSFindBy(name = "EasyMenu Icon")
     public static WebElement HamburgerMenu;
 
-    @AndroidFindBy(id = "android:id/home")
+    @AndroidFindBy(xpath = "//*[@content-desc='Close Drawer']")
+    public static WebElement CloseMenu;
+
+    @AndroidFindBy(id = "toolbar_image")
     public static WebElement BI;
 
+    @AndroidFindBy(id = "toolbar_brand_text")
+    public static WebElement Title;
 
     @AndroidFindBy(id = "search_articles_option")
    // @iOSFindBy(name = "")
@@ -32,7 +42,7 @@ public class MastHeadObject {
    // @iOSFindBy(name = "")
     public static WebElement CloseSearch;
 
-    @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[2]/android.widget.ImageButton[1]")
+    @AndroidFindBy(xpath = "//*[@content-desc='More options']")
     public static WebElement KebabMenu;
 
 
@@ -41,13 +51,9 @@ public class MastHeadObject {
     }
 
     public void clickHamburgerMenu() throws InterruptedException {
-        HamburgerMenu.click();
-        try {
-            if (App.driver.findElementById("com.freerange360.mpp.businessinsider:id/menuDrawer").getSize().getWidth() < 400 )
-                HamburgerMenu.click();
-        }catch (NoSuchElementException e){
+        if (!Menu.isDisplayed()){
             HamburgerMenu.click();
-            Thread.sleep(2500);
+        Thread.sleep(2500);
         }
         System.out.println("Menu is open");
     }
@@ -70,6 +76,15 @@ public class MastHeadObject {
     public void clickKebabMenu() {
         KebabMenu.click();
         System.out.println("Click Kebab Menu");
+    }
+
+    public void isCurrentTitle(String expectedTitle) throws MobileException, IOException {
+        if (!Title.getText().equalsIgnoreCase(expectedTitle))
+            throw new MobileException("Titles do not match: Current title is "+Title.getText() + " and Expected title is "+expectedTitle);
+        else {
+            System.out.println("Current title is " + expectedTitle);
+            App.embedScreenshot();
+        }
     }
 }
 

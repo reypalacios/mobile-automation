@@ -2,10 +2,12 @@ package appium;
 
 import GUI.GUIForm;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class PropertyReader extends App {
+
+public class PropertyReader {
 
     Properties properties = new Properties();
 
@@ -16,12 +18,12 @@ public class PropertyReader extends App {
     private void loadProperties() {
 
         try {
-            properties.load(this.getClass().getResourceAsStream("/config.properties"));
+            properties.load(new FileInputStream("src/config.properties"));
             GUIForm.launchOn = properties.getProperty("OS");
             if(GUIForm.launchOn.equals("Android")){
-                properties.load(this.getClass().getResourceAsStream("/Android.properties"));
+                properties.load(new FileInputStream("src/Android.properties"));
             }else
-                properties.load(this.getClass().getResourceAsStream("/iOS.properties"));
+                properties.load(new FileInputStream("src/iOS.properties"));
 
             GUIForm.VD = properties.getProperty("VD");
             GUIForm.platformVersion = properties.getProperty("platformVersion");
@@ -29,7 +31,6 @@ public class PropertyReader extends App {
             GUIForm.apk = properties.getProperty("apk");
 
         } catch (IOException e) {
-            logger.error(e.getMessage());
             e.printStackTrace();
         }
 
