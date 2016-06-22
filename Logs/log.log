@@ -2247,3 +2247,679 @@ public void verify_SPORTS_is_rendered() throws Throwable {
 2016-06-20 15:14:14 INFO  Logger:24 - cucumber.runtime.Stats.66: )
 2016-06-20 15:14:14 INFO  Logger:24 - cucumber.runtime.Stats.59: )
 2016-06-20 15:14:14 INFO  Logger:24 - cucumber.runtime.Stats.93: 44.948s
+2016-06-21 16:44:43 INFO  Logger:24 - appium.App.41: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-06-21 16:44:44 INFO  Logger:24 - appium.App.74: ------------ Environmental Configurations ------------
+2016-06-21 16:44:44 INFO  Logger:24 - appium.App.75: OS = Android
+2016-06-21 16:44:44 INFO  Logger:24 - appium.App.77: AVD = Galaxy_Note_3_API_21
+2016-06-21 16:44:44 INFO  Logger:24 - appium.App.83: ------------------------------------------------------
+2016-06-21 16:49:03 ERROR Logger:172 - A new session could not be created. (Original error: Could not find Galaxy_Note_3_API_21 emulator.) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 257.35 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '192.168.0.43', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: appium.App$1
+2016-06-21 16:49:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-06-21 16:49:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-06-21 16:49:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;2
+2016-06-21 16:49:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;2Scenario completed...0
+2016-06-21 16:49:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;3
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;3Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;4
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;4Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;5
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;5Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;6
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;6Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;7
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;7Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;8
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;8Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;9
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;9Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;10
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;10Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;11
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;11Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;12
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;12Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;13
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;13Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;14
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;14Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;15
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;15Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;16
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;16Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;17
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;17Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;18
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;18Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;19
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;19Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;20
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;20Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;21
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;21Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-06-21 16:49:04 INFO  Logger:24 - appium.App.234: Test Done
+2016-06-21 16:49:04 INFO  Logger:24 - cucumber.runtime.Stats.107: Failed scenarios:
+2016-06-21 16:49:04 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:04 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:04 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:04 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:04 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-06-21 16:49:05 INFO  Logger:24 - cucumber.runtime.Stats.93: 0.449s
+2016-06-21 16:57:42 INFO  Logger:24 - appium.App.41: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-06-21 16:57:42 INFO  Logger:24 - appium.App.58: Starting Appium Server...
+2016-06-21 16:57:53 INFO  Logger:24 - appium.App.74: ------------ Environmental Configurations ------------
+2016-06-21 16:57:53 INFO  Logger:24 - appium.App.75: OS = Android
+2016-06-21 16:57:53 INFO  Logger:24 - appium.App.77: AVD = Galaxy_Note_3_API_21
+2016-06-21 16:57:53 INFO  Logger:24 - appium.App.83: ------------------------------------------------------
+2016-06-21 17:01:25 INFO  Logger:24 - appium.App.41: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-06-21 17:01:25 INFO  Logger:24 - appium.App.58: Starting Appium Server...
+2016-06-21 17:01:32 INFO  Logger:24 - appium.App.74: ------------ Environmental Configurations ------------
+2016-06-21 17:01:32 INFO  Logger:24 - appium.App.75: OS = Android
+2016-06-21 17:01:32 INFO  Logger:24 - appium.App.77: AVD = Galaxy_Note_3_API_21
+2016-06-21 17:01:32 INFO  Logger:24 - appium.App.83: ------------------------------------------------------
+2016-06-22 14:41:33 INFO  Logger:24 - appium.App.41: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-06-22 14:41:33 INFO  Logger:24 - appium.App.58: Starting Appium Server...
+2016-06-22 14:41:33 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-06-22 14:41:33 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-06-22 14:41:35 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;2
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;2Scenario completed...0
+2016-06-22 14:41:35 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;3
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;3Scenario completed...0
+2016-06-22 14:41:35 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;4
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;4Scenario completed...0
+2016-06-22 14:41:35 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;5
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;5Scenario completed...0
+2016-06-22 14:41:35 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;6
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;6Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;7
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;7Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;8
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;8Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;9
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;9Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;10
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;10Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;11
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;11Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;12
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;12Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;13
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;13Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;14
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;14Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;15
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;15Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;16
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;16Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;17
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;17Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;18
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;18Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;19
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;19Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;20
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;20Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;21
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;21Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-06-22 14:41:36 INFO  Logger:24 - appium.App.234: Test Done
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.107: Failed scenarios:
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-06-22 14:41:36 INFO  Logger:24 - cucumber.runtime.Stats.93: 1.962s
+2016-06-22 14:42:01 INFO  Logger:24 - appium.App.41: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-06-22 14:42:01 INFO  Logger:24 - appium.App.58: Starting Appium Server...
+2016-06-22 14:42:01 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-06-22 14:42:01 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-06-22 14:42:02 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;2
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;2Scenario completed...0
+2016-06-22 14:42:02 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;3
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;3Scenario completed...0
+2016-06-22 14:42:02 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;4
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;4Scenario completed...0
+2016-06-22 14:42:02 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;5
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;5Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;6
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;6Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;7
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;7Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;8
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;8Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;9
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;9Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;10
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;10Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;11
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;11Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;12
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;12Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;13
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;13Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;14
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;14Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;15
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;15Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;16
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;16Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;17
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;17Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;18
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;18Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;19
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;19Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;20
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;20Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;21
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;21Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-06-22 14:42:03 INFO  Logger:24 - appium.App.234: Test Done
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.107: Failed scenarios:
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-06-22 14:42:03 INFO  Logger:24 - cucumber.runtime.Stats.93: 1.472s
+2016-06-22 14:43:06 INFO  Logger:24 - appium.App.41: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-06-22 14:43:06 INFO  Logger:24 - appium.App.58: Starting Appium Server...
+2016-06-22 14:43:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-06-22 14:43:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;2
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;2Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;3
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;3Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;4
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;4Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;5
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;5Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;6
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;6Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;7
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;7Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;8
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;8Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;9
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;9Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;10
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;10Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;11
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;11Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;12
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;12Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;13
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;13Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;14
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;14Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;15
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;15Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;16
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;16Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;17
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;17Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;18
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;18Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;19
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:08 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;19Scenario completed...0
+2016-06-22 14:43:08 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;20
+2016-06-22 14:43:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;20Scenario completed...0
+2016-06-22 14:43:09 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:43:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;21
+2016-06-22 14:43:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:43:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:43:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;21Scenario completed...0
+2016-06-22 14:43:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-06-22 14:43:09 INFO  Logger:24 - appium.App.234: Test Done
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-06-22 14:43:09 INFO  Logger:24 - cucumber.runtime.Stats.93: 1.417s
+2016-06-22 14:44:00 INFO  Logger:24 - appium.App.41: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-06-22 14:44:00 INFO  Logger:24 - appium.App.58: Starting Appium Server...
+2016-06-22 14:44:00 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-06-22 14:44:00 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-06-22 14:44:02 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;2
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;2Scenario completed...0
+2016-06-22 14:44:02 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;3
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;3Scenario completed...0
+2016-06-22 14:44:02 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;4
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;4Scenario completed...0
+2016-06-22 14:44:02 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;5
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:02 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;5Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;6
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;6Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;7
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;7Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;8
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;8Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;9
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;9Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;10
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;10Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;11
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;11Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;12
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;12Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;13
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;13Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;14
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;14Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;15
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;15Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;16
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;16Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;17
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;17Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;18
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;18Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;19
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;19Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;20
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;20Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.250: Swiping Horizontal: Swipe Right to Left
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;21
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;as-a-user,-i-want-to-see-a-vertical-heading-on-the-masthead-so-i-can-see-where-i-am-in-the-app-as-i-navigate-around.;;21Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-06-22 14:44:03 INFO  Logger:24 - appium.App.234: Test Done
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-06-22 14:44:03 INFO  Logger:24 - cucumber.runtime.Stats.93: 1.836s
+2016-06-22 14:44:22 INFO  Logger:24 - appium.App.41: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-06-22 14:44:22 INFO  Logger:24 - appium.App.58: Starting Appium Server...
+2016-06-22 14:45:57 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-06-22 14:45:57 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-06-22 14:46:23 INFO  Logger:24 - appium.App.41: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-06-22 14:46:23 INFO  Logger:24 - appium.App.58: Starting Appium Server...
