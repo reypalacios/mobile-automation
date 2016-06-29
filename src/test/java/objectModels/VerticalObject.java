@@ -21,6 +21,9 @@ public class VerticalObject {
     @AndroidFindBy(name = "FAVORITES")
     public static WebElement favorites;
 
+    @AndroidFindBy(name = "SAVED ARTICLES")
+    public static WebElement savedArticles;
+
     //@AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[@text='HOME']")
     @AndroidFindBy(name = "HOME")
     @iOSFindBy(xpath= "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[2]/UIATableCell[2]")

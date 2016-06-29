@@ -1,13 +1,12 @@
 package runner;
 
-import appium.App;
-import appium.BISlack;
-import appium.Logger;
+import appium.*;
 import com.github.mkolisnyk.cucumber.runner.AfterSuite;
 import com.github.mkolisnyk.cucumber.runner.BeforeSuite;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumber;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumberOptions;
 import cucumber.api.CucumberOptions;
+import objectModels.PushPermissionRequestObject;
 import org.junit.runner.RunWith;
 
 import java.io.IOException;
@@ -26,10 +25,13 @@ import java.util.Date;
         format = {"pretty", "html:target/cucumber-test", "json:target/cucumber-test.json"},
         glue={"steps"})
 public class testCucumberRunnerTest {
+
     @BeforeSuite
-    public static void SetUp() throws IOException {
+    public static void SetUp() throws IOException, InterruptedException {
         new Logger().setLogger();
         new App().launch();
+        //Thread.sleep(5000);
+        new PushPermissionRequestObject().clicklMayberLater();
         BISlack.sendMessage(new Date()+" - MOBILE test has started");
     }
 
@@ -38,5 +40,6 @@ public class testCucumberRunnerTest {
         new App().close();
         BISlack.sendMessage(new Date()+" - MOBILE test has finished");
     }
+
 
 }

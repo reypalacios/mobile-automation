@@ -1,9 +1,8 @@
 Feature: Masthead Section Titles
 
-# Scenario: Setup
-#    Given User is in the Home Vertical
+ As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
 
- Scenario Outline: As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
+ Scenario Outline: Swiping to the left
 
     When User swipes to the left
     Then Verify <vertical> is rendered
@@ -11,7 +10,7 @@ Feature: Masthead Section Titles
     Examples:
      | vertical |
      | LATEST |
-     #| TECH |
+     | TECH |
      | ENTERPRISE |
      | SCIENCE |
      | FINANCE |
@@ -31,6 +30,38 @@ Feature: Masthead Section Titles
      | EDUCATION |
      | ENTERTAINMENT |
      | SPORTS |
+     | HOME |
+
+ Scenario Outline: Swiping to the right
+
+  When User swipes to the right
+  Then Verify <vertical> is rendered
+
+  Examples:
+   | vertical |
+   | SPORTS |
+   | ENTERTAINMENT |
+   | EDUCATION |
+   | TRANSPORTATION |
+   | LIFE |
+   | SMALL BUSINESS |
+   | RETAIL |
+   | ADVERTISING |
+   | CAREERS |
+   | STRATEGY |
+   | LAW & ORDER |
+   | MILITARY & DEFENSE |
+   | POLITICS |
+   | WEALTH ADVISOR |
+   | YOUR MONEY |
+   | MARKETS |
+   | FINANCE |
+   | SCIENCE |
+   | ENTERPRISE |
+   | TECH |
+   | LATEST |
+   | HOME |
+
 
 
 

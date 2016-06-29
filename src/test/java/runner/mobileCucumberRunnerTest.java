@@ -8,6 +8,7 @@ import com.github.mkolisnyk.cucumber.runner.BeforeSuite;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumber;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumberOptions;
 import cucumber.api.CucumberOptions;
+import objectModels.PushPermissionRequestObject;
 import org.junit.runner.RunWith;
 
 import java.io.IOException;
@@ -30,6 +31,7 @@ public class mobileCucumberRunnerTest {
     public static void SetUp() throws IOException {
         new Logger().setLogger();
         new App().launch();
+        new PushPermissionRequestObject().clicklMayberLater();
         BISlack.sendMessage(new Date()+" - MOBILE has started");
     }
 

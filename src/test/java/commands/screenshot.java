@@ -4,13 +4,14 @@ import appium.App;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.RasterFormatException;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
 
@@ -19,21 +20,22 @@ import java.io.IOException;
  */
 public class screenshot {
 
-    public void fullScreenshot() throws IOException {
-       try{
-            System.out.println("Full screenshot taken and saved at screenshots/fullscreenshot.png");
-            File scrFile = ((TakesScreenshot) App.driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(scrFile, new File("screenshots/fullscreenshot.png"));
-        } catch (IOException e) {
-            System.err.println(e.getMessage());
-            e.printStackTrace();
-        }
+    public byte[] fullScreenshot() throws IOException {
+
+        System.out.println("Full screenshot taken and saved at screenshots/fullscreenshot.png");
+        File scrFile = App.driver.getScreenshotAs(OutputType.FILE);
+            //FileUtils.copyFile(scrFile, new File("screenshots/fullscreenshot.png"));
+
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        ImageIO.write(ImageIO.read(scrFile), "png", outputStream);
+
+        return scale(outputStream.toByteArray(),250,500);
     }
 
     public void elementScreenshot(WebElement element) {
         try{
             System.out.println("Web element screenshot taken and saved at screenshots/elementscreenshot.png");
-            File scrFile = ((TakesScreenshot) App.driver).getScreenshotAs(OutputType.FILE);
+            File scrFile = App.driver.getScreenshotAs(OutputType.FILE);
 
             Point p = element.getLocation();
 
@@ -56,7 +58,7 @@ public class screenshot {
     public void partialScreenshot(WebElement element) {
         try{
             System.out.println("Partial screenshot taken and saved at screenshots/partialscreenshot.png");
-            File scrFile = ((TakesScreenshot) App.driver).getScreenshotAs(OutputType.FILE);
+            File scrFile = App.driver.getScreenshotAs(OutputType.FILE);
             BufferedImage img = ImageIO.read(scrFile);
 
             if(img.getHeight()>1500) {
@@ -90,5 +92,28 @@ public class screenshot {
             System.err.println(e.getMessage());
             e.printStackTrace();
         }
+    }
+
+    public byte[] scale(byte[] fileData, int width, int height) {
+        ByteArrayInputStream in = new ByteArrayInputStream(fileData);
+        ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+        try {
+            BufferedImage img = ImageIO.read(in);
+            if(height == 0) {
+                height = (width * img.getHeight())/ img.getWidth();
+            }
+            if(width == 0) {
+                width = (height * img.getWidth())/ img.getHeight();
+            }
+            Image scaledImage = img.getScaledInstance(width, height, Image.SCALE_SMOOTH);
+            BufferedImage imageBuff = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+            imageBuff.getGraphics().drawImage(scaledImage, 0, 0, new Color(0,0,0), null);
+
+            ImageIO.write(imageBuff, "png", buffer);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return buffer.toByteArray();
     }
 }

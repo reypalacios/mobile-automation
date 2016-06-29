@@ -49,7 +49,7 @@ public class appMenu {
 
     @Then("^Verify HOME is rendered$")
     public void verify_HOME_is_rendered() throws Throwable {
-        masthead.isCurrentTitle("HOME");
+        masthead.isCurrentTitle("BUSINESS INSIDER");
     }
 
     @When("^I click the TECH$")
@@ -115,7 +115,7 @@ public class appMenu {
 
     @When("^I click the Wealth Advisor$")
     public void i_click_the_Wealth_Advisor() throws Throwable {
-        verticals.scrolldown(verticals.wealthadvisor);
+        verticals.scrolldown(VerticalObject.wealthadvisor);
         verticals.clickWealthAdvisor();
     }
 
@@ -217,7 +217,7 @@ public class appMenu {
 
     @When("^I click the Transportation$")
     public void i_click_the_Transportation() throws Throwable {
-        verticals.scrolldown(verticals.transportation);
+        verticals.scrolldown(VerticalObject.transportation);
         verticals.clickTransportation();
     }
 

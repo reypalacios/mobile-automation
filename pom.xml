@@ -12,6 +12,8 @@
     <name>mobile-automation</name>
     <url>http://maven.apache.org</url>
 
+
+
     <dependencies>
        <!-- <dependency>
             <groupId>org.testng</groupId>
@@ -135,6 +137,7 @@
             <version>0.0.12</version>
         </dependency>
 
+
     </dependencies>
 
 
@@ -153,6 +156,7 @@
                 </configuration>
 
             </plugin>
+
         </plugins>
 
        <!-- <resources>

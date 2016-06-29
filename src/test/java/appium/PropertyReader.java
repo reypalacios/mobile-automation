@@ -28,7 +28,7 @@ public class PropertyReader {
             GUIForm.VD = properties.getProperty("VD");
             GUIForm.platformVersion = properties.getProperty("platformVersion");
             GUIForm.app = properties.getProperty("app");
-            GUIForm.apk = properties.getProperty("apk");
+            GUIForm.apk = properties.getProperty("APK");
 
         } catch (IOException e) {
             e.printStackTrace();

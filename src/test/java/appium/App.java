@@ -5,6 +5,10 @@ import com.github.genium_framework.appium.support.server.AppiumServer;
 import com.github.genium_framework.server.ServerArguments;
 import cucumber.api.Scenario;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
+import io.appium.java_client.service.local.flags.AndroidServerFlag;
+import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -22,7 +26,7 @@ import java.util.concurrent.TimeUnit;
 public class App {
 
     public static AppiumDriver driver;
-    public static String SWIPE_RIGHT_TO_LEFT = "Swipe Right to Left";
+
     public static org.apache.log4j.Logger logger;
     public static Scenario scenario;
     public static AppiumServer as;
@@ -30,38 +34,55 @@ public class App {
     ServerArguments serverArguments = new ServerArguments();
     DesiredCapabilities capabilities = new DesiredCapabilities();
 
-    static String SWIPE_LEFT_TO_RIGHT = "Swipe Left to Right";
+    public static String SWIPE_RIGHT_TO_LEFT = "Swipe Right to Left";
+    public static String SWIPE_LEFT_TO_RIGHT = "Swipe Left to Right";
 
     public void launch() {
         try {
-
             logger = Logger.getLogger();
             screenshotCleanup();
 
             System.out.println("Working Directory = " + System.getProperty("user.dir"));
+//            serverArguments.setArgument("/Applications/Appium.app/Contents/Resources/node_modules/appium/build/lib/main.js",false);
+//            serverArguments.setArgument("--address", "127.0.0.1");
+//            //serverArguments.setArgument("--no-reset", true);
+//            serverArguments.setArgument("--local-timezone", true);
+//            serverArguments.setArgument("--log", System.getProperty("user.dir")+"/logs/appium.log");
+//            serverArguments.setArgument("--command-timeout","7200");
+//            serverArguments.setArgument("--debug-log-spacing", true);
+//            serverArguments.setArgument("--port", "4723");
+//            serverArguments.setArgument("--native-instruments-lib", true);
+//            serverArguments.setArgument("--show-ios-log", true);
+//            serverArguments.setArgument("--launch-timeout","100000");
+//            serverArguments.setArgument("--session-override", true);
+//
+//           // as = new AppiumServer(new File("/Applications/Appium.app/Contents/Resources/"), serverArguments);
+//            as = new AppiumServer(serverArguments);
 
-            serverArguments.setArgument("--address", "127.0.0.1");
-            //serverArguments.setArgument("--no-reset", true);
-            serverArguments.setArgument("--local-timezone", true);
-            serverArguments.setArgument("--log", System.getProperty("user.dir")+"/logs/appium.log");
-            serverArguments.setArgument("--command-timeout","7200");
-            serverArguments.setArgument("--debug-log-spacing", true);
-            serverArguments.setArgument("--port", "4723");
-            serverArguments.setArgument("--native-instruments-lib", true);
-            serverArguments.setArgument("--show-ios-log", true);
-            serverArguments.setArgument("--launch-timeout","100000");
-            serverArguments.setArgument("--session-override", true);
 
-            as = new AppiumServer(serverArguments);
+            AppiumServiceBuilder builder = new AppiumServiceBuilder()
+                    .withAppiumJS(new File("/Applications/Appium.app/Contents/Resources/node_modules/appium/build/lib/main.js"))
+                    .withIPAddress("0.0.0.0")
+                    .usingPort(4723)
+                    .withArgument(GeneralServerFlag.LOG_LEVEL, "info")
+                    .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
+                    .withArgument(GeneralServerFlag.DEBUG_LOG_SPACING)
+                    .withArgument(AndroidServerFlag.SUPPRESS_ADB_KILL_SERVER)
+                    .withLogFile(new File(System.getProperty("user.dir") + "/logs/appium.log"))
 
-            if (!as.isServerRunning()) {
+        /* and so on */;
+            AppiumDriverLocalService appiumDriverLocalService = builder.build();
+
+            if (!appiumDriverLocalService.isRunning()) {
                 System.out.println("Starting Appium Server...");
                 Thread.currentThread().setName("AppiumServer");
                 //as.stopServer();
-                as.startServer();
+                //System.out.println($APPIUM_BINARY_PATH);
+                appiumDriverLocalService.start();
             }
 
             capabilities.setCapability("appium-version", "1.0");
+            capabilities.setCapability("newCommandTimeout","240");
 
             if(GUIForm.launchOn == null) {
                 GUIForm.launchOn = System.getProperty("launchOn");
@@ -73,9 +94,9 @@ public class App {
 
                 System.out.println("------------ Environmental Configurations ------------");
                 System.out.println("OS = " + GUIForm.launchOn);
-                if (GUIForm.launchOn.equals("Android"))
+                if (GUIForm.launchOn.equals("Android")) {
                     System.out.println("AVD = " + GUIForm.VD);
-                if (GUIForm.launchOn.equals("iOS")){
+                }if (GUIForm.launchOn.equals("iOS")){
                     System.out.println("Simulator = " + GUIForm.VD);
                     System.out.println("App = " + GUIForm.app);
                 }
@@ -119,12 +140,12 @@ public class App {
                 capabilities.setCapability("app", file.getAbsolutePath());
             }
 
-            if(!as.isServerRunning()) {
-                System.out.println("Starting Appium Server....");
-                as.startServer();
-            }
+//            if(!as.isServerRunning()) {
+//                System.out.println("Starting Appium Server....");
+//                as.startServer();
+//            }
 
-            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+            driver = new AppiumDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities) {
                 @Override
                 public WebElement scrollTo(String s) {
                     return null;
@@ -136,10 +157,16 @@ public class App {
                 }
             };
 
-            driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
             //wd.get("http://www.businessinsider.com/");
             //wd.switchTo().alert().dismiss();
-            Thread.sleep(7000);
+//            while(!driver.getPageSource().contains("com.freerange360.mpp.businessinsider")){
+//
+//            }
+            while(driver.findElementsById("news_alerts_headlines_text").isEmpty()){
+                //Thread.sleep(1000);
+            }
+            //Thread.sleep(10000);
 
             System.out.println("App has launched");
 
@@ -165,16 +192,16 @@ public class App {
                 e.printStackTrace();
             //}
 
-        } catch (InterruptedException e) {
-            logger.error(e.getMessage());
-            e.printStackTrace();
+//        } catch (InterruptedException e) {
+//            logger.error(e.getMessage());
+//            e.printStackTrace();
         } catch (SessionNotCreatedException s) {
             logger.error(s.getMessage());
             s.printStackTrace();
 /*            as.stopServer();
             as.startServer();
             try {
-                wd = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+                wd = new AppiumDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities) {
                     @Override
                     public WebElement scrollTo(String s) {
                         return null;
@@ -238,7 +265,7 @@ public class App {
     {
         try {
             StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
-            File screenShotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+            File screenShotFile = driver.getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(screenShotFile, new File("screenshots/" + stackTraceElements[2] + ".png"));
             System.out.println("Screenshot saved as: "+screenShotFile.getName());
         } catch (IOException e) {
@@ -262,19 +289,20 @@ public class App {
         System.out.println("startx = " + startx + " ,endx = " + endx + " , starty = " + starty);
         if(swipe.equals(SWIPE_RIGHT_TO_LEFT)){
             //Swipe from Right to Left.
-            App.driver.swipe(startx, starty, endx, starty, 3000);
+            App.driver.swipe(startx, starty, endx, starty, 500);
             Thread.sleep(2000);
         }
         if(swipe.equals(SWIPE_LEFT_TO_RIGHT)){
             //Swipe from Left to Right.
-            App.driver.swipe(endx, starty, startx, starty, 3000);
+            App.driver.swipe(endx, starty, startx, starty, 500);
             Thread.sleep(2000);
         }
     }
 
     public static void embedScreenshot() throws IOException {
         System.out.println("Embedding screenshot...");
-        byte[] screenshot = ((TakesScreenshot) App.driver).getScreenshotAs(OutputType.BYTES);
+        //byte[] screenshot = App.driver.getScreenshotAs(OutputType.BYTES);
+        byte[] screenshot = new commands.screenshot().fullScreenshot();
         scenario.embed(screenshot, "image/png");
     }
 }

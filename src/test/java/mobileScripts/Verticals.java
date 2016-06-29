@@ -70,7 +70,7 @@ public class Verticals extends App{
         vertical.isCurrentVertical("Wealth Advisor");*/
 
         mastHead.clickHamburgerMenu();
-        vertical.scrolldown(vertical.wealthadvisor);
+        vertical.scrolldown(VerticalObject.wealthadvisor);
         vertical.clickpolitics();
         vertical.isCurrentVertical("POLITICS");
 

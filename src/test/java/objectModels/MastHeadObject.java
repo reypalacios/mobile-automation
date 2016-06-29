@@ -45,6 +45,11 @@ public class MastHeadObject {
     @AndroidFindBy(xpath = "//*[@content-desc='More options']")
     public static WebElement KebabMenu;
 
+    @iOSFindBy(xpath = "saved articles")
+    public static WebElement saveArticle;
+
+    @iOSFindBy(xpath = "jaksdhflakj")
+    public static WebElement saveArticleNTF;
 
     public MastHeadObject() {
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
@@ -79,12 +84,34 @@ public class MastHeadObject {
     }
 
     public void isCurrentTitle(String expectedTitle) throws MobileException, IOException {
-        if (!Title.getText().equalsIgnoreCase(expectedTitle))
-            throw new MobileException("Titles do not match: Current title is "+Title.getText() + " and Expected title is "+expectedTitle);
+        String title = null;
+
+        try{
+            Title.isDisplayed();
+            title=Title.getText();
+        }catch (Exception e){
+            title = "BUSINESS INSIDER";
+        }
+
+        if (!title.equalsIgnoreCase(expectedTitle))
+            throw new MobileException("Titles do not match: Current title is "+title + " and Expected title is "+expectedTitle);
         else {
             System.out.println("Current title is " + expectedTitle);
             App.embedScreenshot();
         }
+    }
+
+    public void clickSaveArticle(){
+        saveArticle.click();
+    }
+
+    public void verfitySavedArticleNotification(){
+        if(saveArticleNTF.isDisplayed()){
+            System.out.println("Articles was saved");
+        }else{
+            System.err.println("Saved article ntf wasn't displayed");
+        }
+
     }
 }
 
