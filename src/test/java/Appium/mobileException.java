@@ -11,10 +11,10 @@ import java.io.IOException;
 /**
  * Created by rpalacios on 4/11/16.
  */
-public class MobileException extends Throwable {
+public class mobileException extends Throwable {
     Logger logger = Logger.getLogger(this.getClass());
 
-    public MobileException(String message) {
+    public mobileException(String message) {
         takeScreenshot(message);
         logger.error(message);
     }

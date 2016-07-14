@@ -1,7 +1,7 @@
 package objectModels;
 
 import appium.App;
-import appium.MobileException;
+import appium.mobileException;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -146,8 +146,12 @@ public class VerticalObject {
     @AndroidFindBy(id = "android:id/action_bar_title")
     public static WebElement currentVertical;
 
+    @iOSFindBy(id = "Saved Articles   |   8")
+    public static WebElement savedArticle;
+
+
     public VerticalObject() {
-        PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
+        PageFactory.initElements(new AppiumFieldDecorator(App.IOSdriver), this);
     }
 
     public void clickFavorites() {
@@ -169,6 +173,11 @@ public class VerticalObject {
     public void clicktech() {
         tech.click();
         logger.info("click tech Vertical");
+    }
+
+    public void savedArticle() {
+        savedArticle.click();
+        logger.info("verticle Saved Article");
     }
 
     public void clickenterprise() throws InterruptedException {
@@ -297,9 +306,9 @@ public class VerticalObject {
         logger.info("click copyright ");
     }
 
-    public void isCurrentVertical(String expectedVertical) throws MobileException {
+    public void isCurrentVertical(String expectedVertical) throws mobileException {
         if (!currentVertical.getText().equalsIgnoreCase(expectedVertical))
-            throw new MobileException("Verticals do not match: Current vertical is "+currentVertical.getText() + " and Expected vertical is "+expectedVertical);
+            throw new mobileException("Verticals do not match: Current vertical is "+currentVertical.getText() + " and Expected vertical is "+expectedVertical);
         else
             logger.info("Current vertical is "+expectedVertical);
     }

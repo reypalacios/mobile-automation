@@ -22,7 +22,8 @@ import java.util.Date;
         outputFolder = "target")
 @CucumberOptions (features = "classpath:cucumber/",
         format = {"pretty", "html:target/cucumber-mobile", "json:target/cucumber-mobile.json"},
-        glue={"steps"})
+        glue={"steps"},
+        tags = {"@search"})
 public class mobileCucumberRunnerTest {
     @BeforeSuite
     public static void SetUp() throws IOException {

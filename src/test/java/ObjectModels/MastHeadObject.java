@@ -34,9 +34,21 @@ public class MastHeadObject {
     @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[2]/android.widget.ImageButton[1]")
     public static WebElement KebabMenu;
 
+    @iOSFindBy(id = "EasySaveOn")
+    public static WebElement saveIconOn;
+
+    @iOSFindBy(id = "EasySave Icon")
+    public static WebElement saveIcon;
+
+    @iOSFindBy(id = "Back")
+    public static WebElement backIcon;
+
+
+
+
 
     public MastHeadObject() {
-        PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
+        PageFactory.initElements(new AppiumFieldDecorator(App.IOSdriver), this);
     }
 
     public void clickHamburgerMenu() throws InterruptedException {
@@ -52,25 +64,44 @@ public class MastHeadObject {
         logger.info("Menu is open");
     }
 
-    public void clickBI() {
+        public void clickBI() {
         BI.click();
         logger.info("Click BI");
     }
 
-    public void clickSearch() {
+        public void saveIconOn(){
+         saveIconOn.click();
+
+    }
+
+        public void backIcon() {
+        backIcon.click();
+        logger.info("click Back");
+    }
+
+
+        public void clickSearch() {
         Search.click();
         logger.info("Click Search");
     }
 
-    public void clickCloseSearch() {
-        CloseSearch.click();
-        logger.info("Click Close Search");
+        public void clickCloseSearch() {
+            CloseSearch.click();
+            logger.info("Click Close Search");
+        }
+
+    public void saveIcon() {
+        saveIcon.click();
+        logger.info("Save Icon");
     }
 
     public void clickKebabMenu() {
         KebabMenu.click();
         logger.info("Click Kebab Menu");
     }
-}
 
+    public void clicksavedArticle() {
+        App.IOSdriver.findElementByXPath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[2]/UIATableCell[1]/UIAStaticText[1](@name, 'Saved Articles')]").click();
+    }
 
+    }

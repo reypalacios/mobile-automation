@@ -4,6 +4,7 @@ import GUI.GUIForm;
 import com.github.genium_framework.appium.support.server.AppiumServer;
 import com.github.genium_framework.server.ServerArguments;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.ios.IOSDriver;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
@@ -23,6 +24,7 @@ import java.util.concurrent.TimeUnit;
 public class App {
 
     public static AppiumDriver driver;
+    public static IOSDriver IOSdriver;
     Logger logger = Logger.getLogger(this.getClass());
     ServerArguments serverArguments = new ServerArguments();
     DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -57,7 +59,7 @@ public class App {
                 as.startServer();
             }
 
-            capabilities.setCapability("appium-version", "1.0");
+            capabilities.setCapability("appium-version", "1.52");
 
             if(GUIForm.launchOn == null) {
                 GUIForm.launchOn = System.getProperty("launchOn");
@@ -120,7 +122,7 @@ public class App {
                 as.startServer();
             }
 
-            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+            IOSdriver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
                 @Override
                 public WebElement scrollTo(String s) {
                     return null;
@@ -132,7 +134,23 @@ public class App {
                 }
             };
 
-            driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
+
+
+
+//            driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+//                @Override
+//                public WebElement scrollTo(String s) {
+//                    return null;
+//                }
+//
+//                @Override
+//                public WebElement scrollToExact(String s) {
+//                    return null;
+//                }
+//            };
+
+
+            IOSdriver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
             //wd.get("http://www.businessinsider.com/");
             //wd.switchTo().alert().dismiss();
             Thread.sleep(5000);

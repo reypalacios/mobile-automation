@@ -3739,3 +3739,1184 @@ Driver info: appium.App$1
 2016-04-13 09:54:30 INFO  VerticalObject:152 - click tech Vertical
 2016-04-13 09:54:44 ERROR MobileException:19 - Verticals do not match: Current vertical is Tech and Expected vertical is Home
 2016-04-13 09:54:45 INFO  App:252 - Test Done
+2016-05-02 12:07:52 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-02 12:07:53 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-02 12:07:53 INFO  App:71 - OS = Android
+2016-05-02 12:07:53 INFO  App:73 - AVD = Nexus_S_API_19
+2016-05-02 12:07:53 INFO  App:79 - ------------------------------------------------------
+2016-05-02 12:07:54 ERROR App:168 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 173 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-05-02 12:07:54 INFO  App:253 - Test Done
+2016-05-02 12:08:09 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-02 12:08:09 INFO  App:55 - Starting Appium Server...
+2016-05-02 12:08:13 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-02 12:08:13 INFO  App:71 - OS = Android
+2016-05-02 12:08:13 INFO  App:73 - AVD = Nexus_S_API_19
+2016-05-02 12:08:13 INFO  App:79 - ------------------------------------------------------
+2016-05-02 12:08:49 INFO  App:140 - App has launched
+2016-05-02 12:08:50 INFO  App:253 - Test Done
+2016-05-02 12:11:11 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-02 12:11:11 INFO  App:55 - Starting Appium Server...
+2016-05-02 12:11:14 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-02 12:11:14 INFO  App:71 - OS = iOS
+2016-05-02 12:11:14 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-02 12:11:14 INFO  App:76 - App = Business Insider
+2016-05-02 12:11:14 INFO  App:79 - ------------------------------------------------------
+2016-05-02 12:11:44 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-02 12:11:45 INFO  App:55 - Starting Appium Server...
+2016-05-02 12:11:49 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-02 12:11:49 INFO  App:71 - OS = iOS
+2016-05-02 12:11:49 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-02 12:11:49 INFO  App:76 - App = Business Insider
+2016-05-02 12:11:49 INFO  App:79 - ------------------------------------------------------
+2016-05-02 12:12:03 INFO  App:140 - App has launched
+2016-05-02 12:12:05 INFO  SearchObject:38 - Click Search
+2016-05-02 12:12:13 INFO  App:253 - Test Done
+2016-05-02 12:32:29 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-02 12:32:29 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-02 12:32:29 INFO  App:71 - OS = iOS
+2016-05-02 12:32:29 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-02 12:32:29 INFO  App:76 - App = Business Insider
+2016-05-02 12:32:29 INFO  App:79 - ------------------------------------------------------
+2016-05-02 12:32:30 ERROR App:168 - A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-05-02 12:32:30 INFO  App:253 - Test Done
+2016-05-02 12:34:16 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-02 12:34:16 INFO  App:55 - Starting Appium Server...
+2016-05-02 12:34:19 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-02 12:34:19 INFO  App:71 - OS = iOS
+2016-05-02 12:34:19 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-02 12:34:19 INFO  App:76 - App = Business Insider
+2016-05-02 12:34:19 INFO  App:79 - ------------------------------------------------------
+2016-05-02 12:34:30 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-02 12:34:30 INFO  App:55 - Starting Appium Server...
+2016-05-02 12:34:33 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-02 12:34:33 INFO  App:71 - OS = iOS
+2016-05-02 12:34:33 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-02 12:34:33 INFO  App:76 - App = Business Insider
+2016-05-02 12:34:33 INFO  App:79 - ------------------------------------------------------
+2016-05-02 12:34:47 INFO  App:140 - App has launched
+2016-05-02 12:34:50 INFO  SearchObject:38 - Click Search
+2016-05-02 12:34:57 INFO  App:253 - Test Done
+2016-05-04 14:22:22 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 14:22:23 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 14:22:23 INFO  App:71 - OS = iOS
+2016-05-04 14:22:23 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 14:22:23 INFO  App:76 - App = Business Insider
+2016-05-04 14:22:23 INFO  App:79 - ------------------------------------------------------
+2016-05-04 14:22:23 INFO  App:119 - Starting Appium Server....
+2016-05-04 14:23:05 INFO  App:140 - App has launched
+2016-05-04 14:23:07 INFO  SearchObject:38 - Click Search
+2016-05-04 14:23:15 INFO  App:253 - Test Done
+2016-05-04 14:26:01 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 14:26:02 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 14:26:02 INFO  App:71 - OS = iOS
+2016-05-04 14:26:02 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 14:26:02 INFO  App:76 - App = Business Insider
+2016-05-04 14:26:02 INFO  App:79 - ------------------------------------------------------
+2016-05-04 14:26:02 INFO  App:119 - Starting Appium Server....
+2016-05-04 14:26:21 INFO  App:140 - App has launched
+2016-05-04 14:26:21 ERROR App:249 - 
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+Capabilities [{app=/Users/khadijaislam/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app, networkConnectionEnabled=false, warnings={}, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, desired={app=/Users/khadijaislam/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app, appium-version=1.0, platformVersion=9.1, platformName=iOS, deviceName=iPhone 6}, appium-version=1.0, platformVersion=9.1, webStorageEnabled=false, locationContextEnabled=false, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: 5109eb3b-6151-46d4-b03a-6f3af2b4d5fb
+2016-05-04 14:26:21 INFO  App:253 - Test Done
+2016-05-04 15:16:25 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 15:16:25 INFO  App:55 - Starting Appium Server...
+2016-05-04 15:16:25 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 15:16:25 INFO  App:71 - OS = iOS
+2016-05-04 15:16:25 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 15:16:25 INFO  App:76 - App = Business Insider
+2016-05-04 15:16:25 INFO  App:79 - ------------------------------------------------------
+2016-05-04 15:16:25 INFO  App:119 - Starting Appium Server....
+2016-05-04 15:16:26 ERROR App:160 - Unable to launch device
+2016-05-04 15:16:26 INFO  App:253 - Test Done
+2016-05-04 15:16:37 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 15:16:37 INFO  App:55 - Starting Appium Server...
+2016-05-04 15:16:37 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 15:16:37 INFO  App:71 - OS = iOS
+2016-05-04 15:16:37 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 15:16:37 INFO  App:76 - App = Business Insider
+2016-05-04 15:16:37 INFO  App:79 - ------------------------------------------------------
+2016-05-04 15:16:37 INFO  App:119 - Starting Appium Server....
+2016-05-04 15:16:37 ERROR App:160 - Unable to launch device
+2016-05-04 15:16:37 INFO  App:253 - Test Done
+2016-05-04 15:16:50 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 15:16:50 INFO  App:55 - Starting Appium Server...
+2016-05-04 15:16:50 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 15:16:50 INFO  App:71 - OS = iOS
+2016-05-04 15:16:50 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 15:16:50 INFO  App:76 - App = Business Insider
+2016-05-04 15:16:50 INFO  App:79 - ------------------------------------------------------
+2016-05-04 15:16:50 INFO  App:119 - Starting Appium Server....
+2016-05-04 15:16:50 ERROR App:160 - Unable to launch device
+2016-05-04 15:16:50 INFO  App:253 - Test Done
+2016-05-04 15:17:05 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 15:17:05 INFO  App:55 - Starting Appium Server...
+2016-05-04 15:17:05 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 15:17:05 INFO  App:71 - OS = iOS
+2016-05-04 15:17:05 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 15:17:05 INFO  App:76 - App = Business Insider
+2016-05-04 15:17:05 INFO  App:79 - ------------------------------------------------------
+2016-05-04 15:17:05 INFO  App:119 - Starting Appium Server....
+2016-05-04 15:17:05 ERROR App:160 - Unable to launch device
+2016-05-04 15:17:05 INFO  App:253 - Test Done
+2016-05-04 15:17:38 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 15:17:38 INFO  App:55 - Starting Appium Server...
+2016-05-04 15:17:38 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 15:17:38 INFO  App:71 - OS = iOS
+2016-05-04 15:17:38 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 15:17:38 INFO  App:76 - App = Business Insider
+2016-05-04 15:17:38 INFO  App:79 - ------------------------------------------------------
+2016-05-04 15:17:38 INFO  App:119 - Starting Appium Server....
+2016-05-04 15:17:38 ERROR App:160 - Unable to launch device
+2016-05-04 15:17:38 INFO  App:253 - Test Done
+2016-05-04 15:20:37 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 15:20:37 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 15:20:37 INFO  App:71 - OS = iOS
+2016-05-04 15:20:37 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 15:20:37 INFO  App:76 - App = Business Insider
+2016-05-04 15:20:37 INFO  App:79 - ------------------------------------------------------
+2016-05-04 15:20:55 INFO  App:140 - App has launched
+2016-05-04 15:20:56 INFO  App:253 - Test Done
+2016-05-04 15:22:25 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 15:22:25 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 15:22:25 INFO  App:71 - OS = iOS
+2016-05-04 15:22:25 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 15:22:25 INFO  App:76 - App = Business Insider
+2016-05-04 15:22:25 INFO  App:79 - ------------------------------------------------------
+2016-05-04 15:22:41 INFO  App:140 - App has launched
+2016-05-04 15:28:51 ERROR App:249 - A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+Capabilities [{app=/Users/khadijaislam/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app, networkConnectionEnabled=false, noReset=true, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, appium-version=1.0, nativeInstrumentsLib=true, desired={app=/Users/khadijaislam/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app, showIOSLog=true, appium-version=1.0, noReset=true, nativeInstrumentsLib=true, platformVersion=9.1, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.1, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: 0139a407-2946-4e06-9d5c-fe99e31dd20b
+2016-05-04 15:28:51 INFO  App:253 - Test Done
+2016-05-04 15:28:54 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 15:28:54 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 15:28:54 INFO  App:71 - OS = iOS
+2016-05-04 15:28:54 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 15:28:54 INFO  App:76 - App = Business Insider
+2016-05-04 15:28:54 INFO  App:79 - ------------------------------------------------------
+2016-05-04 15:29:12 INFO  App:140 - App has launched
+2016-05-04 15:32:08 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 15:32:09 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 15:32:09 INFO  App:71 - OS = iOS
+2016-05-04 15:32:09 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 15:32:09 INFO  App:76 - App = Business Insider
+2016-05-04 15:32:09 INFO  App:79 - ------------------------------------------------------
+2016-05-04 15:32:24 INFO  App:140 - App has launched
+2016-05-04 15:33:53 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-04 15:33:53 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-04 15:33:53 INFO  App:71 - OS = iOS
+2016-05-04 15:33:53 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-04 15:33:53 INFO  App:76 - App = Business Insider
+2016-05-04 15:33:53 INFO  App:79 - ------------------------------------------------------
+2016-05-04 15:33:54 ERROR App:168 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 223 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-05-20 15:47:39 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 15:47:39 INFO  App:55 - Starting Appium Server...
+2016-05-20 15:47:39 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 15:47:39 INFO  App:71 - OS = iOS
+2016-05-20 15:47:39 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 15:47:39 INFO  App:76 - App = Business Insider
+2016-05-20 15:47:39 INFO  App:79 - ------------------------------------------------------
+2016-05-20 15:47:39 INFO  App:119 - Starting Appium Server....
+2016-05-20 15:47:40 ERROR App:160 - Unable to launch device
+2016-05-20 15:47:40 INFO  App:253 - Test Done
+2016-05-20 15:48:22 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 15:48:22 INFO  App:55 - Starting Appium Server...
+2016-05-20 15:48:22 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 15:48:22 INFO  App:71 - OS = iOS
+2016-05-20 15:48:22 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 15:48:22 INFO  App:76 - App = Business Insider
+2016-05-20 15:48:22 INFO  App:79 - ------------------------------------------------------
+2016-05-20 15:48:22 INFO  App:119 - Starting Appium Server....
+2016-05-20 15:48:22 ERROR App:160 - Unable to launch device
+2016-05-20 15:48:22 INFO  App:253 - Test Done
+2016-05-20 15:51:13 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 15:51:13 INFO  App:55 - Starting Appium Server...
+2016-05-20 15:51:13 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 15:51:13 INFO  App:71 - OS = iOS
+2016-05-20 15:51:13 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 15:51:13 INFO  App:76 - App = Business Insider
+2016-05-20 15:51:13 INFO  App:79 - ------------------------------------------------------
+2016-05-20 15:51:13 INFO  App:119 - Starting Appium Server....
+2016-05-20 15:51:14 ERROR App:160 - Unable to launch device
+2016-05-20 15:51:14 INFO  App:253 - Test Done
+2016-05-20 15:53:05 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 15:53:05 INFO  App:55 - Starting Appium Server...
+2016-05-20 15:53:05 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 15:53:05 INFO  App:71 - OS = iOS
+2016-05-20 15:53:05 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 15:53:05 INFO  App:76 - App = Business Insider
+2016-05-20 15:53:05 INFO  App:79 - ------------------------------------------------------
+2016-05-20 15:53:05 INFO  App:119 - Starting Appium Server....
+2016-05-20 15:53:06 ERROR App:160 - Unable to launch device
+2016-05-20 15:53:06 INFO  App:253 - Test Done
+2016-05-20 15:54:47 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 15:54:47 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 15:54:47 INFO  App:71 - OS = iOS
+2016-05-20 15:54:47 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 15:54:47 INFO  App:76 - App = Business Insider
+2016-05-20 15:54:47 INFO  App:79 - ------------------------------------------------------
+2016-05-20 15:55:11 INFO  App:140 - App has launched
+2016-05-20 15:55:15 INFO  SearchObject:40 - Click Search
+2016-05-20 15:55:22 INFO  App:253 - Test Done
+2016-05-20 16:10:52 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 16:10:52 INFO  App:55 - Starting Appium Server...
+2016-05-20 16:10:52 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 16:10:52 INFO  App:71 - OS = iOS
+2016-05-20 16:10:52 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 16:10:52 INFO  App:76 - App = Business Insider
+2016-05-20 16:10:52 INFO  App:79 - ------------------------------------------------------
+2016-05-20 16:10:52 INFO  App:119 - Starting Appium Server....
+2016-05-20 16:10:53 ERROR App:160 - Unable to launch device
+2016-05-20 16:10:53 INFO  App:253 - Test Done
+2016-05-20 16:11:19 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 16:11:19 INFO  App:55 - Starting Appium Server...
+2016-05-20 16:11:19 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 16:11:19 INFO  App:71 - OS = iOS
+2016-05-20 16:11:19 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 16:11:19 INFO  App:76 - App = Business Insider
+2016-05-20 16:11:19 INFO  App:79 - ------------------------------------------------------
+2016-05-20 16:11:19 INFO  App:119 - Starting Appium Server....
+2016-05-20 16:11:19 ERROR App:160 - Unable to launch device
+2016-05-20 16:11:19 INFO  App:253 - Test Done
+2016-05-20 16:11:49 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 16:11:49 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 16:11:49 INFO  App:71 - OS = iOS
+2016-05-20 16:11:49 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 16:11:49 INFO  App:76 - App = Business Insider
+2016-05-20 16:11:49 INFO  App:79 - ------------------------------------------------------
+2016-05-20 16:12:07 INFO  App:140 - App has launched
+2016-05-20 16:12:11 INFO  SearchObject:40 - Click Search
+2016-05-20 16:12:18 INFO  SearchObject:47 - TypeApple in Search
+2016-05-20 16:12:19 INFO  App:253 - Test Done
+2016-05-20 17:08:44 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 17:08:44 INFO  App:55 - Starting Appium Server...
+2016-05-20 17:08:44 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 17:08:44 INFO  App:71 - OS = iOS
+2016-05-20 17:08:44 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 17:08:44 INFO  App:76 - App = Business Insider
+2016-05-20 17:08:44 INFO  App:79 - ------------------------------------------------------
+2016-05-20 17:08:44 INFO  App:119 - Starting Appium Server....
+2016-05-20 17:08:45 ERROR App:160 - Unable to launch device
+2016-05-20 17:08:45 INFO  App:253 - Test Done
+2016-05-20 17:08:59 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 17:08:59 INFO  App:55 - Starting Appium Server...
+2016-05-20 17:08:59 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 17:08:59 INFO  App:71 - OS = iOS
+2016-05-20 17:08:59 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 17:08:59 INFO  App:76 - App = Business Insider
+2016-05-20 17:08:59 INFO  App:79 - ------------------------------------------------------
+2016-05-20 17:08:59 INFO  App:119 - Starting Appium Server....
+2016-05-20 17:09:00 ERROR App:160 - Unable to launch device
+2016-05-20 17:09:00 INFO  App:253 - Test Done
+2016-05-20 17:09:25 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 17:09:25 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 17:09:25 INFO  App:71 - OS = iOS
+2016-05-20 17:09:25 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 17:09:25 INFO  App:76 - App = Business Insider
+2016-05-20 17:09:25 INFO  App:79 - ------------------------------------------------------
+2016-05-20 17:09:47 INFO  App:140 - App has launched
+2016-05-20 17:09:48 ERROR App:249 - A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.1.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+Capabilities [{app=/Users/khadijaislam/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app, networkConnectionEnabled=false, noReset=true, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, appium-version=1.0, nativeInstrumentsLib=true, desired={app=/Users/khadijaislam/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app, showIOSLog=true, appium-version=1.0, noReset=true, nativeInstrumentsLib=true, platformVersion=9.1, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.1, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: 5cab7f54-b8a8-461a-af11-bd057902a54f
+2016-05-20 17:09:48 INFO  App:253 - Test Done
+2016-05-20 17:10:04 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 17:10:04 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 17:10:04 INFO  App:71 - OS = iOS
+2016-05-20 17:10:04 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 17:10:04 INFO  App:76 - App = Business Insider
+2016-05-20 17:10:04 INFO  App:79 - ------------------------------------------------------
+2016-05-20 17:10:20 INFO  App:140 - App has launched
+2016-05-20 17:10:23 INFO  SearchObject:40 - Click Search
+2016-05-20 17:10:30 INFO  SearchObject:47 - TypeApple in Search
+2016-05-20 17:10:33 INFO  App:253 - Test Done
+2016-05-20 17:12:11 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 17:12:11 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 17:12:11 INFO  App:71 - OS = iOS
+2016-05-20 17:12:11 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 17:12:11 INFO  App:76 - App = Business Insider
+2016-05-20 17:12:11 INFO  App:79 - ------------------------------------------------------
+2016-05-20 17:12:26 INFO  App:140 - App has launched
+2016-05-20 17:12:30 INFO  SearchObject:40 - Click Search
+2016-05-20 17:12:37 INFO  SearchObject:47 - TypeApple in Search
+2016-05-20 17:12:40 INFO  App:253 - Test Done
+2016-05-20 17:13:09 INFO  App:38 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-20 17:13:09 INFO  App:70 - ------------ Environmental Configurations ------------
+2016-05-20 17:13:09 INFO  App:71 - OS = iOS
+2016-05-20 17:13:09 INFO  App:75 - Simulator = iPhone 6 (9.1)
+2016-05-20 17:13:09 INFO  App:76 - App = Business Insider
+2016-05-20 17:13:09 INFO  App:79 - ------------------------------------------------------
+2016-05-20 17:13:24 INFO  App:140 - App has launched
+2016-05-20 17:13:28 INFO  SearchObject:40 - Click Search
+2016-05-20 17:13:35 INFO  SearchObject:47 - TypeApple in Search
+2016-05-20 17:13:35 INFO  App:253 - Test Done
+2016-05-31 12:06:14 INFO  App:39 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-31 12:06:15 INFO  App:56 - Starting Appium Server...
+2016-05-31 12:06:15 INFO  App:71 - ------------ Environmental Configurations ------------
+2016-05-31 12:06:15 INFO  App:72 - OS = iOS
+2016-05-31 12:06:15 INFO  App:76 - Simulator = iPhone 6 (9.1)
+2016-05-31 12:06:15 INFO  App:77 - App = Business Insider
+2016-05-31 12:06:15 INFO  App:80 - ------------------------------------------------------
+2016-05-31 12:06:15 INFO  App:120 - Starting Appium Server....
+2016-05-31 12:06:16 ERROR App:174 - Unable to launch device
+2016-05-31 12:06:16 INFO  App:267 - Test Done
+2016-05-31 12:06:31 INFO  App:39 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-31 12:06:32 INFO  App:71 - ------------ Environmental Configurations ------------
+2016-05-31 12:06:32 INFO  App:72 - OS = iOS
+2016-05-31 12:06:32 INFO  App:76 - Simulator = iPhone 6 (9.1)
+2016-05-31 12:06:32 INFO  App:77 - App = Business Insider
+2016-05-31 12:06:32 INFO  App:80 - ------------------------------------------------------
+2016-05-31 12:06:48 INFO  App:154 - App has launched
+2016-05-31 12:06:51 INFO  SearchObject:44 - Click Search
+2016-05-31 12:06:59 INFO  SearchObject:51 - TypeApple in Search
+2016-05-31 12:07:02 INFO  App:267 - Test Done
+2016-05-31 12:15:42 INFO  App:39 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-05-31 12:15:42 INFO  App:71 - ------------ Environmental Configurations ------------
+2016-05-31 12:15:42 INFO  App:72 - OS = iOS
+2016-05-31 12:15:42 INFO  App:76 - Simulator = iPhone 6 (9.1)
+2016-05-31 12:15:42 INFO  App:77 - App = Business Insider
+2016-05-31 12:15:42 INFO  App:80 - ------------------------------------------------------
+2016-05-31 12:15:57 INFO  App:154 - App has launched
+2016-05-31 12:16:01 INFO  SearchObject:44 - Click Search
+2016-05-31 12:16:08 INFO  SearchObject:51 - TypeApple in Search
+2016-05-31 12:16:08 INFO  App:267 - Test Done
+2016-06-02 11:55:51 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-02 11:55:52 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-02 11:55:52 INFO  App:73 - OS = iOS
+2016-06-02 11:55:52 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-02 11:55:52 INFO  App:78 - App = Business Insider
+2016-06-02 11:55:52 INFO  App:81 - ------------------------------------------------------
+2016-06-02 11:56:25 INFO  App:271 - Test Done
+2016-06-02 11:58:24 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-02 11:58:24 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-02 11:58:24 INFO  App:73 - OS = iOS
+2016-06-02 11:58:24 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-02 11:58:24 INFO  App:78 - App = Business Insider
+2016-06-02 11:58:24 INFO  App:81 - ------------------------------------------------------
+2016-06-02 11:58:36 INFO  App:271 - Test Done
+2016-06-02 11:59:47 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-02 11:59:47 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-02 11:59:47 INFO  App:73 - OS = iOS
+2016-06-02 11:59:47 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-02 11:59:47 INFO  App:78 - App = Business Insider
+2016-06-02 11:59:47 INFO  App:81 - ------------------------------------------------------
+2016-06-02 11:59:58 INFO  App:271 - Test Done
+2016-06-02 12:00:37 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-02 12:00:37 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-02 12:00:37 INFO  App:73 - OS = iOS
+2016-06-02 12:00:37 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-02 12:00:37 INFO  App:78 - App = Business Insider
+2016-06-02 12:00:37 INFO  App:81 - ------------------------------------------------------
+2016-06-02 12:00:38 ERROR App:186 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 287 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.1.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-06-02 12:00:39 INFO  App:271 - Test Done
+2016-06-02 12:01:12 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-02 12:01:13 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-02 12:01:13 INFO  App:73 - OS = iOS
+2016-06-02 12:01:13 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-02 12:01:13 INFO  App:78 - App = Business Insider
+2016-06-02 12:01:13 INFO  App:81 - ------------------------------------------------------
+2016-06-02 12:01:29 INFO  App:158 - App has launched
+2016-06-02 12:01:32 INFO  SearchObject:45 - Click Search
+2016-06-02 12:01:40 INFO  SearchObject:52 - TypeApple in Search
+2016-06-02 12:01:41 INFO  App:271 - Test Done
+2016-06-02 19:24:26 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-02 19:24:27 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-02 19:24:27 INFO  App:73 - OS = iOS
+2016-06-02 19:24:27 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-02 19:24:27 INFO  App:78 - App = Business Insider
+2016-06-02 19:24:27 INFO  App:81 - ------------------------------------------------------
+2016-06-02 19:24:49 INFO  App:158 - App has launched
+2016-06-02 19:24:52 INFO  SearchObject:45 - Click Search
+2016-06-02 19:25:02 INFO  SearchObject:52 - TypeApple in Search
+2016-06-02 19:25:04 INFO  App:271 - Test Done
+2016-06-02 19:25:16 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-02 19:25:16 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-02 19:25:16 INFO  App:73 - OS = iOS
+2016-06-02 19:25:16 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-02 19:25:16 INFO  App:78 - App = Business Insider
+2016-06-02 19:25:16 INFO  App:81 - ------------------------------------------------------
+2016-06-02 19:25:17 ERROR App:186 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 155 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '10.64.188.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-06-02 19:25:17 INFO  App:271 - Test Done
+2016-06-02 19:25:38 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-02 19:25:38 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-02 19:25:38 INFO  App:73 - OS = iOS
+2016-06-02 19:25:38 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-02 19:25:38 INFO  App:78 - App = Business Insider
+2016-06-02 19:25:38 INFO  App:81 - ------------------------------------------------------
+2016-06-02 19:25:39 ERROR App:186 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 129 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '10.64.188.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-06-02 19:25:39 INFO  App:271 - Test Done
+2016-06-02 21:29:45 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-02 21:29:46 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-02 21:29:46 INFO  App:73 - OS = iOS
+2016-06-02 21:29:46 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-02 21:29:46 INFO  App:78 - App = Business Insider
+2016-06-02 21:29:46 INFO  App:81 - ------------------------------------------------------
+2016-06-02 21:30:12 INFO  App:158 - App has launched
+2016-06-02 21:30:16 INFO  SearchObject:45 - Click Search
+2016-06-02 21:30:24 INFO  SearchObject:52 - TypeApple in Search
+2016-06-02 21:30:26 INFO  App:271 - Test Done
+2016-06-03 15:37:17 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:37:18 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:37:18 INFO  App:73 - OS = iOS
+2016-06-03 15:37:18 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:37:18 INFO  App:78 - App = Business Insider
+2016-06-03 15:37:18 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:37:34 INFO  App:158 - App has launched
+2016-06-03 15:37:37 INFO  SearchObject:48 - Click Search
+2016-06-03 15:37:44 INFO  App:271 - Test Done
+2016-06-03 15:38:49 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:38:49 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:38:49 INFO  App:73 - OS = iOS
+2016-06-03 15:38:49 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:38:49 INFO  App:78 - App = Business Insider
+2016-06-03 15:38:49 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:39:04 INFO  App:158 - App has launched
+2016-06-03 15:39:07 INFO  SearchObject:48 - Click Search
+2016-06-03 15:39:13 INFO  App:271 - Test Done
+2016-06-03 15:40:00 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:40:00 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:40:00 INFO  App:73 - OS = iOS
+2016-06-03 15:40:00 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:40:00 INFO  App:78 - App = Business Insider
+2016-06-03 15:40:00 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:40:01 ERROR App:186 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 191 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.1.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-06-03 15:40:01 INFO  App:271 - Test Done
+2016-06-03 15:40:16 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:40:16 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:40:16 INFO  App:73 - OS = iOS
+2016-06-03 15:40:16 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:40:16 INFO  App:78 - App = Business Insider
+2016-06-03 15:40:16 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:40:17 ERROR App:186 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 151 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.1.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-06-03 15:40:17 INFO  App:271 - Test Done
+2016-06-03 15:40:33 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:40:34 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:40:34 INFO  App:73 - OS = iOS
+2016-06-03 15:40:34 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:40:34 INFO  App:78 - App = Business Insider
+2016-06-03 15:40:34 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:40:34 ERROR App:186 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 166 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.1.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-06-03 15:40:34 INFO  App:271 - Test Done
+2016-06-03 15:40:50 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:40:51 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:40:51 INFO  App:73 - OS = iOS
+2016-06-03 15:40:51 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:40:51 INFO  App:78 - App = Business Insider
+2016-06-03 15:40:51 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:41:08 INFO  App:158 - App has launched
+2016-06-03 15:41:12 INFO  SearchObject:48 - Click Search
+2016-06-03 15:41:18 INFO  App:271 - Test Done
+2016-06-03 15:42:11 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:42:12 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:42:12 INFO  App:73 - OS = iOS
+2016-06-03 15:42:12 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:42:12 INFO  App:78 - App = Business Insider
+2016-06-03 15:42:12 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:42:29 INFO  App:158 - App has launched
+2016-06-03 15:42:34 INFO  App:271 - Test Done
+2016-06-03 15:42:46 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:42:46 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:42:46 INFO  App:73 - OS = iOS
+2016-06-03 15:42:46 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:42:46 INFO  App:78 - App = Business Insider
+2016-06-03 15:42:46 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:43:03 INFO  App:158 - App has launched
+2016-06-03 15:43:15 INFO  SearchObject:48 - Click Search
+2016-06-03 15:43:37 INFO  App:271 - Test Done
+2016-06-03 15:43:54 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:43:54 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:43:54 INFO  App:73 - OS = iOS
+2016-06-03 15:43:54 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:43:54 INFO  App:78 - App = Business Insider
+2016-06-03 15:43:54 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:43:54 ERROR App:186 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 149 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.1.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-06-03 15:43:54 INFO  App:271 - Test Done
+2016-06-03 15:44:32 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:44:32 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:44:32 INFO  App:73 - OS = iOS
+2016-06-03 15:44:32 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:44:32 INFO  App:78 - App = Business Insider
+2016-06-03 15:44:32 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:44:50 INFO  App:158 - App has launched
+2016-06-03 15:44:53 INFO  SearchObject:48 - Click Search
+2016-06-03 15:44:59 INFO  App:271 - Test Done
+2016-06-03 15:47:40 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:47:40 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:47:40 INFO  App:73 - OS = iOS
+2016-06-03 15:47:40 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:47:40 INFO  App:78 - App = Business Insider
+2016-06-03 15:47:40 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:47:41 ERROR App:186 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 143 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.1.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-06-03 15:47:41 INFO  App:271 - Test Done
+2016-06-03 15:48:21 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:48:21 INFO  App:57 - Starting Appium Server...
+2016-06-03 15:48:21 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:48:21 INFO  App:73 - OS = iOS
+2016-06-03 15:48:21 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:48:21 INFO  App:78 - App = Business Insider
+2016-06-03 15:48:21 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:48:21 INFO  App:121 - Starting Appium Server....
+2016-06-03 15:48:22 ERROR App:178 - Unable to launch device
+2016-06-03 15:48:22 INFO  App:271 - Test Done
+2016-06-03 15:48:24 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:48:24 INFO  App:57 - Starting Appium Server...
+2016-06-03 15:48:25 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:48:25 INFO  App:73 - OS = iOS
+2016-06-03 15:48:25 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:48:25 INFO  App:78 - App = Business Insider
+2016-06-03 15:48:25 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:48:25 INFO  App:121 - Starting Appium Server....
+2016-06-03 15:48:25 ERROR App:178 - Unable to launch device
+2016-06-03 15:48:25 INFO  App:271 - Test Done
+2016-06-03 15:48:41 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:48:41 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:48:41 INFO  App:73 - OS = iOS
+2016-06-03 15:48:41 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:48:41 INFO  App:78 - App = Business Insider
+2016-06-03 15:48:41 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:49:07 INFO  App:158 - App has launched
+2016-06-03 15:49:11 INFO  SearchObject:48 - Click Search
+2016-06-03 15:51:43 INFO  App:271 - Test Done
+2016-06-03 15:51:44 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:51:45 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:51:45 INFO  App:73 - OS = iOS
+2016-06-03 15:51:45 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:51:45 INFO  App:78 - App = Business Insider
+2016-06-03 15:51:45 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:51:59 INFO  App:158 - App has launched
+2016-06-03 15:52:03 INFO  SearchObject:48 - Click Search
+2016-06-03 15:52:28 INFO  SearchObject:55 - Typeapple in Search
+2016-06-03 15:54:49 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:54:49 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:54:49 INFO  App:73 - OS = iOS
+2016-06-03 15:54:49 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:54:49 INFO  App:78 - App = Business Insider
+2016-06-03 15:54:49 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:54:50 ERROR App:186 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 176 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.1.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-06-03 15:54:50 INFO  App:271 - Test Done
+2016-06-03 15:55:41 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:55:42 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:55:42 INFO  App:73 - OS = iOS
+2016-06-03 15:55:42 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:55:42 INFO  App:78 - App = Business Insider
+2016-06-03 15:55:42 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:56:00 INFO  App:158 - App has launched
+2016-06-03 15:56:03 INFO  SearchObject:48 - Click Search
+2016-06-03 15:56:29 INFO  SearchObject:55 - Typeapple in Search
+2016-06-03 15:56:40 INFO  App:271 - Test Done
+2016-06-03 15:57:13 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:57:13 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:57:13 INFO  App:73 - OS = iOS
+2016-06-03 15:57:13 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:57:13 INFO  App:78 - App = Business Insider
+2016-06-03 15:57:13 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:57:14 ERROR App:186 - A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 216 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'kislam-MacBookPro11,5', ip: '192.168.1.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: appium.App$1
+2016-06-03 15:57:14 INFO  App:271 - Test Done
+2016-06-03 15:57:22 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-03 15:57:22 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-03 15:57:22 INFO  App:73 - OS = iOS
+2016-06-03 15:57:22 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-03 15:57:22 INFO  App:78 - App = Business Insider
+2016-06-03 15:57:22 INFO  App:81 - ------------------------------------------------------
+2016-06-03 15:57:37 INFO  App:158 - App has launched
+2016-06-03 15:57:40 INFO  SearchObject:48 - Click Search
+2016-06-03 15:57:48 INFO  SearchObject:55 - Typeapple in Search
+2016-06-24 17:36:06 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-06-24 17:36:06 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-06-24 17:36:06 INFO  App:73 - OS = iOS
+2016-06-24 17:36:06 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-06-24 17:36:06 INFO  App:78 - App = Business Insider
+2016-06-24 17:36:06 INFO  App:81 - ------------------------------------------------------
+2016-06-24 17:36:44 INFO  App:158 - App has launched
+2016-06-24 17:36:47 INFO  SearchObject:48 - Click Search
+2016-06-24 17:36:55 INFO  SearchObject:55 - Typeapple in Search
+2016-06-24 17:37:06 INFO  SearchObject:65 - Search result click 1
+2016-06-24 17:37:10 INFO  App:271 - Test Done
+2016-07-02 14:45:12 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-02 14:45:12 INFO  App:57 - Starting Appium Server...
+2016-07-02 14:45:42 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-02 14:45:42 INFO  App:73 - OS = iOS
+2016-07-02 14:45:42 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-02 14:45:42 INFO  App:78 - App = Business Insider
+2016-07-02 14:45:42 INFO  App:81 - ------------------------------------------------------
+2016-07-02 14:46:31 INFO  App:158 - App has launched
+2016-07-02 14:46:31 INFO  App:271 - Test Done
+2016-07-05 15:34:24 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-05 15:34:24 INFO  App:57 - Starting Appium Server...
+2016-07-05 15:34:29 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-05 15:34:29 INFO  App:73 - OS = iOS
+2016-07-05 15:34:29 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-05 15:34:29 INFO  App:78 - App = Business Insider
+2016-07-05 15:34:29 INFO  App:81 - ------------------------------------------------------
+2016-07-05 15:34:45 INFO  App:158 - App has launched
+2016-07-05 15:34:48 INFO  SearchObject:49 - Click Search
+2016-07-05 15:34:55 INFO  SearchObject:56 - TypeHilary in Search
+2016-07-05 15:35:06 INFO  App:271 - Test Done
+2016-07-05 17:16:31 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-05 17:16:31 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-05 17:16:31 INFO  App:73 - OS = iOS
+2016-07-05 17:16:31 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-05 17:16:31 INFO  App:78 - App = Business Insider
+2016-07-05 17:16:31 INFO  App:81 - ------------------------------------------------------
+2016-07-05 17:16:56 INFO  App:158 - App has launched
+2016-07-05 17:16:59 INFO  SearchObject:49 - Click Search
+2016-07-05 17:17:08 INFO  SearchObject:56 - TypeHilary in Search
+2016-07-05 17:17:18 INFO  App:271 - Test Done
+2016-07-07 12:00:30 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-07 12:00:31 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-07 12:00:31 INFO  App:73 - OS = iOS
+2016-07-07 12:00:31 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-07 12:00:31 INFO  App:78 - App = Business Insider
+2016-07-07 12:00:31 INFO  App:81 - ------------------------------------------------------
+2016-07-07 12:00:52 INFO  App:158 - App has launched
+2016-07-07 12:00:55 INFO  SearchObject:49 - Click Search
+2016-07-07 12:45:11 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-07 12:45:11 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-07 12:45:11 INFO  App:73 - OS = iOS
+2016-07-07 12:45:11 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-07 12:45:11 INFO  App:78 - App = Business Insider
+2016-07-07 12:45:11 INFO  App:81 - ------------------------------------------------------
+2016-07-07 12:45:26 INFO  App:158 - App has launched
+2016-07-07 12:45:30 INFO  SearchObject:49 - Click Search
+2016-07-07 12:45:37 INFO  SearchObject:56 - TypeHilary in Search
+2016-07-07 12:45:48 INFO  App:271 - Test Done
+2016-07-07 12:46:03 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-07 12:46:03 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-07 12:46:03 INFO  App:73 - OS = iOS
+2016-07-07 12:46:03 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-07 12:46:03 INFO  App:78 - App = Business Insider
+2016-07-07 12:46:03 INFO  App:81 - ------------------------------------------------------
+2016-07-07 12:46:18 INFO  App:158 - App has launched
+2016-07-07 12:46:21 INFO  SearchObject:49 - Click Search
+2016-07-07 12:46:29 INFO  SearchObject:56 - TypeHilary in Search
+2016-07-07 12:46:40 INFO  App:271 - Test Done
+2016-07-07 12:49:44 INFO  App:271 - Test Done
+2016-07-07 13:06:38 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-07 13:07:38 INFO  App:57 - Starting Appium Server...
+2016-07-07 13:07:42 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-07 13:07:42 INFO  App:73 - OS = iOS
+2016-07-07 13:07:42 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-07 13:07:42 INFO  App:78 - App = Business Insider
+2016-07-07 13:07:42 INFO  App:81 - ------------------------------------------------------
+2016-07-07 13:07:57 INFO  App:158 - App has launched
+2016-07-07 13:08:01 INFO  SearchObject:51 - Click Search
+2016-07-07 13:08:08 INFO  SearchObject:58 - TypeHilary in Search
+2016-07-07 15:37:58 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-07 15:37:59 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-07 15:37:59 INFO  App:73 - OS = iOS
+2016-07-07 15:37:59 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-07 15:37:59 INFO  App:78 - App = Business Insider
+2016-07-07 15:37:59 INFO  App:81 - ------------------------------------------------------
+2016-07-07 15:38:15 INFO  App:158 - App has launched
+2016-07-07 15:38:46 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-07 15:39:39 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-07 15:39:39 INFO  App:57 - Starting Appium Server...
+2016-07-07 15:39:43 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-07 15:39:43 INFO  App:73 - OS = iOS
+2016-07-07 15:39:43 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-07 15:39:43 INFO  App:78 - App = Business Insider
+2016-07-07 15:39:43 INFO  App:81 - ------------------------------------------------------
+2016-07-07 15:39:58 INFO  App:158 - App has launched
+2016-07-07 15:40:01 INFO  SearchObject:51 - Click Search
+2016-07-07 15:40:09 INFO  SearchObject:58 - TypeHilary in Search
+2016-07-07 15:44:42 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-07 15:44:42 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-07 15:44:42 INFO  App:73 - OS = iOS
+2016-07-07 15:44:42 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-07 15:44:42 INFO  App:78 - App = Business Insider
+2016-07-07 15:44:42 INFO  App:81 - ------------------------------------------------------
+2016-07-07 15:44:58 INFO  App:158 - App has launched
+2016-07-07 15:45:02 INFO  SearchObject:51 - Click Search
+2016-07-07 15:45:09 INFO  SearchObject:58 - TypeHilary in Search
+2016-07-07 16:00:14 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-07 16:00:15 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-07 16:00:15 INFO  App:73 - OS = iOS
+2016-07-07 16:00:15 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-07 16:00:15 INFO  App:78 - App = Business Insider
+2016-07-07 16:00:15 INFO  App:81 - ------------------------------------------------------
+2016-07-07 16:00:34 INFO  App:158 - App has launched
+2016-07-07 16:00:38 INFO  SearchObject:51 - Click Search
+2016-07-07 16:00:46 INFO  SearchObject:58 - TypeHilary in Search
+2016-07-08 15:21:06 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:21:06 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:21:06 INFO  App:73 - OS = iOS
+2016-07-08 15:21:06 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:21:06 INFO  App:78 - App = Business Insider
+2016-07-08 15:21:06 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:21:22 INFO  App:158 - App has launched
+2016-07-08 15:21:22 INFO  App:271 - Test Done
+2016-07-08 15:24:28 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:24:28 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:24:28 INFO  App:73 - OS = iOS
+2016-07-08 15:24:28 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:24:28 INFO  App:78 - App = Business Insider
+2016-07-08 15:24:28 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:24:44 INFO  App:158 - App has launched
+2016-07-08 15:24:44 INFO  App:271 - Test Done
+2016-07-08 15:25:53 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:25:53 INFO  App:57 - Starting Appium Server...
+2016-07-08 15:25:57 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:25:57 INFO  App:73 - OS = iOS
+2016-07-08 15:25:57 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:25:57 INFO  App:78 - App = Business Insider
+2016-07-08 15:25:57 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:26:13 INFO  App:158 - App has launched
+2016-07-08 15:26:13 INFO  App:271 - Test Done
+2016-07-08 15:28:30 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:28:30 INFO  App:57 - Starting Appium Server...
+2016-07-08 15:28:33 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:28:33 INFO  App:73 - OS = iOS
+2016-07-08 15:28:33 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:28:33 INFO  App:78 - App = Business Insider
+2016-07-08 15:28:33 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:28:48 INFO  App:158 - App has launched
+2016-07-08 15:28:51 INFO  SearchObject:51 - Click Search
+2016-07-08 15:29:02 INFO  SearchObject:58 - TypeThe two apples in Search
+2016-07-08 15:29:14 INFO  App:271 - Test Done
+2016-07-08 15:29:44 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:29:44 INFO  App:57 - Starting Appium Server...
+2016-07-08 15:29:48 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:29:48 INFO  App:73 - OS = iOS
+2016-07-08 15:29:48 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:29:48 INFO  App:78 - App = Business Insider
+2016-07-08 15:29:48 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:30:03 INFO  App:158 - App has launched
+2016-07-08 15:30:07 INFO  SearchObject:51 - Click Search
+2016-07-08 15:30:17 INFO  SearchObject:58 - TypeThe two apples in Search
+2016-07-08 15:35:42 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:35:42 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:35:42 INFO  App:73 - OS = iOS
+2016-07-08 15:35:42 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:35:42 INFO  App:78 - App = Business Insider
+2016-07-08 15:35:42 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:35:57 INFO  App:158 - App has launched
+2016-07-08 15:37:08 INFO  App:271 - Test Done
+2016-07-08 15:41:44 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:41:44 INFO  App:57 - Starting Appium Server...
+2016-07-08 15:41:49 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:41:49 INFO  App:73 - OS = iOS
+2016-07-08 15:41:49 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:41:49 INFO  App:78 - App = Business Insider
+2016-07-08 15:41:49 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:42:04 INFO  App:158 - App has launched
+2016-07-08 15:42:08 INFO  SearchObject:51 - Click Search
+2016-07-08 15:42:18 INFO  SearchObject:58 - TypeThe two apples in Search
+2016-07-08 15:42:31 INFO  App:271 - Test Done
+2016-07-08 15:42:57 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:42:57 INFO  App:57 - Starting Appium Server...
+2016-07-08 15:43:01 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:43:01 INFO  App:73 - OS = iOS
+2016-07-08 15:43:01 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:43:01 INFO  App:78 - App = Business Insider
+2016-07-08 15:43:01 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:43:16 INFO  App:158 - App has launched
+2016-07-08 15:43:19 INFO  SearchObject:51 - Click Search
+2016-07-08 15:43:30 INFO  SearchObject:58 - TypeThe two apples in Search
+2016-07-08 15:43:43 INFO  App:271 - Test Done
+2016-07-08 15:44:26 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:44:26 INFO  App:57 - Starting Appium Server...
+2016-07-08 15:44:30 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:44:30 INFO  App:73 - OS = iOS
+2016-07-08 15:44:30 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:44:30 INFO  App:78 - App = Business Insider
+2016-07-08 15:44:30 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:44:45 INFO  App:158 - App has launched
+2016-07-08 15:44:49 INFO  SearchObject:51 - Click Search
+2016-07-08 15:44:59 INFO  SearchObject:58 - TypeThe two apples in Search
+2016-07-08 15:48:24 INFO  App:271 - Test Done
+2016-07-08 15:48:26 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:48:26 INFO  App:57 - Starting Appium Server...
+2016-07-08 15:48:30 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:48:30 INFO  App:73 - OS = iOS
+2016-07-08 15:48:30 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:48:30 INFO  App:78 - App = Business Insider
+2016-07-08 15:48:30 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:48:46 INFO  App:158 - App has launched
+2016-07-08 15:48:49 INFO  SearchObject:52 - Click Search
+2016-07-08 15:48:59 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-08 15:49:29 INFO  App:271 - Test Done
+2016-07-08 15:50:49 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:50:49 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:50:49 INFO  App:73 - OS = iOS
+2016-07-08 15:50:49 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:50:49 INFO  App:78 - App = Business Insider
+2016-07-08 15:50:49 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:50:49 INFO  App:121 - Starting Appium Server....
+2016-07-08 15:51:07 INFO  App:158 - App has launched
+2016-07-08 15:51:10 INFO  SearchObject:52 - Click Search
+2016-07-08 15:51:20 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-08 15:51:34 INFO  App:271 - Test Done
+2016-07-08 15:51:58 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:51:58 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:51:58 INFO  App:73 - OS = iOS
+2016-07-08 15:51:58 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:51:58 INFO  App:78 - App = Business Insider
+2016-07-08 15:51:58 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:51:58 INFO  App:121 - Starting Appium Server....
+2016-07-08 15:52:15 INFO  App:158 - App has launched
+2016-07-08 15:52:19 INFO  SearchObject:52 - Click Search
+2016-07-08 15:52:29 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-08 15:52:47 INFO  App:271 - Test Done
+2016-07-08 15:54:48 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:54:48 INFO  App:57 - Starting Appium Server...
+2016-07-08 15:54:51 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:54:51 INFO  App:73 - OS = iOS
+2016-07-08 15:54:51 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:54:51 INFO  App:78 - App = Business Insider
+2016-07-08 15:54:51 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:55:05 INFO  App:158 - App has launched
+2016-07-08 15:55:09 INFO  SearchObject:52 - Click Search
+2016-07-08 15:55:19 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-08 15:55:37 INFO  App:271 - Test Done
+2016-07-08 15:56:05 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:56:05 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:56:05 INFO  App:73 - OS = iOS
+2016-07-08 15:56:05 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:56:05 INFO  App:78 - App = Business Insider
+2016-07-08 15:56:05 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:56:05 INFO  App:121 - Starting Appium Server....
+2016-07-08 15:56:22 INFO  App:158 - App has launched
+2016-07-08 15:56:25 INFO  SearchObject:52 - Click Search
+2016-07-08 15:56:36 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-08 15:56:53 INFO  App:271 - Test Done
+2016-07-08 15:57:29 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 15:57:30 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 15:57:30 INFO  App:73 - OS = iOS
+2016-07-08 15:57:30 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 15:57:30 INFO  App:78 - App = Business Insider
+2016-07-08 15:57:30 INFO  App:81 - ------------------------------------------------------
+2016-07-08 15:57:30 INFO  App:121 - Starting Appium Server....
+2016-07-08 15:57:47 INFO  App:158 - App has launched
+2016-07-08 15:57:50 INFO  SearchObject:52 - Click Search
+2016-07-08 15:58:00 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-08 15:58:49 INFO  App:271 - Test Done
+2016-07-08 17:18:03 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 17:18:03 INFO  App:57 - Starting Appium Server...
+2016-07-08 17:18:22 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 17:18:22 INFO  App:73 - OS = iOS
+2016-07-08 17:18:22 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 17:18:22 INFO  App:78 - App = Business Insider
+2016-07-08 17:18:22 INFO  App:81 - ------------------------------------------------------
+2016-07-08 17:18:43 INFO  App:158 - App has launched
+2016-07-08 17:18:47 INFO  SearchObject:52 - Click Search
+2016-07-08 17:29:22 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 17:29:22 INFO  App:57 - Starting Appium Server...
+2016-07-08 17:29:26 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 17:29:26 INFO  App:73 - OS = iOS
+2016-07-08 17:29:26 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 17:29:26 INFO  App:78 - App = Business Insider
+2016-07-08 17:29:26 INFO  App:81 - ------------------------------------------------------
+2016-07-08 17:29:41 INFO  App:158 - App has launched
+2016-07-08 17:29:44 INFO  SearchObject:52 - Click Search
+2016-07-08 17:29:54 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-08 17:30:07 INFO  App:271 - Test Done
+2016-07-08 17:33:22 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 17:33:22 INFO  App:57 - Starting Appium Server...
+2016-07-08 17:33:25 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 17:33:25 INFO  App:73 - OS = iOS
+2016-07-08 17:33:25 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 17:33:25 INFO  App:78 - App = Business Insider
+2016-07-08 17:33:25 INFO  App:81 - ------------------------------------------------------
+2016-07-08 17:33:39 INFO  App:158 - App has launched
+2016-07-08 17:33:43 INFO  SearchObject:52 - Click Search
+2016-07-08 17:33:53 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-08 17:34:17 INFO  App:271 - Test Done
+2016-07-08 23:04:00 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-08 23:04:00 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-08 23:04:00 INFO  App:73 - OS = iOS
+2016-07-08 23:04:00 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-08 23:04:00 INFO  App:78 - App = Business Insider
+2016-07-08 23:04:00 INFO  App:81 - ------------------------------------------------------
+2016-07-08 23:04:22 INFO  App:158 - App has launched
+2016-07-08 23:04:26 INFO  SearchObject:52 - Click Search
+2016-07-08 23:04:37 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-08 23:04:50 INFO  App:271 - Test Done
+2016-07-10 11:40:03 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-10 11:40:04 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-10 11:40:04 INFO  App:73 - OS = iOS
+2016-07-10 11:40:04 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-10 11:40:04 INFO  App:78 - App = Business Insider
+2016-07-10 11:40:04 INFO  App:81 - ------------------------------------------------------
+2016-07-10 11:40:24 INFO  App:158 - App has launched
+2016-07-10 11:40:24 INFO  App:271 - Test Done
+2016-07-10 11:41:08 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-10 11:41:08 INFO  App:57 - Starting Appium Server...
+2016-07-10 11:41:27 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-10 11:41:27 INFO  App:73 - OS = iOS
+2016-07-10 11:41:27 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-10 11:41:27 INFO  App:78 - App = Business Insider
+2016-07-10 11:41:27 INFO  App:81 - ------------------------------------------------------
+2016-07-10 11:41:42 INFO  App:158 - App has launched
+2016-07-10 11:41:46 INFO  SearchObject:52 - Click Search
+2016-07-10 11:41:57 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-10 11:42:09 INFO  App:271 - Test Done
+2016-07-10 11:44:10 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-10 11:44:10 INFO  App:57 - Starting Appium Server...
+2016-07-10 11:44:13 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-10 11:44:13 INFO  App:73 - OS = iOS
+2016-07-10 11:44:13 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-10 11:44:13 INFO  App:78 - App = Business Insider
+2016-07-10 11:44:13 INFO  App:81 - ------------------------------------------------------
+2016-07-10 11:44:28 INFO  App:158 - App has launched
+2016-07-10 11:44:31 INFO  SearchObject:52 - Click Search
+2016-07-10 11:44:42 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-10 11:44:55 INFO  App:271 - Test Done
+2016-07-10 11:45:19 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-10 11:45:19 INFO  App:57 - Starting Appium Server...
+2016-07-10 11:45:23 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-10 11:45:23 INFO  App:73 - OS = iOS
+2016-07-10 11:45:23 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-10 11:45:23 INFO  App:78 - App = Business Insider
+2016-07-10 11:45:23 INFO  App:81 - ------------------------------------------------------
+2016-07-10 11:45:37 INFO  App:158 - App has launched
+2016-07-10 11:45:41 INFO  SearchObject:52 - Click Search
+2016-07-10 11:45:51 INFO  SearchObject:59 - TypeThe two apples in Search
+2016-07-10 11:45:56 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-10 11:45:56 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-10 11:45:56 INFO  App:73 - OS = iOS
+2016-07-10 11:45:56 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-10 11:45:56 INFO  App:78 - App = Business Insider
+2016-07-10 11:45:56 INFO  App:81 - ------------------------------------------------------
+2016-07-10 11:45:58 INFO  App:271 - Test Done
+2016-07-10 11:46:01 ERROR App:178 - Unable to launch device
+2016-07-10 11:46:02 INFO  App:271 - Test Done
+2016-07-10 11:49:54 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-10 11:49:54 INFO  App:57 - Starting Appium Server...
+2016-07-10 11:49:59 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-10 11:49:59 INFO  App:73 - OS = iOS
+2016-07-10 11:49:59 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-10 11:49:59 INFO  App:78 - App = Business Insider
+2016-07-10 11:49:59 INFO  App:81 - ------------------------------------------------------
+2016-07-10 11:50:13 INFO  App:158 - App has launched
+2016-07-10 11:50:17 INFO  SearchObject:52 - Click Search
+2016-07-10 11:50:19 INFO  App:271 - Test Done
+2016-07-11 14:19:42 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 14:19:42 INFO  App:57 - Starting Appium Server...
+2016-07-11 14:20:01 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 14:20:01 INFO  App:73 - OS = iOS
+2016-07-11 14:20:01 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 14:20:01 INFO  App:78 - App = Business Insider
+2016-07-11 14:20:01 INFO  App:81 - ------------------------------------------------------
+2016-07-11 14:20:29 INFO  App:158 - App has launched
+2016-07-11 14:20:30 INFO  App:271 - Test Done
+2016-07-11 14:21:20 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 14:21:20 INFO  App:57 - Starting Appium Server...
+2016-07-11 14:21:24 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 14:21:24 INFO  App:73 - OS = iOS
+2016-07-11 14:21:24 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 14:21:24 INFO  App:78 - App = Business Insider
+2016-07-11 14:21:24 INFO  App:81 - ------------------------------------------------------
+2016-07-11 14:21:41 INFO  App:158 - App has launched
+2016-07-11 14:21:41 INFO  App:271 - Test Done
+2016-07-11 14:23:46 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 14:23:46 INFO  App:57 - Starting Appium Server...
+2016-07-11 14:23:49 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 14:23:49 INFO  App:73 - OS = iOS
+2016-07-11 14:23:49 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 14:23:49 INFO  App:78 - App = Business Insider
+2016-07-11 14:23:49 INFO  App:81 - ------------------------------------------------------
+2016-07-11 14:24:04 INFO  App:158 - App has launched
+2016-07-11 14:24:04 INFO  App:271 - Test Done
+2016-07-11 14:24:27 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 14:24:27 INFO  App:57 - Starting Appium Server...
+2016-07-11 14:24:31 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 14:24:31 INFO  App:73 - OS = iOS
+2016-07-11 14:24:31 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 14:24:31 INFO  App:78 - App = Business Insider
+2016-07-11 14:24:31 INFO  App:81 - ------------------------------------------------------
+2016-07-11 14:24:45 INFO  App:158 - App has launched
+2016-07-11 14:24:45 INFO  App:271 - Test Done
+2016-07-11 14:25:24 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 14:25:24 INFO  App:57 - Starting Appium Server...
+2016-07-11 14:25:28 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 14:25:28 INFO  App:73 - OS = iOS
+2016-07-11 14:25:28 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 14:25:28 INFO  App:78 - App = Business Insider
+2016-07-11 14:25:28 INFO  App:81 - ------------------------------------------------------
+2016-07-11 14:26:01 INFO  App:158 - App has launched
+2016-07-11 14:26:31 INFO  App:271 - Test Done
+2016-07-11 14:26:55 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 14:26:55 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 14:26:55 INFO  App:73 - OS = iOS
+2016-07-11 14:26:55 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 14:26:55 INFO  App:78 - App = Business Insider
+2016-07-11 14:26:55 INFO  App:81 - ------------------------------------------------------
+2016-07-11 14:26:55 INFO  App:121 - Starting Appium Server....
+2016-07-11 14:27:16 INFO  App:158 - App has launched
+2016-07-11 14:27:16 INFO  App:271 - Test Done
+2016-07-11 14:27:51 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 14:27:51 INFO  App:57 - Starting Appium Server...
+2016-07-11 14:27:56 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 14:27:56 INFO  App:73 - OS = iOS
+2016-07-11 14:27:56 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 14:27:56 INFO  App:78 - App = Business Insider
+2016-07-11 14:27:56 INFO  App:81 - ------------------------------------------------------
+2016-07-11 14:28:13 INFO  App:158 - App has launched
+2016-07-11 14:28:13 INFO  App:271 - Test Done
+2016-07-11 14:33:06 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 14:33:07 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 14:33:07 INFO  App:73 - OS = iOS
+2016-07-11 14:33:07 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 14:33:07 INFO  App:78 - App = Business Insider
+2016-07-11 14:33:07 INFO  App:81 - ------------------------------------------------------
+2016-07-11 14:33:07 INFO  App:121 - Starting Appium Server....
+2016-07-11 14:33:25 INFO  App:158 - App has launched
+2016-07-11 14:33:25 INFO  App:271 - Test Done
+2016-07-11 14:35:51 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 14:35:51 INFO  App:57 - Starting Appium Server...
+2016-07-11 14:35:54 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 14:35:54 INFO  App:73 - OS = iOS
+2016-07-11 14:35:54 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 14:35:54 INFO  App:78 - App = Business Insider
+2016-07-11 14:35:54 INFO  App:81 - ------------------------------------------------------
+2016-07-11 14:36:08 INFO  App:158 - App has launched
+2016-07-11 14:36:08 INFO  App:271 - Test Done
+2016-07-11 15:09:00 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 15:09:00 INFO  App:57 - Starting Appium Server...
+2016-07-11 15:09:04 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 15:09:04 INFO  App:73 - OS = iOS
+2016-07-11 15:09:04 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 15:09:04 INFO  App:78 - App = Business Insider
+2016-07-11 15:09:04 INFO  App:81 - ------------------------------------------------------
+2016-07-11 15:09:20 INFO  App:158 - App has launched
+2016-07-11 15:09:20 INFO  App:271 - Test Done
+2016-07-11 15:10:30 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 15:10:30 INFO  App:57 - Starting Appium Server...
+2016-07-11 15:10:33 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 15:10:33 INFO  App:73 - OS = iOS
+2016-07-11 15:10:33 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 15:10:33 INFO  App:78 - App = Business Insider
+2016-07-11 15:10:33 INFO  App:81 - ------------------------------------------------------
+2016-07-11 15:10:48 INFO  App:158 - App has launched
+2016-07-11 15:10:51 INFO  SearchObject:52 - Click Search
+2016-07-11 15:10:51 INFO  App:271 - Test Done
+2016-07-11 17:01:02 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 17:01:02 INFO  App:57 - Starting Appium Server...
+2016-07-11 17:01:21 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 17:01:21 INFO  App:73 - OS = iOS
+2016-07-11 17:01:21 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 17:01:21 INFO  App:78 - App = Business Insider
+2016-07-11 17:01:21 INFO  App:81 - ------------------------------------------------------
+2016-07-11 17:01:44 INFO  App:158 - App has launched
+2016-07-11 17:01:47 INFO  SearchObject:52 - Click Search
+2016-07-11 17:01:59 INFO  SearchObject:59 - TypeThe Two Apples in Search
+2016-07-11 17:02:16 INFO  App:271 - Test Done
+2016-07-11 22:44:53 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-11 22:44:53 INFO  App:57 - Starting Appium Server...
+2016-07-11 22:45:13 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-11 22:45:13 INFO  App:73 - OS = iOS
+2016-07-11 22:45:13 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-11 22:45:13 INFO  App:78 - App = Business Insider
+2016-07-11 22:45:13 INFO  App:81 - ------------------------------------------------------
+2016-07-11 22:45:35 INFO  App:158 - App has launched
+2016-07-11 22:45:35 INFO  App:271 - Test Done
+2016-07-12 17:15:51 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-12 17:15:51 INFO  App:57 - Starting Appium Server...
+2016-07-12 17:16:00 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-12 17:16:00 INFO  App:57 - Starting Appium Server...
+2016-07-12 17:16:13 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-12 17:16:13 INFO  App:73 - OS = iOS
+2016-07-12 17:16:13 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-12 17:16:13 INFO  App:78 - App = Business Insider
+2016-07-12 17:16:13 INFO  App:81 - ------------------------------------------------------
+2016-07-12 17:16:14 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-12 17:16:14 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-12 17:16:14 INFO  App:73 - OS = iOS
+2016-07-12 17:16:14 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-12 17:16:14 INFO  App:78 - App = Business Insider
+2016-07-12 17:16:14 INFO  App:81 - ------------------------------------------------------
+2016-07-12 17:16:41 INFO  App:158 - App has launched
+2016-07-12 17:16:41 INFO  App:271 - Test Done
+2016-07-13 17:20:31 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-13 17:20:32 INFO  App:57 - Starting Appium Server...
+2016-07-13 17:20:36 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-13 17:20:36 INFO  App:73 - OS = iOS
+2016-07-13 17:20:36 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-13 17:20:36 INFO  App:78 - App = Business Insider
+2016-07-13 17:20:36 INFO  App:81 - ------------------------------------------------------
+2016-07-13 17:20:51 INFO  App:158 - App has launched
+2016-07-13 17:20:51 INFO  App:271 - Test Done
+2016-07-14 10:38:09 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-14 10:38:09 INFO  App:57 - Starting Appium Server...
+2016-07-14 10:38:29 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-14 10:38:29 INFO  App:73 - OS = iOS
+2016-07-14 10:38:29 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-14 10:38:29 INFO  App:78 - App = Business Insider
+2016-07-14 10:38:29 INFO  App:81 - ------------------------------------------------------
+2016-07-14 10:38:49 INFO  App:158 - App has launched
+2016-07-14 10:38:52 INFO  SearchObject:52 - Click Search
+2016-07-14 10:39:00 INFO  SearchObject:59 - TypeHilary in Search
+2016-07-14 10:39:08 INFO  App:271 - Test Done
+2016-07-14 10:39:43 INFO  App:40 - Working Directory = /Users/khadijaislam/IdeaProjects/mobile-automation
+2016-07-14 10:39:43 INFO  App:57 - Starting Appium Server...
+2016-07-14 10:39:47 INFO  App:72 - ------------ Environmental Configurations ------------
+2016-07-14 10:39:47 INFO  App:73 - OS = iOS
+2016-07-14 10:39:47 INFO  App:77 - Simulator = iPhone 6 (9.1)
+2016-07-14 10:39:47 INFO  App:78 - App = Business Insider
+2016-07-14 10:39:47 INFO  App:81 - ------------------------------------------------------
+2016-07-14 10:40:01 INFO  App:158 - App has launched
+2016-07-14 10:40:05 INFO  SearchObject:52 - Click Search
+2016-07-14 10:40:12 INFO  SearchObject:59 - TypeHilary in Search
+2016-07-14 10:40:25 INFO  App:271 - Test Done

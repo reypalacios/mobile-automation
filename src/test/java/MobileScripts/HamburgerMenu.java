@@ -8,7 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * Created by rpalacios on 12/15/15.
+ * Created by kislam on 12/15/15.
  */
 public class HamburgerMenu extends App {
 

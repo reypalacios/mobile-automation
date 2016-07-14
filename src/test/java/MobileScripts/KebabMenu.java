@@ -3,7 +3,6 @@ package mobileScripts;
 import appium.App;
 import objectModels.KebabSettingsObject;
 import objectModels.MastHeadObject;
-import objectModels.PostResultsObject;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,7 +16,7 @@ public class KebabMenu extends App {
     public void setUp() throws InterruptedException {
         new App().launch();
     }
-
+/*
     @Test
     public void testSettingsMenu(){
         try {
@@ -59,7 +58,7 @@ public class KebabMenu extends App {
             e.printStackTrace();
         }
 
-    }
+    }*/
 
     @After
     public void CloseAppEmulator() throws Exception {
