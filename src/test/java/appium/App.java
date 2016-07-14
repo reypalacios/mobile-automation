@@ -1,21 +1,20 @@
 package appium;
 
-import GUI.GUIForm;
 import com.github.genium_framework.appium.support.server.AppiumServer;
 import com.github.genium_framework.server.ServerArguments;
 import cucumber.api.Scenario;
-import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.AndroidServerFlag;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.UnreachableBrowserException;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -25,7 +24,15 @@ import java.util.concurrent.TimeUnit;
  */
 public class App {
 
-    public static AppiumDriver driver;
+    //public static AppiumDriver driver;
+    public static IOSDriver driver;
+    public static String launchOn;
+    public static String VD;
+    public static String app;
+    public static String apk;
+    public static String script;
+    public static String platformName;
+    public static String platformVersion;
 
     public static org.apache.log4j.Logger logger;
     public static Scenario scenario;
@@ -62,15 +69,13 @@ public class App {
 
             AppiumServiceBuilder builder = new AppiumServiceBuilder()
                     .withAppiumJS(new File("/Applications/Appium.app/Contents/Resources/node_modules/appium/build/lib/main.js"))
-                    .withIPAddress("0.0.0.0")
+                    .withIPAddress("127.0.0.1")
                     .usingPort(4723)
                     .withArgument(GeneralServerFlag.LOG_LEVEL, "info")
                     .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
                     .withArgument(GeneralServerFlag.DEBUG_LOG_SPACING)
                     .withArgument(AndroidServerFlag.SUPPRESS_ADB_KILL_SERVER)
-                    .withLogFile(new File(System.getProperty("user.dir") + "/logs/appium.log"))
-
-        /* and so on */;
+                    .withLogFile(new File(System.getProperty("user.dir") + "/logs/appium.log"));
             AppiumDriverLocalService appiumDriverLocalService = builder.build();
 
             if (!appiumDriverLocalService.isRunning()) {
@@ -82,70 +87,65 @@ public class App {
             }
 
             capabilities.setCapability("appium-version", "1.0");
-            capabilities.setCapability("newCommandTimeout","240");
+            capabilities.setCapability("newCommandTimeout",240);
 
-            if(GUIForm.launchOn == null) {
-                GUIForm.launchOn = System.getProperty("launchOn");
-                if(GUIForm.launchOn == null) {
+            if(App.launchOn == null) {
+                App.launchOn = System.getProperty("launchOn");
+                if(App.launchOn == null) {
                     new PropertyReader();
                 }
-                //GUIForm.VD = System.getProperty("VD");
-                //GUIForm.app = System.getProperty("app");
+                //App.VD = System.getProperty("VD");
+                //App.app = System.getProperty("app");
 
                 System.out.println("------------ Environmental Configurations ------------");
-                System.out.println("OS = " + GUIForm.launchOn);
-                if (GUIForm.launchOn.equals("Android")) {
-                    System.out.println("AVD = " + GUIForm.VD);
-                }if (GUIForm.launchOn.equals("iOS")){
-                    System.out.println("Simulator = " + GUIForm.VD);
-                    System.out.println("App = " + GUIForm.app);
+                System.out.println("OS = " + App.launchOn);
+                if (App.launchOn.equals("Android")) {
+                    System.out.println("AVD = " + App.VD);
+                }if (App.launchOn.equals("iOS")){
+                    System.out.println("Simulator = " + App.VD);
+                    System.out.println("App = " + App.app);
                 }
                 //System.out.println("Script = "+  this.getClass().geco . script);
                 System.out.println("------------------------------------------------------");
             }
 
-            capabilities.setCapability("platformName", GUIForm.launchOn);
-            if (GUIForm.launchOn.equals("Android")) {
-                capabilities.setCapability("platformVersion", GUIForm.platformVersion);
-                capabilities.setCapability("avd", GUIForm.VD);
+            capabilities.setCapability("platformName", App.launchOn);
+            if (App.launchOn.equals("Android")) {
+                capabilities.setCapability("platformVersion", App.platformVersion);
+                capabilities.setCapability("avd", App.VD);
                 capabilities.setCapability("deviceName", "Android Emulator");
 
-                /*if (GUIForm.apk==null){
-                    GUIForm.apk="com.freerange360.mpp.businessinsider-120150427.apk";
+                /*if (App.apk==null){
+                    App.apk="com.freerange360.mpp.businessinsider-120150427.apk";
                 }*/
-                File file = new File("AndroidApps/"+GUIForm.apk);
+                File file = new File("AndroidApps/"+App.apk);
                 capabilities.setCapability("app", file.getAbsolutePath());
                 //capabilities.setCapability("appPackage", "com.freerange360.mpp.businessinsider");
                 //capabilities.setCapability("appActivity", "com.businessinsider.app.MainActivity");
 
             }
-            if (GUIForm.launchOn.equals("iOS")) {
+            if (App.launchOn.equals("iOS")) {
 
-                capabilities.setCapability("deviceName", GUIForm.VD.split(" \\(")[0]);
-                capabilities.setCapability("platformVersion", GUIForm.VD.split("\\(")[1].replaceAll("\\)", "").replace(")",""));
-                //capabilities.setCapability("udid", GUIForm.VD.split(" \\(")[0]);
+                capabilities.setCapability("deviceName", App.VD.split(" \\(")[0]);
+                capabilities.setCapability("platformVersion", App.VD.split("\\(")[1].replaceAll("\\)", "").replace(")",""));
+                //capabilities.setCapability("udid", App.VD.split(" \\(")[0]);
                 //capabilities.setCapability("autoAcceptAlerts", "false");
                 //capabilities.setCapability("browserName", "safari");
 
                 //File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/bi-gyuliygdywwmomgyzfymhpymfueq/Build/Products/Debug-iphonesimulator/bi.app");
                 //File file = new File("/Users/rpalacios/Downloads/Debug-iphonesimulator/iPhoneBI.app");
                 File file = null;
-                if (GUIForm.app.equals("Business Insider") || GUIForm.app.equals("Business_Insider")) {
-                    file = new File("iOSApps/iPhoneBI.app");
+                //if (App.app.equals("Business Insider") || App.app.equals("Business_Insider")) {
+                    file = new File("iOSApps/"+App.app);
                     //file = new File("/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app");
-                }
-                if (GUIForm.app.equals("Tech Insider") || GUIForm.app.equals("Tech_Insider")) {
-                    file = new File("iOSApps/iPhoneTI.app");
-                }
-                capabilities.setCapability("app", file.getAbsolutePath());
+                //}
+//                if (App.app.equals("Tech Insider") || App.app.equals("Tech_Insider")) {
+//                    file = new File("iOSApps/iPhoneTI.app");
+//                }
+               capabilities.setCapability("app", file.getAbsolutePath());
             }
 
-//            if(!as.isServerRunning()) {
-//                System.out.println("Starting Appium Server....");
-//                as.startServer();
-//            }
-
-            driver = new AppiumDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities) {
+            driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
                 @Override
                 public WebElement scrollTo(String s) {
                     return null;
@@ -157,47 +157,36 @@ public class App {
                 }
             };
 
-            driver.manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
-            //wd.get("http://www.businessinsider.com/");
-            //wd.switchTo().alert().dismiss();
-//            while(!driver.getPageSource().contains("com.freerange360.mpp.businessinsider")){
-//
+
+
+//            WebElement myDynamicElement = (new WebDriverWait(driver, 10))
+//                    .until(ExpectedConditions.presenceOfElementLocated(By.id("news_alerts_headlines_text")));
+
+//            long initTime = new Date().getTime();
+//            boolean timeElapsed = true;
+//           while(driver.findElementsById("news_alerts_headlines_text").isEmpty() && timeElapsed){
+//                if(new Date().getTime() - initTime > 15000 ){
+//                    timeElapsed = false;
+//                }
 //            }
-            while(driver.findElementsById("news_alerts_headlines_text").isEmpty()){
-                //Thread.sleep(1000);
-            }
             //Thread.sleep(10000);
 
+            try {
+                WebDriverWait wait = new WebDriverWait(driver, 6);
+                wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
+                System.out.println("Push permission request screen was displayed");
+            }catch(TimeoutException e){
+                System.out.println("Push permission request screen wasn't displayed");
+            }
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             System.out.println("App has launched");
 
         } catch (MalformedURLException e) {
-            e.printStackTrace();
+            logger.error(e);
         } catch (UnreachableBrowserException e){
-            /*if(e.getMessage().contains("server or browser start-up failure")){
-
-                while (i < 4){
-                    System.out.println("Starting Appium Server - Try "+i);
-                    i++;
-                    try {
-                        Thread.sleep(3000);
-                    } catch (InterruptedException e1) {
-                        e1.printStackTrace();
-                    }
-                    this.launch();
-                }
-                throw e;
-            }
-            else {*/
-                logger.error("Unable to launch device");
-                e.printStackTrace();
-            //}
-
-//        } catch (InterruptedException e) {
-//            logger.error(e.getMessage());
-//            e.printStackTrace();
-        } catch (SessionNotCreatedException s) {
-            logger.error(s.getMessage());
-            s.printStackTrace();
+            logger.error(e);
+        } catch (SessionNotCreatedException e) {
+            logger.error(e);
 /*            as.stopServer();
             as.startServer();
             try {
@@ -261,48 +250,5 @@ public class App {
         System.out.println("Test Done");
     }
 
-    public void takeScreenshot()
-    {
-        try {
-            StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
-            File screenShotFile = driver.getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(screenShotFile, new File("screenshots/" + stackTraceElements[2] + ".png"));
-            System.out.println("Screenshot saved as: "+screenShotFile.getName());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
-    public static void swipingHorizontal(String swipe) throws InterruptedException {
-        System.out.println("Swiping Horizontal: "+swipe);
-        //Get the size of screen.
-        Dimension size;
-        size = App.driver.manage().window().getSize();
-        System.out.println("Screen Resolution: "+size);
-        //Find swipe start and end point from screen's with and height.
-        // Find startx point which is at right side of screen.
-        int startx = (int) (size.width * 0.80);
-        //Find endx point which is at left side of screen.
-        int endx = (int) (size.width * 0.10);
-        //Find vertical point where you wants to swipe. It is in middle of screen height.
-        int starty = size.height / 2;
-        System.out.println("startx = " + startx + " ,endx = " + endx + " , starty = " + starty);
-        if(swipe.equals(SWIPE_RIGHT_TO_LEFT)){
-            //Swipe from Right to Left.
-            App.driver.swipe(startx, starty, endx, starty, 500);
-            Thread.sleep(2000);
-        }
-        if(swipe.equals(SWIPE_LEFT_TO_RIGHT)){
-            //Swipe from Left to Right.
-            App.driver.swipe(endx, starty, startx, starty, 500);
-            Thread.sleep(2000);
-        }
-    }
-
-    public static void embedScreenshot() throws IOException {
-        System.out.println("Embedding screenshot...");
-        //byte[] screenshot = App.driver.getScreenshotAs(OutputType.BYTES);
-        byte[] screenshot = new commands.screenshot().fullScreenshot();
-        scenario.embed(screenshot, "image/png");
-    }
 }

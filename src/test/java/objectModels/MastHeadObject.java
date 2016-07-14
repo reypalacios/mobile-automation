@@ -2,6 +2,7 @@ package objectModels;
 
 import appium.App;
 import appium.MobileException;
+import commands.command;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -32,6 +33,7 @@ public class MastHeadObject {
     public static WebElement BI;
 
     @AndroidFindBy(id = "toolbar_brand_text")
+    @iOSFindBy()
     public static WebElement Title;
 
     @AndroidFindBy(id = "search_articles_option")
@@ -97,7 +99,7 @@ public class MastHeadObject {
             throw new MobileException("Titles do not match: Current title is "+title + " and Expected title is "+expectedTitle);
         else {
             System.out.println("Current title is " + expectedTitle);
-            App.embedScreenshot();
+            command.embedScreenshot();
         }
     }
 

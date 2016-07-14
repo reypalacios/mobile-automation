@@ -2,6 +2,7 @@ package steps;
 
 import appium.App;
 import appium.BISlack;
+import commands.command;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -24,7 +25,7 @@ public class SetUp {
         if(scenario.isFailed()) {
             scenario.write("Current Page URL is " + App.driver.getCurrentUrl());
             BISlack.sendMessage("Failed Scenario");
-            App.embedScreenshot();
+            command.embedScreenshot();
         }
     }
 }

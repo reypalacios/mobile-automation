@@ -30,7 +30,6 @@ public class testCucumberRunnerTest {
     public static void SetUp() throws IOException, InterruptedException {
         new Logger().setLogger();
         new App().launch();
-        //Thread.sleep(5000);
         new PushPermissionRequestObject().clicklMayberLater();
         BISlack.sendMessage(new Date()+" - MOBILE test has started");
     }

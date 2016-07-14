@@ -1,6 +1,7 @@
 package steps;
 
 import appium.App;
+import commands.command;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -115,7 +116,7 @@ public class appMenu {
 
     @When("^I click the Wealth Advisor$")
     public void i_click_the_Wealth_Advisor() throws Throwable {
-        verticals.scrolldown(VerticalObject.wealthadvisor);
+        command.scrolldown(VerticalObject.wealthadvisor);
         verticals.clickWealthAdvisor();
     }
 
@@ -217,7 +218,7 @@ public class appMenu {
 
     @When("^I click the Transportation$")
     public void i_click_the_Transportation() throws Throwable {
-        verticals.scrolldown(VerticalObject.transportation);
+        command.scrolldown(VerticalObject.transportation);
         verticals.clickTransportation();
     }
 

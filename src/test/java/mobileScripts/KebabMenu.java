@@ -39,7 +39,7 @@ public class KebabMenu extends App {
             Thread.sleep(2000);
             PostResults.clickTopPost();
 
-            takeScreenshot();
+            //takeScreenshot();
 
             kebabSettings.clickKebabMenu();
             //Thread.sleep(2000);
@@ -52,7 +52,7 @@ public class KebabMenu extends App {
             Masthead.clickHamburgerMenu();
             PostResults.clickTopPost();
 
-            takeScreenshot();
+            //takeScreenshot();
 
             Thread.sleep(2000);
         } catch (InterruptedException e) {

@@ -1,7 +1,6 @@
 package commands;
 
 import appium.App;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
@@ -18,11 +17,11 @@ import java.io.IOException;
 /**
  * Created by rpalacios on 11/13/15.
  */
-public class screenshot {
+public class Screenshot {
 
     public byte[] fullScreenshot() throws IOException {
 
-        System.out.println("Full screenshot taken and saved at screenshots/fullscreenshot.png");
+        System.out.println("Full screenshot taken");
         File scrFile = App.driver.getScreenshotAs(OutputType.FILE);
             //FileUtils.copyFile(scrFile, new File("screenshots/fullscreenshot.png"));
 
@@ -34,7 +33,7 @@ public class screenshot {
 
     public void elementScreenshot(WebElement element) {
         try{
-            System.out.println("Web element screenshot taken and saved at screenshots/elementscreenshot.png");
+            System.out.println("Web element screenshot taken");
             File scrFile = App.driver.getScreenshotAs(OutputType.FILE);
 
             Point p = element.getLocation();
@@ -48,7 +47,7 @@ public class screenshot {
 
             ImageIO.write(dest, "png", scrFile);
 
-            FileUtils.copyFile(scrFile, new File("screenshots/elementscreenshot.png"));
+            //FileUtils.copyFile(scrFile, new File("screenshots/elementscreenshot.png"));
         } catch (IOException e) {
             System.err.println(e.getMessage());
             e.printStackTrace();
@@ -57,7 +56,7 @@ public class screenshot {
 
     public void partialScreenshot(WebElement element) {
         try{
-            System.out.println("Partial screenshot taken and saved at screenshots/partialscreenshot.png");
+            System.out.println("Partial screenshot taken");
             File scrFile = App.driver.getScreenshotAs(OutputType.FILE);
             BufferedImage img = ImageIO.read(scrFile);
 
@@ -87,7 +86,7 @@ public class screenshot {
                 ImageIO.write(dest, "png", scrFile);
             }
             //FileUtils.copyFile(scrFile, new File("/Users/rpalacios/Desktop/screenshots/partialscreenshot.png"));
-            FileUtils.copyFile(scrFile, new File("screenshots/partialscreenshot.png"));
+            //FileUtils.copyFile(scrFile, new File("screenshots/partialscreenshot.png"));
         } catch (IOException e) {
             System.err.println(e.getMessage());
             e.printStackTrace();

@@ -2,6 +2,7 @@ package mobileScripts;
 
 import appium.App;
 import appium.MobileException;
+import commands.command;
 import objectModels.MastHeadObject;
 import objectModels.VerticalObject;
 import org.apache.log4j.Logger;
@@ -70,7 +71,7 @@ public class Verticals extends App{
         vertical.isCurrentVertical("Wealth Advisor");*/
 
         mastHead.clickHamburgerMenu();
-        vertical.scrolldown(VerticalObject.wealthadvisor);
+        command.scrolldown(VerticalObject.wealthadvisor);
         vertical.clickpolitics();
         vertical.isCurrentVertical("POLITICS");
 

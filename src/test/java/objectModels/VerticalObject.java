@@ -311,42 +311,6 @@ public class VerticalObject {
             System.out.println("Current vertical is "+expectedVertical);
     }
 
-    public void scrolldown(WebElement element) throws InterruptedException {
-        //System.out.println("Scrolling down");
-        /*JavascriptExecutor js = (JavascriptExecutor) App.wd;
-        HashMap<String, String> scrollObject = new HashMap<String, String>();scrollObject.put("direction", "down");
-        scrollObject.put("element", ((RemoteWebElement) life).getId());
-        js.executeScript("mobile: scroll", scrollObject);*/
-        /*for (int t = 0; t < 5; t++)*/
-        //App.wd.scrollTo("Volkswagen");
-
-        swipingVertical(element);
-        //swipingHorizontal();
-    }
-    public void swipingVertical(WebElement element) throws InterruptedException {
-        //Get the size of screen.
-        Dimension size;
-        size = App.driver.manage().window().getSize();
-        System.out.println("Screen size is "+size);
-        //Find swipe start and end point from screen's with and height.
-        // Find starty point which is at bottom side of screen.
-
-        int starty = element.getLocation().getY(); //(int) (size.height * 0.80);
-
-        // Find endy point which is at top side of screen.
-        int endy = (int) (size.height * 0.15);
-        // Find horizontal point where you want to swipe. It is in middle of screen width.
-        int startx = size.width / 2;
-
-        System.out.println("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
-
-        // Swipe from Bottom to Top.
-        App.driver.swipe(startx, starty, startx, endy, 3000);
-        Thread.sleep(2000);
- /*       // Swipe from Top to Bottom.
-        App.driver.swipe(startx, endy, startx, starty, 3000);
-        Thread.sleep(2000);
- */   }
 
 
 }
