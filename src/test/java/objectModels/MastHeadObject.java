@@ -33,7 +33,7 @@ public class MastHeadObject {
     public static WebElement BI;
 
     @AndroidFindBy(id = "toolbar_brand_text")
-    @iOSFindBy()
+    @iOSFindBy (xpath = "//UIANavigationBar[1]/UIAStaticText/UIAStaticText[3]")
     public static WebElement Title;
 
     @AndroidFindBy(id = "search_articles_option")
@@ -91,6 +91,8 @@ public class MastHeadObject {
         try{
             Title.isDisplayed();
             title=Title.getText();
+            if(title.equals("HOME"))
+                title = "BUSINESS INSIDER";
         }catch (Exception e){
             title = "BUSINESS INSIDER";
         }

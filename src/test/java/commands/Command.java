@@ -1,12 +1,14 @@
 package commands;
 
 import appium.App;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
-import java.util.HashMap;
 
 /**
  * Created by rpalacios on 7/1/16.
@@ -40,21 +42,21 @@ public class command extends App {
         int starty = size.height / 2;
         System.out.println("startx = " + startx + " ,endx = " + endx + " , starty = " + starty);
 
-        // java
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        HashMap<String, String> scrollObject = new HashMap<String, String>();
-        scrollObject.put("direction", "up");
-        js.executeScript("mobile: scroll", scrollObject);
-
         if(swipe.equals(SWIPE_RIGHT_TO_LEFT)){
             //Swipe from Right to Left.
             //new TouchAction(App.driver.press(startx, starty).waitAction(500).moveTo(endx - startx, starty - starty).release().perform();
-            App.driver.swipe(startx, starty, endx, starty, 500);
+            if(App.launchOn.equals("Android"))
+                App.driver.swipe(startx, starty, endx, starty, 500);
+            else
+                App.driver.swipe(starty/2, startx/2, -starty/2, endx, 100);
             Thread.sleep(2000);
         }
         if(swipe.equals(SWIPE_LEFT_TO_RIGHT)){
             //Swipe from Left to Right.
-            App.driver.swipe(endx, starty, startx, starty, 500);
+            if(App.launchOn.equals("Android"))
+                App.driver.swipe(endx, starty, startx, starty, 500);
+            else
+                App.driver.swipe(starty/2, startx/2, starty/2, endx, 100);
             Thread.sleep(2000);
         }
     }

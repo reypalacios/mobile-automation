@@ -3,7 +3,7 @@ package appium;
 import com.github.genium_framework.appium.support.server.AppiumServer;
 import com.github.genium_framework.server.ServerArguments;
 import cucumber.api.Scenario;
-import io.appium.java_client.ios.IOSDriver;
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.AndroidServerFlag;
@@ -24,8 +24,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class App {
 
-    //public static AppiumDriver driver;
-    public static IOSDriver driver;
+    public static AppiumDriver driver;
+    //public static IOSDriver driver;
     public static String launchOn;
     public static String VD;
     public static String app;
@@ -145,7 +145,7 @@ public class App {
                capabilities.setCapability("app", file.getAbsolutePath());
             }
 
-            driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
                 @Override
                 public WebElement scrollTo(String s) {
                     return null;
