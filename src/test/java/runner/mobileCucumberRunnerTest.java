@@ -30,7 +30,7 @@ public class mobileCucumberRunnerTest {
     @BeforeSuite
     public static void SetUp() throws IOException {
         new Logger().setLogger();
-        new App().launch();
+        new App().launch(true);
         new PushPermissionRequestObject().clicklMayberLater();
         BISlack.sendMessage(new Date()+" - MOBILE has started");
     }

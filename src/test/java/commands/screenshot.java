@@ -3,6 +3,7 @@ package commands;
 import appium.App;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 
 import javax.imageio.ImageIO;
@@ -17,7 +18,7 @@ import java.io.IOException;
 /**
  * Created by rpalacios on 11/13/15.
  */
-public class Screenshot {
+class screenshot {
 
     public byte[] fullScreenshot() throws IOException {
 
@@ -52,6 +53,28 @@ public class Screenshot {
             System.err.println(e.getMessage());
             e.printStackTrace();
         }
+    }
+
+    public byte[] webElementScreenshot(WebElement webelement) throws IOException {
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+
+
+        File screenShotFile = ((TakesScreenshot) App.driver).getScreenshotAs(OutputType.FILE);
+        BufferedImage img = ImageIO.read(screenShotFile);
+
+
+        //Get the location of element on the page
+        Point point = webelement.getLocation();
+        //Get width and height of the element
+        int eleWidth = webelement.getSize().getWidth();
+        int eleHeight = webelement.getSize().getHeight();
+        //Crop the entire page screenshot to get only element screenshot
+        BufferedImage elementScreenshot= img.getSubimage(point.getX(), point.getY(), eleWidth,eleHeight);
+
+        ImageIO.write(elementScreenshot, "png", outputStream);
+
+        return outputStream.toByteArray();
+        //return scale(outputStream.toByteArray(),700,500);
     }
 
     public void partialScreenshot(WebElement element) {

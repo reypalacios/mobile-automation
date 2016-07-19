@@ -12,7 +12,7 @@ import java.io.IOException;
 /**
  * Created by rpalacios on 11/13/15.
  */
-public class SetUp {
+public class setUp {
 
     @Before
     public void before(Scenario scenario) throws IOException {

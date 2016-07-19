@@ -1,9 +1,53 @@
-2016-07-14 17:21:12:524 - info: [Appium] Welcome to Appium v1.5.3
-2016-07-14 17:21:12:529 - info: [Appium] Non-default server args:
-2016-07-14 17:21:12:533 - info: [Appium]   address: '127.0.0.1'
-2016-07-14 17:21:12:534 - info: [Appium]   sessionOverride: true
-2016-07-14 17:21:12:534 - info: [Appium]   log: '/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log'
-2016-07-14 17:21:12:534 - info: [Appium]   loglevel: 'info'
-2016-07-14 17:21:12:535 - info: [Appium]   debugLogSpacing: true
-2016-07-14 17:21:12:535 - info: [Appium]   suppressAdbKillServer: true
-2016-07-14 17:21:12:690 - error: [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+2016-07-19 19:57:40:906 - info: [Appium] Welcome to Appium v1.5.3
+2016-07-19 19:57:40:910 - info: [Appium] Non-default server args:
+2016-07-19 19:57:40:913 - info: [Appium]   address: '127.0.0.1'
+2016-07-19 19:57:40:914 - info: [Appium]   sessionOverride: true
+2016-07-19 19:57:40:914 - info: [Appium]   log: '/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log'
+2016-07-19 19:57:40:914 - info: [Appium]   loglevel: 'info'
+2016-07-19 19:57:40:915 - info: [Appium]   debugLogSpacing: true
+2016-07-19 19:57:40:915 - info: [Appium]   suppressAdbKillServer: true
+2016-07-19 19:57:41:007 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2016-07-19 19:57:41:270 - info: [HTTP] --> GET /wd/hub/status {}
+2016-07-19 19:57:41:272 - info: [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2016-07-19 19:57:41:291 - info: [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.5.3"...
+2016-07-19 19:57:41:299 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 83 
+2016-07-19 19:57:42:030 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_8.app","appium-version":"1.0","newCommandTimeout":250,"platformVersion":"9.2","platformName":"iOS","deviceName":"iPhone 6"}}
+2016-07-19 19:57:42:031 - info: [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/rpalacios/I...
+2016-07-19 19:57:42:034 - info: [Appium] Creating new IosDriver session
+2016-07-19 19:57:42:034 - info: [Appium] Capabilities:
+2016-07-19 19:57:42:049 - info: [Appium]   app: '/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_8.app'
+2016-07-19 19:57:42:050 - info: [Appium]   appium-version: '1.0'
+2016-07-19 19:57:42:050 - info: [Appium]   newCommandTimeout: 250
+2016-07-19 19:57:42:050 - info: [Appium]   platformVersion: '9.2'
+2016-07-19 19:57:42:050 - info: [Appium]   platformName: 'iOS'
+2016-07-19 19:57:42:050 - info: [Appium]   deviceName: 'iPhone 6'
+2016-07-19 19:57:42:059 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: appium-version.
+2016-07-19 19:57:42:061 - info: [BaseDriver] Session created with session id: 032a8e04-88ee-485b-8680-6f0dff9340c2
+2016-07-19 19:57:42:064 - info: [BaseDriver] Using local app '/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_8.app'
+2016-07-19 19:57:43:608 - info: [iOSSim] Retrieving device name string for Xcode version 7.2.1
+2016-07-19 19:57:43:768 - info: [iOSSim] Constructing iOS simulator for Xcode version 7.2.1
+2016-07-19 19:57:43:773 - warn: [iOS] Could not file localizable strings file 'Localizable.strings'!
+2016-07-19 19:57:43:779 - info: [iOS] Extracted bundleID: com.businessinsider.iphone from app: /Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_8.app
+2016-07-19 19:57:44:283 - info: [iOSSim] Attempted to get an app path from a fresh simulator quickly launching the sim to populate its directories
+2016-07-19 19:57:44:284 - info: [iOSSim] Starting simulator with command: open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID D78C5E3C-DC04-4264-8C43-950C82D36B7E
+2016-07-19 19:57:46:118 - info: [iOSSim] Tailing simulator logs until we encounter the string "System app "com.apple.springboard" finished startup"
+2016-07-19 19:57:46:119 - info: [iOSSim] We will time out after 60000ms
+2016-07-19 19:58:15:582 - info: [iOSSim] Simulator booted in 31297ms
+2016-07-19 19:58:27:297 - info: [iOSSim] Cleaning simulator D78C5E3C-DC04-4264-8C43-950C82D36B7E
+2016-07-19 19:58:27:735 - info: [Instruments] Launching instruments
+2016-07-19 19:58:27:753 - info: [Instruments] On xcode 7.0+, instruments-without-delay does not work, skipping instruments-without-delay
+2016-07-19 19:58:54:632 - info: [UIAuto] Instruments is ready to receive commands
+2016-07-19 19:58:58:786 - info: [Appium] New IosDriver session created successfully, session 032a8e04-88ee-485b-8680-6f0dff9340c2 added to master session list
+2016-07-19 19:58:58:788 - info: [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,...
+2016-07-19 19:58:58:795 - info: [HTTP] <-- POST /wd/hub/session 200 76758 ms - 675 
+2016-07-19 19:58:58:878 - info: [HTTP] --> POST /wd/hub/session/032a8e04-88ee-485b-8680-6f0dff9340c2/timeouts {"type":"implicit","ms":10000}
+2016-07-19 19:58:58:880 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",10000,"032a8e04...
+2016-07-19 19:58:58:884 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
+2016-07-19 19:58:58:887 - info: [HTTP] <-- POST /wd/hub/session/032a8e04-88ee-485b-8680-6f0dff9340c2/timeouts 200 8 ms - 76 
+2016-07-19 19:58:59:615 - info: [HTTP] --> POST /wd/hub/session/032a8e04-88ee-485b-8680-6f0dff9340c2/appium/device/remove_app {"bundleId":"com.businessinsider.iphone"}
+2016-07-19 19:58:59:619 - info: [MJSONWP] Calling AppiumDriver.removeApp() with args: ["com.businessinsider.iphon...
+2016-07-19 19:58:59:927 - info: [MJSONWP] Responding to client with driver.removeApp() result: null
+2016-07-19 19:58:59:929 - info: [HTTP] <-- POST /wd/hub/session/032a8e04-88ee-485b-8680-6f0dff9340c2/appium/device/remove_app 200 313 ms - 76 
+2016-07-19 19:59:00:870 - warn: [Appium] Closing session, cause was 'An unknown server-side error occurred while processing the command. Original error: Abnormal Instruments termination!'
+2016-07-19 19:59:00:871 - info: [Appium] Removing session 032a8e04-88ee-485b-8680-6f0dff9340c2 from our master session list
+2016-07-19 19:59:12:491 - info: [iOSSim] Cleaning simulator D78C5E3C-DC04-4264-8C43-950C82D36B7E

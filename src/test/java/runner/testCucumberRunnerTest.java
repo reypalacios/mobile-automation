@@ -1,14 +1,14 @@
 package runner;
 
-import appium.*;
+import appium.App;
+import appium.BISlack;
+import appium.Logger;
 import com.github.mkolisnyk.cucumber.runner.AfterSuite;
 import com.github.mkolisnyk.cucumber.runner.BeforeSuite;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumber;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumberOptions;
 import cucumber.api.CucumberOptions;
-import objectModels.PushPermissionRequestObject;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.NoSuchElementException;
 
 import java.io.IOException;
 import java.util.Date;
@@ -24,18 +24,19 @@ import java.util.Date;
         outputFolder = "target/cucumber-test")
 @CucumberOptions (features = "classpath:test/",
         format = {"pretty", "html:target/cucumber-test", "json:target/cucumber-test.json"},
-        glue={"steps"})
+        glue={"steps"},
+        tags={"@push"})
 public class testCucumberRunnerTest {
 
     @BeforeSuite
     public static void SetUp() throws IOException, InterruptedException {
         new Logger().setLogger();
-        new App().launch();
-        try {
-            new PushPermissionRequestObject().clicklMayberLater();
-        }catch(NoSuchElementException e){
-            System.out.println("No push permission notification screen");
-        }
+        new App().launch(false);
+//        try {
+//            new PushPermissionRequestObject().clicklMayberLater();
+//        }catch(NoSuchElementException e){
+//            System.out.println("No push permission notification screen");
+//        }
         BISlack.sendMessage(new Date()+" - MOBILE test has started");
     }
 

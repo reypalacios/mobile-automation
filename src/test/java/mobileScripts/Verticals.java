@@ -19,7 +19,8 @@ public class Verticals extends App{
 
     @Before
     public void setUp() {
-        new App().launch();
+
+        //new App().launch();
     }
 
 

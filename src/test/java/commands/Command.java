@@ -1,10 +1,7 @@
 package commands;
 
 import appium.App;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -107,8 +104,13 @@ public class command extends App {
     public static void embedScreenshot() throws IOException {
         System.out.println("Embedding screenshot...");
         //byte[] screenshot = App.driver.getScreenshotAs(OutputType.BYTES);
-        byte[] screenshot = new Screenshot().fullScreenshot();
+        byte[] screenshot = new screenshot().fullScreenshot();
         scenario.embed(screenshot, "image/png");
+    }
+
+    public static void embedScreenshot(WebElement webelement) throws IOException {
+        byte[] screenshot = new commands.screenshot().webElementScreenshot(webelement);
+        App.scenario.embed(screenshot, "image/png");
     }
 
     /**
@@ -127,10 +129,35 @@ public class command extends App {
         }
     }
 
-    public static void upgradeApp(String app) {
-        System.out.println("Upgrade App to "+app);
-        App.apk=app;
-        new App().launch();
+    public static void upgradeApp() {
+        if(App.launchOn.equals("Android")) {
+            System.out.println("Simulating Android upgrade:\n"+oldapk+" to "+apk);
+            System.out.println("Remove current APP ");
+            driver.removeApp("com.businessinsider.iphone");
+            System.out.println("Upgrade App to " + oldapk);
+
+            System.out.println("Upgrade App to " + oldapk);
+            App.apk = app;
+        }else{
+            System.out.println("Simulating iOS upgrade:\n"+oldapp+" to "+app);
+            System.out.println("Remove current APP");
+            driver.removeApp("com.businessinsider.iphone");
+            System.out.println("Install previous APP version:" + oldapp);
+
+            App.app = oldapp;
+            new App().launch(false);
+            System.out.println("Close previous APP version");
+            driver.closeApp();
+            System.out.println("Install current APP version:" + currentapp);
+            App.app = currentapp;
+            driver.quit();
+            App.appiumDriverLocalService.stop();
+            App.startAppiumServer(true);
+            driver.installApp("iOSApps/"+app);
+            App.appiumDriverLocalService.stop();
+            //driver.installApp("iOSApps/"+app);
+            new App().launch(false);
+        }
     }
 
     public static void closeApp() {
@@ -146,6 +173,21 @@ public class command extends App {
     public static void resetApp() {
         System.out.println("Reset App");
         driver.resetApp();
-        while(driver.findElementsById("news_alerts_headlines_text").isEmpty()){  }
+        //while(driver.findElementsById("news_alerts_headlines_text").isEmpty()){  }
+    }
+
+    public static void scrollIntoView(WebElement module) throws InterruptedException {
+//
+//                    int offset = 1;
+//                    Point p = element.getCenter();
+//                    Point location = element.getLocation();
+//                    Dimension size = element.getSize();
+//                    driver.swipe(p.getX(), location.getY() + size.getHeight() + offset, p.getX(), location.getY(), duration);
+//                   int offset = 1;
+//                    Point p = module.getCenter();
+//                    Point location = element.getLocation();
+//                    Dimension size = element.getSize();
+//                    driver.swipe(p.getX(), location.getY(), p.getX() - offset, location.getY() + size.getHeight(), duration);
+
     }
 }

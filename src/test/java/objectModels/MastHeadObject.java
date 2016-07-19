@@ -37,7 +37,7 @@ public class MastHeadObject {
     public static WebElement Title;
 
     @AndroidFindBy(id = "search_articles_option")
-   // @iOSFindBy(name = "")
+    @iOSFindBy(xpath = "//UIAButton[@name='EasySearch Icon']")
     public static WebElement Search;
 
     @AndroidFindBy(id = "search_close_button")

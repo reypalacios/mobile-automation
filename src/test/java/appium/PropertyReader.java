@@ -20,13 +20,18 @@ public class PropertyReader {
             App.launchOn = properties.getProperty("OS");
             if(App.launchOn.equals("Android")){
                 properties.load(new FileInputStream("src/Android.properties"));
-            }else
+                App.apk = properties.getProperty("APK");
+                App.currentapp = App.apk;
+                App.oldapk = properties.getProperty("oldAPK");
+            }else {
                 properties.load(new FileInputStream("src/iOS.properties"));
+                App.app = properties.getProperty("APP");
+                App.currentapp = App.app;
+                App.oldapp = properties.getProperty("oldAPP");
+            }
 
             App.VD = properties.getProperty("VD");
             App.platformVersion = properties.getProperty("platformVersion");
-            App.app = properties.getProperty("app");
-            App.apk = properties.getProperty("APK");
 
         } catch (IOException e) {
             e.printStackTrace();

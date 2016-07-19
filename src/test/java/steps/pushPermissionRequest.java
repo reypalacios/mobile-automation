@@ -46,7 +46,7 @@ public class pushPermissionRequest extends App {
 
     @When("^I upgrade my app$")
     public void i_upgrade_my_app() throws Throwable {
-        command.upgradeApp("bi-android-1.1.20160630-release.apk");
+        command.upgradeApp();
     }
 
     @Then("^I do not see the push permission request screen again$")
@@ -55,7 +55,7 @@ public class pushPermissionRequest extends App {
     }
     @When("^I put the app in the background and re-open it again$")
     public void i_put_the_app_in_the_background_and_re_open_it_again() throws Throwable {
-        command.upgradeApp("RC-0-MA-888-REWRITE.apk");
+        command.upgradeApp();
         command.runAppinBackground(2);
     }
 

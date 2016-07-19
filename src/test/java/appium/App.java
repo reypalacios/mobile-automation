@@ -8,11 +8,11 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.AndroidServerFlag;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
-import org.openqa.selenium.*;
+import org.openqa.selenium.SessionNotCreatedException;
+import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.UnreachableBrowserException;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -25,26 +25,31 @@ import java.util.concurrent.TimeUnit;
 public class App {
 
     public static AppiumDriver driver;
-    //public static IOSDriver driver;
+//    private AndroidDriver Androiddriver;
+//    private IOSDriver IOSdriver;
     public static String launchOn;
     public static String VD;
+    public static String currentapp;
     public static String app;
+    public static String oldapp;
     public static String apk;
+    public static String oldapk;
     public static String script;
     public static String platformName;
     public static String platformVersion;
-
     public static org.apache.log4j.Logger logger;
     public static Scenario scenario;
     public static AppiumServer as;
+    public static AppiumDriverLocalService appiumDriverLocalService;
 
     ServerArguments serverArguments = new ServerArguments();
     DesiredCapabilities capabilities = new DesiredCapabilities();
 
     public static String SWIPE_RIGHT_TO_LEFT = "Swipe Right to Left";
     public static String SWIPE_LEFT_TO_RIGHT = "Swipe Left to Right";
+    private static AppiumServiceBuilder builder;
 
-    public void launch() {
+    public void launch(Boolean reset) {
         try {
             logger = Logger.getLogger();
             screenshotCleanup();
@@ -67,27 +72,11 @@ public class App {
 //            as = new AppiumServer(serverArguments);
 
 
-            AppiumServiceBuilder builder = new AppiumServiceBuilder()
-                    .withAppiumJS(new File("/Applications/Appium.app/Contents/Resources/node_modules/appium/build/lib/main.js"))
-                    .withIPAddress("127.0.0.1")
-                    .usingPort(4723)
-                    .withArgument(GeneralServerFlag.LOG_LEVEL, "info")
-                    .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
-                    .withArgument(GeneralServerFlag.DEBUG_LOG_SPACING)
-                    .withArgument(AndroidServerFlag.SUPPRESS_ADB_KILL_SERVER)
-                    .withLogFile(new File(System.getProperty("user.dir") + "/logs/appium.log"));
-            AppiumDriverLocalService appiumDriverLocalService = builder.build();
-
-            if (!appiumDriverLocalService.isRunning()) {
-                System.out.println("Starting Appium Server...");
-                Thread.currentThread().setName("AppiumServer");
-                //as.stopServer();
-                //System.out.println($APPIUM_BINARY_PATH);
-                appiumDriverLocalService.start();
-            }
+            startAppiumServer(reset);
 
             capabilities.setCapability("appium-version", "1.0");
-            capabilities.setCapability("newCommandTimeout",240);
+            capabilities.setCapability("newCommandTimeout",250);
+            //capabilities.setCapability("nativeWebTap", true);
 
             if(App.launchOn == null) {
                 App.launchOn = System.getProperty("launchOn");
@@ -123,6 +112,18 @@ public class App {
                 //capabilities.setCapability("appPackage", "com.freerange360.mpp.businessinsider");
                 //capabilities.setCapability("appActivity", "com.businessinsider.app.MainActivity");
 
+//                driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+//                    @Override
+//                    public WebElement scrollTo(String s) {
+//                        return null;
+//                    }
+//
+//                    @Override
+//                    public WebElement scrollToExact(String s) {
+//                        return null;
+//                    }
+//                };
+
             }
             if (App.launchOn.equals("iOS")) {
 
@@ -143,6 +144,18 @@ public class App {
 //                    file = new File("iOSApps/iPhoneTI.app");
 //                }
                capabilities.setCapability("app", file.getAbsolutePath());
+
+//               driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+//                    @Override
+//                    public WebElement scrollTo(String s) {
+//                        return null;
+//                    }
+//
+//                    @Override
+//                    public WebElement scrollToExact(String s) {
+//                        return null;
+//                    }
+//                };
             }
 
             driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
@@ -157,27 +170,13 @@ public class App {
                 }
             };
 
-
-
-//            WebElement myDynamicElement = (new WebDriverWait(driver, 10))
-//                    .until(ExpectedConditions.presenceOfElementLocated(By.id("news_alerts_headlines_text")));
-
-//            long initTime = new Date().getTime();
-//            boolean timeElapsed = true;
-//           while(driver.findElementsById("news_alerts_headlines_text").isEmpty() && timeElapsed){
-//                if(new Date().getTime() - initTime > 15000 ){
-//                    timeElapsed = false;
-//                }
+//            try {
+//                WebDriverWait wait = new WebDriverWait(driver, 6);
+//                wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
+//                System.out.println("Push permission request screen was displayed");
+//            }catch(TimeoutException e){
+//                System.out.println("Push permission request screen wasn't displayed");
 //            }
-            //Thread.sleep(10000);
-
-            try {
-                WebDriverWait wait = new WebDriverWait(driver, 6);
-                wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
-                System.out.println("Push permission request screen was displayed");
-            }catch(TimeoutException e){
-                System.out.println("Push permission request screen wasn't displayed");
-            }
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             System.out.println("App has launched");
 
@@ -219,6 +218,31 @@ public class App {
 
     }
 
+    public static void startAppiumServer(Boolean reset) {
+        builder = new AppiumServiceBuilder()
+                .withAppiumJS(new File("/Applications/Appium.app/Contents/Resources/node_modules/appium/build/lib/main.js"))
+                .withIPAddress("127.0.0.1")
+                .usingPort(4723)
+                .withArgument(GeneralServerFlag.LOG_LEVEL, "info")
+                .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
+                .withArgument(GeneralServerFlag.DEBUG_LOG_SPACING)
+                .withArgument(AndroidServerFlag.SUPPRESS_ADB_KILL_SERVER)
+                .withLogFile(new File(System.getProperty("user.dir") + "/logs/appium.log"));
+        if(reset){
+            builder.withArgument(GeneralServerFlag.NO_RESET);
+        }
+
+        appiumDriverLocalService = builder.build();
+
+        if (!appiumDriverLocalService.isRunning()) {
+            System.out.println("Starting Appium Server...");
+            Thread.currentThread().setName("AppiumServer");
+            //as.stopServer();
+            //System.out.println($APPIUM_BINARY_PATH);
+            appiumDriverLocalService.start();
+        }
+    }
+
     private void screenshotCleanup() {
         StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
         File file = new File("screenshots/");
@@ -232,7 +256,6 @@ public class App {
 
     public void close()
     {
-
         try {
             if(driver != null) {
                 driver.closeApp();
@@ -249,6 +272,5 @@ public class App {
         }
         System.out.println("Test Done");
     }
-
 
 }
