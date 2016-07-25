@@ -1,4 +1,4 @@
-package appium;
+package setUpClasses;
 
 public class PrintStreamInterceptor extends java.io.PrintStream {
     org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());

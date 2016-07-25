@@ -18282,3 +18282,793 @@ iPhoneBI.app to iPhoneBI_4_8.app
 2016-07-19 15:58:59 INFO  Logger:24 - commands.command.143: Remove current APP
 2016-07-19 15:58:59 INFO  Logger:24 - commands.command.145: Install previous APP version:iPhoneBI.app
 2016-07-19 15:58:59 INFO  Logger:24 - appium.App.56: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 09:37:06 INFO  Logger:24 - appium.App.237: Starting Appium Server...
+2016-07-20 09:37:13 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 09:37:17 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 09:37:38 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-20 09:37:38 INFO  Logger:24 - appium.App.90: OS = iOS
+2016-07-20 09:37:38 INFO  Logger:24 - appium.App.94: Simulator = iPhone 6 (9.2)
+2016-07-20 09:37:38 INFO  Logger:24 - appium.App.95: App = iPhoneBI_4_8.app
+2016-07-20 09:37:38 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-20 09:39:12 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 09:39:12 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-20 09:39:12 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-20 09:39:13 INFO  Logger:24 - commands.command.142: Simulating iOS upgrade:
+iPhoneBI.app to iPhoneBI_4_8.app
+2016-07-20 09:39:13 INFO  Logger:24 - commands.command.143: Remove current APP
+2016-07-20 09:39:14 INFO  Logger:24 - commands.command.145: Install previous APP version:iPhoneBI.app
+2016-07-20 09:39:14 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 09:39:26 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 09:40:42 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 09:40:42 INFO  Logger:24 - commands.command.149: Close previous APP version
+2016-07-20 09:40:43 INFO  Logger:24 - commands.command.151: Install current APP version:iPhoneBI_4_8.app
+2016-07-20 09:41:07 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 09:41:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-20 09:41:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-20 09:41:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-20 09:41:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-20 09:41:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-20 09:41:17 INFO  Logger:24 - commands.command.142: Simulating iOS upgrade:
+iPhoneBI.app to iPhoneBI_4_8.app
+2016-07-20 09:41:17 INFO  Logger:24 - commands.command.143: Remove current APP
+2016-07-20 09:41:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-20 09:41:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-20 09:41:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-20 09:41:17 ERROR Logger:269 - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '192.168.0.89', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: driver.version: AppiumDriver
+2016-07-20 09:41:17 INFO  Logger:24 - appium.App.273: Test Done
+2016-07-20 09:41:18 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-07-20 09:41:18 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Push notification setting remains after app upgrade
+2016-07-20 09:41:18 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Push notification remains prompting until user either opts-in or opts-out
+2016-07-20 09:41:18 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-07-20 09:41:18 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-07-20 09:41:18 INFO  Logger:24 - cucumber.runtime.Stats.93: 5.058s
+2016-07-20 11:15:24 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 11:15:28 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 11:15:33 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-20 11:15:33 INFO  Logger:24 - appium.App.90: OS = iOS
+2016-07-20 11:15:33 INFO  Logger:24 - appium.App.94: Simulator = iPhone 6 (9.2)
+2016-07-20 11:15:33 INFO  Logger:24 - appium.App.95: App = iPhoneBI_4_8.app
+2016-07-20 11:15:33 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-20 11:17:04 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 11:17:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-20 11:17:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-20 11:17:05 INFO  Logger:24 - commands.command.142: Simulating iOS upgrade:
+iPhoneBI.app to iPhoneBI_4_8.app
+2016-07-20 11:17:05 INFO  Logger:24 - commands.command.143: Remove current APP
+2016-07-20 11:17:05 INFO  Logger:24 - commands.command.145: Install previous APP version:iPhoneBI.app
+2016-07-20 11:17:05 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 11:17:05 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 11:18:52 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 11:18:52 INFO  Logger:24 - commands.command.149: Close previous APP version
+2016-07-20 11:18:53 INFO  Logger:24 - commands.command.151: Install current APP version:iPhoneBI_4_8.app
+2016-07-20 11:24:37 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 11:24:38 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 11:24:42 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-20 11:24:42 INFO  Logger:24 - appium.App.90: OS = iOS
+2016-07-20 11:24:42 INFO  Logger:24 - appium.App.94: Simulator = iPhone 6 (9.2)
+2016-07-20 11:24:42 INFO  Logger:24 - appium.App.95: App = iPhoneBI_4_8.app
+2016-07-20 11:24:42 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-20 11:25:35 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 11:25:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-20 11:25:35 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-20 11:25:36 INFO  Logger:24 - commands.command.142: Simulating iOS upgrade:
+iPhoneBI.app to iPhoneBI_4_8.app
+2016-07-20 11:25:36 INFO  Logger:24 - commands.command.143: Remove current APP
+2016-07-20 11:25:36 INFO  Logger:24 - commands.command.145: Install previous APP version:iPhoneBI.app
+2016-07-20 11:25:36 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 11:25:37 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 11:26:39 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 11:26:39 INFO  Logger:24 - commands.command.149: Close previous APP version
+2016-07-20 11:26:39 INFO  Logger:24 - commands.command.151: Install current APP version:iPhoneBI_4_8.app
+2016-07-20 11:26:44 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 11:26:44 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 11:28:13 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 11:48:24 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-20 11:48:24 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-20 11:48:24 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-20 11:48:24 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-20 11:48:24 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-20 11:48:33 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 11:49:06 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 11:49:15 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-20 11:49:15 INFO  Logger:24 - appium.App.90: OS = iOS
+2016-07-20 11:49:15 INFO  Logger:24 - appium.App.94: Simulator = iPhone 6 (9.2)
+2016-07-20 11:49:15 INFO  Logger:24 - appium.App.95: App = iPhoneBI_4_8.app
+2016-07-20 11:49:15 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-20 11:51:16 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 11:51:16 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-20 11:51:16 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-20 11:51:17 INFO  Logger:24 - commands.command.142: Simulating iOS upgrade:
+iPhoneBI.app to iPhoneBI_4_8.app
+2016-07-20 11:51:17 INFO  Logger:24 - commands.command.143: Remove current APP
+2016-07-20 11:51:18 INFO  Logger:24 - commands.command.145: Install previous APP version:iPhoneBI.app
+2016-07-20 11:51:18 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 11:53:03 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 11:54:47 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 11:54:47 INFO  Logger:24 - commands.command.149: Close previous APP version
+2016-07-20 11:54:48 INFO  Logger:24 - commands.command.151: Install current APP version:iPhoneBI_4_8.app
+2016-07-20 11:55:06 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 11:55:17 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 11:57:00 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 11:57:00 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-20 11:57:00 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-20 11:57:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-07-20 11:57:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-20 11:57:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-20 11:57:07 INFO  Logger:24 - commands.command.142: Simulating iOS upgrade:
+iPhoneBI.app to iPhoneBI_4_8.app
+2016-07-20 11:57:07 INFO  Logger:24 - commands.command.143: Remove current APP
+2016-07-20 11:57:08 INFO  Logger:24 - commands.command.145: Install previous APP version:iPhoneBI.app
+2016-07-20 11:57:08 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 12:00:24 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 12:00:33 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 12:00:46 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 12:00:55 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-20 12:00:55 INFO  Logger:24 - appium.App.90: OS = iOS
+2016-07-20 12:00:55 INFO  Logger:24 - appium.App.94: Simulator = iPhone 6 (9.2)
+2016-07-20 12:00:55 INFO  Logger:24 - appium.App.95: App = iPhoneBI_4_8.app
+2016-07-20 12:00:55 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-20 12:04:20 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 12:04:20 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-20 12:04:20 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-20 12:04:21 INFO  Logger:24 - commands.command.142: Simulating iOS upgrade:
+iPhoneBI.app to iPhoneBI_4_8.app
+2016-07-20 12:04:21 INFO  Logger:24 - commands.command.143: Remove current APP
+2016-07-20 12:04:21 INFO  Logger:24 - commands.command.145: Install previous APP version:iPhoneBI.app
+2016-07-20 12:04:21 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 12:04:21 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 12:05:50 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 12:05:50 INFO  Logger:24 - commands.command.149: Close previous APP version
+2016-07-20 12:05:51 INFO  Logger:24 - commands.command.151: Install current APP version:iPhoneBI_4_8.app
+2016-07-20 12:07:29 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 12:07:29 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 12:09:17 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 12:09:32 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-20 12:09:32 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-20 12:11:11 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 12:11:14 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 12:11:24 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-20 12:11:24 INFO  Logger:24 - appium.App.90: OS = iOS
+2016-07-20 12:11:24 INFO  Logger:24 - appium.App.94: Simulator = iPhone 6 (9.2)
+2016-07-20 12:11:24 INFO  Logger:24 - appium.App.95: App = iPhoneBI_4_8.app
+2016-07-20 12:11:24 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-20 12:12:41 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 12:12:41 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-20 12:12:41 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-20 12:12:43 INFO  Logger:24 - commands.command.142: Simulating iOS upgrade:
+iPhoneBI.app to iPhoneBI_4_8.app
+2016-07-20 12:12:43 INFO  Logger:24 - commands.command.143: Remove current APP
+2016-07-20 12:12:44 INFO  Logger:24 - commands.command.145: Install previous APP version:iPhoneBI.app
+2016-07-20 12:12:44 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 12:12:44 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 12:15:06 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 12:15:06 INFO  Logger:24 - commands.command.149: Close previous APP version
+2016-07-20 12:15:07 INFO  Logger:24 - commands.command.151: Install current APP version:iPhoneBI_4_8.app
+2016-07-20 12:15:20 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 12:15:20 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 12:17:18 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 12:17:18 INFO  Logger:24 - objectModels.PushPermissionRequestObject.84: Click Enable Alerts
+2016-07-20 12:17:18 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-20 12:17:18 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-20 12:17:18 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-20 12:17:18 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-20 12:17:18 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-20 12:17:18 INFO  Logger:24 - commands.command.142: Simulating iOS upgrade:
+iPhoneBI.app to iPhoneBI_4_8.app
+2016-07-20 12:17:18 INFO  Logger:24 - commands.command.143: Remove current APP
+2016-07-20 12:17:19 INFO  Logger:24 - commands.command.145: Install previous APP version:iPhoneBI.app
+2016-07-20 12:17:19 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 12:17:19 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 12:20:05 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 12:20:05 INFO  Logger:24 - commands.command.149: Close previous APP version
+2016-07-20 12:20:05 INFO  Logger:24 - commands.command.151: Install current APP version:iPhoneBI_4_8.app
+2016-07-20 12:20:16 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-20 12:20:17 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-20 12:22:10 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-20 12:22:10 INFO  Logger:24 - commands.command.121: Run App in the background for 2 seconds
+2016-07-20 12:22:27 INFO  Logger:24 - commands.command.128: Push permission request screen wasn't displayed
+2016-07-20 12:22:42 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-20 12:22:42 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-20 12:22:59 INFO  Logger:24 - commands.command.165: Close App
+2016-07-20 12:23:00 INFO  Logger:24 - commands.command.170: Launch App
+2016-07-20 12:24:02 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-20 12:24:02 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-20 12:24:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-20 12:24:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-20 12:24:17 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-20 12:24:23 INFO  Logger:24 - appium.App.273: Test Done
+2016-07-20 12:24:23 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-07-20 12:24:23 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Push notification setting remains after app upgrade
+2016-07-20 12:24:23 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-07-20 12:24:23 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-07-20 12:24:23 INFO  Logger:24 - cucumber.runtime.Stats.93: 35.498s
+2016-07-22 16:14:40 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:14:40 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:15:03 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:15:03 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:15:03 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:15:03 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:15:51 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:15:53 INFO  Logger:24 - appium.App.273: Test Done
+2016-07-22 16:15:53 INFO  Logger:24 - cucumber.runtime.Stats.46: 0 Scenarios
+2016-07-22 16:15:53 INFO  Logger:24 - cucumber.runtime.Stats.47: 0 Steps
+2016-07-22 16:15:53 INFO  Logger:24 - cucumber.runtime.Stats.93: 0.000s
+2016-07-22 16:16:53 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:16:54 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:16:58 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:16:58 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:16:58 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:16:58 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:17:05 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:17:05 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:17:05 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;2
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;2Scenario completed...0
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;3
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;3Scenario completed...0
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;4
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;4Scenario completed...0
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;5
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;5Scenario completed...0
+2016-07-22 16:17:06 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;6
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;6Scenario completed...0
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;7
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;7Scenario completed...0
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;8
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;8Scenario completed...0
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;9
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;9Scenario completed...0
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;10
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;10Scenario completed...0
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;11
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;11Scenario completed...0
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;12
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;12Scenario completed...0
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;13
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 16:17:07 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;13Scenario completed...0
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 16:17:07 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 16:17:54 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:17:55 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:17:58 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:17:58 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:17:58 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:17:58 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:18:04 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:18:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:18:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:18:05 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+RC-0-MA-888-REWRITE.apk to com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:18:05 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:18:06 INFO  Logger:24 - commands.command.137: Upgrade App to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:18:06 INFO  Logger:24 - commands.command.139: Upgrade App to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:18:06 INFO  Logger:24 - objectModels.PushPermissionRequestObject.84: Click Enable Alerts
+2016-07-22 16:18:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-22 16:18:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-22 16:18:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-22 16:18:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:18:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:18:09 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+RC-0-MA-888-REWRITE.apk to com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:18:09 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:18:09 INFO  Logger:24 - commands.command.137: Upgrade App to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:18:09 INFO  Logger:24 - commands.command.139: Upgrade App to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:18:09 INFO  Logger:24 - commands.command.121: Run App in the background for 2 seconds
+2016-07-22 16:18:20 INFO  Logger:24 - commands.command.128: Push permission request screen wasn't displayed
+2016-07-22 16:18:21 ERROR Logger:26 - objectModels.PushPermissionRequestObject.58: Push Permission Request Screen is missing an element: Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: news_alerts_headlines_text" 
+- html content: "by id or name "headline""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.51', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+2016-07-22 16:18:21 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-22 16:18:21 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-22 16:18:27 ERROR MobileException:22 - org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: news_alerts_headlines_text" 
+- html content: "by id or name "headline""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.51', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+2016-07-22 16:18:27 INFO  Logger:24 - commands.command.165: Close App
+2016-07-22 16:18:29 INFO  Logger:24 - commands.command.170: Launch App
+2016-07-22 16:18:38 ERROR Logger:26 - objectModels.PushPermissionRequestObject.58: Push Permission Request Screen is missing an element: Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: news_alerts_headlines_text" 
+- html content: "by id or name "headline""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.51', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+2016-07-22 16:18:38 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-22 16:18:38 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-22 16:18:42 ERROR MobileException:22 - org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: news_alerts_headlines_text" 
+- html content: "by id or name "headline""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.51', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+2016-07-22 16:18:42 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-22 16:18:42 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-22 16:18:42 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-22 16:18:45 INFO  Logger:24 - appium.App.273: Test Done
+2016-07-22 16:18:45 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-07-22 16:18:45 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Push notification setting remains after app upgrade
+2016-07-22 16:18:45 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-07-22 16:18:45 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-07-22 16:18:45 INFO  Logger:24 - cucumber.runtime.Stats.93: 37.880s
+2016-07-22 16:18:58 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:18:59 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:19:03 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:19:03 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:19:03 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:19:03 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:19:09 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:19:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:19:09 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:19:09 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+RC-0-MA-888-REWRITE.apk to com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:19:09 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:19:10 INFO  Logger:24 - commands.command.137: Upgrade App to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:19:10 INFO  Logger:24 - commands.command.139: Upgrade App to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:19:51 INFO  Logger:24 - objectModels.PushPermissionRequestObject.84: Click Enable Alerts
+2016-07-22 16:19:56 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:19:57 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:20:00 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:20:00 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:20:00 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:20:00 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:20:06 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:20:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:20:06 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:20:21 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+RC-0-MA-888-REWRITE.apk to com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:20:21 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:20:22 INFO  Logger:24 - commands.command.137: Upgrade App to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:20:22 INFO  Logger:24 - commands.command.139: Upgrade App to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:20:36 INFO  Logger:24 - objectModels.PushPermissionRequestObject.84: Click Enable Alerts
+2016-07-22 16:20:41 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:20:42 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:20:45 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:20:45 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:20:45 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:20:45 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:20:51 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:20:51 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:20:51 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:21:03 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+RC-0-MA-888-REWRITE.apk to com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:21:03 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:24:25 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:24:25 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:24:30 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:24:30 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:24:30 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:24:30 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:27:28 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:27:28 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:27:32 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:27:32 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:27:32 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:27:32 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:27:37 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:27:37 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:27:37 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:27:48 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+RC-0-MA-888-REWRITE.apk to com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:27:48 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:27:50 INFO  Logger:24 - commands.command.137: Install previous APP version:RC-0-MA-888-REWRITE.apk
+2016-07-22 16:27:52 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:27:52 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:28:05 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:28:07 INFO  Logger:24 - commands.command.141: Close previous APP version
+2016-07-22 16:28:47 INFO  Logger:24 - commands.command.143: Install current APP version:com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:28:48 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:28:48 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:29:01 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:30:17 INFO  Logger:24 - objectModels.PushPermissionRequestObject.84: Click Enable Alerts
+2016-07-22 16:30:21 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:30:21 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:30:24 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:30:24 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:30:24 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:30:24 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:30:36 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:30:37 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:30:37 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:31:10 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:31:10 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:31:12 INFO  Logger:24 - commands.command.137: Install previous APP version:com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:31:13 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:31:13 INFO  Logger:24 - appium.App.238: Starting Appium Server...
+2016-07-22 16:31:25 INFO  Logger:24 - appium.App.181: App has launched
+2016-07-22 16:31:26 INFO  Logger:24 - commands.command.141: Close previous APP version
+2016-07-22 16:31:28 INFO  Logger:24 - commands.command.143: Install current APP version:RC-0-MA-888-REWRITE.apk
+2016-07-22 16:31:56 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:32:33 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:32:34 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:32:38 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:32:38 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:32:38 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:32:38 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:32:53 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:32:54 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:32:54 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:32:59 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:32:59 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:33:07 INFO  Logger:24 - commands.command.137: Install previous APP version:com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:33:07 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:33:07 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:33:21 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:33:38 INFO  Logger:24 - commands.command.141: Close previous APP version
+2016-07-22 16:33:39 INFO  Logger:24 - commands.command.143: Install current APP version:RC-0-MA-888-REWRITE.apk
+2016-07-22 16:33:39 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:33:39 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:33:52 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:33:55 INFO  Logger:24 - objectModels.PushPermissionRequestObject.84: Click Enable Alerts
+2016-07-22 16:33:55 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-22 16:33:55 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-22 16:33:55 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-22 16:33:55 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:33:55 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:33:56 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:33:56 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:33:57 INFO  Logger:24 - commands.command.137: Install previous APP version:com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:33:57 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:33:58 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:34:11 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:34:11 INFO  Logger:24 - commands.command.141: Close previous APP version
+2016-07-22 16:34:29 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:34:29 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:34:35 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:34:35 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:34:35 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:34:35 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:34:52 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:34:52 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:34:52 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:34:58 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:34:58 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:34:59 INFO  Logger:24 - commands.command.137: Install previous APP version:com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:34:59 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:34:59 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:35:16 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:35:16 INFO  Logger:24 - commands.command.141: Close previous APP version
+2016-07-22 16:35:20 INFO  Logger:24 - commands.command.143: Install current APP version:RC-0-MA-888-REWRITE.apk
+2016-07-22 16:35:20 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:35:20 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:35:37 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:35:45 INFO  Logger:24 - objectModels.PushPermissionRequestObject.84: Click Enable Alerts
+2016-07-22 16:35:45 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-22 16:35:45 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-22 16:35:45 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-22 16:35:45 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:35:45 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:36:13 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:36:13 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:36:16 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:36:17 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:36:20 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:36:20 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:36:20 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:36:20 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:36:30 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:36:30 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:36:30 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:36:37 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:36:37 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:36:38 INFO  Logger:24 - commands.command.137: Install previous APP version:com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:36:38 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:36:38 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:36:54 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:36:54 INFO  Logger:24 - commands.command.141: Close previous APP version
+2016-07-22 16:36:55 INFO  Logger:24 - commands.command.143: Install current APP version:RC-0-MA-888-REWRITE.apk
+2016-07-22 16:36:55 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:36:55 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:37:13 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:37:21 INFO  Logger:24 - objectModels.PushPermissionRequestObject.84: Click Enable Alerts
+2016-07-22 16:38:22 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-22 16:38:22 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-22 16:38:22 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-22 16:38:22 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:38:22 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:38:22 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:38:22 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:38:27 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:38:27 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:38:31 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:38:31 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:38:31 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:38:31 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:38:41 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:38:41 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:38:41 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:38:42 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:38:42 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:38:43 INFO  Logger:24 - commands.command.137: Install previous APP version:com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:38:43 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:38:43 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:39:00 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:39:00 INFO  Logger:24 - commands.command.141: Close previous APP version
+2016-07-22 16:39:01 INFO  Logger:24 - commands.command.143: Install current APP version:RC-0-MA-888-REWRITE.apk
+2016-07-22 16:39:01 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:39:01 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:39:19 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:39:19 INFO  Logger:24 - objectModels.PushPermissionRequestObject.84: Click Enable Alerts
+2016-07-22 16:39:42 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.82: Initiating retry...
+2016-07-22 16:39:42 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.97: Current class is: com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner
+2016-07-22 16:39:42 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...1
+2016-07-22 16:39:42 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:39:42 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:39:42 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:39:42 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:39:43 INFO  Logger:24 - commands.command.137: Install previous APP version:com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:39:43 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:39:44 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:40:02 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:40:02 INFO  Logger:24 - commands.command.141: Close previous APP version
+2016-07-22 16:40:02 INFO  Logger:24 - commands.command.143: Install current APP version:RC-0-MA-888-REWRITE.apk
+2016-07-22 16:40:02 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:40:02 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:40:20 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:40:20 INFO  Logger:24 - commands.command.121: Run App in the background for 2 seconds
+2016-07-22 16:40:31 INFO  Logger:24 - commands.command.126: Push permission request screen was displayed
+2016-07-22 16:40:45 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:40:46 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:40:49 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 16:40:49 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 16:40:49 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 16:40:49 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 16:40:59 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:40:59 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:40:59 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:41:00 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:41:00 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:41:01 INFO  Logger:24 - commands.command.137: Install previous APP version:com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:41:01 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:41:02 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:41:19 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:41:19 INFO  Logger:24 - commands.command.141: Close previous APP version
+2016-07-22 16:41:19 INFO  Logger:24 - commands.command.143: Install current APP version:RC-0-MA-888-REWRITE.apk
+2016-07-22 16:41:19 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:41:19 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:41:36 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:41:36 INFO  Logger:24 - objectModels.PushPermissionRequestObject.84: Click Enable Alerts
+2016-07-22 16:41:48 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-22 16:41:48 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-22 16:41:53 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-07-22 16:41:53 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 16:41:53 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 16:41:53 INFO  Logger:24 - commands.command.134: Simulating Android upgrade:
+com.freerange360.mpp.businessinsider-120150427.apk to RC-0-MA-888-REWRITE.apk
+2016-07-22 16:41:53 INFO  Logger:24 - commands.command.135: Remove current APP 
+2016-07-22 16:41:54 INFO  Logger:24 - commands.command.137: Install previous APP version:com.freerange360.mpp.businessinsider-120150427.apk
+2016-07-22 16:41:54 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:41:54 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:42:10 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:42:10 INFO  Logger:24 - commands.command.141: Close previous APP version
+2016-07-22 16:42:11 INFO  Logger:24 - commands.command.143: Install current APP version:RC-0-MA-888-REWRITE.apk
+2016-07-22 16:42:11 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 16:42:11 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 16:42:29 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 16:42:29 INFO  Logger:24 - commands.command.121: Run App in the background for 2 seconds
+2016-07-22 16:42:40 INFO  Logger:24 - commands.command.126: Push permission request screen was displayed
+2016-07-22 16:42:41 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-22 16:42:41 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-22 16:42:45 INFO  Logger:24 - commands.command.163: Close App
+2016-07-22 16:42:45 INFO  Logger:24 - commands.command.168: Launch App
+2016-07-22 16:42:51 ERROR Logger:26 - objectModels.PushPermissionRequestObject.58: Push Permission Request Screen is missing an element: Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: news_alerts_headlines_text" 
+- html content: "by id or name "headline""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.51', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+2016-07-22 16:42:51 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-22 16:42:51 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-22 16:42:52 ERROR MobileException:22 - org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: news_alerts_headlines_text" 
+- html content: "by id or name "headline""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rpalacios-MacBookPro12,1', ip: '10.1.0.51', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+2016-07-22 16:42:52 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-07-22 16:42:54 INFO  Logger:24 - appium.App.274: Test Done
+2016-07-22 16:42:54 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-07-22 16:42:54 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-07-22 16:42:54 INFO  Logger:24 - cucumber.runtime.Stats.93: 52.899s
+2016-07-22 17:02:30 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-22 17:02:31 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-22 17:02:34 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-22 17:02:34 INFO  Logger:24 - appium.App.90: OS = Android
+2016-07-22 17:02:34 INFO  Logger:24 - appium.App.92: AVD = Galaxy_S5_API_22
+2016-07-22 17:02:34 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-22 17:02:45 INFO  Logger:24 - appium.App.182: App has launched
+2016-07-22 17:02:45 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 17:02:45 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 17:02:45 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 17:02:45 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 17:02:45 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 17:02:51 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-22 17:02:51 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-22 17:02:57 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;2
+2016-07-22 17:02:57 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 17:02:57 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 17:02:57 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;2Scenario completed...0
+2016-07-22 17:02:57 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-22 17:02:57 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 17:02:57 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 17:03:01 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-22 17:03:01 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-22 17:03:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;3
+2016-07-22 17:03:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 17:03:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 17:03:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;3Scenario completed...0
+2016-07-22 17:03:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-07-22 17:03:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-22 17:03:04 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-22 17:03:04 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Left to Right
+2016-07-22 17:03:04 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 17:03:04 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 17:03:08 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-22 17:03:08 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-22 17:03:12 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-right;;2
+2016-07-22 17:03:12 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 17:03:12 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 17:03:12 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-right;;2Scenario completed...0
+2016-07-22 17:03:12 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Left to Right
+2016-07-22 17:03:12 INFO  Logger:24 - commands.command.32: Screen Resolution: (1080, 1920)
+2016-07-22 17:03:12 INFO  Logger:24 - commands.command.40: startx = 864 ,endx = 108 , starty = 960
+2016-07-22 17:03:16 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-22 17:03:16 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-22 17:03:19 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-right;;3
+2016-07-22 17:03:19 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-22 17:03:19 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-22 17:03:19 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-right;;3Scenario completed...0
+2016-07-22 17:03:19 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-07-22 17:03:21 INFO  Logger:24 - appium.App.274: Test Done
+2016-07-22 17:03:21 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-07-22 17:03:21 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Swiping to the left
+2016-07-22 17:03:21 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Swiping to the left
+2016-07-22 17:03:21 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Swiping to the right
+2016-07-22 17:03:21 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Swiping to the right
+2016-07-22 17:03:21 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-07-22 17:03:21 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-07-22 17:03:21 INFO  Logger:24 - cucumber.runtime.Stats.93: 34.205s
+2016-07-25 09:36:17 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-25 09:36:18 INFO  Logger:24 - appium.App.239: Starting Appium Server...
+2016-07-25 11:23:11 INFO  Logger:24 - appium.App.57: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-25 11:23:11 INFO  Logger:24 - appium.App.242: Starting Appium Server...
+2016-07-25 11:23:42 INFO  Logger:24 - appium.App.89: ------------ Environmental Configurations ------------
+2016-07-25 11:23:42 INFO  Logger:24 - appium.App.90: OS = iOS
+2016-07-25 11:23:42 INFO  Logger:24 - appium.App.94: Simulator = iPhone 6 (9.2)
+2016-07-25 11:23:42 INFO  Logger:24 - appium.App.95: App = iPhoneBI_4_9.app
+2016-07-25 11:23:42 INFO  Logger:24 - appium.App.98: ------------------------------------------------------
+2016-07-25 11:26:45 INFO  Logger:24 - appium.App.185: App has launched
+2016-07-25 11:26:45 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-25 11:26:45 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-25 11:26:45 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-25 11:26:46 INFO  Logger:24 - commands.command.32: Screen Resolution: (375, 667)
+2016-07-25 11:26:46 INFO  Logger:24 - commands.command.40: startx = 300 ,endx = 37 , starty = 333
+2016-07-25 11:26:52 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-25 11:26:52 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-25 11:27:11 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;2
+2016-07-25 11:27:11 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-25 11:27:11 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-25 11:27:11 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;2Scenario completed...0
+2016-07-25 11:27:11 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Right to Left
+2016-07-25 11:27:13 INFO  Logger:24 - commands.command.32: Screen Resolution: (375, 667)
+2016-07-25 11:27:13 INFO  Logger:24 - commands.command.40: startx = 300 ,endx = 37 , starty = 333
+2016-07-25 11:27:17 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-25 11:27:17 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-25 11:27:33 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-left;;3
+2016-07-25 11:27:33 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-25 11:27:33 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-25 11:27:33 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-left;;3Scenario completed...0
+2016-07-25 11:27:33 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-07-25 11:27:33 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.72: Running Feature child (scenario)...
+2016-07-25 11:27:33 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.75: Begin scenario run...
+2016-07-25 11:27:33 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Left to Right
+2016-07-25 11:27:34 INFO  Logger:24 - commands.command.32: Screen Resolution: (375, 667)
+2016-07-25 11:27:34 INFO  Logger:24 - commands.command.40: startx = 300 ,endx = 37 , starty = 333
+2016-07-25 11:27:38 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-25 11:27:38 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-25 11:27:54 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-right;;2
+2016-07-25 11:27:54 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-25 11:27:54 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-25 11:27:54 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-right;;2Scenario completed...0
+2016-07-25 11:27:54 INFO  Logger:24 - commands.command.28: Swiping Horizontal: Swipe Left to Right
+2016-07-25 11:27:55 INFO  Logger:24 - commands.command.32: Screen Resolution: (375, 667)
+2016-07-25 11:27:55 INFO  Logger:24 - commands.command.40: startx = 300 ,endx = 37 , starty = 333
+2016-07-25 11:28:00 INFO  Logger:24 - commands.command.105: Embedding screenshot...
+2016-07-25 11:28:00 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-25 11:28:16 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.109: masthead-section-titles;swiping-to-the-right;;3
+2016-07-25 11:28:16 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.111: java.lang.AssertionError:expected:<0> but was:<1>
+2016-07-25 11:28:16 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.112: Initiating retry...
+2016-07-25 11:28:16 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.117: masthead-section-titles;swiping-to-the-right;;3Scenario completed...0
+2016-07-25 11:28:16 INFO  Logger:24 - com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.85: Scenario completed...0
+2016-07-25 11:28:24 INFO  Logger:24 - appium.App.277: Test Done
+2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Swiping to the left
+2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Swiping to the left
+2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Swiping to the right
+2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Swiping to the right
+2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.93: 30.252s

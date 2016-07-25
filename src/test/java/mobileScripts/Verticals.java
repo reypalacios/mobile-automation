@@ -1,7 +1,7 @@
 package mobileScripts;
 
-import appium.App;
-import appium.MobileException;
+import setUpClasses.App;
+import setUpClasses.MobileException;
 import commands.command;
 import objectModels.MastHeadObject;
 import objectModels.VerticalObject;

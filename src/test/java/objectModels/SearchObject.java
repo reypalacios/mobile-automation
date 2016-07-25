@@ -1,6 +1,6 @@
 package objectModels;
 
-import appium.App;
+import setUpClasses.App;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;

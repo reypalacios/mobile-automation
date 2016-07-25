@@ -1,4 +1,4 @@
-package appium;
+package setUpClasses;
 
 import java.io.FileInputStream;
 import java.io.IOException;

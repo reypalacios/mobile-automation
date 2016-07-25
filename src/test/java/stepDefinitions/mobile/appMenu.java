@@ -1,6 +1,6 @@
-package steps;
+package stepDefinitions.mobile;
 
-import appium.App;
+import setUpClasses.App;
 import commands.command;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

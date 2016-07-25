@@ -1,4 +1,4 @@
-package appium;
+package setUpClasses;
 
 import com.github.genium_framework.appium.support.server.AppiumServer;
 import com.github.genium_framework.server.ServerArguments;
@@ -49,7 +49,7 @@ public class App {
     public static String SWIPE_LEFT_TO_RIGHT = "Swipe Left to Right";
     private static AppiumServiceBuilder builder;
 
-    public void launch(Boolean reset) {
+    public void launch(Boolean reset) throws InterruptedException {
         try {
             logger = Logger.getLogger();
             screenshotCleanup();
@@ -170,6 +170,8 @@ public class App {
                 }
             };
 
+            Thread.sleep(4000);
+
 //            try {
 //                WebDriverWait wait = new WebDriverWait(driver, 6);
 //                wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
@@ -177,7 +179,9 @@ public class App {
 //            }catch(TimeoutException e){
 //                System.out.println("Push permission request screen wasn't displayed");
 //            }
+
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
             System.out.println("App has launched");
 
         } catch (MalformedURLException e) {

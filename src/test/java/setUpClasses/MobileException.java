@@ -1,4 +1,4 @@
-package appium;
+package setUpClasses;
 
 import commands.command;
 import org.apache.log4j.Logger;

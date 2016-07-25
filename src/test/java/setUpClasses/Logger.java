@@ -1,4 +1,4 @@
-package appium;
+package setUpClasses;
 
 import org.apache.log4j.PropertyConfigurator;
 

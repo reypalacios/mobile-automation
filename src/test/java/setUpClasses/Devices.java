@@ -1,4 +1,4 @@
-package appium;
+package setUpClasses;
 
 /**
  * Created by rpalacios on 6/24/16.

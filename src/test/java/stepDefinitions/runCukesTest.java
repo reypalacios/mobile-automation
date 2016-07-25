@@ -1,8 +1,8 @@
-package runner;
+package stepDefinitions;
 
-import appium.App;
-import appium.BISlack;
-import appium.Logger;
+import setUpClasses.App;
+import setUpClasses.BISlack;
+import setUpClasses.Logger;
 import com.github.mkolisnyk.cucumber.runner.AfterSuite;
 import com.github.mkolisnyk.cucumber.runner.BeforeSuite;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumber;
@@ -24,9 +24,9 @@ import java.util.Date;
         outputFolder = "target/cucumber-test")
 @CucumberOptions (features = "classpath:test/",
         format = {"pretty", "html:target/cucumber-test", "json:target/cucumber-test.json"},
-        glue={"steps"},
-        tags={"@push"})
-public class testCucumberRunnerTest {
+        glue={"stepDefinitions"},
+        tags={"@search"})
+public class runCukesTest {
 
     @BeforeSuite
     public static void SetUp() throws IOException, InterruptedException {

@@ -1,7 +1,7 @@
-package steps;
+package stepDefinitions;
 
-import appium.App;
-import appium.BISlack;
+import setUpClasses.App;
+import setUpClasses.BISlack;
 import commands.command;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;

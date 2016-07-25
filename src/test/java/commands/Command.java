@@ -1,6 +1,6 @@
 package commands;
 
-import appium.App;
+import setUpClasses.App;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -129,15 +129,20 @@ public class command extends App {
         }
     }
 
-    public static void upgradeApp() {
+    public static void upgradeApp() throws InterruptedException {
         if(App.launchOn.equals("Android")) {
             System.out.println("Simulating Android upgrade:\n"+oldapk+" to "+apk);
             System.out.println("Remove current APP ");
-            driver.removeApp("com.businessinsider.iphone");
-            System.out.println("Upgrade App to " + oldapk);
+            driver.removeApp("com.freerange360.mpp.businessinsider");
+            System.out.println("Install previous APP version:" + oldapk);
 
-            System.out.println("Upgrade App to " + oldapk);
-            App.apk = app;
+            App.apk = oldapk;
+            new App().launch(true);
+            System.out.println("Close previous APP version");
+            driver.closeApp();
+            System.out.println("Install current APP version:" + currentapp);
+            App.apk = currentapp;
+            new App().launch(true);
         }else{
             System.out.println("Simulating iOS upgrade:\n"+oldapp+" to "+app);
             System.out.println("Remove current APP");
@@ -145,18 +150,12 @@ public class command extends App {
             System.out.println("Install previous APP version:" + oldapp);
 
             App.app = oldapp;
-            new App().launch(false);
+            new App().launch(true);
             System.out.println("Close previous APP version");
             driver.closeApp();
             System.out.println("Install current APP version:" + currentapp);
             App.app = currentapp;
-            driver.quit();
-            App.appiumDriverLocalService.stop();
-            App.startAppiumServer(true);
-            driver.installApp("iOSApps/"+app);
-            App.appiumDriverLocalService.stop();
-            //driver.installApp("iOSApps/"+app);
-            new App().launch(false);
+            new App().launch(true);
         }
     }
 

@@ -1,6 +1,6 @@
 package commands;
 
-import appium.App;
+import setUpClasses.App;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.TakesScreenshot;

@@ -1,4 +1,4 @@
-@push
+@Push
 Feature: Push Permission Request
 
   As a user, I want to have a more informative push notification request so I can understand what the benefit is for me to enable push for the app.
@@ -24,6 +24,7 @@ Feature: Push Permission Request
   Scenario: Push notification setting remains after app upgrade
 
     When I upgrade my app
+    Then I tap on "Enable alerts"
     Then I do not see the push permission request screen again
 
   Scenario: Push notification remains prompting until user either opts-in or opts-out

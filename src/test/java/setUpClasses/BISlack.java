@@ -1,4 +1,4 @@
-package appium;
+package setUpClasses;
 
 import in.ashwanthkumar.slack.webhook.Slack;
 import in.ashwanthkumar.slack.webhook.SlackMessage;

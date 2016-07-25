@@ -1,10 +1,10 @@
-package steps;
+package stepDefinitions.mobile;
 
 import commands.command;
 import cucumber.api.java.en.When;
 
-import static appium.App.SWIPE_LEFT_TO_RIGHT;
-import static appium.App.SWIPE_RIGHT_TO_LEFT;
+import static setUpClasses.App.SWIPE_LEFT_TO_RIGHT;
+import static setUpClasses.App.SWIPE_RIGHT_TO_LEFT;
 
 /**
  * Created by rpalacios on 11/13/15.

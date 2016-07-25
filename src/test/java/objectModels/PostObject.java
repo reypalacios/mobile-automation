@@ -1,7 +1,7 @@
 package objectModels;
 
-import appium.App;
-import appium.MobileException;
+import setUpClasses.App;
+import setUpClasses.MobileException;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
 import org.openqa.selenium.WebElement;

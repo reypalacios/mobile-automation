@@ -1,53 +1,190 @@
-2016-07-19 19:57:40:906 - info: [Appium] Welcome to Appium v1.5.3
-2016-07-19 19:57:40:910 - info: [Appium] Non-default server args:
-2016-07-19 19:57:40:913 - info: [Appium]   address: '127.0.0.1'
-2016-07-19 19:57:40:914 - info: [Appium]   sessionOverride: true
-2016-07-19 19:57:40:914 - info: [Appium]   log: '/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log'
-2016-07-19 19:57:40:914 - info: [Appium]   loglevel: 'info'
-2016-07-19 19:57:40:915 - info: [Appium]   debugLogSpacing: true
-2016-07-19 19:57:40:915 - info: [Appium]   suppressAdbKillServer: true
-2016-07-19 19:57:41:007 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
-2016-07-19 19:57:41:270 - info: [HTTP] --> GET /wd/hub/status {}
-2016-07-19 19:57:41:272 - info: [MJSONWP] Calling AppiumDriver.getStatus() with args: []
-2016-07-19 19:57:41:291 - info: [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.5.3"...
-2016-07-19 19:57:41:299 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 83 
-2016-07-19 19:57:42:030 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_8.app","appium-version":"1.0","newCommandTimeout":250,"platformVersion":"9.2","platformName":"iOS","deviceName":"iPhone 6"}}
-2016-07-19 19:57:42:031 - info: [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/rpalacios/I...
-2016-07-19 19:57:42:034 - info: [Appium] Creating new IosDriver session
-2016-07-19 19:57:42:034 - info: [Appium] Capabilities:
-2016-07-19 19:57:42:049 - info: [Appium]   app: '/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_8.app'
-2016-07-19 19:57:42:050 - info: [Appium]   appium-version: '1.0'
-2016-07-19 19:57:42:050 - info: [Appium]   newCommandTimeout: 250
-2016-07-19 19:57:42:050 - info: [Appium]   platformVersion: '9.2'
-2016-07-19 19:57:42:050 - info: [Appium]   platformName: 'iOS'
-2016-07-19 19:57:42:050 - info: [Appium]   deviceName: 'iPhone 6'
-2016-07-19 19:57:42:059 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: appium-version.
-2016-07-19 19:57:42:061 - info: [BaseDriver] Session created with session id: 032a8e04-88ee-485b-8680-6f0dff9340c2
-2016-07-19 19:57:42:064 - info: [BaseDriver] Using local app '/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_8.app'
-2016-07-19 19:57:43:608 - info: [iOSSim] Retrieving device name string for Xcode version 7.2.1
-2016-07-19 19:57:43:768 - info: [iOSSim] Constructing iOS simulator for Xcode version 7.2.1
-2016-07-19 19:57:43:773 - warn: [iOS] Could not file localizable strings file 'Localizable.strings'!
-2016-07-19 19:57:43:779 - info: [iOS] Extracted bundleID: com.businessinsider.iphone from app: /Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_8.app
-2016-07-19 19:57:44:283 - info: [iOSSim] Attempted to get an app path from a fresh simulator quickly launching the sim to populate its directories
-2016-07-19 19:57:44:284 - info: [iOSSim] Starting simulator with command: open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID D78C5E3C-DC04-4264-8C43-950C82D36B7E
-2016-07-19 19:57:46:118 - info: [iOSSim] Tailing simulator logs until we encounter the string "System app "com.apple.springboard" finished startup"
-2016-07-19 19:57:46:119 - info: [iOSSim] We will time out after 60000ms
-2016-07-19 19:58:15:582 - info: [iOSSim] Simulator booted in 31297ms
-2016-07-19 19:58:27:297 - info: [iOSSim] Cleaning simulator D78C5E3C-DC04-4264-8C43-950C82D36B7E
-2016-07-19 19:58:27:735 - info: [Instruments] Launching instruments
-2016-07-19 19:58:27:753 - info: [Instruments] On xcode 7.0+, instruments-without-delay does not work, skipping instruments-without-delay
-2016-07-19 19:58:54:632 - info: [UIAuto] Instruments is ready to receive commands
-2016-07-19 19:58:58:786 - info: [Appium] New IosDriver session created successfully, session 032a8e04-88ee-485b-8680-6f0dff9340c2 added to master session list
-2016-07-19 19:58:58:788 - info: [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,...
-2016-07-19 19:58:58:795 - info: [HTTP] <-- POST /wd/hub/session 200 76758 ms - 675 
-2016-07-19 19:58:58:878 - info: [HTTP] --> POST /wd/hub/session/032a8e04-88ee-485b-8680-6f0dff9340c2/timeouts {"type":"implicit","ms":10000}
-2016-07-19 19:58:58:880 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",10000,"032a8e04...
-2016-07-19 19:58:58:884 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
-2016-07-19 19:58:58:887 - info: [HTTP] <-- POST /wd/hub/session/032a8e04-88ee-485b-8680-6f0dff9340c2/timeouts 200 8 ms - 76 
-2016-07-19 19:58:59:615 - info: [HTTP] --> POST /wd/hub/session/032a8e04-88ee-485b-8680-6f0dff9340c2/appium/device/remove_app {"bundleId":"com.businessinsider.iphone"}
-2016-07-19 19:58:59:619 - info: [MJSONWP] Calling AppiumDriver.removeApp() with args: ["com.businessinsider.iphon...
-2016-07-19 19:58:59:927 - info: [MJSONWP] Responding to client with driver.removeApp() result: null
-2016-07-19 19:58:59:929 - info: [HTTP] <-- POST /wd/hub/session/032a8e04-88ee-485b-8680-6f0dff9340c2/appium/device/remove_app 200 313 ms - 76 
-2016-07-19 19:59:00:870 - warn: [Appium] Closing session, cause was 'An unknown server-side error occurred while processing the command. Original error: Abnormal Instruments termination!'
-2016-07-19 19:59:00:871 - info: [Appium] Removing session 032a8e04-88ee-485b-8680-6f0dff9340c2 from our master session list
-2016-07-19 19:59:12:491 - info: [iOSSim] Cleaning simulator D78C5E3C-DC04-4264-8C43-950C82D36B7E
+2016-07-25 15:23:41:854 - info: [Appium] Welcome to Appium v1.5.3
+2016-07-25 15:23:41:859 - info: [Appium] Non-default server args:
+2016-07-25 15:23:41:865 - info: [Appium]   address: '127.0.0.1'
+2016-07-25 15:23:41:865 - info: [Appium]   sessionOverride: true
+2016-07-25 15:23:41:866 - info: [Appium]   log: '/Users/rpalacios/IdeaProjects/mobile-automation/logs/appium.log'
+2016-07-25 15:23:41:866 - info: [Appium]   loglevel: 'info'
+2016-07-25 15:23:41:867 - info: [Appium]   debugLogSpacing: true
+2016-07-25 15:23:41:867 - info: [Appium]   suppressAdbKillServer: true
+2016-07-25 15:23:42:542 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2016-07-25 15:23:42:606 - info: [HTTP] --> GET /wd/hub/status {}
+2016-07-25 15:23:42:619 - info: [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2016-07-25 15:23:42:667 - info: [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.5.3"...
+2016-07-25 15:23:42:685 - info: [HTTP] <-- GET /wd/hub/status 200 67 ms - 83 
+2016-07-25 15:23:44:325 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_9.app","appium-version":"1.0","newCommandTimeout":250,"platformVersion":"9.2","platformName":"iOS","deviceName":"iPhone 6"}}
+2016-07-25 15:23:44:327 - info: [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/rpalacios/I...
+2016-07-25 15:23:44:331 - info: [Appium] Creating new IosDriver session
+2016-07-25 15:23:44:332 - info: [Appium] Capabilities:
+2016-07-25 15:23:44:351 - info: [Appium]   app: '/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_9.app'
+2016-07-25 15:23:44:352 - info: [Appium]   appium-version: '1.0'
+2016-07-25 15:23:44:352 - info: [Appium]   newCommandTimeout: 250
+2016-07-25 15:23:44:353 - info: [Appium]   platformVersion: '9.2'
+2016-07-25 15:23:44:353 - info: [Appium]   platformName: 'iOS'
+2016-07-25 15:23:44:353 - info: [Appium]   deviceName: 'iPhone 6'
+2016-07-25 15:23:44:370 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: appium-version.
+2016-07-25 15:23:44:373 - info: [BaseDriver] Session created with session id: c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f
+2016-07-25 15:23:44:377 - info: [BaseDriver] Using local app '/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_9.app'
+2016-07-25 15:23:52:579 - info: [iOSSim] Retrieving device name string for Xcode version 7.2.1
+2016-07-25 15:23:55:349 - info: [iOSSim] Constructing iOS simulator for Xcode version 7.2.1
+2016-07-25 15:23:55:359 - warn: [iOS] Could not file localizable strings file 'Localizable.strings'!
+2016-07-25 15:23:55:366 - info: [iOS] Extracted bundleID: com.businessinsider.iphone from app: /Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_9.app
+2016-07-25 15:23:56:564 - info: [iOSSim] Attempted to get an app path from a fresh simulator quickly launching the sim to populate its directories
+2016-07-25 15:23:56:566 - info: [iOSSim] Starting simulator with command: open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID D78C5E3C-DC04-4264-8C43-950C82D36B7E
+2016-07-25 15:24:00:733 - info: [iOSSim] Tailing simulator logs until we encounter the string "System app "com.apple.springboard" finished startup"
+2016-07-25 15:24:00:734 - info: [iOSSim] We will time out after 60000ms
+2016-07-25 15:25:02:778 - info: [iOSSim] Simulator booted in 66211ms
+2016-07-25 15:25:14:355 - info: [iOSSim] Cleaning simulator D78C5E3C-DC04-4264-8C43-950C82D36B7E
+2016-07-25 15:25:15:636 - info: [Instruments] Launching instruments
+2016-07-25 15:25:15:647 - info: [Instruments] On xcode 7.0+, instruments-without-delay does not work, skipping instruments-without-delay
+2016-07-25 15:26:36:437 - info: [UIAuto] Instruments is ready to receive commands
+2016-07-25 15:26:40:940 - info: [Appium] New IosDriver session created successfully, session c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f added to master session list
+2016-07-25 15:26:40:941 - info: [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,...
+2016-07-25 15:26:40:954 - info: [HTTP] <-- POST /wd/hub/session 200 176619 ms - 675 
+2016-07-25 15:26:45:097 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts {"type":"implicit","ms":10000}
+2016-07-25 15:26:45:110 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",10000,"c54f84d5...
+2016-07-25 15:26:45:115 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
+2016-07-25 15:26:45:123 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts 200 20 ms - 76 
+2016-07-25 15:26:45:717 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/window/current/size {}
+2016-07-25 15:26:45:719 - info: [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c54f84d5-7b4e-4...
+2016-07-25 15:26:46:825 - info: [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+2016-07-25 15:26:46:828 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/window/current/size 200 1111 ms - 98 
+2016-07-25 15:26:46:842 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/touch/perform {"actions":[{"action":"press","options":{"x":166,"y":150}},{"action":"wait","options":{"ms":100}},{"action":"moveTo","options":{"x":-166,"y":37}},{"action":"release","options":{}}]}
+2016-07-25 15:26:46:844 - info: [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","option...
+2016-07-25 15:26:48:457 - info: [MJSONWP] Responding to client with driver.performTouch() result: null
+2016-07-25 15:26:48:458 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/touch/perform 200 1616 ms - 76 
+2016-07-25 15:26:51:186 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts {"type":"implicit","ms":0}
+2016-07-25 15:26:51:187 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",0,"c54f84d5-7b4...
+2016-07-25 15:26:51:188 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
+2016-07-25 15:26:51:190 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts 200 2 ms - 76 
+2016-07-25 15:26:51:253 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/context {}
+2016-07-25 15:26:51:254 - info: [MJSONWP] Calling AppiumDriver.getCurrentContext() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:26:51:255 - info: [MJSONWP] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2016-07-25 15:26:51:256 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/context 200 2 ms - 84 
+2016-07-25 15:26:51:263 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/elements {"using":"xpath","value":"//UIANavigationBar[1]/UIAStaticText/UIAStaticText[3]"}
+2016-07-25 15:26:51:264 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//UIANavigationBa...
+2016-07-25 15:26:52:602 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-25 15:26:52:604 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/elements 200 1340 ms - 74 
+2016-07-25 15:26:52:617 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts {"type":"implicit","ms":1000}
+2016-07-25 15:26:52:617 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",1000,"c54f84d5-...
+2016-07-25 15:26:52:620 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
+2016-07-25 15:26:52:621 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts 200 3 ms - 76 
+2016-07-25 15:26:52:644 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/screenshot {}
+2016-07-25 15:26:52:645 - info: [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:27:05:967 - info: [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAu...
+2016-07-25 15:27:06:029 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/screenshot 200 13379 ms - 1508814 
+2016-07-25 15:27:11:614 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/url {}
+2016-07-25 15:27:11:615 - info: [MJSONWP] Calling AppiumDriver.getUrl() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:27:11:624 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/url 501 7 ms - 112 
+2016-07-25 15:27:11:919 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/window/current/size {}
+2016-07-25 15:27:11:920 - info: [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c54f84d5-7b4e-4...
+2016-07-25 15:27:13:046 - info: [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+2016-07-25 15:27:13:047 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/window/current/size 200 1129 ms - 98 
+2016-07-25 15:27:13:057 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/touch/perform {"actions":[{"action":"press","options":{"x":166,"y":150}},{"action":"wait","options":{"ms":100}},{"action":"moveTo","options":{"x":-166,"y":37}},{"action":"release","options":{}}]}
+2016-07-25 15:27:13:060 - info: [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","option...
+2016-07-25 15:27:14:568 - info: [MJSONWP] Responding to client with driver.performTouch() result: null
+2016-07-25 15:27:14:570 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/touch/perform 200 1513 ms - 76 
+2016-07-25 15:27:16:587 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts {"type":"implicit","ms":0}
+2016-07-25 15:27:16:587 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",0,"c54f84d5-7b4...
+2016-07-25 15:27:16:589 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
+2016-07-25 15:27:16:594 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts 200 7 ms - 76 
+2016-07-25 15:27:16:598 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/context {}
+2016-07-25 15:27:16:599 - info: [MJSONWP] Calling AppiumDriver.getCurrentContext() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:27:16:601 - info: [MJSONWP] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2016-07-25 15:27:16:603 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/context 200 4 ms - 84 
+2016-07-25 15:27:16:607 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/elements {"using":"xpath","value":"//UIANavigationBar[1]/UIAStaticText/UIAStaticText[3]"}
+2016-07-25 15:27:16:609 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//UIANavigationBa...
+2016-07-25 15:27:17:936 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-25 15:27:17:938 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/elements 200 1330 ms - 74 
+2016-07-25 15:27:17:947 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts {"type":"implicit","ms":1000}
+2016-07-25 15:27:17:948 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",1000,"c54f84d5-...
+2016-07-25 15:27:17:950 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
+2016-07-25 15:27:17:953 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts 200 6 ms - 76 
+2016-07-25 15:27:17:961 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/screenshot {}
+2016-07-25 15:27:17:961 - info: [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:27:31:267 - info: [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAu...
+2016-07-25 15:27:31:386 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/screenshot 200 13420 ms - 1508378 
+2016-07-25 15:27:33:469 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/url {}
+2016-07-25 15:27:33:470 - info: [MJSONWP] Calling AppiumDriver.getUrl() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:27:33:476 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/url 501 6 ms - 112 
+2016-07-25 15:27:33:563 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/window/current/size {}
+2016-07-25 15:27:33:564 - info: [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c54f84d5-7b4e-4...
+2016-07-25 15:27:34:153 - info: [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+2016-07-25 15:27:34:158 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/window/current/size 200 591 ms - 98 
+2016-07-25 15:27:34:165 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/touch/perform {"actions":[{"action":"press","options":{"x":166,"y":150}},{"action":"wait","options":{"ms":100}},{"action":"moveTo","options":{"x":166,"y":37}},{"action":"release","options":{}}]}
+2016-07-25 15:27:34:166 - info: [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","option...
+2016-07-25 15:27:35:832 - info: [MJSONWP] Responding to client with driver.performTouch() result: null
+2016-07-25 15:27:35:834 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/touch/perform 200 1668 ms - 76 
+2016-07-25 15:27:37:854 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts {"type":"implicit","ms":0}
+2016-07-25 15:27:37:855 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",0,"c54f84d5-7b4...
+2016-07-25 15:27:37:909 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
+2016-07-25 15:27:37:911 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts 200 56 ms - 76 
+2016-07-25 15:27:37:916 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/context {}
+2016-07-25 15:27:37:916 - info: [MJSONWP] Calling AppiumDriver.getCurrentContext() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:27:37:918 - info: [MJSONWP] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2016-07-25 15:27:37:920 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/context 200 3 ms - 84 
+2016-07-25 15:27:37:924 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/elements {"using":"xpath","value":"//UIANavigationBar[1]/UIAStaticText/UIAStaticText[3]"}
+2016-07-25 15:27:37:925 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//UIANavigationBa...
+2016-07-25 15:27:38:942 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-25 15:27:38:950 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/elements 200 1018 ms - 74 
+2016-07-25 15:27:38:951 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts {"type":"implicit","ms":1000}
+2016-07-25 15:27:38:952 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",1000,"c54f84d5-...
+2016-07-25 15:27:38:972 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
+2016-07-25 15:27:39:046 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts 200 26 ms - 76 
+2016-07-25 15:27:39:048 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/screenshot {}
+2016-07-25 15:27:39:049 - info: [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:27:52:282 - info: [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAu...
+2016-07-25 15:27:52:297 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/screenshot 200 13247 ms - 1508378 
+2016-07-25 15:27:54:014 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/url {}
+2016-07-25 15:27:54:015 - info: [MJSONWP] Calling AppiumDriver.getUrl() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:27:54:018 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/url 501 4 ms - 112 
+2016-07-25 15:27:54:146 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/window/current/size {}
+2016-07-25 15:27:54:147 - info: [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c54f84d5-7b4e-4...
+2016-07-25 15:27:55:370 - info: [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+2016-07-25 15:27:55:372 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/window/current/size 200 1226 ms - 98 
+2016-07-25 15:27:55:379 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/touch/perform {"actions":[{"action":"press","options":{"x":166,"y":150}},{"action":"wait","options":{"ms":100}},{"action":"moveTo","options":{"x":166,"y":37}},{"action":"release","options":{}}]}
+2016-07-25 15:27:55:381 - info: [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","option...
+2016-07-25 15:27:56:953 - info: [MJSONWP] Responding to client with driver.performTouch() result: null
+2016-07-25 15:27:56:954 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/touch/perform 200 1575 ms - 76 
+2016-07-25 15:27:58:972 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts {"type":"implicit","ms":0}
+2016-07-25 15:27:58:973 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",0,"c54f84d5-7b4...
+2016-07-25 15:27:59:026 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
+2016-07-25 15:27:59:032 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts 200 55 ms - 76 
+2016-07-25 15:27:59:038 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/context {}
+2016-07-25 15:27:59:039 - info: [MJSONWP] Calling AppiumDriver.getCurrentContext() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:27:59:041 - info: [MJSONWP] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2016-07-25 15:27:59:043 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/context 200 5 ms - 84 
+2016-07-25 15:27:59:050 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/elements {"using":"xpath","value":"//UIANavigationBar[1]/UIAStaticText/UIAStaticText[3]"}
+2016-07-25 15:27:59:052 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//UIANavigationBa...
+2016-07-25 15:27:59:906 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-25 15:27:59:909 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/elements 200 859 ms - 74 
+2016-07-25 15:28:00:420 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/context {}
+2016-07-25 15:28:00:421 - info: [MJSONWP] Calling AppiumDriver.getCurrentContext() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:28:00:422 - info: [MJSONWP] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2016-07-25 15:28:00:423 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/context 200 3 ms - 84 
+2016-07-25 15:28:00:428 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/elements {"using":"xpath","value":"//UIANavigationBar[1]/UIAStaticText/UIAStaticText[3]"}
+2016-07-25 15:28:00:429 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//UIANavigationBa...
+2016-07-25 15:28:00:935 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-25 15:28:00:938 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/elements 200 510 ms - 74 
+2016-07-25 15:28:00:944 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts {"type":"implicit","ms":1000}
+2016-07-25 15:28:00:945 - info: [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",1000,"c54f84d5-...
+2016-07-25 15:28:00:946 - info: [MJSONWP] Responding to client with driver.timeouts() result: null
+2016-07-25 15:28:00:949 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/timeouts 200 4 ms - 76 
+2016-07-25 15:28:00:956 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/screenshot {}
+2016-07-25 15:28:00:956 - info: [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:28:14:385 - info: [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAu...
+2016-07-25 15:28:14:436 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/screenshot 200 13477 ms - 1508898 
+2016-07-25 15:28:15:956 - info: [HTTP] --> GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/url {}
+2016-07-25 15:28:15:957 - info: [MJSONWP] Calling AppiumDriver.getUrl() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:28:15:960 - info: [HTTP] <-- GET /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/url 501 3 ms - 112 
+2016-07-25 15:28:16:067 - info: [HTTP] --> POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/appium/app/close {}
+2016-07-25 15:28:16:069 - info: [MJSONWP] Calling AppiumDriver.closeApp() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:28:21:156 - error: [iOS] Instruments didn't shut down. Error: Instruments did not terminate after 5 seconds!
+2016-07-25 15:28:21:224 - info: [iOS] Successfully closed the [/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI_4_9.app] app.
+2016-07-25 15:28:21:236 - info: [MJSONWP] Responding to client with driver.closeApp() result: null
+2016-07-25 15:28:21:256 - info: [HTTP] <-- POST /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f/appium/app/close 200 5171 ms - 76 
+2016-07-25 15:28:21:261 - info: [HTTP] --> DELETE /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f {}
+2016-07-25 15:28:21:262 - info: [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["c54f84d5-7b4e-4622-8bd0-0...
+2016-07-25 15:28:24:034 - info: [iOSSim] Cleaning simulator D78C5E3C-DC04-4264-8C43-950C82D36B7E
+2016-07-25 15:28:24:987 - info: [Appium] Removing session c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f from our master session list
+2016-07-25 15:28:24:988 - info: [MJSONWP] Responding to client with driver.deleteSession() result: null
+2016-07-25 15:28:24:990 - info: [HTTP] <-- DELETE /wd/hub/session/c54f84d5-7b4e-4622-8bd0-0e2b8b70cd0f 200 3728 ms - 76 

@@ -1,7 +1,7 @@
 package objectModels;
 
-import appium.App;
-import appium.MobileException;
+import setUpClasses.App;
+import setUpClasses.MobileException;
 import commands.command;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
