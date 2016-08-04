@@ -15,7 +15,7 @@ import java.io.IOException;
 /**
  * Created by rpalacios on 6/27/16.
  */
-public class PushPermissionRequestObject {
+public class PushPermissionRequestObject{
 
     @AndroidFindBy(id = "news_alerts_headlines_text")
     @iOSFindBy (xpath = "//UIAImage[@name='pa_Logo6.png']")
@@ -82,6 +82,21 @@ public class PushPermissionRequestObject {
 
     public void clickEnableAlerts() {
         System.out.println("Click Enable Alerts");
-        enablealerts.click();
+        try {
+            enablealerts.click();
+            if(App.launchOn.equals("iOS"))
+                App.driver.switchTo().alert().accept();
+        }catch(NoSuchElementException e){
+            if(e.getMessage().contains("Can't locate an element by this strategy")){
+                try {
+                    Thread.sleep(3000);
+                    enablealerts.click();
+                    if(App.launchOn.equals("iOS"))
+                        App.driver.switchTo().alert().accept();
+                } catch (InterruptedException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        }
     }
 }

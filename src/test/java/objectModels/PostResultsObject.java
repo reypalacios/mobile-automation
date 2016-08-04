@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by rpalacios on 12/11/15.
  */
-public class PostResultsObject {
+public class PostResultsObject{
 
     Logger logger = Logger.getLogger(this.getClass());
 

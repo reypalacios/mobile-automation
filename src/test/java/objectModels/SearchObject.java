@@ -1,13 +1,10 @@
 package objectModels;
 
+import org.openqa.selenium.*;
 import setUpClasses.App;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
@@ -36,7 +33,7 @@ public class SearchObject {
         System.out.println("Typing "+keys);
         searchfield.sendKeys(keys);
         searchbutton.click();
-        Thread.sleep(3000);
+        Thread.sleep(4000);
     }
 
     public void search(Keys key) {
@@ -51,7 +48,9 @@ public class SearchObject {
 
     public void clickPost(String posttitle) throws InterruptedException {
         Thread.sleep(1000);
-        App.driver.findElement(By.xpath(postresultprefix + "/UIAStaticText[@label='" + posttitle + "']")).click();
+        try {
+            App.driver.findElement(By.xpath(postresultprefix + "/UIAStaticText[@label='" + posttitle + "']")).click();
+        }catch(NoSuchElementException e){}
     }
 
     public void scrollintoview(String posttitle) throws IOException {

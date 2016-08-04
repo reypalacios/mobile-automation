@@ -1,37 +1,28 @@
 package stepDefinitions;
 
+import cucumber.api.CucumberOptions;
+import cucumber.api.Scenario;
+import cucumber.api.java.Before;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import setUpClasses.App;
 import setUpClasses.BISlack;
 import setUpClasses.Logger;
-import com.github.mkolisnyk.cucumber.runner.AfterSuite;
-import com.github.mkolisnyk.cucumber.runner.BeforeSuite;
-import com.github.mkolisnyk.cucumber.runner.ExtendedCucumber;
-import com.github.mkolisnyk.cucumber.runner.ExtendedCucumberOptions;
-import cucumber.api.CucumberOptions;
-import org.junit.runner.RunWith;
 
 import java.io.IOException;
 import java.util.Date;
 
-
-@RunWith(ExtendedCucumber.class)
-@ExtendedCucumberOptions(jsonReport = "target/cucumber-test.json",
-        retryCount = 0,
-        detailedReport = true,
-        detailedAggregatedReport = true,
-        overviewReport = true,
-        toPDF = true,
-        outputFolder = "target/cucumber-test")
-@CucumberOptions (features = "classpath:test/",
-        format = {"pretty", "html:target/cucumber-test", "json:target/cucumber-test.json"},
-        glue={"stepDefinitions"},
-        tags={"@search"})
-public class runCukesTest {
-
+//@RunWith(Cucumber.class)
+@CucumberOptions(features = "src/test/resources/features/mobile"
+        ,format = {"pretty", "html:target/cucumber", "json:target/cucumber-report.json"}
+        ,tags = {"@reco","~@iosbug"}
+)
+public class runCukesTest extends AbstractTestNGCucumberTests{
     @BeforeSuite
     public static void SetUp() throws IOException, InterruptedException {
         new Logger().setLogger();
-        new App().launch(false);
+        new App().launch(true);
 //        try {
 //            new PushPermissionRequestObject().clicklMayberLater();
 //        }catch(NoSuchElementException e){
@@ -39,12 +30,23 @@ public class runCukesTest {
 //        }
         BISlack.sendMessage(new Date()+" - MOBILE test has started");
     }
-
+    /**
+     * This method runs before each scenario.
+     * This makes possible embedding images into the json report
+     * @param scenario
+     */
+    @Before
+    public void before(Scenario scenario){
+        System.out.println("Scenario: "+scenario.getName());
+        App.scenario = scenario;
+    }
+    /**
+     * This method runs after each suite of features
+     * It closes the web driver
+     */
     @AfterSuite
-    public static void testDown() throws IOException {
-        new App().close();
+    public static void testDown() throws IOException, InterruptedException {
+        //new App().close();
         BISlack.sendMessage(new Date()+" - MOBILE test has finished");
     }
-
-
 }

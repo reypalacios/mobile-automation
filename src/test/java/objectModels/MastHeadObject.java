@@ -1,5 +1,6 @@
 package objectModels;
 
+import org.openqa.selenium.NoSuchElementException;
 import setUpClasses.App;
 import setUpClasses.MobileException;
 import commands.command;
@@ -15,15 +16,16 @@ import java.io.IOException;
 /**
  * Created by rpalacios on 12/11/15.
  */
-public class MastHeadObject {
+public class MastHeadObject{
 
     Logger logger = Logger.getLogger(this.getClass());
 
     @AndroidFindBy(id = "drawer_vertical_list")
+    @iOSFindBy (name = "EasyClose Icon")
     public static WebElement Menu;
 
     @AndroidFindBy(xpath = "//*[@content-desc='Open Drawer']")
-    @iOSFindBy(name = "EasyMenu Icon")
+    @iOSFindBy(xpath = "//UIAButton[@name='EasyMenu Icon']")
     public static WebElement HamburgerMenu;
 
     @AndroidFindBy(xpath = "//*[@content-desc='Close Drawer']")
@@ -41,7 +43,7 @@ public class MastHeadObject {
     public static WebElement Search;
 
     @AndroidFindBy(id = "search_close_button")
-   // @iOSFindBy(name = "")
+    @iOSFindBy(name = "EasyClose Icon")
     public static WebElement CloseSearch;
 
     @AndroidFindBy(xpath = "//*[@content-desc='More options']")
@@ -58,9 +60,11 @@ public class MastHeadObject {
     }
 
     public void clickHamburgerMenu() throws InterruptedException {
-        if (!Menu.isDisplayed()){
+        try {
+            Menu.isDisplayed();
+        }catch(NoSuchElementException e){
             HamburgerMenu.click();
-        Thread.sleep(2500);
+            Thread.sleep(2000);
         }
         System.out.println("Menu is open");
     }

@@ -8,11 +8,12 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.AndroidServerFlag;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
-import org.openqa.selenium.SessionNotCreatedException;
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.WebElement;
+import objectModels.PushPermissionRequestObject;
+import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.UnreachableBrowserException;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -29,6 +30,9 @@ public class App {
 //    private IOSDriver IOSdriver;
     public static String launchOn;
     public static String VD;
+    public static String apppackage;
+    public static String appactivity;
+    public static String bundleid;
     public static String currentapp;
     public static String app;
     public static String oldapp;
@@ -48,6 +52,15 @@ public class App {
     public static String SWIPE_RIGHT_TO_LEFT = "Swipe Right to Left";
     public static String SWIPE_LEFT_TO_RIGHT = "Swipe Left to Right";
     private static AppiumServiceBuilder builder;
+
+//    public App (){
+//        if(driver==null)
+//            try {
+//                launch(true);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//    }
 
     public void launch(Boolean reset) throws InterruptedException {
         try {
@@ -109,8 +122,11 @@ public class App {
                 }*/
                 File file = new File("AndroidApps/"+App.apk);
                 capabilities.setCapability("app", file.getAbsolutePath());
-                //capabilities.setCapability("appPackage", "com.freerange360.mpp.businessinsider");
+                capabilities.setCapability("appPackage", App.apppackage);
                 //capabilities.setCapability("appActivity", "com.businessinsider.app.MainActivity");
+                capabilities.setCapability("appActivity", App.appactivity);
+
+
 
 //                driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
 //                    @Override
@@ -170,17 +186,21 @@ public class App {
                 }
             };
 
-            Thread.sleep(4000);
+            //Thread.sleep(12000);
+//            if(new PushPermissionRequestObject().enablealerts.isDisplayed())
+//                new PushPermissionRequestObject().clickEnableAlerts();
+            try {
+                WebDriverWait wait = new WebDriverWait(driver, 3);
+                wait.until(ExpectedConditions.visibilityOf(new PushPermissionRequestObject().enablealerts));
+                //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
+                System.out.println("Push permission request screen was displayed");
+            }catch(TimeoutException e){
+                System.out.println("Push permission request screen wasn't displayed");
+            }catch(NoSuchElementException ce){
+                System.out.println("Push permission request screen wasn't displayed");
+            }
 
-//            try {
-//                WebDriverWait wait = new WebDriverWait(driver, 6);
-//                wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
-//                System.out.println("Push permission request screen was displayed");
-//            }catch(TimeoutException e){
-//                System.out.println("Push permission request screen wasn't displayed");
-//            }
-
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
             System.out.println("App has launched");
 

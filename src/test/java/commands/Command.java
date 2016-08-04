@@ -1,16 +1,21 @@
 package commands;
 
-import setUpClasses.App;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import setUpClasses.App;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * Created by rpalacios on 7/1/16.
  */
-public class command extends App {
+public class command {
 
 //    public static void takeScreenshot()
 //    {
@@ -39,7 +44,7 @@ public class command extends App {
         int starty = size.height / 2;
         System.out.println("startx = " + startx + " ,endx = " + endx + " , starty = " + starty);
 
-        if(swipe.equals(SWIPE_RIGHT_TO_LEFT)){
+        if(swipe.equals(App.SWIPE_RIGHT_TO_LEFT)){
             //Swipe from Right to Left.
             //new TouchAction(App.driver.press(startx, starty).waitAction(500).moveTo(endx - startx, starty - starty).release().perform();
             if(App.launchOn.equals("Android"))
@@ -48,7 +53,7 @@ public class command extends App {
                 App.driver.swipe(starty/2, startx/2, -starty/2, endx, 100);
             Thread.sleep(2000);
         }
-        if(swipe.equals(SWIPE_LEFT_TO_RIGHT)){
+        if(swipe.equals(App.SWIPE_LEFT_TO_RIGHT)){
             //Swipe from Left to Right.
             if(App.launchOn.equals("Android"))
                 App.driver.swipe(endx, starty, startx, starty, 500);
@@ -105,7 +110,7 @@ public class command extends App {
         System.out.println("Embedding screenshot...");
         //byte[] screenshot = App.driver.getScreenshotAs(OutputType.BYTES);
         byte[] screenshot = new screenshot().fullScreenshot();
-        scenario.embed(screenshot, "image/png");
+        App.scenario.embed(screenshot, "image/png");
     }
 
     public static void embedScreenshot(WebElement webelement) throws IOException {
@@ -119,9 +124,9 @@ public class command extends App {
      */
     public static void runAppinBackground(int seconds) throws InterruptedException {
         System.out.println("Run App in the background for "+seconds +" seconds");
-        driver.runAppInBackground(seconds);
+        App.driver.runAppInBackground(seconds);
         try {
-            WebDriverWait wait = new WebDriverWait(driver, 6);
+            WebDriverWait wait = new WebDriverWait(App.driver, 6);
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
             System.out.println("Push permission request screen was displayed");
         }catch(TimeoutException e){
@@ -131,47 +136,75 @@ public class command extends App {
 
     public static void upgradeApp() throws InterruptedException {
         if(App.launchOn.equals("Android")) {
-            System.out.println("Simulating Android upgrade:\n"+oldapk+" to "+apk);
-            System.out.println("Remove current APP ");
-            driver.removeApp("com.freerange360.mpp.businessinsider");
-            System.out.println("Install previous APP version:" + oldapk);
-
-            App.apk = oldapk;
-            new App().launch(true);
-            System.out.println("Close previous APP version");
-            driver.closeApp();
-            System.out.println("Install current APP version:" + currentapp);
-            App.apk = currentapp;
-            new App().launch(true);
+            App.apk=App.currentapp;
+            //Install app without clearing data
+            executecommandline("adb install -r AndroidApps/"+App.apk);
+            //Launches app
+            executecommandline("adb shell am start -n "+App.apppackage+"/"+App.appactivity);
+            Thread.sleep(11000);
         }else{
-            System.out.println("Simulating iOS upgrade:\n"+oldapp+" to "+app);
-            System.out.println("Remove current APP");
-            driver.removeApp("com.businessinsider.iphone");
-            System.out.println("Install previous APP version:" + oldapp);
+            App.app=App.currentapp;
+            //https://github.com/phonegap/ios-sim
+            executecommandline("ios-sim install iOSApps/"+App.app+" --devicetypeid iPhone-6, 9.2 --exit");
+            new App().launch(true);
+        }
+    }
 
-            App.app = oldapp;
-            new App().launch(true);
-            System.out.println("Close previous APP version");
-            driver.closeApp();
-            System.out.println("Install current APP version:" + currentapp);
-            App.app = currentapp;
-            new App().launch(true);
+    private static void executecommandline(String command) {
+        String s = null;
+        try {
+
+            // run the Unix "ps -ef" command
+            // using the Runtime exec method:
+
+            Process p = Runtime.getRuntime().exec(command);
+            //Process p = Runtime.getRuntime().exec("pwd");
+
+            BufferedReader stdInput = new BufferedReader(new
+                    InputStreamReader(p.getInputStream()));
+
+            BufferedReader stdError = new BufferedReader(new
+                    InputStreamReader(p.getErrorStream()));
+
+            // read the output from the command
+            System.out.println("Here is the standard output of the command:\n");
+            while ((s = stdInput.readLine()) != null) {
+                System.out.println(s);
+            }
+
+            // read any errors from the attempted command
+            System.out.println("Here is the standard error of the command (if any):\n");
+            while ((s = stdError.readLine()) != null) {
+                System.out.println(s);
+            }
+
+            //System.exit(0);
+        }
+        catch (IOException e) {
+            System.out.println("exception happened - here's what I know: ");
+            e.printStackTrace();
+            System.exit(-1);
         }
     }
 
     public static void closeApp() {
         System.out.println("Close App");
-        driver.closeApp();
+        App.driver.closeApp();
     }
 
     public static void launchApp() {
         System.out.println("Launch App");
-        driver.launchApp();
+        App.driver.launchApp();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void resetApp() {
         System.out.println("Reset App");
-        driver.resetApp();
+        App.driver.resetApp();
         //while(driver.findElementsById("news_alerts_headlines_text").isEmpty()){  }
     }
 

@@ -14,7 +14,7 @@ import static commands.command.embedScreenshot;
 /**
  * Created by rpalacios on 12/11/15.
  */
-public class PostObject {
+public class PostObject{
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[1]")
     public static WebElement title;

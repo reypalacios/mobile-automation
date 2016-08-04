@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by rpalacios on 12/11/15.
  */
-public class KebabSettingsObject {
+public class KebabSettingsObject{
 
     Logger logger = Logger.getLogger(this.getClass());
 

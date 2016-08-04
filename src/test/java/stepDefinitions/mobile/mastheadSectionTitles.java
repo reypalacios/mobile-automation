@@ -2,14 +2,12 @@ package stepDefinitions.mobile;
 
 import commands.command;
 import cucumber.api.java.en.When;
-
-import static setUpClasses.App.SWIPE_LEFT_TO_RIGHT;
-import static setUpClasses.App.SWIPE_RIGHT_TO_LEFT;
+import setUpClasses.App;
 
 /**
  * Created by rpalacios on 11/13/15.
  */
-public class mastheadSectionTitles {
+public class mastheadSectionTitles extends App {
 
     @When("^User swipes to the left$")
     public void user_swipes_to_the_left() throws Throwable {

@@ -5,11 +5,12 @@ import cucumber.api.java.en.When;
 import objectModels.MastHeadObject;
 import objectModels.PostObject;
 import objectModels.SearchObject;
+import setUpClasses.App;
 
 /**
  * Created by rpalacios on 11/13/15.
  */
-public class search {
+public class search extends App {
     MastHeadObject Masthead = new MastHeadObject();
     SearchObject Search = new SearchObject();
     PostObject Post = new PostObject();
