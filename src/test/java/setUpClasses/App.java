@@ -64,7 +64,7 @@ public class App {
 
     public void launch(Boolean reset) throws InterruptedException {
         try {
-            logger = Logger.getLogger();
+            //logger = Logger.getLogger();
             screenshotCleanup();
 
             System.out.println("Working Directory = " + System.getProperty("user.dir"));
@@ -250,8 +250,8 @@ public class App {
                 .withArgument(GeneralServerFlag.LOG_LEVEL, "info")
                 .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
                 .withArgument(GeneralServerFlag.DEBUG_LOG_SPACING)
-                .withArgument(AndroidServerFlag.SUPPRESS_ADB_KILL_SERVER)
-                .withLogFile(new File(System.getProperty("user.dir") + "/logs/appium.log"));
+                .withArgument(AndroidServerFlag.SUPPRESS_ADB_KILL_SERVER);
+                //.withLogFile(new File(System.getProperty("user.dir") + "/logs/appium.log"));
         if(reset){
             builder.withArgument(GeneralServerFlag.NO_RESET);
         }

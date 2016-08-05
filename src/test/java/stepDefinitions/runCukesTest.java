@@ -7,8 +7,6 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import setUpClasses.App;
-import setUpClasses.BISlack;
-import setUpClasses.Logger;
 
 import java.io.IOException;
 import java.util.Date;
@@ -21,14 +19,14 @@ import java.util.Date;
 public class runCukesTest extends AbstractTestNGCucumberTests{
     @BeforeSuite
     public static void SetUp() throws IOException, InterruptedException {
-        new Logger().setLogger();
+        //new Logger().setLogger();
         new App().launch(true);
 //        try {
 //            new PushPermissionRequestObject().clicklMayberLater();
 //        }catch(NoSuchElementException e){
 //            System.out.println("No push permission notification screen");
 //        }
-        BISlack.sendMessage(new Date()+" - MOBILE test has started");
+        System.out.println(new Date()+" - MOBILE test has started");
     }
     /**
      * This method runs before each scenario.
@@ -47,6 +45,6 @@ public class runCukesTest extends AbstractTestNGCucumberTests{
     @AfterSuite
     public static void testDown() throws IOException, InterruptedException {
         //new App().close();
-        BISlack.sendMessage(new Date()+" - MOBILE test has finished");
+        System.out.println(new Date()+" - MOBILE test has finished");
     }
 }
