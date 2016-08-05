@@ -19072,3 +19072,1120 @@ Driver info: driver.version: unknown
 2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.66: )
 2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.59: )
 2016-07-25 11:28:24 INFO  Logger:24 - cucumber.runtime.Stats.93: 30.252s
+2016-07-29 15:44:56 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-29 15:44:57 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-07-29 15:44:57 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-07-29 15:44:57 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-07-29 15:44:57 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-07-29 15:44:57 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-07-29 15:44:57 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-07-29 15:46:08 INFO  Logger:24 - setUpClasses.App.196: Push permission request screen was displayed
+2016-07-29 15:46:08 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-07-29 15:46:09 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:46:13 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:46:16 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:47:11 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-29 15:47:12 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-07-29 15:47:12 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-07-29 15:47:12 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-07-29 15:47:12 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-07-29 15:47:12 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-07-29 15:47:12 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-07-29 15:47:56 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-29 15:47:57 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-07-29 15:48:10 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-07-29 15:48:10 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-07-29 15:48:10 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-07-29 15:48:10 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-07-29 15:48:10 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-07-29 15:48:31 INFO  Logger:24 - setUpClasses.App.196: Push permission request screen was displayed
+2016-07-29 15:48:31 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-07-29 15:48:31 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:48:35 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:48:38 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:48:41 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:48:44 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:48:47 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:48:50 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:48:53 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:48:55 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:48:59 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:02 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:05 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:07 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:10 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:12 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:14 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:17 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:20 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:22 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:26 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:28 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:31 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.107: Failed scenarios:
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify all the menu options are linkable
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-07-29 15:49:34 INFO  Logger:24 - cucumber.runtime.Stats.93: 2.545s
+2016-07-29 15:49:34 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-07-29 15:58:53 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-29 15:58:54 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-07-29 15:58:59 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-07-29 15:58:59 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-07-29 15:58:59 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-07-29 15:58:59 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-07-29 15:58:59 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-07-29 15:59:36 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-07-29 15:59:36 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-07-29 15:59:51 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:00:34 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:00:46 INFO  Logger:24 - objectModels.VerticalObject.169: click Latest Vertical
+2016-07-29 16:01:11 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Latest
+2016-07-29 16:01:11 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:01:11 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:01:27 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:01:43 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:01:52 INFO  Logger:24 - objectModels.VerticalObject.163: click home Vertical
+2016-07-29 16:01:59 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is BUSINESS INSIDER
+2016-07-29 16:01:59 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:01:59 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:02:14 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:02:23 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:02:31 INFO  Logger:24 - objectModels.VerticalObject.175: click tech Vertical
+2016-07-29 16:02:43 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is TECH
+2016-07-29 16:02:43 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:02:43 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:02:57 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:03:08 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:03:16 INFO  Logger:24 - objectModels.VerticalObject.181: click enterprise Vertical
+2016-07-29 16:03:24 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Enterprise
+2016-07-29 16:03:24 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:03:24 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:03:37 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:03:48 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:03:58 INFO  Logger:24 - objectModels.VerticalObject.187: click Science Vertical
+2016-07-29 16:04:09 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Science
+2016-07-29 16:04:09 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:04:09 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:04:23 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:04:35 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:04:45 INFO  Logger:24 - objectModels.VerticalObject.193: click finance Vertical
+2016-07-29 16:04:54 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is FINANCE
+2016-07-29 16:04:54 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:04:54 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:04:57 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:05:07 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:05:15 INFO  Logger:24 - objectModels.VerticalObject.198: click markets Vertical
+2016-07-29 16:05:25 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Markets
+2016-07-29 16:05:25 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:05:25 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:05:39 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:05:47 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:05:58 INFO  Logger:24 - objectModels.VerticalObject.203: click yourmoney Vertical
+2016-07-29 16:06:07 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Your Money
+2016-07-29 16:06:07 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:06:07 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:06:21 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:06:31 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:06:42 INFO  Logger:24 - objectModels.VerticalObject.208: click wealthadvisor Vertical
+2016-07-29 16:06:49 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Wealth Advisor
+2016-07-29 16:06:49 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:06:49 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:06:52 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:07:03 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:07:11 INFO  Logger:24 - objectModels.VerticalObject.213: click politics Vertical
+2016-07-29 16:07:20 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is POLITICS
+2016-07-29 16:07:20 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:07:20 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:07:34 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:07:42 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:07:49 INFO  Logger:24 - objectModels.VerticalObject.218: click militarydefense Vertical
+2016-07-29 16:08:00 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Military & Defense
+2016-07-29 16:08:00 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:08:00 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:08:14 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:08:27 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:08:35 INFO  Logger:24 - objectModels.VerticalObject.223: click law order Vertical
+2016-07-29 16:08:45 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Law & Order
+2016-07-29 16:08:45 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:08:45 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:08:59 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:09:11 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:09:22 INFO  Logger:24 - objectModels.VerticalObject.228: click strategy Vertical
+2016-07-29 16:09:31 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is STRATEGY
+2016-07-29 16:09:31 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:09:31 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:09:45 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:09:56 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:10:08 INFO  Logger:24 - objectModels.VerticalObject.233: click Careers Vertical
+2016-07-29 16:10:19 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Careers
+2016-07-29 16:10:19 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:10:19 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:10:33 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:10:45 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:10:55 INFO  Logger:24 - objectModels.VerticalObject.238: click Advertising vertical
+2016-07-29 16:11:06 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Advertising
+2016-07-29 16:11:06 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:11:06 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:11:09 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:11:20 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:11:29 INFO  Logger:24 - objectModels.VerticalObject.243: click Retail vertical
+2016-07-29 16:11:39 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Retail
+2016-07-29 16:11:39 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:11:39 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:11:42 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:11:51 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:12:03 INFO  Logger:24 - objectModels.VerticalObject.248: click Small Business vertical
+2016-07-29 16:12:16 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Small Business
+2016-07-29 16:12:16 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:12:16 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:12:31 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:12:45 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:12:57 INFO  Logger:24 - objectModels.VerticalObject.253: click life vertical
+2016-07-29 16:13:08 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is LIFE
+2016-07-29 16:13:08 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:13:08 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:13:23 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:13:31 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:13:39 INFO  Logger:24 - objectModels.VerticalObject.258: click Transportation Vertical
+2016-07-29 16:13:51 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Transportation
+2016-07-29 16:13:51 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:13:51 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:14:04 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:14:12 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:14:21 INFO  Logger:24 - objectModels.VerticalObject.263: click Education Vertical
+2016-07-29 16:14:31 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Education
+2016-07-29 16:14:31 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:14:31 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:14:33 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:14:44 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:14:55 INFO  Logger:24 - objectModels.VerticalObject.268: click Entertainment vertical
+2016-07-29 16:15:03 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is ENTERTAINMENT
+2016-07-29 16:15:03 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:15:03 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:15:17 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:15:26 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:15:33 INFO  Logger:24 - objectModels.VerticalObject.273: click Sports vertical
+2016-07-29 16:15:42 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Sports
+2016-07-29 16:15:42 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:15:42 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:15:56 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-07-29 16:15:56 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-07-29 16:15:56 INFO  Logger:24 - cucumber.runtime.Stats.93: 3.527s
+2016-07-29 16:15:56 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+2016-07-29 16:32:58 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-29 16:32:59 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-07-29 16:33:22 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-07-29 16:33:22 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-07-29 16:33:22 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-07-29 16:33:22 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-07-29 16:33:22 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-07-29 16:33:48 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-07-29 16:33:48 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-07-29 16:33:49 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:33:58 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:34:07 INFO  Logger:24 - objectModels.VerticalObject.169: click Latest Vertical
+2016-07-29 16:34:18 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Latest
+2016-07-29 16:34:18 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:34:18 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:34:34 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-07-29 16:34:43 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:34:57 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:34:57 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:35:01 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-07-29 16:35:10 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-07-29 16:35:10 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify extra iOS menu options are linkable
+2016-07-29 16:35:10 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify extra iOS menu options are linkable
+2016-07-29 16:35:10 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-07-29 16:35:10 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-07-29 16:35:10 INFO  Logger:24 - cucumber.runtime.Stats.93: 20.702s
+2016-07-29 16:35:10 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-07-29 16:35:52 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-07-29 16:35:53 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-07-29 16:35:58 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-07-29 16:35:58 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-07-29 16:35:58 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-07-29 16:35:58 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-07-29 16:35:58 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-07-29 16:36:19 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-07-29 16:36:19 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-07-29 16:36:20 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-07-29 16:36:28 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:36:37 INFO  Logger:24 - objectModels.VerticalObject.169: click Latest Vertical
+2016-07-29 16:36:47 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Latest
+2016-07-29 16:36:47 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:36:47 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:37:03 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-07-29 16:37:11 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:37:18 INFO  Logger:24 - objectModels.VerticalObject.283: click on Legal Fine Print vertical
+2016-07-29 16:37:34 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-07-29 16:37:34 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-07-29 16:37:36 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-07-29 16:37:48 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-07-29 16:37:59 INFO  Logger:24 - objectModels.VerticalObject.288: click sendfeedback vertical
+2016-08-01 10:05:59 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-01 10:06:00 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-01 10:06:24 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-01 10:06:24 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-01 10:06:24 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-01 10:06:24 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-01 10:06:24 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-01 10:06:53 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-01 10:06:53 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-01 10:06:54 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-08-01 10:07:03 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-08-01 10:07:12 INFO  Logger:24 - objectModels.VerticalObject.169: click Latest Vertical
+2016-08-01 10:07:33 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Latest
+2016-08-01 10:07:33 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-08-01 10:07:34 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-08-01 10:07:49 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-08-01 10:07:56 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-08-01 10:08:02 INFO  Logger:24 - objectModels.VerticalObject.283: click on Legal Fine Print vertical
+2016-08-01 10:08:21 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-08-01 10:08:21 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-08-01 10:08:24 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-08-01 10:08:37 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-08-01 10:08:51 INFO  Logger:24 - objectModels.VerticalObject.288: click sendfeedback vertical
+2016-08-01 10:09:12 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-08-01 10:09:12 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-08-01 10:09:26 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-01 10:09:26 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify extra iOS menu options are linkable
+2016-08-01 10:09:26 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify extra iOS menu options are linkable
+2016-08-01 10:09:26 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-01 10:09:26 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-01 10:09:26 INFO  Logger:24 - cucumber.runtime.Stats.93: 32.349s
+2016-08-01 10:09:26 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-01 10:16:37 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-01 10:16:37 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-01 10:16:42 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-01 10:16:42 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-01 10:16:42 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-01 10:16:42 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-01 10:16:42 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-01 10:17:00 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-01 10:17:00 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-01 10:17:02 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-08-01 10:17:10 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-08-01 10:17:19 INFO  Logger:24 - objectModels.VerticalObject.169: click Latest Vertical
+2016-08-01 10:17:27 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Latest
+2016-08-01 10:17:27 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-08-01 10:17:27 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-08-01 10:17:41 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-08-01 10:17:48 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-08-01 12:27:21 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-08-01 12:27:26 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-01 12:27:27 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-01 12:27:31 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-01 12:27:31 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-01 12:27:31 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-01 12:27:31 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-01 12:27:31 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-01 12:27:56 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-01 12:27:56 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-01 12:27:57 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-08-01 12:28:05 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-08-01 12:28:15 INFO  Logger:24 - objectModels.VerticalObject.169: click Latest Vertical
+2016-08-01 12:28:23 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Latest
+2016-08-01 12:28:23 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-08-01 12:28:23 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-08-01 12:28:27 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-08-01 12:28:35 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-08-01 12:32:58 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-08-01 12:32:59 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-01 12:32:59 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify extra iOS menu options are linkable
+2016-08-01 12:32:59 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario Outline: Verify extra iOS menu options are linkable
+2016-08-01 12:32:59 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-01 12:32:59 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-01 12:32:59 INFO  Logger:24 - cucumber.runtime.Stats.93: 1.382s
+2016-08-01 12:32:59 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-01 12:33:04 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-01 12:33:04 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-01 12:33:08 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-01 12:33:08 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-01 12:33:08 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-01 12:33:08 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-01 12:33:08 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-01 12:33:29 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-01 12:33:29 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-01 12:33:30 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify all the menu options are linkable
+2016-08-01 12:33:40 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-08-01 12:33:49 INFO  Logger:24 - objectModels.VerticalObject.169: click Latest Vertical
+2016-08-01 12:33:56 INFO  Logger:24 - objectModels.MastHeadObject.107: Current title is Latest
+2016-08-01 12:33:56 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-08-01 12:33:56 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-08-01 12:34:11 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-08-01 12:34:20 INFO  Logger:24 - objectModels.MastHeadObject.69: Menu is open
+2016-08-01 12:37:06 INFO  Logger:24 - objectModels.VerticalObject.283: click on Legal Fine Print vertical
+2016-08-01 12:51:31 INFO  Logger:24 - commands.command.110: Embedding screenshot...
+2016-08-01 12:51:31 INFO  Logger:24 - commands.screenshot.25: Full screenshot taken
+2016-08-01 12:51:31 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify extra iOS menu options are linkable
+2016-08-01 15:43:55 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-01 15:43:56 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-01 15:43:56 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-01 15:43:56 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-01 15:43:56 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-01 15:43:56 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-01 15:43:56 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-01 15:44:24 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-01 15:44:24 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-01 15:44:25 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-01 15:45:51 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-01 15:45:58 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-01 15:45:58 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Verify module is displayed
+2016-08-01 15:45:58 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Click each of the five recommendations
+2016-08-01 15:45:58 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-01 15:45:58 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-01 15:45:58 INFO  Logger:24 - cucumber.runtime.Stats.93: 33.195s
+2016-08-01 15:45:58 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-01 15:45:58 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-01 15:45:58 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-01 15:57:24 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-01 15:57:25 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-01 15:57:25 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-01 15:57:25 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-01 15:57:25 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-01 15:57:25 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-01 15:57:25 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-01 15:57:53 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-01 15:57:53 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-01 15:57:54 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-01 16:46:11 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-01 16:46:16 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-01 16:46:18 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-01 16:46:18 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-01 16:46:18 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-01 16:46:18 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-01 16:46:18 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-01 16:46:18 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-01 16:46:52 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-01 16:46:52 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-01 16:46:54 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-01 16:47:09 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-01 16:47:16 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-01 16:47:16 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Verify module is displayed
+2016-08-01 16:47:16 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Click each of the five recommendations
+2016-08-01 16:47:16 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-01 16:47:16 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-01 16:47:16 INFO  Logger:24 - cucumber.runtime.Stats.93: 22.196s
+2016-08-01 16:47:16 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-01 16:47:16 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-01 16:47:16 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-01 16:48:53 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-01 16:48:54 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-01 16:48:54 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-01 16:48:54 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-01 16:48:54 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-01 16:48:54 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-01 16:48:54 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-01 16:49:27 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-01 16:49:27 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-01 16:49:28 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-01 16:49:45 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-01 16:50:04 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-01 16:50:05 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-01 16:50:05 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-01 16:50:05 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-01 16:50:05 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-01 16:50:05 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-01 16:50:05 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-01 16:50:32 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-01 16:50:32 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-01 16:50:33 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-01 16:50:47 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-01 16:51:01 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-01 16:51:01 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Verify module is displayed
+2016-08-01 16:51:01 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Click each of the five recommendations
+2016-08-01 16:51:01 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-01 16:51:01 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-01 16:51:01 INFO  Logger:24 - cucumber.runtime.Stats.93: 27.425s
+2016-08-01 16:51:01 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-01 16:51:01 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-01 16:51:01 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-01 16:53:25 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-01 16:53:26 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-01 16:53:26 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-01 16:53:26 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-01 16:53:26 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-01 16:53:26 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-01 16:53:26 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-01 16:53:54 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-01 16:53:54 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-01 16:53:55 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-01 16:54:51 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-01 16:54:54 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-01 16:54:54 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Verify module is displayed
+2016-08-01 16:54:54 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Click each of the five recommendations
+2016-08-01 16:54:54 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-01 16:54:54 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-01 16:54:54 INFO  Logger:24 - cucumber.runtime.Stats.93: 58.884s
+2016-08-01 16:54:54 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-01 16:54:54 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-01 16:54:54 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-02 10:03:44 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 10:03:45 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 10:03:45 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 10:03:45 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 10:03:45 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 10:03:45 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 10:03:45 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 10:04:17 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 10:04:17 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 10:04:18 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 10:04:37 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Verify module is displayed
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.Stats.93: 18.763s
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the first river-post recommendation image$")
+public void i_click_the_first_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the second river-post recommendation link$")
+public void i_click_the_second_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the third river-post recommendation image$")
+public void i_click_the_third_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fourth river-post recommendation link$")
+public void i_click_the_fourth_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:04:37 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fifth river-post recommendation image$")
+public void i_click_the_fifth_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:04:37 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-02 10:07:33 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 10:07:34 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 10:07:34 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 10:07:34 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 10:07:34 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 10:07:34 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 10:07:34 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 10:07:58 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 10:07:58 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 10:07:59 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 10:10:59 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 10:11:00 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 10:11:00 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 10:11:00 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 10:11:00 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 10:11:00 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 10:11:00 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 10:11:31 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 10:11:31 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 10:11:31 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 10:11:53 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Verify module is displayed
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.Stats.93: 21.387s
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the first river-post recommendation image$")
+public void i_click_the_first_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the second river-post recommendation link$")
+public void i_click_the_second_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the third river-post recommendation image$")
+public void i_click_the_third_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fourth river-post recommendation link$")
+public void i_click_the_fourth_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:11:53 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fifth river-post recommendation image$")
+public void i_click_the_fifth_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:11:53 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-02 10:20:15 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 10:20:16 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 10:20:16 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 10:20:16 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 10:20:16 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 10:20:16 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 10:20:16 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 10:20:40 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 10:20:40 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 10:20:41 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 10:20:48 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Verify module is displayed
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.Stats.93: 7.206s
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the first river-post recommendation image$")
+public void i_click_the_first_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the second river-post recommendation link$")
+public void i_click_the_second_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the third river-post recommendation image$")
+public void i_click_the_third_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fourth river-post recommendation link$")
+public void i_click_the_fourth_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:20:48 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fifth river-post recommendation image$")
+public void i_click_the_fifth_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:20:48 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-02 10:22:23 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 10:22:24 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 10:22:24 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 10:22:24 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 10:22:24 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 10:22:24 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 10:22:24 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 10:22:49 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 10:22:49 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 10:22:50 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 10:23:14 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Verify module is displayed
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.Stats.93: 24.116s
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the first river-post recommendation image$")
+public void i_click_the_first_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the second river-post recommendation link$")
+public void i_click_the_second_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the third river-post recommendation image$")
+public void i_click_the_third_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fourth river-post recommendation link$")
+public void i_click_the_fourth_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:23:14 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fifth river-post recommendation image$")
+public void i_click_the_fifth_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:23:14 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-02 10:23:28 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 10:23:29 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 10:23:29 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 10:23:29 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 10:23:29 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 10:23:29 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 10:23:29 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 10:23:57 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 10:23:57 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 10:23:58 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 10:24:38 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 10:24:39 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 10:24:39 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 10:24:39 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 10:24:39 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 10:24:39 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 10:24:39 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 10:25:02 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 10:25:02 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 10:25:03 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 10:25:56 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 10:25:57 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 10:25:57 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 10:25:57 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 10:25:57 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 10:25:57 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 10:25:57 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 10:26:27 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 10:26:27 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 10:26:27 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 10:27:59 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Verify module is displayed
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.Stats.93: 31.421s
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the first river-post recommendation image$")
+public void i_click_the_first_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the second river-post recommendation link$")
+public void i_click_the_second_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the third river-post recommendation image$")
+public void i_click_the_third_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fourth river-post recommendation link$")
+public void i_click_the_fourth_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:27:59 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fifth river-post recommendation image$")
+public void i_click_the_fifth_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:27:59 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-02 10:29:03 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 10:29:03 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 10:29:04 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 10:29:04 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 10:29:04 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 10:29:04 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 10:29:04 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 10:29:26 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 10:29:26 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 10:29:27 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 10:30:06 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Verify module is displayed
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.Stats.93: 38.879s
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the first river-post recommendation image$")
+public void i_click_the_first_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the second river-post recommendation link$")
+public void i_click_the_second_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the third river-post recommendation image$")
+public void i_click_the_third_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fourth river-post recommendation link$")
+public void i_click_the_fourth_river_post_recommendation_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:30:06 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @When("^I click the fifth river-post recommendation image$")
+public void i_click_the_fifth_river_post_recommendation_image() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-02 10:30:06 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-02 10:36:39 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 10:36:40 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 10:36:40 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 10:36:40 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 10:36:40 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 10:36:40 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 10:36:40 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 10:37:05 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 10:37:05 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 10:37:06 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 11:11:52 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 11:11:58 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 11:11:59 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 11:11:59 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 11:11:59 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 11:11:59 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 11:11:59 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 11:11:59 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 11:12:31 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 11:12:31 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 11:12:32 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 11:15:37 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 11:15:37 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 11:15:37 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 11:15:37 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 11:15:37 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 11:15:37 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 11:15:37 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 11:16:04 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 11:16:04 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 11:16:05 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 11:17:08 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 11:17:09 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 11:17:09 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 11:17:09 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 11:17:09 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 11:17:09 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 11:17:09 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 11:17:35 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 11:17:35 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 11:17:35 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 11:25:42 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 11:25:46 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 11:25:47 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 11:25:51 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 11:25:51 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 11:25:51 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 11:25:51 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 11:25:51 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 11:26:10 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 11:26:10 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 11:26:11 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 11:27:19 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 11:27:56 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 11:27:57 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 11:28:01 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 11:28:01 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 11:28:01 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 11:28:01 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 11:28:01 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 11:28:22 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 11:28:22 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 11:28:23 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 11:34:37 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 11:34:43 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 11:34:43 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 11:34:47 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 11:34:47 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 11:34:47 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 11:34:47 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 11:34:47 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 11:35:08 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 11:35:08 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 11:35:09 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 12:03:01 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 12:06:13 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 12:06:14 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 12:06:35 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 12:06:35 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 12:06:35 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 12:06:35 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 12:06:35 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 12:07:01 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 12:07:01 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 12:07:02 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 12:52:49 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 12:52:50 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 12:52:54 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 12:52:54 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 12:52:54 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 12:52:54 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 12:52:54 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 12:53:15 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 12:53:15 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 12:53:16 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 12:58:04 INFO  Logger:24 - commands.command.82: Screen size is (375, 667)
+2016-08-02 12:58:05 INFO  Logger:24 - commands.command.93: starty = 631 ,endy = 100 , startx = 187
+2016-08-02 12:58:35 INFO  Logger:24 - commands.command.82: Screen size is (375, 667)
+2016-08-02 12:58:36 INFO  Logger:24 - commands.command.93: starty = 3808 ,endy = 100 , startx = 187
+2016-08-02 12:59:38 INFO  Logger:24 - commands.command.82: Screen size is (375, 667)
+2016-08-02 12:59:39 INFO  Logger:24 - commands.command.93: starty = 3808 ,endy = 100 , startx = 187
+2016-08-02 13:00:06 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 13:00:06 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 13:00:10 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 13:00:10 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 13:00:10 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 13:00:10 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 13:00:10 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 13:00:34 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 13:00:34 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 13:00:35 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 14:35:09 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 14:35:10 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 14:35:14 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 14:35:14 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 14:35:14 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 14:35:14 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 14:35:14 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 14:35:35 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 14:35:35 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 14:35:36 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 14:36:01 INFO  Logger:24 - commands.command.82: Screen size is (375, 667)
+2016-08-02 14:37:53 INFO  Logger:24 - commands.command.93: starty = 631 ,endy = 100 , startx = 187
+2016-08-02 14:37:58 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 14:37:59 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 14:38:02 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 14:38:02 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 14:38:02 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 14:38:02 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 14:38:02 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 14:38:22 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 14:38:22 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 14:38:23 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 14:38:38 INFO  Logger:24 - commands.command.82: Screen size is (375, 667)
+2016-08-02 14:39:43 INFO  Logger:24 - commands.command.93: starty = 3019 ,endy = 100 , startx = 187
+2016-08-02 14:42:36 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-02 14:42:55 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 14:42:56 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 14:43:00 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 14:43:00 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 14:43:00 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 14:43:00 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 14:43:00 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 14:43:25 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 14:43:25 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 14:43:26 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 14:43:42 INFO  Logger:24 - commands.command.82: Screen size is (375, 667)
+2016-08-02 16:51:42 INFO  Logger:24 - commands.command.93: starty = 3019 ,endy = 100 , startx = 187
+2016-08-02 16:51:48 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-02 16:51:49 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-02 16:52:11 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-02 16:52:11 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-02 16:52:11 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-02 16:52:11 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-02 16:52:11 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-02 16:52:41 INFO  Logger:24 - setUpClasses.App.200: Push permission request screen wasn't displayed
+2016-08-02 16:52:41 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-02 16:52:42 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Verify module is displayed
+2016-08-02 16:52:59 INFO  Logger:24 - commands.command.82: Screen size is (375, 667)
+2016-08-03 09:41:39 INFO  Logger:24 - commands.command.93: starty = 2443 ,endy = 100 , startx = 187
+2016-08-03 14:12:42 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-03 14:12:43 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-03 14:12:43 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-03 14:12:43 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-03 14:12:43 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-03 14:12:43 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-03 14:12:43 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-03 14:13:56 INFO  Logger:24 - setUpClasses.App.196: Push permission request screen was displayed
+2016-08-03 14:13:56 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-03 14:13:58 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
+2016-08-04 14:40:04 INFO  Logger:24 - cucumber.runtime.Stats.107: [31mFailed scenarios:[0m
+2016-08-04 14:40:04 INFO  Logger:24 - cucumber.runtime.Stats.113: # Scenario: Click each of the five recommendations
+2016-08-04 14:40:04 INFO  Logger:24 - cucumber.runtime.Stats.66: )
+2016-08-04 14:40:04 INFO  Logger:24 - cucumber.runtime.Stats.59: )
+2016-08-04 14:40:04 INFO  Logger:24 - cucumber.runtime.Stats.93: 42.493s
+2016-08-04 14:40:04 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.39: You can implement missing steps with the snippets below:
+2016-08-04 14:40:04 INFO  Logger:24 - cucumber.runtime.DefaultSummaryPrinter.42: @Then("^I am redirected to the post$")
+public void i_am_redirected_to_the_post() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+2016-08-04 14:40:04 INFO  Logger:24 - org.testng.SuiteRunnerWorker.80: 
+===============================================
+Default Suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2016-08-04 15:24:55 INFO  Logger:24 - setUpClasses.App.70: Working Directory = /Users/rpalacios/IdeaProjects/mobile-automation
+2016-08-04 15:24:56 INFO  Logger:24 - setUpClasses.App.262: Starting Appium Server...
+2016-08-04 15:25:26 INFO  Logger:24 - setUpClasses.App.102: ------------ Environmental Configurations ------------
+2016-08-04 15:25:26 INFO  Logger:24 - setUpClasses.App.103: OS = iOS
+2016-08-04 15:25:26 INFO  Logger:24 - setUpClasses.App.107: Simulator = iPhone 6 (9.2)
+2016-08-04 15:25:26 INFO  Logger:24 - setUpClasses.App.108: App = iPhoneBI_4_9.app
+2016-08-04 15:25:26 INFO  Logger:24 - setUpClasses.App.111: ------------------------------------------------------
+2016-08-04 15:28:43 INFO  Logger:24 - setUpClasses.App.196: Push permission request screen was displayed
+2016-08-04 15:28:43 INFO  Logger:24 - setUpClasses.App.205: App has launched
+2016-08-04 15:28:45 INFO  Logger:24 - stepDefinitions.runCukesTest.40: Scenario: Click each of the five recommendations
