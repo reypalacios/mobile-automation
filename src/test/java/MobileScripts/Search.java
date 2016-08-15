@@ -27,7 +27,7 @@ public class Search extends App {
         SearchObject searchObject = new SearchObject();
         searchObject.OpenSearch();
         searchObject.search("The two apples");
-        searchObject.clickSearchResult("The Two Apples");
+        searchObject.clickSearchResult();
         new PostResultObject().isArticle("The Two Apples");
 
     }

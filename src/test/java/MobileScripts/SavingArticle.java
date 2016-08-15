@@ -33,20 +33,20 @@ import org.junit.Test;
         MastHeadObject mastHeadObject = new MastHeadObject();
         VerticalObject verticalObject = new VerticalObject();
 
-
-        searchObject.OpenSearch();
+       searchObject.OpenSearch();
         searchObject.search("Hilary");
-        searchObject.clickSearchResult("16 Easter-egg");
-
-
+       searchObject.clickSearchResult();
 
         mastHeadObject.saveIcon();
         mastHeadObject.backIcon();
         mastHeadObject.clickHamburgerMenu();
         verticalObject.savedArticle();
+        mastHeadObject.backIcon();
+        mastHeadObject.clickHamburgerMenu();
 
 
-    }
+      // App.IOSdriver.findElementByXPath("")
+  }
 
     @After
     public void CloseAppEmulator() throws Exception {
