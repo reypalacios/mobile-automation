@@ -4,7 +4,6 @@ Feature: Recommended For You
  As a user, I want to see recommended posts at the bottom of post pages
  so that I'm encouraged to explore more content in the app.
 
- @iosbug
  Scenario: Verify module is displayed
 
   Given I am on the post page
@@ -12,6 +11,7 @@ Feature: Recommended For You
 
  Scenario: Click each of the five recommendations
 
+  Given I am on the post page
   When I click the first river-post recommendation
   Then I am redirected to the post
 

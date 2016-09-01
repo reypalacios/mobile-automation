@@ -3,7 +3,7 @@ package stepDefinitions.mobile;
 import commands.command;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import objectModels.PushPermissionRequestObject;
+import pageObjects.PushPermissionRequestObject;
 import setUpClasses.App;
 
 /**
@@ -28,13 +28,22 @@ public class pushPermissionRequest extends App {
     @Then("^I see the push permission request screen$")
     public void i_see_the_push_permission_request_screen() throws Throwable {
         Thread.sleep(5000);
-        new PushPermissionRequestObject().isDisplayed();
+        command.assertDisplay(new PushPermissionRequestObject().headline);
+        command.assertDisplay(new PushPermissionRequestObject().maintext);
+        command.assertDisplay(new PushPermissionRequestObject().byline);
+        command.assertDisplay(new PushPermissionRequestObject().enablealerts);
+        command.assertDisplay(new PushPermissionRequestObject().maybelaterlink);
+        command.embedScreenshot();
+
+//        new PushPermissionRequestObject().isDisplayed();
     }
 
     @Then("^Two call to actions are available, to opt-in \"([^\"]*)\" and to opt-out \"([^\"]*)\"$")
     public void two_call_to_actions_are_available_to_opt_in_and_to_opt_out(String arg1, String arg2) throws Throwable {
-        PushPermissionRequest.isEnableAlertsButtonDisplayed();
-        PushPermissionRequest.isMaybleLaterLinkDisplayed();
+        command.assertDisplay(new PushPermissionRequestObject().enablealerts);
+        //PushPermissionRequest.isEnableAlertsButtonDisplayed();
+        command.assertDisplay(new PushPermissionRequestObject().maybelaterlink);
+        //PushPermissionRequest.isMaybleLaterLinkDisplayed();
     }
 
     @When("^I tap on \"([^\"]*)\"$")

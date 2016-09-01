@@ -8,7 +8,7 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.AndroidServerFlag;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
-import objectModels.PushPermissionRequestObject;
+import pageObjects.PushPermissionRequestObject;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.UnreachableBrowserException;
@@ -41,11 +41,10 @@ public class App {
     public static String script;
     public static String platformName;
     public static String platformVersion;
-    public static org.apache.log4j.Logger logger;
     public static Scenario scenario;
     public static AppiumServer as;
     public static AppiumDriverLocalService appiumDriverLocalService;
-
+    public static String posttitle;
     ServerArguments serverArguments = new ServerArguments();
     DesiredCapabilities capabilities = new DesiredCapabilities();
 
@@ -121,6 +120,7 @@ public class App {
                     App.apk="com.freerange360.mpp.businessinsider-120150427.apk";
                 }*/
                 File file = new File("AndroidApps/"+App.apk);
+
                 capabilities.setCapability("app", file.getAbsolutePath());
                 capabilities.setCapability("appPackage", App.apppackage);
                 //capabilities.setCapability("appActivity", "com.businessinsider.app.MainActivity");
@@ -151,9 +151,10 @@ public class App {
 
                 //File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/bi-gyuliygdywwmomgyzfymhpymfueq/Build/Products/Debug-iphonesimulator/bi.app");
                 //File file = new File("/Users/rpalacios/Downloads/Debug-iphonesimulator/iPhoneBI.app");
-                File file = null;
+
                 //if (App.app.equals("Business Insider") || App.app.equals("Business_Insider")) {
-                    file = new File("iOSApps/"+App.app);
+                //File file = new File("iOSApps/"+App.app);
+                File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphonesimulator/iPhoneBI.app");
                     //file = new File("/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app");
                 //}
 //                if (App.app.equals("Tech Insider") || App.app.equals("Tech_Insider")) {
@@ -193,7 +194,7 @@ public class App {
                 WebDriverWait wait = new WebDriverWait(driver, 3);
                 wait.until(ExpectedConditions.visibilityOf(new PushPermissionRequestObject().enablealerts));
                 //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
-                System.out.println("Push permission request screen was displayed");
+                new PushPermissionRequestObject().enablealerts.click();
             }catch(TimeoutException e){
                 System.out.println("Push permission request screen wasn't displayed");
             }catch(NoSuchElementException ce){
@@ -205,11 +206,11 @@ public class App {
             System.out.println("App has launched");
 
         } catch (MalformedURLException e) {
-            logger.error(e);
+            new MobileException(e);
         } catch (UnreachableBrowserException e){
-            logger.error(e);
+            new MobileException(e);
         } catch (SessionNotCreatedException e) {
-            logger.error(e);
+            new MobileException(e);
 /*            as.stopServer();
             as.startServer();
             try {
@@ -290,7 +291,7 @@ public class App {
             //as.stopServer();
             //new AppiumServer().stopAppium();
         } catch (WebDriverException wd){
-            logger.error(wd.getMessage());
+            wd.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }

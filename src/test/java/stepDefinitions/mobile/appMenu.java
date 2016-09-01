@@ -5,8 +5,8 @@ import commands.command;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import objectModels.MastHeadObject;
-import objectModels.MenuObject;
+import pageObjects.MastHeadObject;
+import pageObjects.MenuObject;
 
 /**
  * Created by rpalacios on 11/13/15.
@@ -50,115 +50,115 @@ public class appMenu extends App{
 
     @When("^I click the Latest$")
     public void i_click_the_Latest() throws Throwable {
-        verticals.clickLatest();
+        verticals.latest.click();
     }
 
     @When("^I click the HOME$")
     public void i_click_the_HOME() throws Throwable {
-        verticals.clickhome();
+        verticals.home.click();
     }
 
     @When("^I click the TECH$")
     public void i_click_the_TECH() throws Throwable {
-        verticals.clicktech();
+        verticals.tech.click();
         Thread.sleep(1000);
     }
 
     @When("^I click the Enterprise$")
     public void i_click_the_Enterprise() throws Throwable {
-        verticals.clickenterprise();
+        verticals.enterprise.click();
     }
 
     @When("^I click the Science$")
     public void i_click_the_Science() throws Throwable {
-        verticals.clickScience();
+        verticals.science.click();
     }
 
     @When("^I click the FINANCE$")
     public void i_click_the_FINANCE() throws Throwable {
-        verticals.clickfinance();
+        verticals.finance.click();
     }
 
     @When("^I click the Markets$")
     public void i_click_the_Markets() throws Throwable {
-        verticals.clickMarkets();
+        verticals.markets.click();
     }
 
     @When("^I click the Your Money$")
     public void i_click_the_Your_Money() throws Throwable {
-        verticals.clickYourMoney();
+        verticals.yourmoney.click();
     }
 
     @When("^I click the Wealth Advisor$")
     public void i_click_the_Wealth_Advisor() throws Throwable {
         command.scrolldown(MenuObject.wealthadvisor);
-        verticals.clickWealthAdvisor();
+        verticals.wealthadvisor.click();
     }
 
     @When("^I click the POLITICS$")
     public void i_click_the_POLITICS() throws Throwable {
-        verticals.clickpolitics();
+        verticals.politics.click();
     }
 
     @When("^I click the Military & Defense$")
     public void i_click_the_Military_Defense() throws Throwable {
-        verticals.clickmilitarydefense();
+        verticals.militarydefense.click();
         Thread.sleep(1000);
     }
 
     @When("^I click the Law & Order$")
     public void i_click_the_Law_Order() throws Throwable {
-        verticals.clicklaworder();
+        verticals.laworder.click();
     }
 
     @When("^I click the STRATEGY$")
     public void i_click_the_STRATEGY() throws Throwable {
-        verticals.clickstrategy();
+        verticals.strategy.click();
     }
 
     @When("^I click the Careers$")
     public void i_click_the_Careers() throws Throwable {
-        verticals.clickCarrers();
+        verticals.careers.click();
     }
 
     @When("^I click the Advertising$")
     public void i_click_the_Advertising() throws Throwable {
-        verticals.clickAdvertising();
+        verticals.advertising.click();
     }
 
     @When("^I click the Retail$")
     public void i_click_the_Retail() throws Throwable {
-        verticals.clickRetail();
+        verticals.retail.click();
     }
 
     @When("^I click the Small Business$")
     public void i_click_the_Small_Business() throws Throwable {
-        verticals.clickSmallBusiness();
+        verticals.smallbusiness.click();
     }
 
     @When("^I click the LIFE$")
     public void i_click_the_LIFE() throws Throwable {
-        verticals.clickLife();
+        verticals.life.click();
     }
 
     @When("^I click the Transportation$")
     public void i_click_the_Transportation() throws Throwable {
         command.scrolldown(MenuObject.transportation);
-        verticals.clickTransportation();
+        verticals.transportation.click();
     }
 
     @When("^I click the Education$")
     public void i_click_the_Education() throws Throwable {
-        verticals.clickEducation();
+        verticals.education.click();
     }
 
     @When("^I click the ENTERTAINMENT$")
     public void i_click_the_ENTERTAINMENT() throws Throwable {
-        verticals.clickEntertainment();
+        verticals.entertainment.click();
     }
 
     @When("^I click the Sports$")
     public void i_click_the_Sports() throws Throwable {
-        verticals.clickSports();
+        verticals.sports.click();
     }
 }

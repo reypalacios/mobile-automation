@@ -2,9 +2,9 @@ package stepDefinitions.mobile;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import objectModels.MastHeadObject;
-import objectModels.PostObject;
-import objectModels.SearchObject;
+import pageObjects.MastHeadObject;
+import pageObjects.PostObject;
+import pageObjects.SearchObject;
 import setUpClasses.App;
 
 /**
@@ -17,7 +17,7 @@ public class search extends App {
 
     @When("^I search for (.*)$")
     public void i_search_for_text(String arg) throws Throwable {
-        Masthead.clickSearch();
+        Masthead.Search.click();
         Search.search(arg);
     }
 
@@ -33,6 +33,6 @@ public class search extends App {
 
     @Then("^Verify post loads and title is (.*)$")
     public void verify_post_loads_and_title_is_post_title(String arg) throws Throwable {
-        Post.isTitle(arg);
+        Post.assertTitle(arg);
     }
 }

@@ -6,7 +6,9 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import setUpClasses.App;
+import setUpClasses.MobileException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,11 +32,11 @@ public class command {
 //    }
 
     public static void swipingHorizontal(String swipe) throws InterruptedException {
-        System.out.println("Swiping Horizontal: "+swipe);
+        //System.out.println("Swiping Horizontal: "+swipe);
         //Get the size of screen.
         Dimension size;
         size = App.driver.manage().window().getSize();
-        System.out.println("Screen Resolution: "+size);
+        //System.out.println("Screen Resolution: "+size);
         //Find swipe start and end point from screen's with and height.
         // Find startx point which is at right side of screen.
         int startx = (int) (size.width * 0.80);
@@ -42,7 +44,7 @@ public class command {
         int endx = (int) (size.width * 0.10);
         //Find vertical point where you wants to swipe. It is in middle of screen height.
         int starty = size.height / 2;
-        System.out.println("startx = " + startx + " ,endx = " + endx + " , starty = " + starty);
+        //System.out.println("startx = " + startx + " ,endx = " + endx + " , starty = " + starty);
 
         if(swipe.equals(App.SWIPE_RIGHT_TO_LEFT)){
             //Swipe from Right to Left.
@@ -221,5 +223,23 @@ public class command {
 //                    Dimension size = element.getSize();
 //                    driver.swipe(p.getX(), location.getY(), p.getX() - offset, location.getY() + size.getHeight(), duration);
 
+    }
+
+    public static void assertDisplay(WebElement element) {
+        try{
+            Assert.assertEquals(element.isDisplayed(), true);
+            scrollIntoView(element);
+            embedScreenshot(element);
+        }catch (Exception e){
+            new MobileException(e);
+        }
+    }
+
+    public static void assertChar(String actual, String expected) {
+        try{
+            Assert.assertEquals(actual,expected);
+        }catch (Exception e){
+            new MobileException(e);
+        }
     }
 }

@@ -1,8 +1,6 @@
 package setUpClasses;
 
 import commands.command;
-import org.apache.log4j.Logger;
-import org.openqa.selenium.NoSuchElementException;
 
 import java.io.IOException;
 
@@ -10,16 +8,15 @@ import java.io.IOException;
  * Created by rpalacios on 4/11/16.
  */
 public class MobileException extends Throwable {
-    Logger logger = Logger.getLogger(this.getClass());
 
     public MobileException(String message) {
         takeScreenshot(message);
         //logger.error(message);
     }
 
-    public MobileException(NoSuchElementException e) {
+    public MobileException(Exception e) {
         takeScreenshot(e.getMessage());
-        logger.error(e);
+        e.printStackTrace();
     }
 
     public void takeScreenshot(String message)
@@ -34,7 +31,6 @@ public class MobileException extends Throwable {
 
         } catch (IOException e) {
             e.printStackTrace();
-            logger.error(e);
         }
     }
 }
