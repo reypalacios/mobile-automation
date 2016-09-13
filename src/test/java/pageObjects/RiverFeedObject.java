@@ -1,5 +1,6 @@
 package pageObjects;
 
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
 import org.openqa.selenium.WebDriverException;
@@ -12,6 +13,7 @@ import setUpClasses.App;
  */
 public class RiverFeedObject {
 
+    @AndroidFindBy(id = "associated_post_list")
     @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[1]")
     public static WebElement topPost;
 

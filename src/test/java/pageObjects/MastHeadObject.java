@@ -47,12 +47,15 @@ public class MastHeadObject{
     @AndroidFindBy(xpath = "//*[@content-desc='More options']")
     public static WebElement KebabMenu;
 
+    @AndroidFindBy(id = "favorite_option")
     @iOSFindBy(id = "EasySaveOn")
     public static WebElement saveOn;
 
+    @AndroidFindBy(id = "favorite_option")
     @iOSFindBy(id = "EasySave Icon")
     public static WebElement save;
 
+    @AndroidFindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.ImageButton[1]")
     @iOSFindBy(xpath = "//*[@name='EasyBack Icon']")
     public static WebElement back;
 

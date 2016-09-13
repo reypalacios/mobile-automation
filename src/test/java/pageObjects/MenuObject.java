@@ -17,7 +17,7 @@ public class MenuObject {
     @AndroidFindBy(name = "FAVORITES")
     public static WebElement favorites;
 
-    @AndroidFindBy(name = "SAVED ARTICLES")
+    @AndroidFindBy(id = "drawer_list_item_function_text")
     @iOSFindBy(xpath = "//*[contains(@name,'Saved Articles')]")
     public static WebElement savedArticles;
 

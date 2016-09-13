@@ -1,5 +1,6 @@
 package pageObjects;
 
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
 import org.openqa.selenium.WebElement;
@@ -15,6 +16,7 @@ import java.io.IOException;
  */
 public class PostObject{
 
+    @AndroidFindBy(id = "post_headline_text")
     @iOSFindBy(xpath = "//UIAScrollView[1]/UIAScrollView[2]/UIAWebView[1]/UIAStaticText[1]")
     public static WebElement title;
 

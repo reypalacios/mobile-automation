@@ -49,7 +49,6 @@ public class pushPermissionRequest extends App {
     @When("^I tap on \"([^\"]*)\"$")
     public void i_tap_on(String arg1) throws Throwable {
         new PushPermissionRequestObject().clickEnableAlerts();
-
     }
 
     @Then("^The 'Push Notifications' Setting in the app is set to ON$")

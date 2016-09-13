@@ -2,10 +2,7 @@ package stepDefinitions.mobile;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import pageObjects.MastHeadObject;
-import pageObjects.MenuObject;
-import pageObjects.PostObject;
-import pageObjects.RiverFeedObject;
+import pageObjects.*;
 import setUpClasses.App;
 
 import static commands.command.assertChar;
@@ -17,35 +14,40 @@ import static commands.command.assertDisplay;
 public class savedArticles extends App{
 
     String posttitle;
+    SavedArticlesObject SavedArticles = new SavedArticlesObject();
+    MenuObject Menu = new MenuObject();
+    MastHeadObject Masthead = new MastHeadObject();
+    PostObject Post =new PostObject();
 
     @Then("^I save the post$")
     public void i_save_the_post() throws Throwable {
-        new MastHeadObject().save.click();
-        posttitle = new PostObject().title.getText();
-        new MastHeadObject().back.click();
+        Masthead.save.click();
+        posttitle = Post.title.getText();
+        Masthead.back.click();
     }
 
     @When("^I go the the Saved Articles section$")
     public void i_go_the_the_Saved_Articles_section() throws Throwable {
-        new MastHeadObject().clickHamburgerMenu();
-        new MenuObject().clickVertical("Saved Articles");
+        Masthead.clickHamburgerMenu();
+        Menu.clickVertical("Saved Articles");
     }
 
     @Then("^Saved post is available$")
     public void saved_post_is_available() throws Throwable {
-        assertChar(new RiverFeedObject().topPost.getAttribute("name"),posttitle);
+        //assertChar(new SavedArticlesObject().postsheadlines.get(0).getAttribute("name"),posttitle);
+        assertChar(SavedArticles.postsheadlines.get(0).getText(),posttitle);
     }
 
     @When("^I am on a saved post$")
     public void i_am_on_a_saved_post() throws Throwable {
-        RiverFeedObject.topPost.click();
+        SavedArticles.posts.get(0).click();
     }
 
     @Then("^I unsave the post$")
     public void i_unsave_the_post() throws Throwable {
         new MastHeadObject().saveOn.click();
-        assertDisplay(new MenuObject().home);
-        assertDisplay(new MastHeadObject().closeMenu);
-        new MastHeadObject().isCurrentTitle("BUSINESS INSIDER");
+        assertDisplay(Menu.home);
+        assertDisplay(Masthead.closeMenu);
+        Masthead.isCurrentTitle("BUSINESS INSIDER");
     }
 }
