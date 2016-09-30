@@ -95,7 +95,7 @@ public class command {
         System.out.println("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
 
         // Swipe from Bottom to Top.
-        App.driver.swipe(startx, starty, startx, endy, 3000);
+        App.driver.swipe(startx, starty+5, startx, endy, 3000);
         Thread.sleep(2000);
  /*       // Swipe from Top to Bottom.
         App.driver.swipe(startx, endy, startx, starty, 3000);
@@ -240,6 +240,15 @@ public class command {
             Assert.assertEquals(actual,expected);
         }catch (Exception e){
             new MobileException(e);
+        }
+    }
+
+    public static void assertNotDisplay(WebElement element) {
+        try{
+            Assert.assertEquals(element.isDisplayed(), false);
+        }catch (Exception e){
+            if (!e.getMessage().contains("Can't locate an element"))
+                new MobileException(e);
         }
     }
 }

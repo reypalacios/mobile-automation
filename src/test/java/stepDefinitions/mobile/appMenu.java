@@ -40,11 +40,12 @@ public class appMenu extends App{
 
     @Then("^Verify (.*) is rendered$")
     public void verify_vertical_is_rendered(String vertical) throws Throwable {
-        if(vertical.equals("HOME"))
-            vertical="BUSINESS INSIDER";
-        if(App.launchOn.equals("iOS") && vertical.equals("Legal Fine Print")){
-
-        }
+        vertical=vertical.toLowerCase();
+        if(vertical.equals("home"))
+            vertical="business insider";
+//        if(App.launchOn.equals("iOS") && vertical.equals("Legal Fine Print")){
+//
+//        }
         masthead.isCurrentTitle(vertical);
     }
 

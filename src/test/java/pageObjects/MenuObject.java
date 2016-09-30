@@ -21,91 +21,91 @@ public class MenuObject {
     @iOSFindBy(xpath = "//*[contains(@name,'Saved Articles')]")
     public static WebElement savedArticles;
 
-    @AndroidFindBy(name = "HOME")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='HOME']")
     @iOSFindBy(xpath= "//UIATableCell[@name='HOME']")
     public static WebElement home;
 
-    @AndroidFindBy(name = "Latest")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Latest']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Latest']")
     public static WebElement latest;
 
-    @AndroidFindBy(name = "TECH")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='TECH']")
     @iOSFindBy(xpath = "//UIATableCell[@name='TECH']")
     public static WebElement tech;
 
-    @AndroidFindBy(name = "Enterprise")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Enterprise']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Enterprise']")
     public static WebElement enterprise;
 
-    @AndroidFindBy(name = "Science")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Science']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Science']")
     public static WebElement science;
 
-    @AndroidFindBy(name = "FINANCE")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='FINANCE']")
     @iOSFindBy(xpath = "//UIATableCell[@name='FINANCE']")
     public static WebElement finance;
 
-    @AndroidFindBy(name = "Markets")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Markets']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Markets']")
     public static WebElement markets;
 
-    @AndroidFindBy(name = "Your Money")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Your Money']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Your Money']")
     public static WebElement yourmoney;
 
-    @AndroidFindBy(name = "Wealth Advisor")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Wealth Advisor']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Wealth Advisor']")
     public static WebElement wealthadvisor;
 
-    @AndroidFindBy(name = "POLITICS")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='POLITICS']")
     @iOSFindBy(xpath = "//UIATableCell[@name='POLITICS']")
     public static WebElement politics;
 
-    @AndroidFindBy(name = "Military & Defense")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Military & Defense']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Military & Defense']")
     public static WebElement militarydefense;
 
-    @AndroidFindBy(name = "Law & Order")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Law & Order']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Law & Order']")
     public static WebElement laworder;
 
-    @AndroidFindBy(name = "STRATEGY")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='STRATEGY']")
     @iOSFindBy(xpath = "//UIATableCell[@name='STRATEGY']")
     public static WebElement strategy;
 
-    @AndroidFindBy(name = "Careers")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Careers']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Careers']")
     public static WebElement careers;
 
-    @AndroidFindBy(name = "Advertising")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Advertising']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Advertising']")
     public static WebElement advertising;
 
-    @AndroidFindBy(name = "Retail")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Retail']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Retail']")
     public static WebElement retail;
 
-    @AndroidFindBy(name = "Small Business")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Small Business']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Small Business']")
     public static WebElement smallbusiness;
 
-    @AndroidFindBy(name = "LIFE")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='LIFE']")
     @iOSFindBy(xpath = "//UIATableCell[@name='LIFE']")
     public static WebElement life;
 
-    @AndroidFindBy(name = "Transportation")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Transportation']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Transportation']")
     public static WebElement transportation;
 
-    @AndroidFindBy(name = "Education")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Education']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Education']")
     public static WebElement education;
 
-    @AndroidFindBy(name = "ENTERTAINMENT")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='ENTERTAINMENT']")
     @iOSFindBy(xpath = "//UIATableCell[@name='ENTERTAINMENT']")
     public static WebElement entertainment;
 
-    @AndroidFindBy(name = "Sports")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Sports']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Sports']")
     public static WebElement sports;
 

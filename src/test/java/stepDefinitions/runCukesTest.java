@@ -14,7 +14,9 @@ import java.util.Date;
 //@RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features/mobile"
         ,format = {"pretty", "html:target/cucumber", "json:target/cucumber-report.json"}
-        ,tags = {"@save","~@iosbug","~@androidbug"}
+        ,tags = {"@push"
+        ,"~@iosbug" }
+        //,"~@androidbug"}
 )
 public class runCukesTest extends AbstractTestNGCucumberTests{
     @BeforeSuite

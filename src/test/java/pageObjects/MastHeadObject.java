@@ -77,11 +77,11 @@ public class MastHeadObject{
 
         try{
             Title.isDisplayed();
-            title=Title.getText();
-            if(title.equals("HOME"))
-                title = "BUSINESS INSIDER";
+            title=Title.getText().toLowerCase();
+            if(title.equals("home"))
+                title = "business insider";
         }catch (Exception e){
-            title = "BUSINESS INSIDER";
+            title = "business insider";
         }
 
         try{
