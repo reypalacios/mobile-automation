@@ -46,7 +46,7 @@ public class App {
     public static AppiumDriverLocalService appiumDriverLocalService;
     public static String posttitle;
     ServerArguments serverArguments = new ServerArguments();
-    DesiredCapabilities capabilities = new DesiredCapabilities();
+    public static DesiredCapabilities capabilities;
 
     public static String SWIPE_RIGHT_TO_LEFT = "Swipe Right to Left";
     public static String SWIPE_LEFT_TO_RIGHT = "Swipe Left to Right";
@@ -85,7 +85,7 @@ public class App {
 
 
             startAppiumServer(reset);
-
+            capabilities = new DesiredCapabilities();
             capabilities.setCapability("appium-version", "1.0");
             capabilities.setCapability("newCommandTimeout",250);
             //capabilities.setCapability("nativeWebTap", true);
@@ -186,10 +186,6 @@ public class App {
                     return null;
                 }
             };
-
-            //Thread.sleep(12000);
-//            if(new PushPermissionRequestObject().enablealerts.isDisplayed())
-//                new PushPermissionRequestObject().clickEnableAlerts();
             try {
                 if (App.scenario!=null && !App.scenario.getName().contains("notification")) {
                     WebDriverWait wait = new WebDriverWait(driver, 3);
@@ -202,47 +198,14 @@ public class App {
             }catch(NoSuchElementException ce){
                 System.out.println("Push permission request screen wasn't displayed");
             }
-
             driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-
-            System.out.println("App has launched");
-
         } catch (MalformedURLException e) {
             new MobileException(e);
         } catch (UnreachableBrowserException e){
             new MobileException(e);
         } catch (SessionNotCreatedException e) {
             new MobileException(e);
-/*            as.stopServer();
-            as.startServer();
-            try {
-                wd = new AppiumDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities) {
-                    @Override
-                    public WebElement scrollTo(String s) {
-                        return null;
-                    }
-
-                    @Override
-                    public WebElement scrollToExact(String s) {
-                        return null;
-                    }
-                };
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            }
-
-            wd.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
-            //wd.get("http://www.businessinsider.com/");
-            //wd.switchTo().alert().dismiss();
-            try {
-                Thread.sleep(3000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-            System.out.println("App has launched");*/
         }
-
     }
 
     public static void startAppiumServer(Boolean reset) {
@@ -286,12 +249,8 @@ public class App {
         try {
             if(driver != null) {
                 driver.closeApp();
-                //wd.close();
                 driver.quit();
-                //as.stopServer();
             }
-            //as.stopServer();
-            //new AppiumServer().stopAppium();
         } catch (WebDriverException wd){
             wd.printStackTrace();
         } catch (Exception e) {
@@ -301,149 +260,21 @@ public class App {
     }
 
     public void launchDeviceSettings() {
-        try {
-            //logger = Logger.getLogger();
-
-            System.out.println("Working Directory = " + System.getProperty("user.dir"));
-//            serverArguments.setArgument("/Applications/Appium.app/Contents/Resources/node_modules/appium/build/lib/main.js",false);
-//            serverArguments.setArgument("--address", "127.0.0.1");
-//            //serverArguments.setArgument("--no-reset", true);
-//            serverArguments.setArgument("--local-timezone", true);
-//            serverArguments.setArgument("--log", System.getProperty("user.dir")+"/logs/appium.log");
-//            serverArguments.setArgument("--command-timeout","7200");
-//            serverArguments.setArgument("--debug-log-spacing", true);
-//            serverArguments.setArgument("--port", "4723");
-//            serverArguments.setArgument("--native-instruments-lib", true);
-//            serverArguments.setArgument("--show-ios-log", true);
-//            serverArguments.setArgument("--launch-timeout","100000");
-//            serverArguments.setArgument("--session-override", true);
-//
-//           // as = new AppiumServer(new File("/Applications/Appium.app/Contents/Resources/"), serverArguments);
-//            as = new AppiumServer(serverArguments);
-
-
-            startAppiumServer(false);
-
-            capabilities.setCapability("appium-version", "1.0");
-            capabilities.setCapability("newCommandTimeout",250);
-            //capabilities.setCapability("nativeWebTap", true);
-
-            if(App.launchOn == null) {
-                App.launchOn = System.getProperty("launchOn");
-                if(App.launchOn == null) {
-                    new PropertyReader();
-                }
-                //App.VD = System.getProperty("VD");
-                //App.app = System.getProperty("app");
-
-                System.out.println("------------ Environmental Configurations ------------");
-                System.out.println("OS = " + App.launchOn);
-                if (App.launchOn.equals("Android")) {
-                    System.out.println("AVD = " + App.VD);
-                }if (App.launchOn.equals("iOS")){
-                    System.out.println("Simulator = " + App.VD);
-                    System.out.println("App = " + App.app);
-                }
-                //System.out.println("Script = "+  this.getClass().geco . script);
-                System.out.println("------------------------------------------------------");
-            }
-
-            capabilities.setCapability("platformName", App.launchOn);
-            if (App.launchOn.equals("Android")) {
-                capabilities.setCapability("platformVersion", App.platformVersion);
-                capabilities.setCapability("avd", App.VD);
-                capabilities.setCapability("deviceName", "Android Emulator");
-
-                /*if (App.apk==null){
-                    App.apk="com.freerange360.mpp.businessinsider-120150427.apk";
-                }*/
-                File file = new File("AndroidApps/"+App.apk);
-
-                capabilities.setCapability("app", file.getAbsolutePath());
-                capabilities.setCapability("appPackage", App.apppackage);
-                //capabilities.setCapability("appActivity", "com.businessinsider.app.MainActivity");
-                capabilities.setCapability("appActivity", App.appactivity);
-
-
-
-//                driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
-//                    @Override
-//                    public WebElement scrollTo(String s) {
-//                        return null;
-//                    }
-//
-//                    @Override
-//                    public WebElement scrollToExact(String s) {
-//                        return null;
-//                    }
-//                };
-
-            }
-            if (App.launchOn.equals("iOS")) {
-
-                capabilities.setCapability("deviceName", App.VD.split(" \\(")[0]);
-                capabilities.setCapability("platformVersion", App.VD.split("\\(")[1].replaceAll("\\)", "").replace(")",""));
-                //capabilities.setCapability("udid", App.VD.split(" \\(")[0]);
-                //capabilities.setCapability("autoAcceptAlerts", "false");
-                //capabilities.setCapability("browserName", "safari");
-
-                //File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/bi-gyuliygdywwmomgyzfymhpymfueq/Build/Products/Debug-iphonesimulator/bi.app");
-                //File file = new File("/Users/rpalacios/Downloads/Debug-iphonesimulator/iPhoneBI.app");
-
-                //if (App.app.equals("Business Insider") || App.app.equals("Business_Insider")) {
-                //File file = new File("iOSApps/"+App.app);
-                //File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphonesimulator/iPhoneBI.app");
-                //file = new File("/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app");
-                //}
-//                if (App.app.equals("Tech Insider") || App.app.equals("Tech_Insider")) {
-//                    file = new File("iOSApps/iPhoneTI.app");
-//                }
-                capabilities.setCapability("app", "settings");
-
-//               driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
-//                    @Override
-//                    public WebElement scrollTo(String s) {
-//                        return null;
-//                    }
-//
-//                    @Override
-//                    public WebElement scrollToExact(String s) {
-//                        return null;
-//                    }
-//                };
-            }
-
+        try{
+            capabilities.setCapability("app", "settings");
             driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
-                @Override
-                public WebElement scrollTo(String s) {
-                    return null;
-                }
+                 @Override
+                 public WebElement scrollTo(String s) {
+                        return null;
+                    }
 
-                @Override
-                public WebElement scrollToExact(String s) {
-                    return null;
-                }
-            };
+                 @Override
+                 public WebElement scrollToExact(String s) {
+                        return null;
+                    }
+             };
 
-            //Thread.sleep(12000);
-//            if(new PushPermissionRequestObject().enablealerts.isDisplayed())
-//                new PushPermissionRequestObject().clickEnableAlerts();
-            try {
-                if (App.scenario!=null && !App.scenario.getName().contains("notification")) {
-                    WebDriverWait wait = new WebDriverWait(driver, 3);
-                    wait.until(ExpectedConditions.visibilityOf(new PushPermissionRequestObject().enablealerts));
-                    //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
-                    new PushPermissionRequestObject().enablealerts.click();
-                }
-            }catch(TimeoutException e){
-                System.out.println("Push permission request screen wasn't displayed");
-            }catch(NoSuchElementException ce){
-                System.out.println("Push permission request screen wasn't displayed");
-            }
-
-            driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-
-            System.out.println("App has launched");
+             driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
         } catch (MalformedURLException e) {
             new MobileException(e);
@@ -451,35 +282,6 @@ public class App {
             new MobileException(e);
         } catch (SessionNotCreatedException e) {
             new MobileException(e);
-/*            as.stopServer();
-            as.startServer();
-            try {
-                wd = new AppiumDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities) {
-                    @Override
-                    public WebElement scrollTo(String s) {
-                        return null;
-                    }
-
-                    @Override
-                    public WebElement scrollToExact(String s) {
-                        return null;
-                    }
-                };
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            }
-
-            wd.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
-            //wd.get("http://www.businessinsider.com/");
-            //wd.switchTo().alert().dismiss();
-            try {
-                Thread.sleep(3000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-            System.out.println("App has launched");*/
         }
-
     }
 }

@@ -3,8 +3,8 @@ package stepDefinitions.mobile;
 import commands.command;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import pageObjects.MastHeadObject;
-import pageObjects.MenuObject;
+import org.openqa.selenium.WebElement;
+import pageObjects.DeviceSettingsObject;
 import pageObjects.PushPermissionRequestObject;
 import setUpClasses.App;
 
@@ -14,8 +14,9 @@ import setUpClasses.App;
 public class pushPermissionRequest extends App {
 
     //PushPermissionRequestObject pushpermissionrequest = new PushPermissionRequestObject();
-    MastHeadObject masthead = new MastHeadObject();
-    MenuObject menu = new MenuObject();
+    //MastHeadObject masthead = new MastHeadObject();
+    //MenuObject menu = new MenuObject();
+    //DeviceSettingsObject deviceSettings = new DeviceSettingsObject();
 
     @When("^I open the app for the first time$")
     public void i_open_the_app_for_the_first_time() throws Throwable {
@@ -55,16 +56,19 @@ public class pushPermissionRequest extends App {
 
     @Then("^The 'Push Notifications' Setting in the app is set to ON$")
     public void the_Push_Notifications_Setting_in_the_app_is_set_to_ON() throws Throwable {
-//        launch(false);
         launchDeviceSettings();
-        command.scrolldown(driver.findElementByXPath("//UIAStaticText[@name='BI']"));
-        driver.findElementByXPath("//UIAStaticText[@name='BI']").click();
-        driver.findElementByXPath("/UIAStaticText[@name='Notifications']").click();
+        command.scrolldown(new DeviceSettingsObject().gameCenter);
+        new DeviceSettingsObject().BI.click();
+        new DeviceSettingsObject().notifications.click();
+        command.assertSelected((WebElement) new DeviceSettingsObject().allowNotificaitons.get(2));
     }
 
     @Then("^The 'Push Notifications' Setting in the app is set to OFF$")
     public void the_Push_Notifications_Setting_in_the_app_is_set_to_OFF() throws Throwable {
-
+        launchDeviceSettings();
+        command.scrolldown(new DeviceSettingsObject().gameCenter);
+        new DeviceSettingsObject().BI.click();
+        command.assertNotDisplay(new DeviceSettingsObject().notifications);
     }
 
     @When("^I open previous app version for first time$")

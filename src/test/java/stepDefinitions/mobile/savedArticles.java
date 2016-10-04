@@ -34,7 +34,6 @@ public class savedArticles extends App{
 
     @Then("^Saved post is available$")
     public void saved_post_is_available() throws Throwable {
-        //assertChar(new SavedArticlesObject().postsheadlines.get(0).getAttribute("name"),posttitle);
         assertChar(SavedArticles.postsheadlines.get(0).getText(),posttitle);
     }
 
@@ -49,5 +48,10 @@ public class savedArticles extends App{
         assertDisplay(Menu.home);
         assertDisplay(Masthead.closeMenu);
         Masthead.isCurrentTitle("BUSINESS INSIDER");
+    }
+
+    @When("^I unsave the post via saved articles$")
+    public void i_unsave_the_post_via_saved_articles() throws Throwable {
+    
     }
 }

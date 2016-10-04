@@ -3,6 +3,7 @@ package pageObjects;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AndroidFindBys;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSFindBy;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -16,11 +17,11 @@ import java.util.List;
 public class SavedArticlesObject {
 
     @AndroidFindBys(@AndroidFindBy(id = "recommended_cell_frame"))
-    //@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[1]")
+    @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell")
     public static List<WebElement> posts;
 
     @AndroidFindBys(@AndroidFindBy(id = "recommended_cell_headline"))
-    //@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[1]")
+    @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[1]/UIAStaticText")
     public static List<WebElement> postsheadlines;
 
     public SavedArticlesObject() {

@@ -94,8 +94,11 @@ public class command {
 
         System.out.println("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
 
-        // Swipe from Bottom to Top.
-        App.driver.swipe(startx, starty+5, startx, endy, 3000);
+        if(App.launchOn.equals("Android"))
+            // Swipe from Bottom to Top.
+            App.driver.swipe(startx, starty, startx, endy, 3000);
+        else
+            App.driver.swipe(startx, starty, startx, -endy, 3000);
         Thread.sleep(2000);
  /*       // Swipe from Top to Bottom.
         App.driver.swipe(startx, endy, startx, starty, 3000);
@@ -229,6 +232,23 @@ public class command {
         try{
             Assert.assertEquals(element.isDisplayed(), true);
             scrollIntoView(element);
+            embedScreenshot(element);
+        }catch (Exception e){
+            new MobileException(e);
+        }
+    }
+
+    public static void assertSelected(WebElement element) {
+        try{
+            Assert.assertEquals(element.isSelected(), true);
+            embedScreenshot(element);
+        }catch (Exception e){
+            new MobileException(e);
+        }
+    }
+    public static void assertNotSelected(WebElement element) {
+        try{
+            Assert.assertEquals(element.isDisplayed(), false);
             embedScreenshot(element);
         }catch (Exception e){
             new MobileException(e);

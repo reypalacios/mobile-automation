@@ -85,7 +85,7 @@ public class MastHeadObject{
         }
 
         try{
-            Assert.assertEquals(title, expectedTitle);
+            Assert.assertEquals(title, expectedTitle.toLowerCase());
         }catch(Exception e){
             new MobileException(e);
         }
