@@ -8,12 +8,12 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.AndroidServerFlag;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
-import pageObjects.PushPermissionRequestObject;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.UnreachableBrowserException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pageObjects.PushPermissionRequestObject;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -187,10 +187,9 @@ public class App {
                 }
             };
             try {
-                if (App.scenario!=null && !App.scenario.getName().contains("notification")) {
-                    WebDriverWait wait = new WebDriverWait(driver, 3);
+                if (App.scenario==null || !App.scenario.getName().contains("notification")) {
+                    WebDriverWait wait = new WebDriverWait(App.driver, 3);
                     wait.until(ExpectedConditions.visibilityOf(new PushPermissionRequestObject().enablealerts));
-                    //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
                     new PushPermissionRequestObject().enablealerts.click();
                 }
             }catch(TimeoutException e){

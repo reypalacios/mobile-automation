@@ -238,6 +238,14 @@ public class command {
         }
     }
 
+    public static void assertEnabled(WebElement element) {
+        try{
+            Assert.assertEquals(element.isEnabled(), true);
+        }catch (Exception e){
+            new MobileException(e);
+        }
+    }
+
     public static void assertSelected(WebElement element) {
         try{
             Assert.assertEquals(element.isSelected(), true);

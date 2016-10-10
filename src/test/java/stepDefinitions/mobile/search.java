@@ -1,7 +1,9 @@
 package stepDefinitions.mobile;
 
+import commands.command;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebElement;
 import pageObjects.MastHeadObject;
 import pageObjects.PostObject;
 import pageObjects.SearchObject;
@@ -23,11 +25,28 @@ public class search extends App {
 
     @Then("^I see post with title (.*) in the search results$")
     public void i_see_post_with_title_in_the_search_results(String arg) throws Throwable {
-        Search.scrollintoview(arg);
+        try {
+            command.assertEnabled((WebElement) App.driver.findElementsByAccessibilityId(arg).get(1));
+        } catch (Exception e) {
+            if (e.getMessage().contains("IndexOutOfBoundsException"))
+                command.assertEnabled((WebElement) App.driver.findElementsByAccessibilityId(arg).get(0));
+            //Search.scrollintoview(arg);
+        }
     }
 
     @When("^I click post with title, (.*)$")
     public void i_click_the_post_with_title(String arg) throws Throwable {
+        //First click focus, second click actually clicks
+//        try{
+//            ((WebElement)(App.driver.findElementsByAccessibilityId(arg).get(1))).click();
+//        }catch(WebDriverException e){
+//            if (e.getMessage().contains("could not be tapped"))
+//                ((WebElement)(App.driver.findElementsByAccessibilityId(arg).get(0))).click();
+//            else
+//                e.printStackTrace();
+//        }
+//        Thread.sleep(1000);
+//        ((WebElement)(App.driver.findElementsByAccessibilityId(arg).get(0))).click();
         Search.clickPost(arg);
     }
 

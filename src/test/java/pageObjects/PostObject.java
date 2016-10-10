@@ -1,5 +1,6 @@
 package pageObjects;
 
+import commands.command;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -46,11 +47,20 @@ public class PostObject{
     }
 
     public void assertTitle(String expectedTitle) throws InterruptedException, MobileException, IOException {
-
         try {
             Assert.assertEquals(title.getText().toLowerCase(), expectedTitle.toLowerCase());
         }catch(Exception e){
             new MobileException(e);
+        }
+    }
+
+    public boolean isAPost() {
+        try {
+            command.assertDisplay(title);
+            command.assertDisplay(author);
+            return true;
+        }catch(Exception e){
+            return false;
         }
     }
 }
