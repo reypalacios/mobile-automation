@@ -24,10 +24,7 @@ import java.util.concurrent.TimeUnit;
  * Created by rpalacios on 12/15/15.
  */
 public class App {
-
     public static AppiumDriver driver;
-//    private AndroidDriver Androiddriver;
-//    private IOSDriver IOSdriver;
     public static String launchOn;
     public static String VD;
     public static String apppackage;
@@ -52,42 +49,13 @@ public class App {
     public static String SWIPE_LEFT_TO_RIGHT = "Swipe Left to Right";
     private static AppiumServiceBuilder builder;
 
-//    public App (){
-//        if(driver==null)
-//            try {
-//                launch(true);
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
-//    }
-
     public void launch(Boolean reset) throws InterruptedException {
         try {
-            //logger = Logger.getLogger();
-            screenshotCleanup();
-
-            System.out.println("Working Directory = " + System.getProperty("user.dir"));
-//            serverArguments.setArgument("/Applications/Appium.app/Contents/Resources/node_modules/appium/build/lib/main.js",false);
-//            serverArguments.setArgument("--address", "127.0.0.1");
-//            //serverArguments.setArgument("--no-reset", true);
-//            serverArguments.setArgument("--local-timezone", true);
-//            serverArguments.setArgument("--log", System.getProperty("user.dir")+"/logs/appium.log");
-//            serverArguments.setArgument("--command-timeout","7200");
-//            serverArguments.setArgument("--debug-log-spacing", true);
-//            serverArguments.setArgument("--port", "4723");
-//            serverArguments.setArgument("--native-instruments-lib", true);
-//            serverArguments.setArgument("--show-ios-log", true);
-//            serverArguments.setArgument("--launch-timeout","100000");
-//            serverArguments.setArgument("--session-override", true);
-//
-//           // as = new AppiumServer(new File("/Applications/Appium.app/Contents/Resources/"), serverArguments);
-//            as = new AppiumServer(serverArguments);
-
-
             startAppiumServer(reset);
             capabilities = new DesiredCapabilities();
             capabilities.setCapability("appium-version", "1.0");
             capabilities.setCapability("newCommandTimeout",250);
+            //capabilities.setCapability("automationName", "XCUITest");
             //capabilities.setCapability("nativeWebTap", true);
 
             if(App.launchOn == null) {
@@ -95,8 +63,6 @@ public class App {
                 if(App.launchOn == null) {
                     new PropertyReader();
                 }
-                //App.VD = System.getProperty("VD");
-                //App.app = System.getProperty("app");
 
                 System.out.println("------------ Environmental Configurations ------------");
                 System.out.println("OS = " + App.launchOn);
@@ -106,7 +72,6 @@ public class App {
                     System.out.println("Simulator = " + App.VD);
                     System.out.println("App = " + App.app);
                 }
-                //System.out.println("Script = "+  this.getClass().geco . script);
                 System.out.println("------------------------------------------------------");
             }
 
@@ -115,64 +80,26 @@ public class App {
                 capabilities.setCapability("platformVersion", App.platformVersion);
                 capabilities.setCapability("avd", App.VD);
                 capabilities.setCapability("deviceName", "Android Emulator");
-
-                /*if (App.apk==null){
-                    App.apk="com.freerange360.mpp.businessinsider-120150427.apk";
-                }*/
                 File file = new File("AndroidApps/"+App.apk);
-
                 capabilities.setCapability("app", file.getAbsolutePath());
                 capabilities.setCapability("appPackage", App.apppackage);
                 //capabilities.setCapability("appActivity", "com.businessinsider.app.MainActivity");
                 capabilities.setCapability("appActivity", App.appactivity);
-
-
-
-//                driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
-//                    @Override
-//                    public WebElement scrollTo(String s) {
-//                        return null;
-//                    }
-//
-//                    @Override
-//                    public WebElement scrollToExact(String s) {
-//                        return null;
-//                    }
-//                };
 
             }
             if (App.launchOn.equals("iOS")) {
 
                 capabilities.setCapability("deviceName", App.VD.split(" \\(")[0]);
                 capabilities.setCapability("platformVersion", App.VD.split("\\(")[1].replaceAll("\\)", "").replace(")",""));
-                //capabilities.setCapability("udid", App.VD.split(" \\(")[0]);
-                //capabilities.setCapability("autoAcceptAlerts", "false");
-                //capabilities.setCapability("browserName", "safari");
+                //These capabilities will make it run in real device
+                //capabilities.setCapability("deviceName", "bi's iPhone");
+                //capabilities.setCapability("platformVersion", "9.2");
+                //capabilities.setCapability("udid", "d70d5498f3cba8bd30993ffacac90cbb1bcc9919");
+                capabilities.setCapability("bundleId", App.bundleid);
 
-                //File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/bi-gyuliygdywwmomgyzfymhpymfueq/Build/Products/Debug-iphonesimulator/bi.app");
-                //File file = new File("/Users/rpalacios/Downloads/Debug-iphonesimulator/iPhoneBI.app");
-
-                //if (App.app.equals("Business Insider") || App.app.equals("Business_Insider")) {
-                //File file = new File("iOSApps/"+App.app);
                 File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphonesimulator/iPhoneBI.app");
-                    //file = new File("/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app");
-                //}
-//                if (App.app.equals("Tech Insider") || App.app.equals("Tech_Insider")) {
-//                    file = new File("iOSApps/iPhoneTI.app");
-//                }
-               capabilities.setCapability("app", file.getAbsolutePath());
-
-//               driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
-//                    @Override
-//                    public WebElement scrollTo(String s) {
-//                        return null;
-//                    }
-//
-//                    @Override
-//                    public WebElement scrollToExact(String s) {
-//                        return null;
-//                    }
-//                };
+                //file = new File("/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app");
+                capabilities.setCapability("app", file.getAbsolutePath());
             }
 
             driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
@@ -226,8 +153,6 @@ public class App {
         if (!appiumDriverLocalService.isRunning()) {
             System.out.println("Starting Appium Server...");
             Thread.currentThread().setName("AppiumServer");
-            //as.stopServer();
-            //System.out.println($APPIUM_BINARY_PATH);
             appiumDriverLocalService.start();
         }
     }
@@ -272,9 +197,7 @@ public class App {
                         return null;
                     }
              };
-
              driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-
         } catch (MalformedURLException e) {
             new MobileException(e);
         } catch (UnreachableBrowserException e){

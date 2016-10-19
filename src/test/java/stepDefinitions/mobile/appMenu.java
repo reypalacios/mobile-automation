@@ -13,7 +13,6 @@ import pageObjects.MenuObject;
  */
 public class appMenu extends App{
 
-//    Logger logger = Logger.getLogger(this.getClass());
     MastHeadObject masthead = new MastHeadObject();
     MenuObject verticals = new MenuObject();
 
@@ -21,17 +20,6 @@ public class appMenu extends App{
     public void hamburger_menu_is_open() throws Throwable {
         masthead.clickHamburgerMenu();
     }
-
-//    @When("^I click the Favorites$")
-//    public void i_click_the_Favorites() throws Throwable {
-//        verticals.clickFavorites();
-//    }
-//
-//    @Then("^Verify Favorites is rendered$")
-//    public void verify_Favorites_is_rendered() throws Throwable {
-//        masthead.isCurrentTitle("Favorites");
-//        App.driver.navigate().back();
-//    }
 
     @When("^I click (.*) option$")
     public void i_click_vertical(String arg) throws Throwable {
@@ -43,9 +31,6 @@ public class appMenu extends App{
         vertical=vertical.toLowerCase();
         if(vertical.equals("home"))
             vertical="business insider";
-//        if(App.launchOn.equals("iOS") && vertical.equals("Legal Fine Print")){
-//
-//        }
         masthead.isCurrentTitle(vertical);
     }
 

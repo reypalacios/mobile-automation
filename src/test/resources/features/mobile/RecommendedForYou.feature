@@ -11,7 +11,6 @@ Feature: Recommended For You
 
  Scenario: Click each of the five recommendations
 
-  Given I am on the post page
   When I click the first river-post recommendation
   Then I am redirected to the post
 

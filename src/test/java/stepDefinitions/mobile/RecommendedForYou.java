@@ -14,6 +14,7 @@ import setUpClasses.App;
  * Created by rpalacios on 6/6/16.
  */
 public class recommendedForYou extends App {
+    RecommendedForYouObject recommendedForYou = new RecommendedForYouObject();
     RiverFeedObject RiverFeed = new RiverFeedObject();
     Boolean checkPostTitle = true;
 
@@ -24,21 +25,23 @@ public class recommendedForYou extends App {
 
     @Then("^River post recommended for you module is displayed$")
     public void river_post_recommended_for_you_module_is_displayed() throws Throwable {
-        new RecommendedForYouObject().isDisplayed();
+        //new RecommendedForYouObject().isDisplayed();
+        recommendedForYou.isDisplayed();
     }
 
     @When("^I click the first river-post recommendation$")
     public void i_click_the_first_river_post_recommendation() throws Throwable {
         posttitle=driver.findElementByXPath("//*[@label='recommended'][1]/UIALink").getText();
-        driver.findElementByXPath("//*[@label='recommended'][1]").click();
-
+        //driver.findElementByXPath("//*[@label='recommended'][1]").click();
+        recommendedForYou.recommendations.get(0).click();
     }
 
     @When("^I click the second river-post recommendation$")
     public void i_click_the_second_river_post_recommendation() throws Throwable {
         RiverFeed.clickTopPost();
         posttitle=driver.findElementByXPath("//*[@label='recommended'][2]/UIALink").getText();
-        driver.findElementByXPath("//*[@label='recommended'][2]").click();
+        //driver.findElementByXPath("//*[@label='recommended'][2]").click();
+        recommendedForYou.recommendations.get(1).click();
         //new MastHeadObject().back.click();
     }
 
@@ -47,6 +50,7 @@ public class recommendedForYou extends App {
         RiverFeed.clickTopPost();
         try {
             posttitle = driver.findElementByXPath("//*[@label='recommended'][3]/UIALink").getText();
+            recommendedForYou.recommendations.get(3).click();
             driver.findElementByXPath("//*[@label='recommended'][3]").click();
         }catch (NoSuchElementException e) {
             if (driver.findElementsByXPath("//*[@label='recommended']").size()<3) checkPostTitle=false;
