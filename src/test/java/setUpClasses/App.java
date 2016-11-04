@@ -1,9 +1,9 @@
 package setUpClasses;
 
-import com.github.genium_framework.appium.support.server.AppiumServer;
-import com.github.genium_framework.server.ServerArguments;
 import cucumber.api.Scenario;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.AndroidServerFlag;
@@ -35,19 +35,14 @@ public class App {
     public static String oldapp;
     public static String apk;
     public static String oldapk;
-    public static String script;
-    public static String platformName;
     public static String platformVersion;
     public static Scenario scenario;
-    public static AppiumServer as;
     public static AppiumDriverLocalService appiumDriverLocalService;
     public static String posttitle;
-    ServerArguments serverArguments = new ServerArguments();
     public static DesiredCapabilities capabilities;
-
     public static String SWIPE_RIGHT_TO_LEFT = "Swipe Right to Left";
     public static String SWIPE_LEFT_TO_RIGHT = "Swipe Left to Right";
-    private static AppiumServiceBuilder builder;
+    public static AppiumServiceBuilder builder;
 
     public void launch(Boolean reset) throws InterruptedException {
         try {
@@ -55,8 +50,6 @@ public class App {
             capabilities = new DesiredCapabilities();
             capabilities.setCapability("appium-version", "1.0");
             capabilities.setCapability("newCommandTimeout",250);
-            //capabilities.setCapability("automationName", "XCUITest");
-            //capabilities.setCapability("nativeWebTap", true);
 
             if(App.launchOn == null) {
                 App.launchOn = System.getProperty("launchOn");
@@ -83,8 +76,19 @@ public class App {
                 File file = new File("AndroidApps/"+App.apk);
                 capabilities.setCapability("app", file.getAbsolutePath());
                 capabilities.setCapability("appPackage", App.apppackage);
-                //capabilities.setCapability("appActivity", "com.businessinsider.app.MainActivity");
                 capabilities.setCapability("appActivity", App.appactivity);
+
+                driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+                    @Override
+                    public WebElement scrollTo(String s) {
+                        return null;
+                    }
+
+                    @Override
+                    public WebElement scrollToExact(String s) {
+                        return null;
+                    }
+                };
 
             }
             if (App.launchOn.equals("iOS")) {
@@ -97,25 +101,26 @@ public class App {
                 //capabilities.setCapability("udid", "d70d5498f3cba8bd30993ffacac90cbb1bcc9919");
                 capabilities.setCapability("bundleId", App.bundleid);
 
+                //File would be grabbed from default location where xcode creates the app.
                 File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphonesimulator/iPhoneBI.app");
                 //file = new File("/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app");
                 capabilities.setCapability("app", file.getAbsolutePath());
+
+                driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+                    @Override
+                    public WebElement scrollTo(String s) {
+                        return null;
+                    }
+
+                    @Override
+                    public WebElement scrollToExact(String s) {
+                        return null;
+                    }
+                };
             }
 
-            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
-                @Override
-                public WebElement scrollTo(String s) {
-                    return null;
-                }
-
-                @Override
-                public WebElement scrollToExact(String s) {
-                    return null;
-                }
-            };
             try {
-                if (App.scenario==null || !App.scenario.getName().contains("notification")) {
-                    WebDriverWait wait = new WebDriverWait(App.driver, 3);
+                if (App.scenario==null || !App.scenario.getName().contains("notification")) {WebDriverWait wait = new WebDriverWait(App.driver, 4);
                     wait.until(ExpectedConditions.visibilityOf(new PushPermissionRequestObject().enablealerts));
                     new PushPermissionRequestObject().enablealerts.click();
                 }
@@ -126,11 +131,11 @@ public class App {
             }
             driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         } catch (MalformedURLException e) {
-            new MobileException(e);
+            e.printStackTrace();
         } catch (UnreachableBrowserException e){
-            new MobileException(e);
+            e.printStackTrace();
         } catch (SessionNotCreatedException e) {
-            new MobileException(e);
+            e.printStackTrace();
         }
     }
 
@@ -154,17 +159,6 @@ public class App {
             System.out.println("Starting Appium Server...");
             Thread.currentThread().setName("AppiumServer");
             appiumDriverLocalService.start();
-        }
-    }
-
-    private void screenshotCleanup() {
-        StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
-        File file = new File("screenshots/");
-        File[] listOfFiles = file.listFiles();
-        if(listOfFiles!=null)
-        for (File f:listOfFiles){
-            if(f.getName().contains(stackTraceElements[3].getClassName()))
-                f.delete();
         }
     }
 
@@ -199,11 +193,11 @@ public class App {
              };
              driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         } catch (MalformedURLException e) {
-            new MobileException(e);
+            e.printStackTrace();
         } catch (UnreachableBrowserException e){
-            new MobileException(e);
+            e.printStackTrace();
         } catch (SessionNotCreatedException e) {
-            new MobileException(e);
+            e.printStackTrace();
         }
     }
 }

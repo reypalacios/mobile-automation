@@ -1,23 +1,20 @@
 package commands;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import pageObjects.RecommendedForYouObject;
 import setUpClasses.App;
-import setUpClasses.MobileException;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.List;
 
 /**
  * Created by rpalacios on 7/1/16.
  */
-public class command {
+public class window {
 
 //    public static void takeScreenshot()
 //    {
@@ -52,7 +49,9 @@ public class command {
             if(App.launchOn.equals("Android"))
                 App.driver.swipe(startx, starty, endx, starty, 500);
             else
-                App.driver.swipe(starty/2, startx/2, -starty/2, endx, 100);
+                App.driver.swipe(startx/2, starty/2, -startx/2, 0, 1);
+                //App.driver.swipe(100, 650, -100, 0, 100)
+                //App.driver.swipe(100, 100, -100, 0, 1/2)
             Thread.sleep(2000);
         }
         if(swipe.equals(App.SWIPE_LEFT_TO_RIGHT)){
@@ -60,7 +59,7 @@ public class command {
             if(App.launchOn.equals("Android"))
                 App.driver.swipe(endx, starty, startx, starty, 500);
             else
-                App.driver.swipe(starty/2, startx/2, starty/2, endx, 100);
+                App.driver.swipe(startx/2, starty/2, startx/2, 0, 1);
             Thread.sleep(2000);
         }
     }
@@ -110,18 +109,18 @@ public class command {
     /**
      * Embeds a screenshot to the cucumber report
      * @throws IOException
-     */
+     *//*
     public static void embedScreenshot() throws IOException {
         System.out.println("Embedding screenshot...");
         //byte[] screenshot = App.driver.getScreenshotAs(OutputType.BYTES);
         byte[] screenshot = new screenshot().fullScreenshot();
         App.scenario.embed(screenshot, "image/png");
-    }
+    }*/
 
-    public static void embedScreenshot(WebElement webelement) throws IOException {
-        byte[] screenshot = new commands.screenshot().webElementScreenshot(webelement);
-        App.scenario.embed(screenshot, "image/png");
-    }
+//    public static void embedScreenshot(WebElement webelement) throws IOException {
+//        byte[] screenshot = new commands.screenshot().webElementScreenshot(webelement);
+//        App.scenario.embed(screenshot, "image/png");
+//    }
 
     /**
      * Puts app in the background for x seconds
@@ -213,28 +212,43 @@ public class command {
         //while(driver.findElementsById("news_alerts_headlines_text").isEmpty()){  }
     }
 
-    public static void scrollIntoView(WebElement module) throws InterruptedException {
-//
-//                    int offset = 1;
-//                    Point p = element.getCenter();
-//                    Point location = element.getLocation();
-//                    Dimension size = element.getSize();
-//                    driver.swipe(p.getX(), location.getY() + size.getHeight() + offset, p.getX(), location.getY(), duration);
-//                   int offset = 1;
-//                    Point p = module.getCenter();
-//                    Point location = element.getLocation();
-//                    Dimension size = element.getSize();
-//                    driver.swipe(p.getX(), location.getY(), p.getX() - offset, location.getY() + size.getHeight(), duration);
+    public static void scrollIntoView(WebElement element) throws InterruptedException {
+        Dimension size = App.driver.manage().window().getSize();
+        int y_start = (int) (size.height * 0.60);
+        int y_end = (int) (size.height * 0.30);
+        int x = size.width / 2;
+        try{
+            element.isDisplayed();
+        }catch(NoSuchElementException n) {
+            App.driver.swipe(x, y_start, x, y_end, 100);
+            scrollIntoView(element);
+        }
+    }
 
+    public static void scrollIntoView(List<WebElement> recommendations, int index) throws InterruptedException {
+        try{
+            recommendations.get(index);
+        }catch(IndexOutOfBoundsException i){
+            scrollDown();
+            scrollIntoView(new RecommendedForYouObject().recommendations, index);
+        }
+    }
+
+    public static void scrollDown() throws InterruptedException {
+        Dimension size = App.driver.manage().window().getSize();
+        int y_start = (int) (size.height * 0.60);
+        int y_end = (int) (size.height * 0.30);
+        int x = size.width / 2;
+        App.driver.swipe(x, y_start, x, y_end, 100);
     }
 
     public static void assertDisplay(WebElement element) {
         try{
             Assert.assertEquals(element.isDisplayed(), true);
             scrollIntoView(element);
-            embedScreenshot(element);
+            //embedScreenshot(element);
         }catch (Exception e){
-            new MobileException(e);
+            e.printStackTrace();
         }
     }
 
@@ -242,24 +256,24 @@ public class command {
         try{
             Assert.assertEquals(element.isEnabled(), true);
         }catch (Exception e){
-            new MobileException(e);
+            e.printStackTrace();
         }
     }
 
     public static void assertSelected(WebElement element) {
         try{
             Assert.assertEquals(element.isSelected(), true);
-            embedScreenshot(element);
+            //embedScreenshot(element);
         }catch (Exception e){
-            new MobileException(e);
+            e.printStackTrace();
         }
     }
     public static void assertNotSelected(WebElement element) {
         try{
             Assert.assertEquals(element.isDisplayed(), false);
-            embedScreenshot(element);
+            //embedScreenshot(element);
         }catch (Exception e){
-            new MobileException(e);
+            e.printStackTrace();
         }
     }
 
@@ -267,7 +281,7 @@ public class command {
         try{
             Assert.assertEquals(actual,expected);
         }catch (Exception e){
-            new MobileException(e);
+            e.printStackTrace();
         }
     }
 
@@ -276,7 +290,9 @@ public class command {
             Assert.assertEquals(element.isDisplayed(), false);
         }catch (Exception e){
             if (!e.getMessage().contains("Can't locate an element"))
-                new MobileException(e);
+                e.printStackTrace();
         }
     }
+
+
 }

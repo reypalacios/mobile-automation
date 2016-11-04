@@ -1,6 +1,8 @@
 package pageObjects;
 
-import commands.command;
+import commands.window;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -9,21 +11,22 @@ import setUpClasses.App;
 import java.io.IOException;
 import java.util.List;
 
-import static commands.command.embedScreenshot;
-
 
 public class RecommendedForYouObject {
 
     private static String posttitle;
 
-    @iOSFindBy(xpath = "//*[@label='Recommended For You']")
+    @AndroidFindBy(id = "post_recommended_separator_text")
+    @iOSFindBy(xpath = "//*[@name='Recommended For You']")
     public WebElement module;
 
-    @iOSFindBy(xpath = "//*[@name='recommended']")
+    //@AndroidFindBy(xpath = "//*[@resource-id='com.freerange360.mpp.businessinsider:id/post_recommended_list']//@[]")
+    @AndroidFindBy(id = "recommended_cell_headline")
+    @iOSFindBy(xpath = "//*[@name='recommended']/UIALink")
     public List<WebElement> recommendations;
 
     public RecommendedForYouObject() {
-        PageFactory.initElements(App.driver, this);
+        PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
     }
 
     public static String getPosttitle() {
@@ -35,17 +38,12 @@ public class RecommendedForYouObject {
     }
 
     public void isDisplayed() throws IOException, InterruptedException {
-        //App.driver.scrollTo("Recommended");
-        //new command().scrolldown(App.driver.findElementByXPath("//UIAStaticText[@name='Recommended For You']"));
-
-        App.driver.findElementByXPath("//*[@name='Recommended For You']").click(); //this puts elements in view
-        //command.assertDisplay(App.driver.findElementByXPath("//UIAStaticText[@name='Recommended For You']"));
-        //App.driver.findElementByXPath("//UIAStaticText[@name='Recommended For You']").click();
-
-
-
-        //module.click();
-        embedScreenshot(module);
-        command.assertDisplay(module);
+        if(App.launchOn.equals("Android")) {
+            window.scrollIntoView(module);
+            window.assertDisplay(module);
+        }else {
+            module.click();
+            window.assertDisplay(module);
+        }
     }
 }

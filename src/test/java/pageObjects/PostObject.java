@@ -1,14 +1,13 @@
 package pageObjects;
 
-import commands.command;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import setUpClasses.App;
-import setUpClasses.MobileException;
 
 import java.io.IOException;
 
@@ -46,20 +45,22 @@ public class PostObject{
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
     }
 
-    public void assertTitle(String expectedTitle) throws InterruptedException, MobileException, IOException {
+    public void assertTitle(String expectedTitle) throws InterruptedException, IOException {
         try {
             Assert.assertEquals(title.getText().toLowerCase(), expectedTitle.toLowerCase());
         }catch(Exception e){
-            new MobileException(e);
+            e.printStackTrace();
         }
     }
 
     public boolean isAPost() {
         try {
-            command.assertDisplay(title);
-            command.assertDisplay(author);
+            Assert.assertEquals(title.isEnabled(),true);
+            Assert.assertEquals(author.isEnabled(),true);
             return true;
-        }catch(Exception e){
+        }catch(AssertionError e){
+            return false;
+        }catch(NoSuchElementException n){
             return false;
         }
     }

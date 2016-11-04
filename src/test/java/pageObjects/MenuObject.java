@@ -5,9 +5,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import setUpClasses.App;
-import setUpClasses.MobileException;
 
 /**
  * Created by khadijaislam on 3/17/16.
@@ -129,16 +127,6 @@ public class MenuObject {
 
     public MenuObject() {
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
-    }
-
-    public void isCurrentVertical(String expectedVertical) throws MobileException {
-
-        try {
-            Assert.assertEquals(currentVertical.getText().toLowerCase(), expectedVertical.toLowerCase());
-        }catch (Exception e){
-            new MobileException(e);
-        }
-
     }
 
     public void clickVertical(String vertical) throws InterruptedException {

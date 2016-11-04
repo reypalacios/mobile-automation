@@ -1,10 +1,12 @@
- @ios @android @mastheadtitles
+ @ios @android @masthead
 Feature: Masthead Section Titles
 
  As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.
 
- Scenario Outline: Swiping to the left
+ Scenario: User is in home vertical
+  Given I am on the home vertical
 
+ Scenario Outline: Swiping to the left
     When User swipes to the left
     Then Verify <vertical> is rendered
 
@@ -34,7 +36,6 @@ Feature: Masthead Section Titles
      | HOME |
 
  Scenario Outline: Swiping to the right
-
   When User swipes to the right
   Then Verify <vertical> is rendered
 

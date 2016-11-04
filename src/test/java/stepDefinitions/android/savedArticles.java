@@ -1,12 +1,15 @@
-package stepDefinitions.mobile;
+package stepDefinitions.android;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import pageObjects.*;
+import pageObjects.MastHeadObject;
+import pageObjects.MenuObject;
+import pageObjects.PostObject;
+import pageObjects.SavedArticlesObject;
 import setUpClasses.App;
 
-import static commands.command.assertChar;
-import static commands.command.assertDisplay;
+import static commands.window.assertChar;
+import static commands.window.assertDisplay;
 
 /**
  * Created by rpalacios on 11/13/15.

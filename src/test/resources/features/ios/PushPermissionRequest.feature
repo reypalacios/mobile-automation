@@ -5,7 +5,6 @@ Feature: Push Permission Request
   understand what the benefit is for me to enable push for the app.
 
   Scenario: User opts-in push notifications
-
     When I open the app for the first time
     Then I see the push permission request screen
     And Two call to actions are available, to opt-in "Enable alerts" and to opt-out "Maybe later"
@@ -14,16 +13,15 @@ Feature: Push Permission Request
     Then The 'Push Notifications' Setting in the app is set to ON
 
   Scenario: User opts-out push notifications
-
     When I open the app for the first time
     Then I see the push permission request screen
     And Two call to actions are available, to opt-in "Enable alerts" and to opt-out "Maybe later"
 
     When I tap on "Maybe Later"
     Then The 'Push Notifications' Setting in the app is set to OFF
+
   @update
   Scenario: Push notification setting remains after app upgrade
-
     When I open previous app version for first time
     Then I tap on "Enable alerts"
 
@@ -32,7 +30,6 @@ Feature: Push Permission Request
 
   @iosbug
   Scenario: Push notification remains prompting until user either opts-in or opts-out
-
     When I open the app for the first time
     Then I put the app in the background and re-open it again
     And I see the push permission request screen

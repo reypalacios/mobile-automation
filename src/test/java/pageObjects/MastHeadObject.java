@@ -1,16 +1,13 @@
 package pageObjects;
 
+import commands.window;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import setUpClasses.App;
-import setUpClasses.MobileException;
-
-import java.io.IOException;
 
 /**
  * Created by rpalacios on 12/11/15.
@@ -34,7 +31,7 @@ public class MastHeadObject{
 
     @AndroidFindBy(id = "toolbar_brand_text")
     @iOSFindBy (xpath = "//UIANavigationBar[1]/UIAStaticText/UIAStaticText[3]")
-    public static WebElement Title;
+    public static WebElement title;
 
     @AndroidFindBy(id = "search_articles_option")
     @iOSFindBy(xpath = "//UIAButton[@name='EasySearch Icon']")
@@ -52,7 +49,7 @@ public class MastHeadObject{
     public static WebElement saveOn;
 
     @AndroidFindBy(id = "favorite_option")
-    @iOSFindBy(id = "EasySave Icon")
+    @iOSFindBy(accessibility = "navBookmarkButton")
     public static WebElement save;
 
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.ImageButton[1]")
@@ -72,33 +69,19 @@ public class MastHeadObject{
         }
     }
 
-    public void isCurrentTitle(String expectedTitle) throws MobileException, IOException {
+    public void isCurrentTitle(String expectedTitle){
         String title = null;
 
         try{
-            Title.isDisplayed();
-            title=Title.getText().toLowerCase();
+            MastHeadObject.title.isDisplayed();
+            title= MastHeadObject.title.getText().toLowerCase();
             if(title.equals("home"))
                 title = "business insider";
         }catch (Exception e){
             title = "business insider";
         }
-
-        try{
-            Assert.assertEquals(title, expectedTitle.toLowerCase());
-        }catch(Exception e){
-            new MobileException(e);
-        }
-
+        window.assertChar(title,expectedTitle.toLowerCase());
     }
-
-//    public void verfitySavedArticleNotification(){
-//        try{
-//            Assert.assertEquals(saveArticleNTF.isDisplayed(),true);
-//        }catch (Exception e){
-//            new MobileException(e);
-//        }
-//    }
 }
 
 

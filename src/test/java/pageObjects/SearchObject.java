@@ -21,7 +21,6 @@ public class SearchObject {
     @iOSFindBy(xpath = "//UIAKeyboard/UIAButton[@name='Search']")
     public static WebElement searchbutton;
 
-    public static String postresultprefix = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell";
     public SearchObject() {
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
     }
@@ -36,11 +35,20 @@ public class SearchObject {
         try{
             ((WebElement)(App.driver.findElementsByAccessibilityId(posttitle).get(1))).click();
             Thread.sleep(2000);
+            while (!new PostObject().isAPost()) {
+                System.out.println("Trying to click post again...");
+                clickPost(posttitle);
+            }
+
         }catch(Exception e){
             if (e.getMessage().contains("could not be tapped") || e.getMessage().contains("Index:")) {
                 try {
                     ((WebElement) (App.driver.findElementsByAccessibilityId(posttitle).get(0))).click();
                     Thread.sleep(2000);
+                    while (!new PostObject().isAPost()) {
+                        System.out.println("Trying to click post again...");
+                        clickPost(posttitle);
+                    }
                 } catch (Exception e1) {
                     i++;
                     while (i < 3)

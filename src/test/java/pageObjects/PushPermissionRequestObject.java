@@ -3,10 +3,10 @@ package pageObjects;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import setUpClasses.App;
-import setUpClasses.MobileException;
 
 /**
  * Created by rpalacios on 6/27/16.
@@ -37,35 +37,6 @@ public class PushPermissionRequestObject{
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
     }
 
-//    public void isDisplayed() throws IOException {
-//        try{
-//            headline.isDisplayed();
-//            maintext.isDisplayed();
-//            byline.isDisplayed();
-//            enablealerts.isDisplayed();
-//            maybelaterlink.isDisplayed();
-//            command.embedScreenshot();
-//        }catch(Exception e) {
-//            new MobileException(e);
-//        }
-//    }
-
-//    public void isEnableAlertsButtonDisplayed() {
-//        try{
-//            enablealerts.isDisplayed();
-//        }catch(Exception e){
-//            new MobileException(e);
-//        }
-//    }
-
-//    public void isMaybleLaterLinkDisplayed() {
-//        try{
-//            maybelaterlink.isDisplayed();
-//        }catch(Exception e){
-//            new MobileException(e);
-//        }
-//    }
-
     public void clickEnableAlerts() {
         try {
             enablealerts.click();
@@ -78,11 +49,13 @@ public class PushPermissionRequestObject{
                     enablealerts.click();
                     if(App.launchOn.equals("iOS"))
                         App.driver.switchTo().alert().accept();
-                } catch (InterruptedException e1) {
-                    e1.printStackTrace();
+                } catch (InterruptedException i) {
+                    i.printStackTrace();
+                } catch (NoSuchElementException n){
+                    n.printStackTrace();
                 }
             }else{
-                new MobileException(e);
+                e.printStackTrace();
             }
         }
     }

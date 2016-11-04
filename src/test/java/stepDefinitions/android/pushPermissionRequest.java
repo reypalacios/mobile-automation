@@ -1,6 +1,6 @@
-package stepDefinitions.mobile;
+package stepDefinitions.android;
 
-import commands.command;
+import commands.window;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebElement;
@@ -20,34 +20,30 @@ public class pushPermissionRequest extends App {
 
     @When("^I open the app for the first time$")
     public void i_open_the_app_for_the_first_time() throws Throwable {
-        if (App.launchOn.equals("Android")){
-            command.resetApp();
-            Thread.sleep(4000);
-        }else {
-            App.driver.removeApp(App.bundleid);
-            new App().launch(true);
-        }
+        window.resetApp();
+        Thread.sleep(4000);
     }
 
     @Then("^I see the push permission request screen$")
     public void i_see_the_push_permission_request_screen() throws Throwable {
         Thread.sleep(5000);
-        command.assertDisplay(new PushPermissionRequestObject().headline);
-        command.assertDisplay(new PushPermissionRequestObject().maintext);
-        command.assertDisplay(new PushPermissionRequestObject().byline);
-        command.assertDisplay(new PushPermissionRequestObject().enablealerts);
-        command.assertDisplay(new PushPermissionRequestObject().maybelaterlink);
-        command.embedScreenshot();
+        window.assertDisplay(new PushPermissionRequestObject().headline);
+        window.assertDisplay(new PushPermissionRequestObject().maintext);
+        window.assertDisplay(new PushPermissionRequestObject().byline);
+        window.assertDisplay(new PushPermissionRequestObject().enablealerts);
+        window.assertDisplay(new PushPermissionRequestObject().maybelaterlink);
+        //command.embedScreenshot();
     }
 
     @Then("^Two call to actions are available, to opt-in \"([^\"]*)\" and to opt-out \"([^\"]*)\"$")
     public void two_call_to_actions_are_available_to_opt_in_and_to_opt_out(String arg1, String arg2) throws Throwable {
-        command.assertDisplay(new PushPermissionRequestObject().enablealerts);
-        command.assertDisplay(new PushPermissionRequestObject().maybelaterlink);
+        window.assertDisplay(new PushPermissionRequestObject().enablealerts);
+        window.assertDisplay(new PushPermissionRequestObject().maybelaterlink);
     }
 
     @When("^I tap on \"([^\"]*)\"$")
     public void i_tap_on(String arg) throws Throwable {
+        Thread.sleep(1000);
         if(arg.equals("Enable alerts"))
             new PushPermissionRequestObject().clickEnableAlerts();
         else
@@ -57,18 +53,18 @@ public class pushPermissionRequest extends App {
     @Then("^The 'Push Notifications' Setting in the app is set to ON$")
     public void the_Push_Notifications_Setting_in_the_app_is_set_to_ON() throws Throwable {
         launchDeviceSettings();
-        command.scrolldown(new DeviceSettingsObject().gameCenter);
+        window.scrolldown(new DeviceSettingsObject().gameCenter);
         new DeviceSettingsObject().BI.click();
         new DeviceSettingsObject().notifications.click();
-        command.assertSelected((WebElement) new DeviceSettingsObject().allowNotificaitons.get(2));
+        window.assertSelected((WebElement) new DeviceSettingsObject().allowNotificaitons.get(2));
     }
 
     @Then("^The 'Push Notifications' Setting in the app is set to OFF$")
     public void the_Push_Notifications_Setting_in_the_app_is_set_to_OFF() throws Throwable {
         launchDeviceSettings();
-        command.scrolldown(new DeviceSettingsObject().gameCenter);
+        window.scrolldown(new DeviceSettingsObject().gameCenter);
         new DeviceSettingsObject().BI.click();
-        command.assertNotDisplay(new DeviceSettingsObject().notifications);
+        window.assertNotDisplay(new DeviceSettingsObject().notifications);
     }
 
     @When("^I open previous app version for first time$")
@@ -89,27 +85,27 @@ public class pushPermissionRequest extends App {
 
     @When("^I upgrade my app$")
     public void i_upgrade_my_app() throws Throwable {
-        command.upgradeApp();
+        window.upgradeApp();
     }
 
     @Then("^I do not see the push permission request screen again$")
     public void i_do_not_see_the_push_permission_request_screen_again() throws Throwable {
         Thread.sleep(7000);
-        command.assertNotDisplay(new PushPermissionRequestObject().headline);
-        command.assertNotDisplay(new PushPermissionRequestObject().maintext);
-        command.assertNotDisplay(new PushPermissionRequestObject().byline);
-        command.assertNotDisplay(new PushPermissionRequestObject().enablealerts);
-        command.assertNotDisplay(new PushPermissionRequestObject().maybelaterlink);
-        command.embedScreenshot();
+        window.assertNotDisplay(new PushPermissionRequestObject().headline);
+        window.assertNotDisplay(new PushPermissionRequestObject().maintext);
+        window.assertNotDisplay(new PushPermissionRequestObject().byline);
+        window.assertNotDisplay(new PushPermissionRequestObject().enablealerts);
+        window.assertNotDisplay(new PushPermissionRequestObject().maybelaterlink);
+        //command.embedScreenshot();
     }
     @When("^I put the app in the background and re-open it again$")
     public void i_put_the_app_in_the_background_and_re_open_it_again() throws Throwable {
-        command.runAppinBackground(2);
+        window.runAppinBackground(2);
     }
 
     @When("^I close the app and re-open it$")
     public void i_close_the_app_and_re_open_it() throws Throwable {
-        command.closeApp();
-        command.launchApp();
+        window.closeApp();
+        window.launchApp();
     }
 }

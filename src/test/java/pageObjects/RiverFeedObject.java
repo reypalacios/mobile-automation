@@ -13,7 +13,10 @@ import java.util.List;
 /**
  * Created by rpalacios on 12/11/15.
  */
+
 public class RiverFeedObject {
+
+    int i=0;
 
     @AndroidFindBy(id = "associated_post_list")
     @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[1]")
@@ -33,7 +36,13 @@ public class RiverFeedObject {
         try {
             topPost.click();
         }catch (WebDriverException we){
-            clickTopPost();
+            if(i>10){
+                we.printStackTrace();
+            }else {
+                System.out.println("i="+i);
+                i++;
+                clickTopPost();
+            }
         }
         Thread.sleep(1000);
     }

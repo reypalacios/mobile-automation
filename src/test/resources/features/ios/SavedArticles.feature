@@ -11,7 +11,6 @@ Feature: Saved Articles
   When I go the the Saved Articles section
   Then Saved post is available
 
- @androidbug
  Scenario: I delete a post via post page
   When I am on a saved post
   Then I unsave the post
