@@ -3,12 +3,16 @@ package pageObjects;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
+import io.appium.java_client.pagefactory.iOSFindBys;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import setUpClasses.App;
 
+import java.util.ArrayList;
 import java.util.List;
+
+import static commands.window.elementHasText;
 
 /**
  * Created by rpalacios on 12/11/15.
@@ -61,6 +65,13 @@ public class RiverFeedObject {
     @iOSFindBy(accessibility = "cellSearchSnippet")
     public static List<WebElement> searchsnippets;
 
+    @AndroidFindBy(id = "recommended_cell_headline")
+    @iOSFindBys({@iOSFindBy(uiAutomator = ".scrollViews()[0].tableViews()[0].visibleCells()"), @iOSFindBy(accessibility = "cellHeadlineTextView")})
+    public static List<WebElement> postHeadline;
+
+    @AndroidFindBy(id = "post_list_loader")
+    public static WebElement spinner;
+
     public RiverFeedObject() {
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
     }
@@ -78,5 +89,23 @@ public class RiverFeedObject {
             }
         }
         Thread.sleep(1000);
+    }
+
+    public static ArrayList<String> getVerticalPostTitles() {
+        ArrayList<String> postTitleArray = new ArrayList<String>();
+
+        for (WebElement post: postHeadline) {
+            if (elementHasText(post)) {
+                String postTitle = post.getText();
+                // Need to include empty Sponsor Content string in conditional to prevent blank titles
+                // iOS only
+                if (!postTitle.equals("SPONSOR CONTENT") && !postTitle.equals("")) {
+                    postTitleArray.add(postTitle);
+                } else {
+                    System.out.println("AD CELL");
+                }
+            }
+        }
+        return postTitleArray;
     }
 }
