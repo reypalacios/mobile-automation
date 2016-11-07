@@ -11,6 +11,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
+import static setUpClasses.App.driver;
+
 /**
  * Created by rpalacios on 7/1/16.
  */
@@ -32,7 +34,7 @@ public class window {
         //System.out.println("Swiping Horizontal: "+swipe);
         //Get the size of screen.
         Dimension size;
-        size = App.driver.manage().window().getSize();
+        size = driver.manage().window().getSize();
         //System.out.println("Screen Resolution: "+size);
         //Find swipe start and end point from screen's with and height.
         // Find startx point which is at right side of screen.
@@ -47,9 +49,9 @@ public class window {
             //Swipe from Right to Left.
             //new TouchAction(App.driver.press(startx, starty).waitAction(500).moveTo(endx - startx, starty - starty).release().perform();
             if(App.launchOn.equals("Android"))
-                App.driver.swipe(startx, starty, endx, starty, 500);
+                driver.swipe(startx, starty, endx, starty, 500);
             else
-                App.driver.swipe(startx/2, starty/2, -startx/2, 0, 1);
+                driver.swipe(startx/2, starty/2, -startx/2, 0, 1);
                 //App.driver.swipe(100, 650, -100, 0, 100)
                 //App.driver.swipe(100, 100, -100, 0, 1/2)
             Thread.sleep(2000);
@@ -57,9 +59,9 @@ public class window {
         if(swipe.equals(App.SWIPE_LEFT_TO_RIGHT)){
             //Swipe from Left to Right.
             if(App.launchOn.equals("Android"))
-                App.driver.swipe(endx, starty, startx, starty, 500);
+                driver.swipe(endx, starty, startx, starty, 500);
             else
-                App.driver.swipe(startx/2, starty/2, startx/2, 0, 1);
+                driver.swipe(startx/2, starty/2, startx/2, 0, 1);
             Thread.sleep(2000);
         }
     }
@@ -79,7 +81,7 @@ public class window {
     public static void swipingVertical(WebElement element) throws InterruptedException {
         //Get the size of screen.
         Dimension size;
-        size = App.driver.manage().window().getSize();
+        size = driver.manage().window().getSize();
         System.out.println("Screen size is "+size);
         //Find swipe start and end point from screen's with and height.
         // Find starty point which is at bottom side of screen.
@@ -95,16 +97,34 @@ public class window {
 
         if(App.launchOn.equals("Android"))
             // Swipe from Bottom to Top.
-            App.driver.swipe(startx, starty, startx, endy, 3000);
+            driver.swipe(startx, starty, startx, endy, 3000);
         else
-            App.driver.swipe(startx, starty, startx, -endy, 3000);
+            driver.swipe(startx, starty, startx, -endy, 3000);
         Thread.sleep(2000);
  /*       // Swipe from Top to Bottom.
         App.driver.swipe(startx, endy, startx, starty, 3000);
         Thread.sleep(2000);
  */   }
 
+    public static void verticalSwipe() {
+        verticalSwipe(0.90, 0.30);
+    }
 
+    public static void verticalSwipe(double start, double end) {
+        Dimension size = driver.manage().window().getSize();
+        if (App.launchOn.equals("iOS")) {
+            end = end * -1;
+        }
+
+        int startY = (int) (size.height * start);
+        int endY = (int) (size.height * end);
+        int startX = size.width / 2;
+
+        System.out.println(size);
+        System.out.println("startX=" + startX + ", startY=" + startY + ", endX=" + startX + ", endY=" + endY);
+
+        driver.swipe(startX, startY, startX, endY, 100);
+    }
 
     /**
      * Embeds a screenshot to the cucumber report
@@ -128,9 +148,9 @@ public class window {
      */
     public static void runAppinBackground(int seconds) throws InterruptedException {
         System.out.println("Run App in the background for "+seconds +" seconds");
-        App.driver.runAppInBackground(seconds);
+        driver.runAppInBackground(seconds);
         try {
-            WebDriverWait wait = new WebDriverWait(App.driver, 6);
+            WebDriverWait wait = new WebDriverWait(driver, 6);
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("news_alerts_headlines_text")));
             System.out.println("Push permission request screen was displayed");
         }catch(TimeoutException e){
@@ -193,12 +213,12 @@ public class window {
 
     public static void closeApp() {
         System.out.println("Close App");
-        App.driver.closeApp();
+        driver.closeApp();
     }
 
     public static void launchApp() {
         System.out.println("Launch App");
-        App.driver.launchApp();
+        driver.launchApp();
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
@@ -208,19 +228,19 @@ public class window {
 
     public static void resetApp() {
         System.out.println("Reset App");
-        App.driver.resetApp();
+        driver.resetApp();
         //while(driver.findElementsById("news_alerts_headlines_text").isEmpty()){  }
     }
 
     public static void scrollIntoView(WebElement element) throws InterruptedException {
-        Dimension size = App.driver.manage().window().getSize();
+        Dimension size = driver.manage().window().getSize();
         int y_start = (int) (size.height * 0.60);
         int y_end = (int) (size.height * 0.30);
         int x = size.width / 2;
         try{
             element.isDisplayed();
         }catch(NoSuchElementException n) {
-            App.driver.swipe(x, y_start, x, y_end, 100);
+            driver.swipe(x, y_start, x, y_end, 100);
             scrollIntoView(element);
         }
     }
@@ -235,11 +255,11 @@ public class window {
     }
 
     public static void scrollDown() throws InterruptedException {
-        Dimension size = App.driver.manage().window().getSize();
+        Dimension size = driver.manage().window().getSize();
         int y_start = (int) (size.height * 0.60);
         int y_end = (int) (size.height * 0.30);
         int x = size.width / 2;
-        App.driver.swipe(x, y_start, x, y_end, 100);
+        driver.swipe(x, y_start, x, y_end, 100);
     }
 
     public static void assertDisplay(WebElement element) {
@@ -291,6 +311,15 @@ public class window {
         }catch (Exception e){
             if (!e.getMessage().contains("Can't locate an element"))
                 e.printStackTrace();
+        }
+    }
+
+    public static Boolean elementHasText(WebElement element) {
+        try {
+            element.getText();
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
         }
     }
 

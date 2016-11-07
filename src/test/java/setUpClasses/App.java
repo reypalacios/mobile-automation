@@ -102,7 +102,8 @@ public class App {
                 capabilities.setCapability("bundleId", App.bundleid);
 
                 //File would be grabbed from default location where xcode creates the app.
-                File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphonesimulator/iPhoneBI.app");
+                //File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphonesimulator/iPhoneBI.app");
+                File file = new File("/Users/tcollins/Library/Developer/Xcode/DerivedData/iPhoneBI-gxwmwoxvdetzlaamxmmutkvocdfo//Build/Products/Debug-iphonesimulator/iPhoneBI.app");
                 //file = new File("/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app");
                 capabilities.setCapability("app", file.getAbsolutePath());
 

@@ -1,4 +1,4 @@
-package stepDefinitions.ios;
+package stepDefinitions;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;

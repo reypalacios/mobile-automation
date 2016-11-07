@@ -1,4 +1,4 @@
-package stepDefinitions.mobile;
+package stepDefinitions.ios;
 
 import conditions.ElementNotVisible;
 import conditions.ElementPresent;
@@ -12,7 +12,7 @@ import pageObjects.RiverFeedObject;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-import static commands.command.verticalSwipe;
+import static commands.window.verticalSwipe;
 import static pageObjects.RiverFeedObject.*;
 import static setUpClasses.App.driver;
 
@@ -20,23 +20,15 @@ import static setUpClasses.App.driver;
 public class PostsLoadWhenScrollingDownVertical {
 
     private RiverFeedObject riverFeed;
-    //private LinkedHashSet<String> postTitleSet = new LinkedHashSet<>();
     private LinkedHashSet<String> verticalPostTitles = new LinkedHashSet<>();
 
     @Given("^the first payload of posts display in a vertical$")
     public void theFirstPayloadOfPostsDisplayInAVertical() throws Throwable {
         System.out.println("I AM ON A VERTICAL");
         riverFeed = new RiverFeedObject();
-        WebDriverWait wait = new WebDriverWait(driver, 15);
+        WebDriverWait wait = new WebDriverWait(driver, 30);
 
-        wait.until(new ElementPresent(postList));
-/*
-        PrintStream out;
-        out = new PrintStream(new FileOutputStream("/Users/tcollins/Desktop/output.xml"));
-        System.setOut(out);
-        String src = driver.getPageSource();
-        System.out.println(src);
-*/
+        wait.until(new ElementPresent(topPost));
     }
 
     @When("^I scroll down (\\w+) posts$")
@@ -44,8 +36,6 @@ public class PostsLoadWhenScrollingDownVertical {
         System.out.println("I SCROLL DOWN A VERTICAL");
         riverFeed = new RiverFeedObject();
         WebDriverWait wait = new WebDriverWait(driver, 15);
-
-        System.out.println("CUCUMBER VALUE: " + totalPosts);
 
         while (verticalPostTitles.size() < totalPosts) {
             verticalPostTitles.addAll(getVerticalPostTitles());
