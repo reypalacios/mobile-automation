@@ -12,7 +12,7 @@ import setUpClasses.App;
 import java.util.ArrayList;
 import java.util.List;
 
-import static commands.window.elementHasText;
+import static commands.Window.elementHasText;
 
 /**
  * Created by rpalacios on 12/11/15.
@@ -26,8 +26,9 @@ public class RiverFeedObject {
     @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[1]")
     public static WebElement topPost;
 
-    @iOSFindBy(accessibility = "cellHeadlineTextView")
-    public static List<WebElement> headlines;
+    @AndroidFindBy(id = "recommended_cell_headline")
+    @iOSFindBys({@iOSFindBy(uiAutomator = ".scrollViews()[0].tableViews()[0].visibleCells()"), @iOSFindBy(accessibility = "cellHeadlineTextView")})
+    public static List<WebElement> postHeadline;
 
     @iOSFindBy(accessibility = "cellImageView")
     public static List<WebElement> images;
@@ -64,10 +65,6 @@ public class RiverFeedObject {
 
     @iOSFindBy(accessibility = "cellSearchSnippet")
     public static List<WebElement> searchsnippets;
-
-    @AndroidFindBy(id = "recommended_cell_headline")
-    @iOSFindBys({@iOSFindBy(uiAutomator = ".scrollViews()[0].tableViews()[0].visibleCells()"), @iOSFindBy(accessibility = "cellHeadlineTextView")})
-    public static List<WebElement> postHeadline;
 
     @AndroidFindBy(id = "post_list_loader")
     public static WebElement spinner;

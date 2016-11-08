@@ -12,7 +12,7 @@ import pageObjects.RiverFeedObject;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-import static commands.window.verticalSwipe;
+import static commands.Window.verticalSwipe;
 import static pageObjects.RiverFeedObject.*;
 import static setUpClasses.App.driver;
 
@@ -41,6 +41,7 @@ public class PostsLoadWhenScrollingDownVertical {
             verticalPostTitles.addAll(getVerticalPostTitles());
             verticalSwipe(0.90, 0.30);
             wait.until(new ElementNotVisible(spinner));
+            System.out.println("TOTAL TITLES: "+verticalPostTitles.size());
         }
 
         // Get total posts

@@ -1,6 +1,6 @@
 package pageObjects;
 
-import commands.window;
+import commands.Window;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -39,11 +39,11 @@ public class RecommendedForYouObject {
 
     public void isDisplayed() throws IOException, InterruptedException {
         if(App.launchOn.equals("Android")) {
-            window.scrollIntoView(module);
-            window.assertDisplay(module);
+            Window.scrollIntoView(module);
+            Window.assertDisplay(module);
         }else {
             module.click();
-            window.assertDisplay(module);
+            Window.assertDisplay(module);
         }
     }
 }

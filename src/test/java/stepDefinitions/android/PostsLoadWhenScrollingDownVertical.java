@@ -12,7 +12,7 @@ import pageObjects.RiverFeedObject;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-import static commands.window.verticalSwipe;
+import static commands.Window.verticalSwipe;
 import static pageObjects.RiverFeedObject.getVerticalPostTitles;
 import static pageObjects.RiverFeedObject.spinner;
 import static pageObjects.RiverFeedObject.topPost;

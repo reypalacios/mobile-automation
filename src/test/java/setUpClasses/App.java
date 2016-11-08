@@ -102,9 +102,9 @@ public class App {
                 capabilities.setCapability("bundleId", App.bundleid);
 
                 //File would be grabbed from default location where xcode creates the app.
-                //File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphonesimulator/iPhoneBI.app");
-                File file = new File("/Users/tcollins/Library/Developer/Xcode/DerivedData/iPhoneBI-gxwmwoxvdetzlaamxmmutkvocdfo//Build/Products/Debug-iphonesimulator/iPhoneBI.app");
-                //file = new File("/Users/rpalacios/IdeaProjects/mobile-automation/iOSApps/iPhoneBI.app");
+                File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphonesimulator/iPhoneBI.app");
+                //File file = new File("/Users/tcollins/Library/Developer/Xcode/DerivedData/iPhoneBI-gxwmwoxvdetzlaamxmmutkvocdfo//Build/Products/Debug-iphonesimulator/iPhoneBI.app");
+                //File file = new File("iOSApps/"+App.app);
                 capabilities.setCapability("app", file.getAbsolutePath());
 
                 driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
@@ -178,7 +178,7 @@ public class App {
         System.out.println("Test Done");
     }
 
-    public void launchDeviceSettings() {
+    public static void launchDeviceSettings() {
         try{
             capabilities.setCapability("app", "settings");
             driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
