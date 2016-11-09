@@ -1,2 +1,4 @@
-.idea/compiler.xml
-src/*.properties
+.idea/workspace.xml
+.idea/tasks.xml
+*.properties
+iOSApps/*
