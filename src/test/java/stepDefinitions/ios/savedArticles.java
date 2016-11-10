@@ -6,15 +6,14 @@ import pageObjects.MastHeadObject;
 import pageObjects.MenuObject;
 import pageObjects.PostObject;
 import pageObjects.SavedArticlesObject;
-import setUpClasses.App;
 
-import static commands.window.assertChar;
-import static commands.window.assertDisplay;
+import static commands.Window.assertChar;
+import static commands.Window.assertDisplay;
 
 /**
  * Created by rpalacios on 11/13/15.
  */
-public class savedArticles extends App{
+public class SavedArticles{
 
     String posttitle;
     SavedArticlesObject SavedArticles = new SavedArticlesObject();

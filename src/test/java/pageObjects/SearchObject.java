@@ -30,29 +30,6 @@ public class SearchObject {
         searchbutton.click();
         Thread.sleep(5000);
     }
-
-    public void clickPost(String posttitle) throws InterruptedException {
-        try{
-            App.driver.findElementByXPath("//*[@label='"+posttitle+"']").click();
-            Thread.sleep(2000);
-            while (!new PostObject().isAPost()) {
-                System.out.println("Trying to click post again...");
-                clickPost(posttitle);
-            }
-
-        }catch(Exception e){
-            Thread.sleep(2000);
-            if (e.getMessage().contains("could not be tapped") || e.getMessage().contains("server-side error") || e.getMessage().contains("could not be located")) {
-                while (!new PostObject().isAPost() && i<3) {
-                    i++;
-                    System.out.println("Trying to click post again...");
-                    clickPost(posttitle);
-                }
-            }else {
-                e.printStackTrace();
-            }
-        }
-    }
 }
 
 

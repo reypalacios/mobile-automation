@@ -23,7 +23,8 @@ public class RiverFeedObject {
     int i=0;
 
     @AndroidFindBy(id = "associated_post_list")
-    @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[1]")
+    //@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[1]")
+    @iOSFindBy(accessibility = "cellHeadlineTextView")
     public static WebElement topPost;
 
     @AndroidFindBy(id = "recommended_cell_headline")
@@ -104,5 +105,53 @@ public class RiverFeedObject {
             }
         }
         return postTitleArray;
+    }
+
+    public void clickPost(String posttitle) throws InterruptedException {
+        try{
+            if (App.driver.findElementByXPath("//*[@label='" + posttitle + "']").isEnabled()) {
+                App.driver.findElementByXPath("//*[@label='"+posttitle+"']").click();
+                Thread.sleep(5000);
+                try{
+                    if (App.driver.findElementByXPath("//*[@label='" + posttitle + "']").isEnabled()) {
+                        System.out.println("Retrying 1...");
+                        clickPost(posttitle);
+                    }
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            }else{
+                System.out.println("Post not enabled");
+            }
+        }catch(Exception e){
+            if (e.getMessage().contains("could not be tapped") || e.getMessage().contains("server-side error") || e.getMessage().contains("could not be located")) {
+                try {
+                    if (App.driver.findElementByXPath("//*[@label='" + posttitle + "']").isDisplayed()) {
+                        App.driver.findElementByXPath("//*[@label='" + posttitle + "']").click();
+                        Thread.sleep(3000);
+                    } else {
+                        if (App.driver.findElementByXPath("//*[@label='" + posttitle + "']").isEnabled()) {
+                            System.out.println("Retrying 2...");
+                            clickPost(posttitle);
+                        }
+                    }
+                }catch(Exception e1){
+                    try {
+                        if (App.driver.findElementByXPath("//*[@label='" + posttitle + "']").isEnabled()) {
+                            System.out.println("Retrying 3...");
+                            clickPost(posttitle);
+                        }
+                    }catch (Exception e3){
+                        if(!new PostObject().isAPost()){
+                            System.out.println("Retrying 4...");
+                            clickPost(posttitle);
+                        }
+                    }
+                }
+            }else {
+                e.printStackTrace();
+            }
+        }
+        Thread.sleep(3000);
     }
 }

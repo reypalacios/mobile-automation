@@ -16,7 +16,7 @@ import static setUpClasses.App.driver;
 /**
  * Created by rpalacios on 7/1/16.
  */
-public class window {
+public class Window {
 
 //    public static void takeScreenshot()
 //    {
@@ -38,9 +38,9 @@ public class window {
         //System.out.println("Screen Resolution: "+size);
         //Find swipe start and end point from screen's with and height.
         // Find startx point which is at right side of screen.
-        int startx = (int) (size.width * 0.80);
+        int startx = (int) (size.width * 0.7);
         //Find endx point which is at left side of screen.
-        int endx = (int) (size.width * 0.10);
+        int endx = (int) (size.width * 0.3);
         //Find vertical point where you wants to swipe. It is in middle of screen height.
         int starty = size.height / 2;
         //System.out.println("startx = " + startx + " ,endx = " + endx + " , starty = " + starty);
@@ -54,7 +54,7 @@ public class window {
                 driver.swipe(startx/2, starty/2, -startx/2, 0, 1);
                 //App.driver.swipe(100, 650, -100, 0, 100)
                 //App.driver.swipe(100, 100, -100, 0, 1/2)
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         }
         if(swipe.equals(App.SWIPE_LEFT_TO_RIGHT)){
             //Swipe from Left to Right.
@@ -62,7 +62,7 @@ public class window {
                 driver.swipe(endx, starty, startx, starty, 500);
             else
                 driver.swipe(startx/2, starty/2, startx/2, 0, 1);
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         }
     }
 
