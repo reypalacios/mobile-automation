@@ -21,7 +21,7 @@ public class Search {
 
     @When("^I search for (.*)$")
     public void i_search_for_text(String arg) throws Throwable {
-        Masthead.Search.click();
+        Masthead.search.click();
         Search.search(arg);
     }
 

@@ -71,13 +71,13 @@ public class AppMenu {
 
     @When("^I click the Your Money$")
     public void i_click_the_Your_Money() throws Throwable {
-        verticals.yourmoney.click();
+        verticals.yourMoney.click();
     }
 
     @When("^I click the Wealth Advisor$")
     public void i_click_the_Wealth_Advisor() throws Throwable {
-        Window.scrolldown(MenuObject.wealthadvisor);
-        verticals.wealthadvisor.click();
+        Window.scrolldown(MenuObject.wealthAdvisor);
+        verticals.wealthAdvisor.click();
     }
 
     @When("^I click the POLITICS$")
@@ -87,13 +87,13 @@ public class AppMenu {
 
     @When("^I click the Military & Defense$")
     public void i_click_the_Military_Defense() throws Throwable {
-        verticals.militarydefense.click();
+        verticals.militaryDefense.click();
         Thread.sleep(1000);
     }
 
     @When("^I click the Law & Order$")
     public void i_click_the_Law_Order() throws Throwable {
-        verticals.laworder.click();
+        verticals.lawOrder.click();
     }
 
     @When("^I click the STRATEGY$")
@@ -118,7 +118,7 @@ public class AppMenu {
 
     @When("^I click the Small Business$")
     public void i_click_the_Small_Business() throws Throwable {
-        verticals.smallbusiness.click();
+        verticals.smallBusiness.click();
     }
 
     @When("^I click the LIFE$")

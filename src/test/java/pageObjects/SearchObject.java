@@ -12,22 +12,20 @@ import setUpClasses.App;
  */
 public class SearchObject {
 
-    int i=0;
-
     @AndroidFindBy(id = "primary_search_field")
-    @iOSFindBy(xpath = "//UIATextView[@value=' Search']")
-    public static WebElement searchfield;
+    @iOSFindBy(accessibility = "searchTextField")
+    public static WebElement searchField;
 
-    @iOSFindBy(xpath = "//UIAKeyboard/UIAButton[@name='Search']")
-    public static WebElement searchbutton;
+    @iOSFindBy(accessibility = "Search")
+    public static WebElement searchButton;
 
     public SearchObject() {
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
     }
 
     public void search(String keys) throws InterruptedException {
-        searchfield.sendKeys(keys);
-        searchbutton.click();
+        searchField.sendKeys(keys);
+        searchButton.click();
         Thread.sleep(5000);
     }
 }

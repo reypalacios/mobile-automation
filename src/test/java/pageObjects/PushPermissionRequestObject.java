@@ -14,24 +14,24 @@ import setUpClasses.App;
 public class PushPermissionRequestObject{
 
     @AndroidFindBy(id = "news_alerts_headlines_text")
-    @iOSFindBy (xpath = "//UIAImage[@name='pa_Logo6.png']")
+    @iOSFindBy (accessibility = "pa_Logo6.png")
     public static WebElement headline;
 
     @AndroidFindBy(id = "news_alerts_main_text")
-    @iOSFindBy (xpath = "//UIAStaticText[@name='News Alerts']")
-    public static WebElement maintext;
+    @iOSFindBy (accessibility = "News Alerts")
+    public static WebElement mainText;
 
     @AndroidFindBy(id = "news_alerts_byline_text")
-    @iOSFindBy (xpath = "//UIAStaticText[@name='We‘ll send you alerts when there are  important updates.']")
+    @iOSFindBy (accessibility = "We‘ll send you alerts when there are  important updates.")
     public static WebElement byline;
 
     @AndroidFindBy(id = "news_alerts_enable_alerts_button")
-    @iOSFindBy (xpath = "//UIAButton[@name='ENABLE ALERTS']")
-    public static WebElement enablealerts;
+    @iOSFindBy (accessibility = "ENABLE ALERTS")
+    public static WebElement enableAlerts;
 
     @AndroidFindBy(id = "maybe_later_text")
-    @iOSFindBy (xpath = "//UIAButton[@name='Maybe Later']")
-    public static WebElement maybelaterlink;
+    @iOSFindBy (accessibility = "Maybe Later")
+    public static WebElement maybeLater;
 
     public PushPermissionRequestObject() {
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
@@ -39,14 +39,14 @@ public class PushPermissionRequestObject{
 
     public void clickEnableAlerts() {
         try {
-            enablealerts.click();
+            enableAlerts.click();
             if(App.launchOn.equals("iOS"))
                 App.driver.switchTo().alert().accept();
         }catch(Exception e){
             if(e.getMessage().contains("Can't locate an element by this strategy")){
                 try {
                     Thread.sleep(3000);
-                    enablealerts.click();
+                    enableAlerts.click();
                     if(App.launchOn.equals("iOS"))
                         App.driver.switchTo().alert().accept();
                 } catch (InterruptedException i) {

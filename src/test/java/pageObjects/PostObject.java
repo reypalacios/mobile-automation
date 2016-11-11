@@ -25,10 +25,10 @@ public class PostObject{
     public static WebElement author;
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[3]")
-    public static WebElement posteddate;
+    public static WebElement postedDate;
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[4]")
-    public static WebElement postedtime;
+    public static WebElement postedTime;
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[5]")
     public static WebElement views;
@@ -40,7 +40,7 @@ public class PostObject{
     public static WebElement image;
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[6]")
-    public static WebElement imagecaption;
+    public static WebElement imageCaption;
 
     public PostObject() {
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);

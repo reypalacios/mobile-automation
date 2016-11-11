@@ -122,8 +122,8 @@ public class App {
 
             try {
                 if (App.scenario==null || !App.scenario.getName().contains("notification")) {WebDriverWait wait = new WebDriverWait(App.driver, 4);
-                    wait.until(ExpectedConditions.visibilityOf(new PushPermissionRequestObject().enablealerts));
-                    new PushPermissionRequestObject().enablealerts.click();
+                    wait.until(ExpectedConditions.visibilityOf(new PushPermissionRequestObject().enableAlerts));
+                    new PushPermissionRequestObject().clickEnableAlerts();
                 }
             }catch(TimeoutException e){
                 System.out.println("Push permission request screen wasn't displayed");

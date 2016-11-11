@@ -23,17 +23,17 @@ public class PushPermissionRequest {
     public void i_see_the_push_permission_request_screen() throws Throwable {
         Thread.sleep(5000);
         Window.assertDisplay(new PushPermissionRequestObject().headline);
-        Window.assertDisplay(new PushPermissionRequestObject().maintext);
+        Window.assertDisplay(new PushPermissionRequestObject().mainText);
         Window.assertDisplay(new PushPermissionRequestObject().byline);
-        Window.assertDisplay(new PushPermissionRequestObject().enablealerts);
-        Window.assertDisplay(new PushPermissionRequestObject().maybelaterlink);
+        Window.assertDisplay(new PushPermissionRequestObject().enableAlerts);
+        Window.assertDisplay(new PushPermissionRequestObject().maybeLater);
         //command.embedScreenshot();
     }
 
     @Then("^Two call to actions are available, to opt-in \"([^\"]*)\" and to opt-out \"([^\"]*)\"$")
     public void two_call_to_actions_are_available_to_opt_in_and_to_opt_out(String arg1, String arg2) throws Throwable {
-        Window.assertDisplay(new PushPermissionRequestObject().enablealerts);
-        Window.assertDisplay(new PushPermissionRequestObject().maybelaterlink);
+        Window.assertDisplay(new PushPermissionRequestObject().enableAlerts);
+        Window.assertDisplay(new PushPermissionRequestObject().maybeLater);
     }
 
     @When("^I tap on \"([^\"]*)\"$")
@@ -41,7 +41,7 @@ public class PushPermissionRequest {
         if(arg.equals("Enable alerts"))
             new PushPermissionRequestObject().clickEnableAlerts();
         else
-            new PushPermissionRequestObject().maybelaterlink.click();
+            new PushPermissionRequestObject().maybeLater.click();
     }
 
     @Then("^The 'Push Notifications' Setting in the app is set to ON$")
@@ -87,10 +87,10 @@ public class PushPermissionRequest {
     public void i_do_not_see_the_push_permission_request_screen_again() throws Throwable {
         Thread.sleep(7000);
         Window.assertNotDisplay(new PushPermissionRequestObject().headline);
-        Window.assertNotDisplay(new PushPermissionRequestObject().maintext);
+        Window.assertNotDisplay(new PushPermissionRequestObject().mainText);
         Window.assertNotDisplay(new PushPermissionRequestObject().byline);
-        Window.assertNotDisplay(new PushPermissionRequestObject().enablealerts);
-        Window.assertNotDisplay(new PushPermissionRequestObject().maybelaterlink);
+        Window.assertNotDisplay(new PushPermissionRequestObject().enableAlerts);
+        Window.assertNotDisplay(new PushPermissionRequestObject().maybeLater);
        // command.embedScreenshot();
     }
     @When("^I put the app in the background and re-open it again$")

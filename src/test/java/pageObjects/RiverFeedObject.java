@@ -22,14 +22,9 @@ public class RiverFeedObject {
 
     int i=0;
 
-    @AndroidFindBy(id = "associated_post_list")
-    //@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[1]")
-    @iOSFindBy(accessibility = "cellHeadlineTextView")
-    public static WebElement topPost;
-
     @AndroidFindBy(id = "recommended_cell_headline")
     @iOSFindBys({@iOSFindBy(uiAutomator = ".scrollViews()[0].tableViews()[0].visibleCells()"), @iOSFindBy(accessibility = "cellHeadlineTextView")})
-    public static List<WebElement> postHeadline;
+    public static List<WebElement> postHeadlines;
 
     @iOSFindBy(accessibility = "cellImageView")
     public static List<WebElement> images;
@@ -38,34 +33,34 @@ public class RiverFeedObject {
     public static List<WebElement> authors;
 
     @iOSFindBy(accessibility = "cellTimeAgedView")
-    public static List<WebElement> timeageds;
+    public static List<WebElement> timeAgeds;
 
     @iOSFindBy(accessibility = "brandingColorView")
-    public static List<WebElement> brandingcolors;
+    public static List<WebElement> brandingColors;
 
     @iOSFindBy(accessibility = "cellFlameView")
     public static List<WebElement> flames;
 
     @iOSFindBy(accessibility = "cellNumOfViews")
-    public static List<WebElement> numofviews;
+    public static List<WebElement> numOfViews;
 
     @iOSFindBy(accessibility = "cellTimeViewsContainer")
-    public static List<WebElement> timeviewscontainers;
+    public static List<WebElement> timeViewsContainers;
 
     @iOSFindBy(accessibility = "cellTimeIcon")
-    public static List<WebElement> timeicons;
+    public static List<WebElement> timeIcons;
 
     @iOSFindBy(accessibility = "cellAging")
     public static List<WebElement> agings;
 
     @iOSFindBy(accessibility = "cellCommentsIcon")
-    public static List<WebElement> commentsicons;
+    public static List<WebElement> commentsIcons;
 
     @iOSFindBy(accessibility = "cellNumOfComments")
-    public static List<WebElement> numofcomments;
+    public static List<WebElement> numOfComments;
 
     @iOSFindBy(accessibility = "cellSearchSnippet")
-    public static List<WebElement> searchsnippets;
+    public static List<WebElement> searchSnippets;
 
     @AndroidFindBy(id = "post_list_loader")
     public static WebElement spinner;
@@ -76,7 +71,7 @@ public class RiverFeedObject {
 
     public void clickTopPost() throws InterruptedException {
         try {
-            topPost.click();
+            postHeadlines.get(0).click();
         }catch (WebDriverException we){
             if(i>10){
                 we.printStackTrace();
@@ -92,7 +87,7 @@ public class RiverFeedObject {
     public static ArrayList<String> getVerticalPostTitles() {
         ArrayList<String> postTitleArray = new ArrayList<String>();
 
-        for (WebElement post: postHeadline) {
+        for (WebElement post: postHeadlines) {
             if (elementHasText(post)) {
                 String postTitle = post.getText();
                 // Need to include empty Sponsor Content string in conditional to prevent blank titles

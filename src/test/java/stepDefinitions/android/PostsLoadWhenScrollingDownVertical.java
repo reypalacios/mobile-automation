@@ -15,7 +15,7 @@ import java.util.LinkedHashSet;
 import static commands.Window.verticalSwipe;
 import static pageObjects.RiverFeedObject.getVerticalPostTitles;
 import static pageObjects.RiverFeedObject.spinner;
-import static pageObjects.RiverFeedObject.topPost;
+import static pageObjects.RiverFeedObject.postHeadlines;
 import static setUpClasses.App.driver;
 
 
@@ -30,7 +30,7 @@ public class PostsLoadWhenScrollingDownVertical {
         riverFeed = new RiverFeedObject();
         WebDriverWait wait = new WebDriverWait(driver, 30);
 
-        wait.until(new ElementPresent(topPost));
+        wait.until(new ElementPresent(postHeadlines.get(0)));
     }
 
     @When("^I scroll down (\\w+) posts$")

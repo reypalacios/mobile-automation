@@ -12,9 +12,6 @@ import setUpClasses.App;
  */
 public class MenuObject {
 
-    @AndroidFindBy(name = "FAVORITES")
-    public static WebElement favorites;
-
     @AndroidFindBy(id = "drawer_list_item_function_text")
     @iOSFindBy(xpath = "//*[contains(@name,'Saved Articles')]")
     public static WebElement savedArticles;
@@ -49,11 +46,11 @@ public class MenuObject {
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Your Money']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Your Money']")
-    public static WebElement yourmoney;
+    public static WebElement yourMoney;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Wealth Advisor']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Wealth Advisor']")
-    public static WebElement wealthadvisor;
+    public static WebElement wealthAdvisor;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='POLITICS']")
     @iOSFindBy(xpath = "//UIATableCell[@name='POLITICS']")
@@ -61,11 +58,11 @@ public class MenuObject {
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Military & Defense']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Military & Defense']")
-    public static WebElement militarydefense;
+    public static WebElement militaryDefense;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Law & Order']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Law & Order']")
-    public static WebElement laworder;
+    public static WebElement lawOrder;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='STRATEGY']")
     @iOSFindBy(xpath = "//UIATableCell[@name='STRATEGY']")
@@ -85,7 +82,7 @@ public class MenuObject {
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Small Business']")
     @iOSFindBy(xpath = "//UIATableCell[@name='Small Business']")
-    public static WebElement smallbusiness;
+    public static WebElement smallBusiness;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='LIFE']")
     @iOSFindBy(xpath = "//UIATableCell[@name='LIFE']")
@@ -111,10 +108,10 @@ public class MenuObject {
     public static WebElement aboutbi;
 
     @iOSFindBy(xpath = "//UIATableCell[@name='Legal Fine Print']")
-    public static WebElement legalfineprint;
+    public static WebElement legalFinePrint;
 
     @iOSFindBy(xpath = "//UIATableCell[@name='Send Feedback']")
-    public static WebElement sendfeedback;
+    public static WebElement sendFeedback;
 
     @iOSFindBy(xpath = "//UIATableCell[@name='Settings']")
     public static WebElement settings;
@@ -139,23 +136,23 @@ public class MenuObject {
             case "science":{ science.click(); Thread.sleep(1000); break; }
             case "finance":{ finance.click(); Thread.sleep(1000); break; }
             case "markets":{ markets.click(); break; }
-            case "your money":{ yourmoney.click(); break; }
-            case "wealth advisor":{ wealthadvisor.click(); break; }
+            case "your money":{ yourMoney.click(); break; }
+            case "wealth advisor":{ wealthAdvisor.click(); break; }
             case "politics":{ politics.click(); break; }
-            case "military & defense":{ militarydefense.click(); break; }
-            case "law & order":{ laworder.click(); break; }
+            case "military & defense":{ militaryDefense.click(); break; }
+            case "law & order":{ lawOrder.click(); break; }
             case "strategy":{ strategy.click(); break; }
             case "careers":{ careers.click(); break; }
             case "advertising":{ advertising.click(); break; }
             case "retail":{ retail.click(); break; }
-            case "small business":{ smallbusiness.click(); break; }
+            case "small business":{ smallBusiness.click(); break; }
             case "life":{ life.click(); break; }
             case "transportation":{ transportation.click(); break; }
             case "education":{ education.click(); break; }
             case "entertainment":{ entertainment.click(); break; }
             case "sports":{ sports.click(); break; }
-            case "legal fine print":{ legalfineprint.click(); break; }
-            case "send feedback":{ sendfeedback.click(); break; }
+            case "legal fine print":{ legalFinePrint.click(); break; }
+            case "send feedback":{ sendFeedback.click(); break; }
         }
     }
 }

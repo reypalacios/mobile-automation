@@ -5,7 +5,8 @@ import cucumber.api.java.en.When;
 import pageObjects.MastHeadObject;
 import pageObjects.MenuObject;
 import pageObjects.PostObject;
-import pageObjects.SavedArticlesObject;
+import pageObjects.RiverFeedObject;
+
 
 import static commands.Window.assertChar;
 import static commands.Window.assertDisplay;
@@ -16,7 +17,7 @@ import static commands.Window.assertDisplay;
 public class SavedArticles{
 
     String posttitle;
-    SavedArticlesObject SavedArticles = new SavedArticlesObject();
+    RiverFeedObject RiverFeed = new RiverFeedObject();
     MenuObject Menu = new MenuObject();
     MastHeadObject Masthead = new MastHeadObject();
     PostObject Post =new PostObject();
@@ -36,12 +37,12 @@ public class SavedArticles{
 
     @Then("^Saved post is available$")
     public void saved_post_is_available() throws Throwable {
-        assertChar(SavedArticles.postsheadlines.get(0).getText(),posttitle);
+        assertChar(RiverFeedObject.postHeadlines.get(0).getText(),posttitle);
     }
 
     @When("^I am on a saved post$")
     public void i_am_on_a_saved_post() throws Throwable {
-        SavedArticles.posts.get(0).click();
+        RiverFeedObject.postHeadlines.get(0).click();
     }
 
     @Then("^I unsave the post$")
