@@ -16,7 +16,7 @@ import java.util.Date;
         //,"~@iosbug" }
         //,"~@androidbug"}
         //,tags = {"~@androidbug"}
-        ,tags = {"@river", "@android"}
+        ,tags = {"~@iosbug"}
 )
 
 public class runCukesTest extends AbstractTestNGCucumberTests{

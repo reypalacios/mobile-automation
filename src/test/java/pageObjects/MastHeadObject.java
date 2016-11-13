@@ -1,6 +1,6 @@
 package pageObjects;
 
-import commands.window;
+import commands.Window;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -80,7 +80,7 @@ public class MastHeadObject{
         }catch (Exception e){
             title = "business insider";
         }
-        window.assertChar(title,expectedTitle.toLowerCase());
+        Window.assertChar(title,expectedTitle.toLowerCase());
     }
 }
 

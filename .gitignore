@@ -1,5 +1,37 @@
+# User-specific stuff:
 .idea/workspace.xml
 .idea/tasks.xml
+.idea/dictionaries
+.idea/compiler.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+mobile-automation.iml
+
 *.properties
-iOSApps/*
-AndroidApps/*
+runCukesTest.java
+
+#ignore target directory
+target
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties

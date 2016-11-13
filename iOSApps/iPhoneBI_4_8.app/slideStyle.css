@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    -webkit-text-size-adjust:100%;
+    color: #222;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Georgia;
+    padding: 0 0px 0 0px;
+}
+
+/* h2 and h3 */
+h2 {
+    font-family: "FaktConPro-SemiBold";
+    font-size: 1.4em;
+    line-height:1.05em;
+    font-weight: Normal;
+}
+
+h3 {
+    font-family: "FaktConPro-SemiBold";
+    font-size: 1.4em;
+    line-height:1.05em;
+    height: auto !important;
+    font-weight: Normal;
+}
+
+
+@media screen and (max-width: 320px) {
+    iframe {
+        max-width: 276px !important;
+        max-height: 180px;
+    }
+    iframe.twitter-tweet {
+        height: auto !important;
+        max-height: none !important;
+    }
+    iframe.instagram-media {
+        height: auto !important;
+        margin-left: auto !important;
+        max-height: auto !important;
+    }
+    iframe.vine-embed iframe.vine {
+        height: auto !important;
+        margin-left: auto !important;
+        max-height: 180px !important;
+    }
+    div.vimeo-embed-container {
+        margin-left: 3px !important;
+        max-height:180px;
+    }
+    div.vimeo-embed-container iframe {
+        margin-left: 0px !important;
+        margin-top: -5px;
+        max-width: 276px !important;
+        width: 100% !important;
+        height: 95% !important;
+    }
+    iframe.facebookembed {
+        max-height: none !important;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px)  {
+    iframe {
+        max-width: 340px !important;
+        max-height: 195px;
+        margin-left: 0px !important;
+    }
+    iframe.twitter-tweet {
+        height: auto !important;
+        max-height: none !important;
+    }
+    iframe.instagram-media {
+        height: auto !important;
+        margin-left: auto !important;
+        max-height: auto !important;
+    }
+    iframe.vine-embed iframe.vine {
+        height: auto !important;
+        margin-left: auto !important;
+        max-height: 195px !important;
+    }
+    div.vimeo-embed-container {
+        margin-left: 0px !important;
+        max-height: 195px;
+    }
+    div.vimeo-embed-container iframe {
+        margin-left: 0px !important;
+        margin-top: -5px;
+        max-width: 340px !important;
+        width: 100% !important;
+        height: 95% !important;
+    }
+    iframe.facebookembed {
+        max-height: none !important;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px)  {
+    iframe {
+        max-width: 384px !important;
+        max-height: 236px;
+        margin-left: 0px !important;
+    }
+    iframe.twitter-tweet {
+        height: auto !important;
+        max-height: none !important;
+    }
+    iframe.instagram-media {
+        height: auto !important;
+        margin-left: auto !important;
+        max-height: auto !important;
+    }
+    iframe.vine-embed iframe.vine {
+        height: auto !important;
+        margin-left: auto !important;
+        max-height: 236px !important;
+    }
+    div.vimeo-embed-container {
+        margin-left: 0px !important;
+        max-height: 236px !important;
+    }
+    div.vimeo-embed-container iframe {
+        margin-left: 0px !important;
+        margin-top: -5px;
+        max-width: 384px !important;
+        width: 100% !important;
+        height: 95% !important;
+    }
+    iframe.facebookembed {
+        max-height: none !important;
+    }
+}

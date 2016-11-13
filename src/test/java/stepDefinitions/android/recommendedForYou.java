@@ -1,6 +1,6 @@
 package stepDefinitions.android;
 
-import commands.window;
+import commands.Window;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -10,7 +10,7 @@ import setUpClasses.App;
 /**
  * Created by rpalacios on 6/6/16.
  */
-public class recommendedForYou extends App {
+public class RecommendedForYou extends App {
     RecommendedForYouObject recommendedForYou = new RecommendedForYouObject();
     RiverFeedObject RiverFeed = new RiverFeedObject();
 
@@ -27,7 +27,7 @@ public class recommendedForYou extends App {
 
     @When("^I click the first river-post recommendation$")
     public void i_click_the_first_river_post_recommendation() throws Throwable {
-        window.scrollIntoView(recommendedForYou.recommendations,0);
+        Window.scrollIntoView(recommendedForYou.recommendations,0);
         posttitle=recommendedForYou.recommendations.get(0).getText();
         recommendedForYou.recommendations.get(0).click();
     }
@@ -35,7 +35,7 @@ public class recommendedForYou extends App {
     @When("^I click the second river-post recommendation$")
     public void i_click_the_second_river_post_recommendation() throws Throwable {
         RiverFeed.clickTopPost();
-        window.scrollIntoView(recommendedForYou.recommendations,1);
+        Window.scrollIntoView(recommendedForYou.recommendations,1);
         posttitle=recommendedForYou.recommendations.get(1).getText();
         recommendedForYou.recommendations.get(1).click();
     }
@@ -43,7 +43,7 @@ public class recommendedForYou extends App {
     @When("^I click the third river-post recommendation$")
     public void i_click_the_third_river_post_recommendation() throws Throwable {
         RiverFeed.clickTopPost();
-        window.scrollIntoView(recommendedForYou.recommendations,2);
+        Window.scrollIntoView(recommendedForYou.recommendations,2);
         posttitle = recommendedForYou.recommendations.get(2).getText();
         recommendedForYou.recommendations.get(2).click(); //Focus
     }
@@ -51,7 +51,7 @@ public class recommendedForYou extends App {
     @When("^I click the fourth river-post recommendation$")
     public void i_click_the_fourth_river_post_recommendation() throws Throwable {
         RiverFeed.clickTopPost();
-        window.scrollIntoView(recommendedForYou.recommendations,3);
+        Window.scrollIntoView(recommendedForYou.recommendations,3);
         posttitle = recommendedForYou.recommendations.get(3).getText();
         recommendedForYou.recommendations.get(3).click(); //Focus
     }
@@ -59,7 +59,7 @@ public class recommendedForYou extends App {
     @When("^I click the fifth river-post recommendation$")
     public void i_click_the_fifth_river_post_recommendation() throws Throwable {
         RiverFeed.clickTopPost();
-        window.scrollIntoView(recommendedForYou.recommendations,3);
+        Window.scrollIntoView(recommendedForYou.recommendations,3);
         posttitle=recommendedForYou.recommendations.get(3).getText();
         recommendedForYou.recommendations.get(3).click(); //Focus
     }

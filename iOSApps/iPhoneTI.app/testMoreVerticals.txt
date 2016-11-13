@@ -1,0 +1,822 @@
+{
+    branding =     {
+        color = 325a66;
+    };
+    id = home;
+    label = Home;
+    link =     {
+        href = "http://www.businessinsider.com/home";
+        rel = self;
+        title = Home;
+    };
+    pages =     (
+                {
+            branding =             {
+                color = 325a66;
+            };
+            id = latest;
+            label = Latest;
+            link =             {
+                href = "http://www.businessinsider.com/latest";
+                rel = self;
+                title = Latest;
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=latest";
+                rel = posts;
+                title = "Latest Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+            );
+        }
+    );
+    posts =     {
+        href = "https://api.businessinsider.com/posts?vertical=home";
+        rel = posts;
+        title = "Home Posts";
+    };
+    sponsored = 0;
+    subverticals =     (
+    );
+},
+{
+    branding =     {
+        color = 01819e;
+    };
+    id = sai;
+    label = Tech;
+    link =     {
+        href = "http://www.businessinsider.com/sai";
+        rel = self;
+        title = Tech;
+    };
+    pages =     (
+                {
+            branding =             {
+                color = 01819e;
+            };
+            id = enterprise;
+            label = Enterprise;
+            link =             {
+                href = "http://www.businessinsider.com/enterprise";
+                rel = self;
+                title = Enterprise;
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=enterprise";
+                rel = posts;
+                title = "Enterprise Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=cloud-computing";
+                    name = "Cloud Computing";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=software-as-a-service";
+                    name = "Software As A Service";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=enterprise-software";
+                    name = "Enterprise Software";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=security";
+                    name = Security;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=data-center";
+                    name = "Data Center";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=mobile";
+                    name = Mobile;
+                }
+            );
+        },
+                {
+            branding =             {
+                color = 01819e;
+            };
+            id = science;
+            label = Science;
+            link =             {
+                href = "http://www.businessinsider.com/science";
+                rel = self;
+                title = Science;
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=science";
+                rel = posts;
+                title = "Science Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=space";
+                    name = Space;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=biology";
+                    name = Biology;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=health";
+                    name = Health;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=environment";
+                    name = Environment;
+                }
+            );
+        }
+    );
+    posts =     {
+        href = "https://api.businessinsider.com/posts?vertical=sai";
+        rel = posts;
+        title = "Tech Posts";
+    };
+    sponsored = 0;
+    subverticals =     (
+                {
+            href = "https://api.businessinsider.com/posts?vertical=mobile";
+            name = Mobile;
+        }
+    );
+},
+{
+    branding =     {
+        color = cf4e00;
+    };
+    id = clusterstock;
+    label = Finance;
+    link =     {
+        href = "http://www.businessinsider.com/clusterstock";
+        rel = self;
+        title = Finance;
+    };
+    pages =     (
+                {
+            branding =             {
+                color = cf4e00;
+            };
+            id = moneygame;
+            label = Markets;
+            link =             {
+                href = "http://www.businessinsider.com/moneygame";
+                rel = self;
+                title = Markets;
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=moneygame";
+                rel = posts;
+                title = "Markets Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=economy";
+                    name = Economy;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=markets";
+                    name = Markets;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=investing";
+                    name = Investing;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=etfs";
+                    name = ETFs;
+                }
+            );
+        },
+                {
+            branding =             {
+                color = cf4e00;
+            };
+            id = yourmoney;
+            label = "Your Money";
+            link =             {
+                href = "http://www.businessinsider.com/yourmoney";
+                rel = self;
+                title = "Your Money";
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=yourmoney";
+                rel = posts;
+                title = "Your Money Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=investing";
+                    name = Investing;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=spending";
+                    name = Spending;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=family";
+                    name = Family;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=career";
+                    name = Career;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=home";
+                    name = Home;
+                }
+            );
+        },
+                {
+            branding =             {
+                color = cf4e00;
+            };
+            id = wealthadvisor;
+            label = "Wealth Advisor";
+            link =             {
+                href = "http://www.businessinsider.com/wealthadvisor";
+                rel = self;
+                title = "Wealth Advisor";
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=wealthadvisor";
+                rel = posts;
+                title = "Wealth Advisor Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+            );
+        }
+    );
+    posts =     {
+        href = "https://api.businessinsider.com/posts?vertical=clusterstock";
+        rel = posts;
+        title = "Finance Posts";
+    };
+    sponsored = 0;
+    subverticals =     (
+                {
+            href = "https://api.businessinsider.com/posts?vertical=wall-street";
+            name = "Wall Street";
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=hedge-funds";
+            name = "Hedge Funds";
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=private-equity";
+            name = "Private Equity";
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=culture";
+            name = Culture;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=money-media";
+            name = "Money Media";
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=regulation";
+            name = Regulation;
+        }
+    );
+},
+{
+    branding =     {
+        color = 3f8e3b;
+    };
+    id = politics;
+    label = Politics;
+    link =     {
+        href = "http://www.businessinsider.com/politics";
+        rel = self;
+        title = Politics;
+    };
+    pages =     (
+                {
+            branding =             {
+                color = 3f8e3b;
+            };
+            id = defense;
+            label = "Military & Defense";
+            link =             {
+                href = "http://www.businessinsider.com/defense";
+                rel = self;
+                title = "Military & Defense";
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=defense";
+                rel = posts;
+                title = "Military & Defense Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=the-aviationist";
+                    name = "The Aviationist";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=hardware";
+                    name = Hardware;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=infosec";
+                    name = INFOSEC;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=the-smoke-pit";
+                    name = "The Smoke Pit";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=after-action-report";
+                    name = "After Action Report";
+                }
+            );
+        },
+                {
+            branding =             {
+                color = 3f8e3b;
+            };
+            id = law;
+            label = "Law & Order";
+            link =             {
+                href = "http://www.businessinsider.com/law";
+                rel = self;
+                title = "Law & Order";
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=law";
+                rel = posts;
+                title = "Law & Order Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=lawsuits";
+                    name = Lawsuits;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=crime";
+                    name = Crime;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=out-of-order";
+                    name = "Out Of Order";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=legal-industry";
+                    name = "Legal Industry";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=federal-courts";
+                    name = "Federal Courts";
+                }
+            );
+        }
+    );
+    posts =     {
+        href = "https://api.businessinsider.com/posts?vertical=politics";
+        rel = posts;
+        title = "Politics Posts";
+    };
+    sponsored = 0;
+    subverticals =     (
+                {
+            href = "https://api.businessinsider.com/posts?vertical=elections";
+            name = Elections;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=white-house";
+            name = "White House";
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=congress";
+            name = Congress;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=political-media";
+            name = "Political Media";
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=policy";
+            name = Policy;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=national-security";
+            name = "National Security";
+        }
+    );
+},
+{
+    branding =     {
+        color = a11d0b;
+    };
+    id = warroom;
+    label = Strategy;
+    link =     {
+        href = "http://www.businessinsider.com/warroom";
+        rel = self;
+        title = Strategy;
+    };
+    pages =     (
+                {
+            branding =             {
+                color = a11d0b;
+            };
+            id = careers;
+            label = Careers;
+            link =             {
+                href = "http://www.businessinsider.com/careers";
+                rel = self;
+                title = Careers;
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=careers";
+                rel = posts;
+                title = "Careers Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=instant-mba";
+                    name = "Instant MBA";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=interviewing";
+                    name = Interviewing;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=resumes";
+                    name = Resumes;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=entrepreneurship";
+                    name = Entrepreneurship;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=winning";
+                    name = Winning;
+                }
+            );
+        },
+                {
+            branding =             {
+                color = a11d0b;
+            };
+            id = advertising;
+            label = Advertising;
+            link =             {
+                href = "http://www.businessinsider.com/advertising";
+                rel = self;
+                title = Advertising;
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=advertising";
+                rel = posts;
+                title = "Advertising Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=madison-avenue";
+                    name = "Madison Avenue";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=just-plain-wrong";
+                    name = "Just Plain Wrong";
+                }
+            );
+        },
+                {
+            branding =             {
+                color = a11d0b;
+            };
+            id = retail;
+            label = Retail;
+            link =             {
+                href = "http://www.businessinsider.com/retail";
+                rel = self;
+                title = Retail;
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=retail";
+                rel = posts;
+                title = "Retail Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=big-box";
+                    name = "Big Box";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=apparel";
+                    name = Apparel;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=e-commerce";
+                    name = "E-Commerce";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=restaurants";
+                    name = Restaurants;
+                }
+            );
+        },
+                {
+            branding =             {
+                color = a11d0b;
+            };
+            id = smallbusiness;
+            label = "Small Business";
+            link =             {
+                href = "http://www.businessinsider.com/smallbusiness";
+                rel = self;
+                title = "Small Business";
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=smallbusiness";
+                rel = posts;
+                title = "Small Business Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=schools";
+                    name = Schools;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=finance";
+                    name = Finance;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=tech";
+                    name = Tech;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=lifestyle";
+                    name = Lifestyle;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=people";
+                    name = People;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=companies";
+                    name = Companies;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=places";
+                    name = Places;
+                }
+            );
+        }
+    );
+    posts =     {
+        href = "https://api.businessinsider.com/posts?vertical=warroom";
+        rel = posts;
+        title = "Strategy Posts";
+    };
+    sponsored = 0;
+    subverticals =     (
+                {
+            href = "https://api.businessinsider.com/posts?vertical=management";
+            name = Management;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=small-business";
+            name = "Small Business";
+        }
+    );
+},
+{
+    branding =     {
+        color = 6c3039;
+    };
+    id = thelife;
+    label = Life;
+    link =     {
+        href = "http://www.businessinsider.com/thelife";
+        rel = self;
+        title = Life;
+    };
+    pages =     (
+                {
+            branding =             {
+                color = 984b55;
+            };
+            id = transportation;
+            label = Transportation;
+            link =             {
+                href = "http://www.businessinsider.com/transportation";
+                rel = self;
+                title = Transportation;
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=transportation";
+                rel = posts;
+                title = "Transportation Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=planes";
+                    name = Planes;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=trains";
+                    name = Trains;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=cars";
+                    name = Cars;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=boats";
+                    name = Boats;
+                }
+            );
+        }
+    );
+    posts =     {
+        href = "https://api.businessinsider.com/posts?vertical=thelife";
+        rel = posts;
+        title = "Life Posts";
+    };
+    sponsored = 0;
+    subverticals =     (
+                {
+            href = "https://api.businessinsider.com/posts?vertical=destinations";
+            name = Destinations;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=toys";
+            name = Toys;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=real-estate";
+            name = "Real Estate";
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=culture";
+            name = Culture;
+        }
+    );
+},
+{
+    branding =     {
+        color = 2b679f;
+    };
+    id = thewire;
+    label = Entertainment;
+    link =     {
+        href = "http://www.businessinsider.com/thewire";
+        rel = self;
+        title = Entertainment;
+    };
+    pages =     (
+                {
+            branding =             {
+                color = 2b679f;
+            };
+            id = sportspage;
+            label = Sports;
+            link =             {
+                href = "http://www.businessinsider.com/sportspage";
+                rel = self;
+                title = Sports;
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=sportspage";
+                rel = posts;
+                title = "Sports Posts";
+            };
+            sponsored = 0;
+            subverticals =             (
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=nfl";
+                    name = NFL;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=mlb";
+                    name = MLB;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=nhl";
+                    name = NHL;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=nba";
+                    name = NBA;
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=sports-media";
+                    name = "Sports Media";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=college-sports";
+                    name = "College Sports";
+                },
+                                {
+                    href = "https://api.businessinsider.com/posts?vertical=golf";
+                    name = Golf;
+                }
+            );
+        }
+    );
+    posts =     {
+        href = "https://api.businessinsider.com/posts?vertical=thewire";
+        rel = posts;
+        title = "Entertainment Posts";
+    };
+    sponsored = 0;
+    subverticals =     (
+                {
+            href = "https://api.businessinsider.com/posts?vertical=tv";
+            name = TV;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=movies";
+            name = Movies;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=music";
+            name = Music;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=video-games";
+            name = "Video Games";
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=people";
+            name = People;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=fashion";
+            name = Fashion;
+        },
+                {
+            href = "https://api.businessinsider.com/posts?vertical=awards-shows";
+            name = "Awards Shows";
+        }
+    );
+},
+{
+    branding =     {
+        color = 325a66;
+    };
+    id = "<null>";
+    label = Sponsored;
+    link = "<null>";
+    pages =     (
+                {
+            branding =             {
+                color = 325a66;
+            };
+            id = "future-of-business";
+            label = "Future of Business";
+            link =             {
+                href = "http://www.businessinsider.com/future-of-business";
+                rel = self;
+                title = "Future of Business";
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=future-of-business";
+                rel = posts;
+                title = "Future of Business Posts";
+            };
+            sponsored = 1;
+            subverticals =             (
+            );
+        },
+                {
+            branding =             {
+                color = 325a66;
+            };
+            id = "big-ideas";
+            label = "Small Business, Big Ideas";
+            link =             {
+                href = "http://www.businessinsider.com/big-ideas";
+                rel = self;
+                title = "Small Business, Big Ideas";
+            };
+            posts =             {
+                href = "https://api.businessinsider.com/posts?vertical=big-ideas";
+                rel = posts;
+                title = "Small Business, Big Ideas Posts";
+            };
+            sponsored = 1;
+            subverticals =             (
+            );
+        }
+    );
+    posts = "<null>";
+    sponsored = 0;
+}

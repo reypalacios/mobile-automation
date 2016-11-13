@@ -29,7 +29,7 @@ Feature: App Menu
 #     | TRANSPORTATION |
 #     | EDUCATION |
 #     | ENTERTAINMENT |
-     | SPORTS |
+#     | SPORTS |
 
 
 
