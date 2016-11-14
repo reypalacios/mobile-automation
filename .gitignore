@@ -24,7 +24,7 @@
 /out/
 mobile-automation.iml
 
-#*.properties
+*.properties
 runCukesTest.java
 
 #ignore target directory
