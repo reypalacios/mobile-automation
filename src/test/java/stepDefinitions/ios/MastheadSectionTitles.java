@@ -9,7 +9,7 @@ import setUpClasses.App;
 /**
  * Created by rpalacios on 11/13/15.
  */
-public class MastheadSectionTitles{
+public class MastheadSectionTitles {
 
     @Given("^I am on the home vertical$")
     public void i_am_on_the_home_vertical() throws Throwable {

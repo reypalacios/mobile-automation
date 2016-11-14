@@ -1,6 +1,5 @@
 package stepDefinitions.ios;
 
-import commands.Window;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -10,7 +9,7 @@ import setUpClasses.App;
 /**
  * Created by rpalacios on 6/6/16.
  */
-public class RecommendedForYou{
+public class RecommendedForYou {
     RecommendedForYouObject recommendedForYou = new RecommendedForYouObject();
     RiverFeedObject RiverFeed = new RiverFeedObject();
     Boolean checkPostTitle = true;

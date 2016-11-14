@@ -7,14 +7,13 @@ import pageObjects.MenuObject;
 import pageObjects.PostObject;
 import pageObjects.RiverFeedObject;
 
-
 import static commands.Window.assertChar;
 import static commands.Window.assertDisplay;
 
 /**
  * Created by rpalacios on 11/13/15.
  */
-public class SavedArticles{
+public class SavedArticles {
 
     String posttitle;
     RiverFeedObject RiverFeed = new RiverFeedObject();
