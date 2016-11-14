@@ -15,7 +15,7 @@ import setUpClasses.App;
 public class MastHeadObject{
 
     @AndroidFindBy(id = "drawer_vertical_list")
-    @iOSFindBy (name = "EasyClose Icon")
+    @iOSFindBy (accessibility = "VerticalPickerTableView")
     public static WebElement menu;
 
     @AndroidFindBy(xpath = "//*[@content-desc='Open Drawer']")
