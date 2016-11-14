@@ -15,7 +15,7 @@ import java.util.LinkedHashSet;
 import static commands.Window.verticalSwipe;
 import static pageObjects.RiverFeedObject.getVerticalPostTitles;
 import static pageObjects.RiverFeedObject.spinner;
-import static pageObjects.RiverFeedObject.postHeadlines;
+import static pageObjects.RiverFeedObject.topPost;
 import static setUpClasses.App.driver;
 
 
@@ -40,9 +40,18 @@ public class PostsLoadWhenScrollingDownVertical {
         WebDriverWait wait = new WebDriverWait(driver, 15);
 
         while (verticalPostTitles.size() < totalPosts) {
+            int totalTitlesBeforeSwipe = verticalPostTitles.size();
+            wait.until(new ElementsPresent(postHeadline));
             verticalPostTitles.addAll(getVerticalPostTitles());
             verticalSwipe(0.90, 0.30);
             wait.until(new ElementNotVisible(spinner));
+            int totalTitlesAfterSwipe = verticalPostTitles.size();
+
+            Boolean areMorePostsPresent = totalTitlesAfterSwipe > totalTitlesBeforeSwipe;
+            // Verify that more posts are displayed
+            Assert.assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
+
+            System.out.println("TOTAL TITLES: " + verticalPostTitles.size());
         }
 
         // Get total posts
@@ -63,10 +72,9 @@ public class PostsLoadWhenScrollingDownVertical {
 
         riverFeed = new RiverFeedObject();
 
-        while (verticalPostTitles.size() < totalPosts+1) {
-            verticalSwipe(0.90, 0.30);
-            verticalPostTitles.addAll(getVerticalPostTitles());
-        }
+        wait.until(new ElementsPresent(postHeadline));
+        verticalSwipe(0.90, 0.30);
+        verticalPostTitles.addAll(getVerticalPostTitles());
 
         int totalPostsNextPayload = verticalPostTitles.size();
 

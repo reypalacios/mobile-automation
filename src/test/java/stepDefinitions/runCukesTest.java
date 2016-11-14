@@ -9,9 +9,9 @@ import setUpClasses.App;
 import java.io.IOException;
 import java.util.Date;
 
-@CucumberOptions(features = "src/test/resources/features/ios"
+@CucumberOptions(features = "src/test/resources/features/android"
         ,format = {"pretty", "html:target/cucumber", "json:target/cucumber-report.json"}
-        ,glue = {"stepDefinitions.ios"}
+        ,glue = {"stepDefinitions.android"}
         //,tags = {"@recommended"
         //,"~@iosbug" }
         //,"~@androidbug"}
