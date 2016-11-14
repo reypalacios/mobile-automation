@@ -13,110 +13,110 @@ import setUpClasses.App;
 public class MenuObject {
 
     @AndroidFindBy(id = "drawer_list_item_function_text")
-    @iOSFindBy(xpath = "//*[contains(@name,'Saved Articles')]")
+    @iOSFindBy(accessibility = "//*[contains(@name,'Saved Articles')]")
     public static WebElement savedArticles;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='HOME']")
-    @iOSFindBy(xpath= "//UIATableCell[@name='HOME']")
+    @iOSFindBy(accessibility = "HOME")
     public static WebElement home;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Latest']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Latest']")
+    @iOSFindBy(accessibility = "Latest")
     public static WebElement latest;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='TECH']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='TECH']")
+    @iOSFindBy(accessibility = "TECH")
     public static WebElement tech;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Enterprise']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Enterprise']")
+    @iOSFindBy(accessibility = "Enterprise")
     public static WebElement enterprise;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Science']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Science']")
+    @iOSFindBy(accessibility = "Science")
     public static WebElement science;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='FINANCE']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='FINANCE']")
+    @iOSFindBy(accessibility = "FINANCE")
     public static WebElement finance;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Markets']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Markets']")
+    @iOSFindBy(accessibility = "Markets")
     public static WebElement markets;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Your Money']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Your Money']")
+    @iOSFindBy(accessibility = "Your Money")
     public static WebElement yourMoney;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Wealth Advisor']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Wealth Advisor']")
+    @iOSFindBy(accessibility = "Wealth Advisor")
     public static WebElement wealthAdvisor;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='POLITICS']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='POLITICS']")
+    @iOSFindBy(accessibility = "POLITICS")
     public static WebElement politics;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Military & Defense']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Military & Defense']")
+    @iOSFindBy(accessibility = "Military & Defense")
     public static WebElement militaryDefense;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Law & Order']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Law & Order']")
+    @iOSFindBy(accessibility = "Law & Order")
     public static WebElement lawOrder;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='STRATEGY']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='STRATEGY']")
+    @iOSFindBy(accessibility = "STRATEGY")
     public static WebElement strategy;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Careers']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Careers']")
+    @iOSFindBy(accessibility = "Careers")
     public static WebElement careers;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Advertising']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Advertising']")
+    @iOSFindBy(accessibility = "Advertising")
     public static WebElement advertising;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Retail']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Retail']")
+    @iOSFindBy(accessibility = "Retail")
     public static WebElement retail;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Small Business']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Small Business']")
+    @iOSFindBy(accessibility = "Small Business")
     public static WebElement smallBusiness;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='LIFE']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='LIFE']")
+    @iOSFindBy(accessibility = "LIFE")
     public static WebElement life;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Transportation']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Transportation']")
+    @iOSFindBy(accessibility = "Transportation")
     public static WebElement transportation;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Education']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Education']")
+    @iOSFindBy(accessibility = "Education")
     public static WebElement education;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='ENTERTAINMENT']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='ENTERTAINMENT']")
+    @iOSFindBy(accessibility = "ENTERTAINMENT")
     public static WebElement entertainment;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Sports']")
-    @iOSFindBy(xpath = "//UIATableCell[@name='Sports']")
+    @iOSFindBy(accessibility = "Sports")
     public static WebElement sports;
 
-    @iOSFindBy(xpath = "//UIATableCell[@name='ABOUT BI']")
+    @iOSFindBy(accessibility = "ABOUT BI")
     public static WebElement aboutbi;
 
-    @iOSFindBy(xpath = "//UIATableCell[@name='Legal Fine Print']")
+    @iOSFindBy(accessibility = "Legal Fine Print")
     public static WebElement legalFinePrint;
 
-    @iOSFindBy(xpath = "//UIATableCell[@name='Send Feedback']")
+    @iOSFindBy(accessibility = "Send Feedback")
     public static WebElement sendFeedback;
 
-    @iOSFindBy(xpath = "//UIATableCell[@name='Settings']")
+    @iOSFindBy(accessibility = "Settings")
     public static WebElement settings;
 
-    @iOSFindBy(xpath = "//UIATableCell[@name='©2015 Business Insider, Inc. All rights reserved.  Use of this app constitutes acceptance of our  Terms of Service and Privacy Policy.']")
+    @iOSFindBy(accessibility = "copyrightCell")
     public static WebElement copyright;
 
     @AndroidFindBy(id = "android:id/action_bar_title")
