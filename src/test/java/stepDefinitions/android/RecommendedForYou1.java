@@ -10,7 +10,7 @@ import setUpClasses.App;
 /**
  * Created by rpalacios on 6/6/16.
  */
-public class RecommendedForYou extends App {
+public class RecommendedForYou1 extends App {
     RecommendedForYouObject recommendedForYou = new RecommendedForYouObject();
     RiverFeedObject RiverFeed = new RiverFeedObject();
 
