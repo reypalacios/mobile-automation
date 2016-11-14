@@ -12,7 +12,6 @@ import setUpClasses.App;
 public class KebabSettingsObject{
 
     @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.LinearLayout[2]/android.widget.ImageButton[1]")
-    //@iOSFindBy(name = "EasyMenu Icon")
     public static WebElement kebabMenu;
 
     @AndroidFindBy(xpath = "//android.widget.ListView[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]")
