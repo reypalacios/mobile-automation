@@ -18,7 +18,7 @@ import java.io.IOException;
 public class PostObject{
 
     @AndroidFindBy(id = "post_headline_text")
-    @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAScrollView[3]/UIAWebView[1]/UIAStaticText[1]")
+    @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAElement[1]/UIAScrollView[1]/UIAWebView[1]/UIAStaticText[1]")
     public static WebElement title;
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[2]")
@@ -47,7 +47,7 @@ public class PostObject{
     }
 
     public void assertTitle(String expectedTitle) throws InterruptedException, IOException {
-        Window.assertChar(title.getText().toLowerCase(), expectedTitle.toLowerCase());
+        Window.assertChar(title.getText(), expectedTitle);
     }
 
     public boolean isAPost() {

@@ -47,8 +47,7 @@ public class PushPermissionRequest {
     @Then("^The 'Push Notifications' Setting in the app is set to ON$")
     public void the_Push_Notifications_Setting_in_the_app_is_set_to_ON() throws Throwable {
         App.launchDeviceSettings();
-        Window.scrolldown(new DeviceSettingsObject().gameCenter);
-        Thread.sleep(3000);
+        //Window.scrolldown(new DeviceSettingsObject().gameCenter);
         new DeviceSettingsObject().BI.click();
         new DeviceSettingsObject().notifications.click();
         Window.assertSelected((WebElement) new DeviceSettingsObject().allowNotificaitons.get(2));

@@ -13,114 +13,108 @@ import setUpClasses.App;
 public class MenuObject {
 
     @AndroidFindBy(id = "drawer_list_item_function_text")
-    @iOSFindBy(accessibility = "//*[contains(@name,'Saved Articles')]")
+    @iOSFindBy(accessibility = "vpc_Saved Articles")
     public static WebElement savedArticles;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='HOME']")
-    @iOSFindBy(accessibility = "HOME")
+    @iOSFindBy(accessibility = "vpc_HOME")
     public static WebElement home;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Latest']")
-    @iOSFindBy(accessibility = "Latest")
+    @iOSFindBy(accessibility = "vpc_Latest")
     public static WebElement latest;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='TECH']")
-    @iOSFindBy(accessibility = "TECH")
+    @iOSFindBy(accessibility = "vpc_TECH")
     public static WebElement tech;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Enterprise']")
-    @iOSFindBy(accessibility = "Enterprise")
+    @iOSFindBy(accessibility = "vpc_Enterprise")
     public static WebElement enterprise;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Science']")
-    @iOSFindBy(accessibility = "Science")
+    @iOSFindBy(accessibility = "vpc_Science")
     public static WebElement science;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='FINANCE']")
-    @iOSFindBy(accessibility = "FINANCE")
+    @iOSFindBy(accessibility = "vpc_FINANCE")
     public static WebElement finance;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Markets']")
-    @iOSFindBy(accessibility = "Markets")
+    @iOSFindBy(accessibility = "vpc_Markets")
     public static WebElement markets;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Your Money']")
-    @iOSFindBy(accessibility = "Your Money")
+    @iOSFindBy(accessibility = "vpc_Your Money")
     public static WebElement yourMoney;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Wealth Advisor']")
-    @iOSFindBy(accessibility = "Wealth Advisor")
+    @iOSFindBy(accessibility = "vpc_Wealth Advisor")
     public static WebElement wealthAdvisor;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='POLITICS']")
-    @iOSFindBy(accessibility = "POLITICS")
+    @iOSFindBy(accessibility = "vpc_POLITICS")
     public static WebElement politics;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Military & Defense']")
-    @iOSFindBy(accessibility = "Military & Defense")
+    @iOSFindBy(accessibility = "vpc_Military & Defense")
     public static WebElement militaryDefense;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Law & Order']")
-    @iOSFindBy(accessibility = "Law & Order")
+    @iOSFindBy(accessibility = "vpc_Law & Order")
     public static WebElement lawOrder;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='STRATEGY']")
-    @iOSFindBy(accessibility = "STRATEGY")
+    @iOSFindBy(accessibility = "vpc_STRATEGY")
     public static WebElement strategy;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Careers']")
-    @iOSFindBy(accessibility = "Careers")
+    @iOSFindBy(accessibility = "vpc_Careers")
     public static WebElement careers;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Advertising']")
-    @iOSFindBy(accessibility = "Advertising")
+    @iOSFindBy(accessibility = "vpc_Advertising")
     public static WebElement advertising;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Retail']")
-    @iOSFindBy(accessibility = "Retail")
+    @iOSFindBy(accessibility = "vpc_Retail")
     public static WebElement retail;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Small Business']")
-    @iOSFindBy(accessibility = "Small Business")
+    @iOSFindBy(accessibility = "vpc_Small Business")
     public static WebElement smallBusiness;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='LIFE']")
-    @iOSFindBy(accessibility = "LIFE")
+    @iOSFindBy(accessibility = "vpc_LIFE")
     public static WebElement life;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Transportation']")
-    @iOSFindBy(accessibility = "Transportation")
+    @iOSFindBy(accessibility = "vpc_Transportation")
     public static WebElement transportation;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Education']")
-    @iOSFindBy(accessibility = "Education")
+    @iOSFindBy(accessibility = "vpc_Education")
     public static WebElement education;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='ENTERTAINMENT']")
-    @iOSFindBy(accessibility = "ENTERTAINMENT")
+    @iOSFindBy(accessibility = "vpc_ENTERTAINMENT")
     public static WebElement entertainment;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Sports']")
-    @iOSFindBy(accessibility = "Sports")
+    @iOSFindBy(accessibility = "vpc_Sports")
     public static WebElement sports;
 
-    @iOSFindBy(accessibility = "ABOUT BI")
-    public static WebElement aboutbi;
-
-    @iOSFindBy(accessibility = "Legal Fine Print")
+    @iOSFindBy(accessibility = "vpc_Legal Fine Print")
     public static WebElement legalFinePrint;
 
-    @iOSFindBy(accessibility = "Send Feedback")
+    @iOSFindBy(accessibility = "vpc_Send Feedback")
     public static WebElement sendFeedback;
 
-    @iOSFindBy(accessibility = "Settings")
+    @iOSFindBy(accessibility = "vpc_Settings")
     public static WebElement settings;
 
     @iOSFindBy(accessibility = "copyrightCell")
     public static WebElement copyright;
-
-    @AndroidFindBy(id = "android:id/action_bar_title")
-    public static WebElement currentVertical;
 
     public MenuObject() {
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);

@@ -24,7 +24,7 @@ public class SavedArticles extends App{
 
     @Then("^I save the post$")
     public void i_save_the_post() throws Throwable {
-        Masthead.save.click();
+        Masthead.savePost.click();
         posttitle = Post.title.getText();
         Masthead.back.click();
     }
@@ -47,7 +47,7 @@ public class SavedArticles extends App{
 
     @Then("^I unsave the post$")
     public void i_unsave_the_post() throws Throwable {
-        new MastHeadObject().saveOn.click();
+        new MastHeadObject().savePostOn.click();
         assertDisplay(Menu.home);
         assertDisplay(Masthead.closeMenu);
         Masthead.isCurrentTitle("BUSINESS INSIDER");

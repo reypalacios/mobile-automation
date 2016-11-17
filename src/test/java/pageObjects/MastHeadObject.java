@@ -16,30 +16,30 @@ public class MastHeadObject{
 
     @AndroidFindBy(id = "drawer_vertical_list")
     @iOSFindBy (accessibility = "VerticalPickerTableView")
-    public static WebElement menu;
+    public static WebElement menuTable;
 
     @AndroidFindBy(xpath = "//*[@content-desc='Open Drawer']")
-    @iOSFindBy(accessibility = "EasyMenu Icon")
+    @iOSFindBy(accessibility = "verticalMenuButton")
     public static WebElement hamburgerMenu;
 
     @AndroidFindBy(xpath = "//*[@content-desc='Close Drawer']")
-    @iOSFindBy(accessibility = "EasyClose Icon")
+    @iOSFindBy(accessibility = "CloseMenuButton")
     public static WebElement closeMenu;
 
     @AndroidFindBy(id = "toolbar_image")
     @iOSFindBy(accessibility = "titleLabel")
-    public static WebElement title;
+    public static WebElement titleLabel;
 
     @AndroidFindBy(id = "toolbar_brand_text")
     @iOSFindBy(accessibility = "verticalLabel")
-    public static WebElement vertical;
+    public static WebElement verticalLabel;
 
     @AndroidFindBy(id = "search_articles_option")
-    @iOSFindBy(accessibility = "EasySearch Icon")
+    @iOSFindBy(accessibility = "searchPostsButton")
     public static WebElement search;
 
     @AndroidFindBy(id = "search_close_button")
-    @iOSFindBy(accessibility = "EasyClose Icon")
+    @iOSFindBy(accessibility = "exitSearchButton")
     public static WebElement closeSearch;
 
     @AndroidFindBy(xpath = "//*[@content-desc='More options']")
@@ -47,14 +47,14 @@ public class MastHeadObject{
 
     @AndroidFindBy(id = "favorite_option")
     @iOSFindBy(accessibility = "navBookmarkButton")
-    public static WebElement save;
+    public static WebElement savePost;
 
     @iOSFindBy(accessibility = "navShareButton")
-    public static WebElement share;
+    public static WebElement sharePost;
 
     @AndroidFindBy(id = "favorite_option")
     @iOSFindBy(id = "EasySaveOn")
-    public static WebElement saveOn;
+    public static WebElement savePostOn;
 
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.ImageButton[1]")
     @iOSFindBy(accessibility = "Back")
@@ -66,7 +66,7 @@ public class MastHeadObject{
 
     public void clickHamburgerMenu() throws InterruptedException {
         try {
-            menu.isDisplayed();
+            menuTable.isDisplayed();
         }catch(NoSuchElementException e){
             hamburgerMenu.click();
             Thread.sleep(2000);
@@ -77,8 +77,8 @@ public class MastHeadObject{
         String title = null;
 
         try{
-            MastHeadObject.vertical.isDisplayed();
-            title= MastHeadObject.vertical.getText().toLowerCase();
+            MastHeadObject.verticalLabel.isDisplayed();
+            title= MastHeadObject.verticalLabel.getText().toLowerCase();
             if(title.equals("home"))
                 title = "business insider";
         }catch (Exception e){

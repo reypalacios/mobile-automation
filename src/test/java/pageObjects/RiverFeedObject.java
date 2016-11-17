@@ -4,11 +4,11 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
 import io.appium.java_client.pagefactory.iOSFindBys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import setUpClasses.App;
-import java.lang.annotation.Repeatable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -105,47 +105,41 @@ public class RiverFeedObject {
 
     public void clickPost(String posttitle) throws InterruptedException {
         try{
-            if (App.driver.findElementByXPath("//*[@label='" + posttitle + "']").isEnabled()) {
-                App.driver.findElementByXPath("//*[@label='"+posttitle+"']").click();
-                Thread.sleep(5000);
-                try{
-                    if (App.driver.findElementByXPath("//*[@label='" + posttitle + "']").isEnabled()) {
-                        System.out.println("Retrying 1...");
-                        clickPost(posttitle);
-                    }
-                }catch (Exception e){
-                    e.printStackTrace();
+            App.driver.findElementByAccessibilityId(posttitle).click();
+            Thread.sleep(3000);
+            try {
+                if (App.driver.findElementByAccessibilityId(posttitle).isEnabled()) {
+                    System.out.println("Retrying click on post(1)...");
+                    clickPost(posttitle);
                 }
-            }else{
-                System.out.println("Post not enabled");
+            }catch(NoSuchElementException n){
+                System.out.println("User is in the post");
             }
         }catch(Exception e){
-            if (e.getMessage().contains("could not be tapped") || e.getMessage().contains("server-side error") || e.getMessage().contains("could not be located")) {
-                try {
-                    if (App.driver.findElementByXPath("//*[@label='" + posttitle + "']").isDisplayed()) {
-                        App.driver.findElementByXPath("//*[@label='" + posttitle + "']").click();
-                        Thread.sleep(3000);
-                    } else {
-                        if (App.driver.findElementByXPath("//*[@label='" + posttitle + "']").isEnabled()) {
-                            System.out.println("Retrying 2...");
-                            clickPost(posttitle);
-                        }
-                    }
-                }catch(Exception e1){
+            try{
+                if (e.getMessage().contains("could not be tapped") || e.getMessage().contains("server-side error") || e.getMessage().contains("could not be located")) {
+                    App.driver.findElementByAccessibilityId(posttitle).click();
+                    Thread.sleep(3000);
                     try {
-                        if (App.driver.findElementByXPath("//*[@label='" + posttitle + "']").isEnabled()) {
-                            System.out.println("Retrying 3...");
+                        if (App.driver.findElementByAccessibilityId(posttitle).isEnabled()) {
+                            System.out.println("Retrying click on post(2)");
                             clickPost(posttitle);
                         }
-                    }catch (Exception e3){
-                        if(!new PostObject().isAPost()){
-                            System.out.println("Retrying 4...");
-                            clickPost(posttitle);
-                        }
+                    }catch(NoSuchElementException n){
+                        System.out.println("User is in the post");
+                    }
+                }else {
+                    e.printStackTrace();
+                }
+            }catch(Exception e1){
+                if (e1.getMessage().contains("could not be tapped") || e.getMessage().contains("server-side error") || e.getMessage().contains("could not be located")) {
+                    if (App.driver.findElementByAccessibilityId(posttitle).isEnabled()) {
+                        System.out.println("Retrying click on post(3)");
+                        clickPost(posttitle);
+                    }else{
+                        e1.printStackTrace();
                     }
                 }
-            }else {
-                e.printStackTrace();
             }
         }
         Thread.sleep(3000);

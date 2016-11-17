@@ -603,7 +603,7 @@
 		</data>
 		<key>CommentsViewController.nib</key>
 		<data>
-		xJoOahhWZAWO6DBZ0LX67SLbyOU=
+		x31D9LB76DVZSE4/pdaQe9rsQnY=
 		</data>
 		<key>Config.plist</key>
 		<data>
@@ -1081,7 +1081,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		K04Q1e347YbS4Ku3cm5FcJCjtF8=
+		6cjERunSeshRufOxHh0shmhXpCk=
 		</data>
 		<key>Masthead_BILogo.png</key>
 		<data>
@@ -1201,11 +1201,11 @@
 		</data>
 		<key>SearchViewControllerFS.nib</key>
 		<data>
-		F5j9nYmKYdiRDDB+VtmDFuv/CPw=
+		eFgR9c8NL/IpESRDYjWm5BkPGKg=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
-		X84YnvagGj9stGd3YTugmaPxcXY=
+		EzCfDdZot+tV+ouIid6aS3v3Ob8=
 		</data>
 		<key>Settings.bundle/en.lproj/Root.strings</key>
 		<dict>
@@ -1218,7 +1218,7 @@
 		</dict>
 		<key>SettingsStoryboard.storyboardc/Ee9-S3-n8l-view-FCg-8v-13p.nib</key>
 		<data>
-		Cuhalcc61I+Xpsj1mk4p0Qea688=
+		O06konQsK7ey7wk+bFfShqJFxIU=
 		</data>
 		<key>SettingsStoryboard.storyboardc/Info.plist</key>
 		<data>
@@ -1226,15 +1226,15 @@
 		</data>
 		<key>SettingsStoryboard.storyboardc/SettingsDetailController.nib</key>
 		<data>
-		vVWO+j/FP7B13W2sVnjfrPdteQU=
+		0rhk6bhcVJ1xCIzu5ys4XO0dVtA=
 		</data>
 		<key>SettingsStoryboard.storyboardc/SettingsStoryboard.nib</key>
 		<data>
-		LVnV9bKCDGH3EF80iFYRCL7uh4c=
+		LPUMoyZWUanZNYj6eIM4QGuqEi8=
 		</data>
 		<key>SettingsStoryboard.storyboardc/rBg-OL-XaO-view-dcD-RR-QSh.nib</key>
 		<data>
-		lxeqeK+Q0xP2fWe0Uli6j83Z4IU=
+		IafGCmCy7HRT1q6c27ThO+8/NsY=
 		</data>
 		<key>Settings_Icon.png</key>
 		<data>
@@ -1254,15 +1254,15 @@
 		</data>
 		<key>SlideShowOnePageStoryboard.storyboardc/MxV-UO-AiJ-view-PRS-do-T9P.nib</key>
 		<data>
-		/RRxSonIuqYXLBBASOS+yLyvaT0=
+		bxxItvfoi6BtMAoR8RPJWl0LJ74=
 		</data>
 		<key>SlideShowOnePageStoryboard.storyboardc/UIViewController-MxV-UO-AiJ.nib</key>
 		<data>
-		aMogsSSlB+QNQTA1XBYu9tPsrzM=
+		JcVhazsORLUW8g2PwuK2yrjgvzs=
 		</data>
 		<key>SlideShowViewController.nib</key>
 		<data>
-		1hl3sDhqx3rQlLsRjSbyc2arstY=
+		y8J7vV3lzukBw1mjbuX2bwiqaHw=
 		</data>
 		<key>TeadsSDKResources.bundle/Info.plist</key>
 		<data>
@@ -1630,7 +1630,7 @@
 		</data>
 		<key>adUnits.plist</key>
 		<data>
-		vV2fLMT6Xx+/C3yBUMGOVPLoi3s=
+		ZV1Qjc76Bx8Dmd4nmd9k48dsSvw=
 		</data>
 		<key>agingIcon.png</key>
 		<data>
@@ -1692,7 +1692,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xFiuo2DK5/QzyWgif1pJfl/Y/p8=
+			vzxvUYY37wqV4k2xxpio8QKoY54=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1701,7 +1701,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			49nN1oO8HMAqQvsyhV7Z7IOKKeg=
+			KuRpK+ITvzZniDd6jqSMAr4kpNo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1710,7 +1710,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KfotOEzuDkwQy0GABxEE+5gyPbc=
+			u29Z7JCLefZ+jJ6U1Bb+eJdieAg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1719,7 +1719,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WamYfNvWNOni2Hech3/jNhnm2mk=
+			/xdHx69cVir0vBnQfwYWqN/sEHw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1728,7 +1728,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4UlcSNklYV4ljUh2XAYt+wBDl34=
+			Tc1tyogdvaQYQBcWVGL0WqYmDLg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1737,7 +1737,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hUjNbapwBpk8lbUxtuK2eEbLEzk=
+			xfVV4+TRA5zVGgwlw96lLWQJqIQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1833,7 +1833,7 @@
 		</data>
 		<key>iPhoneBI.momd/VersionInfo.plist</key>
 		<data>
-		Z+gmNhKLq1aIq3Js5vT5MQ1+BTU=
+		Q1wluM+DKEgmSpOWnQz6n1YHmjI=
 		</data>
 		<key>iPhoneBI.momd/iPhoneBI 3.mom</key>
 		<data>
@@ -2201,7 +2201,7 @@
 		</data>
 		<key>index.html</key>
 		<data>
-		YKqIkSsbHruyAbkI90/tQ+dROqQ=
+		RhRGrnH1MzPURLw/K9fjXUY10gE=
 		</data>
 		<key>index8.html</key>
 		<data>
@@ -3594,11 +3594,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xJoOahhWZAWO6DBZ0LX67SLbyOU=
+			x31D9LB76DVZSE4/pdaQe9rsQnY=
 			</data>
 			<key>hash2</key>
 			<data>
-			9J3LeijJKKRlXHv8JA5YO4y3hCbNsFtD60CGT+PXAWk=
+			9y+CX44MaUxACGASiQDLLq2QJm/wiIfka9Qsu+DPGPg=
 			</data>
 		</dict>
 		<key>Config.plist</key>
@@ -4817,22 +4817,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F5j9nYmKYdiRDDB+VtmDFuv/CPw=
+			eFgR9c8NL/IpESRDYjWm5BkPGKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			wNzjsyr/a4uS7QVTekOhak94vRb1dIZzlKSZJn0iIDI=
+			u3Wm3w1tz6UsPcTIa/MUJtOfFf5J2tzX63G9075diWk=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X84YnvagGj9stGd3YTugmaPxcXY=
+			EzCfDdZot+tV+ouIid6aS3v3Ob8=
 			</data>
 			<key>hash2</key>
 			<data>
-			EvUoSgjqpQf0lxr3P91+WHOiW2MIN9zcgVRW22dAUmI=
+			ll2UPCTk0IC4LSHMXku47RJtnjJ9nCAy57ezs6+ly5k=
 			</data>
 		</dict>
 		<key>Settings.bundle/en.lproj/Root.strings</key>
@@ -4852,11 +4852,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cuhalcc61I+Xpsj1mk4p0Qea688=
+			O06konQsK7ey7wk+bFfShqJFxIU=
 			</data>
 			<key>hash2</key>
 			<data>
-			9vE5nWpR7gA4E+nv9HhpcM4J8gOOoJz4orNNiFX5ZcM=
+			TQsCcssc2XGotsSMw5VqiACqDgVXKyN5jN0qIbpo318=
 			</data>
 		</dict>
 		<key>SettingsStoryboard.storyboardc/Info.plist</key>
@@ -4874,33 +4874,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vVWO+j/FP7B13W2sVnjfrPdteQU=
+			0rhk6bhcVJ1xCIzu5ys4XO0dVtA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9UGkV9LOXeypltkUAHRxqU6WTW2HnS3sbzbedAXQKLQ=
+			Jilh4NR8njgKYWkMPUjV99zf7ev3EP+3Gu5qLXj13Q8=
 			</data>
 		</dict>
 		<key>SettingsStoryboard.storyboardc/SettingsStoryboard.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LVnV9bKCDGH3EF80iFYRCL7uh4c=
+			LPUMoyZWUanZNYj6eIM4QGuqEi8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xjm0MXVQ9qXsuB5JMNt+zbj2PxN+O1+pbo5jUmPg3Lo=
+			wvdUx7qtg2Q1tsr8jieI1KOIE3vMpD1X04UvDMr/FR8=
 			</data>
 		</dict>
 		<key>SettingsStoryboard.storyboardc/rBg-OL-XaO-view-dcD-RR-QSh.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lxeqeK+Q0xP2fWe0Uli6j83Z4IU=
+			IafGCmCy7HRT1q6c27ThO+8/NsY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7MkoJu9Nqru1v5XLvmeydD1dXZlGMvivR1NEsCAOuow=
+			gGamrfHCQOJjmwBV4WUpfu+wT4upY7QWp7n+5fIwSsc=
 			</data>
 		</dict>
 		<key>Settings_Icon.png</key>
@@ -4951,33 +4951,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/RRxSonIuqYXLBBASOS+yLyvaT0=
+			bxxItvfoi6BtMAoR8RPJWl0LJ74=
 			</data>
 			<key>hash2</key>
 			<data>
-			0tgIbu2pFGl6mNGfPGU2LpveMiEtuQLsY1AiRMGXNkk=
+			r0pUnU1pfDuk6gbmiZJuVDI1wfmu+hKfnphgL8BTQ8U=
 			</data>
 		</dict>
 		<key>SlideShowOnePageStoryboard.storyboardc/UIViewController-MxV-UO-AiJ.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aMogsSSlB+QNQTA1XBYu9tPsrzM=
+			JcVhazsORLUW8g2PwuK2yrjgvzs=
 			</data>
 			<key>hash2</key>
 			<data>
-			T31kIbWBT3kPSyOW+ucARFkpSOcazfqdUrr4XQy5Yqw=
+			Bcik6giT/N2H+ZvSRMXulwoFail05NskjDuwn6iSggc=
 			</data>
 		</dict>
 		<key>SlideShowViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1hl3sDhqx3rQlLsRjSbyc2arstY=
+			y8J7vV3lzukBw1mjbuX2bwiqaHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			lxxdLD1PeLw3wVjn0n7qGfRXkT+KWQilDCKyQWzDvTM=
+			oG7TKayWpRmo1gdpKtf4ixU7cawCgGpe8uJ/V5Z42Hc=
 			</data>
 		</dict>
 		<key>TeadsSDKResources.bundle/Info.plist</key>
@@ -5985,11 +5985,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vV2fLMT6Xx+/C3yBUMGOVPLoi3s=
+			ZV1Qjc76Bx8Dmd4nmd9k48dsSvw=
 			</data>
 			<key>hash2</key>
 			<data>
-			zOXSkvbZ79k5P3Qc7osuwJfLXV96aPC5EHijeCogPsQ=
+			69ivb2uW+eAoEKKQlKzVgzoEAmKYjR28Mcn3dnWcRrM=
 			</data>
 		</dict>
 		<key>agingIcon.png</key>
@@ -6150,11 +6150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xFiuo2DK5/QzyWgif1pJfl/Y/p8=
+			vzxvUYY37wqV4k2xxpio8QKoY54=
 			</data>
 			<key>hash2</key>
 			<data>
-			c4Ga3bqS9Ed8iKa7G8wRedqSn7DrLm0oQXqbfX5YtcQ=
+			TZpk73vRBQvL/FRqYwrvf3q5/T2RJfm4KalBoGjMD4Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6163,11 +6163,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			49nN1oO8HMAqQvsyhV7Z7IOKKeg=
+			KuRpK+ITvzZniDd6jqSMAr4kpNo=
 			</data>
 			<key>hash2</key>
 			<data>
-			aQF4YjiK2erQk1+kRlQp6jhpdRjvkcFxy934dobrpTA=
+			1bJ126+EQ2T6Ll3lkBQPeyowc0jicsUdp5+F6r6Wg64=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6176,11 +6176,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KfotOEzuDkwQy0GABxEE+5gyPbc=
+			u29Z7JCLefZ+jJ6U1Bb+eJdieAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			GQ4H9M2UUp9ft2Ts5uMCv6YAduvSKuMAcw0FGFDJSX8=
+			yh76zDBiqx74TilyIM7R0Ea/jmEKA2dXrs3WBZ7380s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6189,11 +6189,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WamYfNvWNOni2Hech3/jNhnm2mk=
+			/xdHx69cVir0vBnQfwYWqN/sEHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q4JrmOqkf2hOmHfFKCgw8F7utqsez1lOGUBBifVNcls=
+			VyVlln99/5hLjnR4VxUsRJMPVuzRw5z34iW1SNxGwH8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6202,11 +6202,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4UlcSNklYV4ljUh2XAYt+wBDl34=
+			Tc1tyogdvaQYQBcWVGL0WqYmDLg=
 			</data>
 			<key>hash2</key>
 			<data>
-			0nWqWQWoNaZL00I4DNwAB+G3YkV1cgHnJPkmJpKFLPs=
+			f8WlHkKfSdJ3CDgZbL0DYPA80HkYDKu0UAs+7pf/3Qs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6215,11 +6215,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hUjNbapwBpk8lbUxtuK2eEbLEzk=
+			xfVV4+TRA5zVGgwlw96lLWQJqIQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			TQ/HW3lk29iDnFy4Pc5PL9ZHvf//52SI0VgfRX5eh00=
+			5YpBP2ZbNll0Aq0c32Apm0hB0bQYBSfvPzumy/HlFyE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6461,11 +6461,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z+gmNhKLq1aIq3Js5vT5MQ1+BTU=
+			Q1wluM+DKEgmSpOWnQz6n1YHmjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q7aPAzZrT6+tmnMFDS8289H9mQUJuphdPuor5y3piIQ=
+			A3F+h0Mt/gG8IKBCZKqxiVXE4ARx/00klYj/U3oHZqE=
 			</data>
 		</dict>
 		<key>iPhoneBI.momd/iPhoneBI 3.mom</key>
@@ -7050,11 +7050,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YKqIkSsbHruyAbkI90/tQ+dROqQ=
+			RhRGrnH1MzPURLw/K9fjXUY10gE=
 			</data>
 			<key>hash2</key>
 			<data>
-			baMyah1s6R6obtrGbVMvz1tVmk6pH/0kKCwipMXeSfI=
+			LgPBK4G98676fAjliduH+oX7Z6BW/JUbDY9CA1qeuUY=
 			</data>
 		</dict>
 		<key>index8.html</key>
@@ -7692,6 +7692,11 @@
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
 		<key>^version.plist$</key>
 		<true/>
 	</dict>
@@ -7736,6 +7741,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>

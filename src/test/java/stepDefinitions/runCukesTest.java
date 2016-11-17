@@ -9,14 +9,14 @@ import setUpClasses.App;
 import java.io.IOException;
 import java.util.Date;
 
-@CucumberOptions(features = "src/test/resources/features/android"
+@CucumberOptions(features = "src/test/resources/features/ios"
         ,format = {"pretty", "html:target/cucumber", "json:target/cucumber-report.json"}
-        ,glue = {"stepDefinitions.android"}
+        ,glue = {"stepDefinitions.ios"}
         //,tags = {"@recommended"
         //,"~@iosbug" }
         //,"~@androidbug"}
         //,tags = {"~@androidbug"}
-        ,tags = {"@search"}
+        ,tags = {"@recommended","~@iosbug"}
 )
 
 public class runCukesTest extends AbstractTestNGCucumberTests{
@@ -45,6 +45,15 @@ public class runCukesTest extends AbstractTestNGCucumberTests{
     @AfterSuite
     public static void testDown() throws IOException, InterruptedException {
         //new App().close();
+        Runtime rt = Runtime.getRuntime();
+        try {
+            rt.exec("networksetup -setairportpower en0 on");
+            System.out.println("Wifi OFF Successfully");
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
         System.out.println(new Date()+" - MOBILE test has finished");
     }
 }

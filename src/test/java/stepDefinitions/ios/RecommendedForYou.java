@@ -71,6 +71,7 @@ public class RecommendedForYou {
     @Then("^I am redirected to the post$")
     public void i_am_redirected_to_the_post() throws Throwable {
         new PostObject().assertTitle(App.posttitle);
+        new MastHeadObject().back.click();
         new MastHeadObject().clickHamburgerMenu();
         new MenuObject().clickVertical("HOME");
     }
