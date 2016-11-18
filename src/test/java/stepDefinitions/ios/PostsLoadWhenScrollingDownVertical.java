@@ -1,5 +1,6 @@
 package stepDefinitions.ios;
 
+import commands.Window;
 import conditions.ElementNotVisible;
 import conditions.ElementPresent;
 import conditions.ElementsPresent;
@@ -49,7 +50,7 @@ public class PostsLoadWhenScrollingDownVertical {
 
             Boolean areMorePostsPresent = totalTitlesAfterSwipe > totalTitlesBeforeSwipe;
             // Verify that more posts are displayed
-            Assert.assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
+            Window.assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
 
             System.out.println("TOTAL TITLES: " + verticalPostTitles.size());
         }

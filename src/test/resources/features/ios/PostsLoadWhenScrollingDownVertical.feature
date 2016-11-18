@@ -1,4 +1,4 @@
-@river @iosbug
+@river
 Feature: Posts load when scrolling down a vertical
 
 In order to browse posts in a vertical

@@ -1,4 +1,4 @@
-@ios @android @push @iosbug
+@ios @android @push
 Feature: Push Permission Request
 
   As a user, I want to have a more informative push notification request so I can

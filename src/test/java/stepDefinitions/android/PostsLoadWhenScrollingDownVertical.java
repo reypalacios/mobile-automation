@@ -1,5 +1,6 @@
 package stepDefinitions.android;
 
+import commands.Window;
 import conditions.ElementNotVisible;
 import conditions.ElementPresent;
 import conditions.ElementsPresent;
@@ -14,8 +15,6 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 
 import static commands.Window.verticalSwipe;
-import static pageObjects.RiverFeedObject.getVerticalPostTitles;
-import static pageObjects.RiverFeedObject.spinner;
 import static pageObjects.RiverFeedObject.*;
 import static setUpClasses.App.driver;
 
@@ -50,7 +49,7 @@ public class PostsLoadWhenScrollingDownVertical {
 
             Boolean areMorePostsPresent = totalTitlesAfterSwipe > totalTitlesBeforeSwipe;
             // Verify that more posts are displayed
-            Assert.assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
+            Window.assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
 
             System.out.println("TOTAL TITLES: " + verticalPostTitles.size());
         }

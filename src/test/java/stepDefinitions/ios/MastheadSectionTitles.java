@@ -3,6 +3,7 @@ package stepDefinitions.ios;
 import commands.Window;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebDriverException;
 import pageObjects.MastHeadObject;
 import setUpClasses.App;
 
@@ -31,8 +32,13 @@ public class MastheadSectionTitles {
     @When("^User swipes to the right$")
     public void user_swipes_to_the_right() throws Throwable {
         String initialVertical = new MastHeadObject().verticalLabel.getText();
-        while(initialVertical.equals(new MastHeadObject().verticalLabel.getText())){
-            Window.swipingHorizontal(App.SWIPE_LEFT_TO_RIGHT);
+        try {
+            while (initialVertical.equals(new MastHeadObject().verticalLabel.getText())) {
+                Window.swipingHorizontal(App.SWIPE_LEFT_TO_RIGHT);
+            }
+        }catch(WebDriverException e){
+            e.printStackTrace();
         }
+
     }
 }

@@ -3,7 +3,10 @@ package stepDefinitions.ios;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import pageObjects.*;
+import pageObjects.MastHeadObject;
+import pageObjects.PostObject;
+import pageObjects.RecommendedForYouObject;
+import pageObjects.RiverFeedObject;
 import setUpClasses.App;
 
 /**
@@ -59,8 +62,8 @@ public class RecommendedForYou {
         App.posttitle = recommendedForYou.recommendations.get(3).getText();
         String currentPostTitle = new PostObject().title.getText();
         recommendedForYou.recommendations.get(3).click(); //Focus
-        if(currentPostTitle.equals(new PostObject().title.getText()))
-            recommendedForYou.recommendations.get(3).click();
+        if (currentPostTitle.equals(new PostObject().title.getText()))
+                recommendedForYou.recommendations.get(3).click();
     }
 
     @When("^I click the fifth river-post recommendation$")

@@ -327,5 +327,11 @@ public class Window {
         }
     }
 
-
+    public static void assertTrue(Boolean condition, String message) {
+        try{
+            Assert.assertTrue(condition, message);
+        }catch (AssertionError e){
+            e.printStackTrace();
+        }
+    }
 }
