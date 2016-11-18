@@ -23,8 +23,7 @@ public class MastheadSectionTitles {
     @When("^User swipes to the left$")
     public void user_swipes_to_the_left() throws Throwable {
         String initialVertical = new MastHeadObject().verticalLabel.getText();
-        Window.swipingHorizontal(App.SWIPE_RIGHT_TO_LEFT);
-        if(initialVertical.equals(new MastHeadObject().verticalLabel.getText())){
+        while(initialVertical.equals(new MastHeadObject().verticalLabel.getText())){
             Window.swipingHorizontal(App.SWIPE_RIGHT_TO_LEFT);
         }
     }
@@ -32,8 +31,7 @@ public class MastheadSectionTitles {
     @When("^User swipes to the right$")
     public void user_swipes_to_the_right() throws Throwable {
         String initialVertical = new MastHeadObject().verticalLabel.getText();
-        Window.swipingHorizontal(App.SWIPE_LEFT_TO_RIGHT);
-        if(initialVertical.equals(new MastHeadObject().verticalLabel.getText())){
+        while(initialVertical.equals(new MastHeadObject().verticalLabel.getText())){
             Window.swipingHorizontal(App.SWIPE_LEFT_TO_RIGHT);
         }
     }

@@ -268,7 +268,9 @@ public class Window {
             Assert.assertEquals(element.isDisplayed(), true);
             scrollIntoView(element);
             //embedScreenshot(element);
-        }catch (Exception e){
+        }catch (AssertionError e){
+            e.printStackTrace();
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
@@ -276,7 +278,7 @@ public class Window {
     public static void assertEnabled(WebElement element) {
         try{
             Assert.assertEquals(element.isEnabled(), true);
-        }catch (Exception e){
+        }catch (AssertionError e){
             e.printStackTrace();
         }
     }
@@ -285,7 +287,7 @@ public class Window {
         try{
             Assert.assertEquals(element.isSelected(), true);
             //embedScreenshot(element);
-        }catch (Exception e){
+        }catch (AssertionError e){
             e.printStackTrace();
         }
     }
@@ -293,7 +295,7 @@ public class Window {
         try{
             Assert.assertEquals(element.isDisplayed(), false);
             //embedScreenshot(element);
-        }catch (Exception e){
+        }catch (AssertionError e){
             e.printStackTrace();
         }
     }
@@ -301,7 +303,7 @@ public class Window {
     public static void assertChar(String actual, String expected) {
         try{
             Assert.assertEquals(actual,expected);
-        }catch (Exception e){
+        }catch (AssertionError e){
             e.printStackTrace();
         }
     }
@@ -309,9 +311,10 @@ public class Window {
     public static void assertNotDisplay(WebElement element) {
         try{
             Assert.assertEquals(element.isDisplayed(), false);
-        }catch (Exception e){
-            if (!e.getMessage().contains("Can't locate an element"))
-                e.printStackTrace();
+        }catch (NoSuchElementException n){
+            System.out.println("Assertion has passed");
+        }catch (AssertionError e){
+            e.printStackTrace();
         }
     }
 

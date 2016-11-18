@@ -1,5 +1,4 @@
-@river
-
+@river @iosbug
 Feature: Posts load when scrolling down a vertical
 
 In order to browse posts in a vertical
@@ -16,7 +15,3 @@ I want more posts to load when I scroll down a vertical
       | total |
       | 18    |
 
-    @android
-    Examples:
-      | total |
-      | 8     |

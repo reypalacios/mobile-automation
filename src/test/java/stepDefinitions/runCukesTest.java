@@ -1,6 +1,8 @@
 package stepDefinitions;
 
 import cucumber.api.CucumberOptions;
+import cucumber.api.Scenario;
+import cucumber.api.java.Before;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -16,7 +18,7 @@ import java.util.Date;
         //,"~@iosbug" }
         //,"~@androidbug"}
         //,tags = {"~@androidbug"}
-        ,tags = {"@recommended","~@iosbug"}
+        ,tags = {"~@iosbug"}
 )
 
 public class runCukesTest extends AbstractTestNGCucumberTests{
@@ -26,18 +28,6 @@ public class runCukesTest extends AbstractTestNGCucumberTests{
         System.out.println(new Date()+" - MOBILE test has started");
     }
 
-//    I had to move this method into each platform folder; stepDefinitions.ios.setUp and stepDefinitions.android.setUp
-//
-// /**
-//     * This method runs before each scenario.
-//     * This makes possible embedding images into the json report
-//     * @param scenario
-//     */
-//    @Before
-//    public static void before(Scenario scenario){
-//        System.out.println("Scenario: "+scenario.getName());
-//        App.scenario = scenario;
-//    }
     /**
      * This method runs after each suite of features
      * It closes the web driver

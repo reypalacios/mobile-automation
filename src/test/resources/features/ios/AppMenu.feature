@@ -1,4 +1,4 @@
-@ios @menu
+@ios @menu @iosbug
 Feature: App Menu
 
  Scenario Outline: Verify all the menu options are linkable
@@ -8,28 +8,28 @@ Feature: App Menu
 
     Examples:
      | menuOption |
-     | LATEST |
-     | HOME |
-     | TECH |
-     | ENTERPRISE |
-     | SCIENCE |
-     | FINANCE |
-     | MARKETS |
-     | YOUR MONEY|
-     | WEALTH ADVISOR |
-     | POLITICS |
-     | MILITARY & DEFENSE |
-     | LAW & ORDER |
-     | STRATEGY |
-     | CAREERS |
-     | ADVERTISING |
-     | RETAIL |
-     | SMALL BUSINESS |
-     | LIFE |
-     | TRANSPORTATION |
-     | EDUCATION |
-     | ENTERTAINMENT |
-     | SPORTS |
+#     | LATEST |
+#     | HOME |
+#     | TECH |
+#     | ENTERPRISE |
+#     | SCIENCE |
+#     | FINANCE |
+#     | MARKETS |
+#     | YOUR MONEY|
+#     | WEALTH ADVISOR |
+#     | POLITICS |
+#     | MILITARY & DEFENSE |
+#     | LAW & ORDER |
+#     | STRATEGY |
+#     | CAREERS |
+#     | ADVERTISING |
+#     | RETAIL |
+#     | SMALL BUSINESS |
+#     | LIFE |
+#     | TRANSPORTATION |
+#     | EDUCATION |
+#     | ENTERTAINMENT |
+#     | SPORTS |
 
 
 

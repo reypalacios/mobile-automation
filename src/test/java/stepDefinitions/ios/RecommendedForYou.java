@@ -27,8 +27,9 @@ public class RecommendedForYou {
     @When("^I click the first river-post recommendation$")
     public void i_click_the_first_river_post_recommendation() throws Throwable {
         App.posttitle=recommendedForYou.recommendations.get(0).getText();
+        String currentPostTitle = new PostObject().title.getText();
         recommendedForYou.recommendations.get(0).click();
-        if(!new PostObject().isAPost())
+        if(currentPostTitle.equals(new PostObject().title.getText()))
             recommendedForYou.recommendations.get(0).click();
     }
 
@@ -36,8 +37,9 @@ public class RecommendedForYou {
     public void i_click_the_second_river_post_recommendation() throws Throwable {
         RiverFeed.clickTopPost();
         App.posttitle=recommendedForYou.recommendations.get(1).getText();
+        String currentPostTitle = new PostObject().title.getText();
         recommendedForYou.recommendations.get(1).click();
-        if(!new PostObject().isAPost())
+        if(currentPostTitle.equals(new PostObject().title.getText()))
             recommendedForYou.recommendations.get(1).click();
     }
 
@@ -45,8 +47,9 @@ public class RecommendedForYou {
     public void i_click_the_third_river_post_recommendation() throws Throwable {
         RiverFeed.clickTopPost();
         App.posttitle = recommendedForYou.recommendations.get(2).getText();
+        String currentPostTitle = new PostObject().title.getText();
         recommendedForYou.recommendations.get(2).click(); //Focus
-        if(!new PostObject().isAPost())
+        if(currentPostTitle.equals(new PostObject().title.getText()))
             recommendedForYou.recommendations.get(2).click();
     }
 
@@ -54,8 +57,9 @@ public class RecommendedForYou {
     public void i_click_the_fourth_river_post_recommendation() throws Throwable {
         RiverFeed.clickTopPost();
         App.posttitle = recommendedForYou.recommendations.get(3).getText();
+        String currentPostTitle = new PostObject().title.getText();
         recommendedForYou.recommendations.get(3).click(); //Focus
-        if (!new PostObject().isAPost())
+        if(currentPostTitle.equals(new PostObject().title.getText()))
             recommendedForYou.recommendations.get(3).click();
     }
 
@@ -63,8 +67,9 @@ public class RecommendedForYou {
     public void i_click_the_fifth_river_post_recommendation() throws Throwable {
         RiverFeed.clickTopPost();
         App.posttitle=recommendedForYou.recommendations.get(4).getText();
+        String currentPostTitle = new PostObject().title.getText();
         recommendedForYou.recommendations.get(4).click(); //Focus
-        if(!new PostObject().isAPost())
+        if(currentPostTitle.equals(new PostObject().title.getText()))
             recommendedForYou.recommendations.get(4).click();
     }
 
@@ -72,8 +77,6 @@ public class RecommendedForYou {
     public void i_am_redirected_to_the_post() throws Throwable {
         new PostObject().assertTitle(App.posttitle);
         new MastHeadObject().back.click();
-        new MastHeadObject().clickHamburgerMenu();
-        new MenuObject().clickVertical("HOME");
     }
 
 }

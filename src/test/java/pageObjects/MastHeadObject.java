@@ -53,11 +53,11 @@ public class MastHeadObject{
     public static WebElement sharePost;
 
     @AndroidFindBy(id = "favorite_option")
-    @iOSFindBy(id = "EasySaveOn")
+    @iOSFindBy(accessibility = "navBookmarkButtonSaved")
     public static WebElement savePostOn;
 
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.ImageButton[1]")
-    @iOSFindBy(accessibility = "Back")
+    @iOSFindBy(accessibility = "backPreviousButton")
     public static WebElement back;
 
     public MastHeadObject() {

@@ -1,5 +1,6 @@
 package stepDefinitions.ios;
 
+import commands.Window;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageObjects.MastHeadObject;
@@ -25,6 +26,7 @@ public class SavedArticles {
     public void i_save_the_post() throws Throwable {
         Masthead.savePost.click();
         posttitle = Post.title.getText();
+        Window.assertDisplay(new MastHeadObject().savePostOn);
         Masthead.back.click();
     }
 

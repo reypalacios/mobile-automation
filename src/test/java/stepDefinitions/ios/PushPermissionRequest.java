@@ -14,7 +14,7 @@ import setUpClasses.App;
 public class PushPermissionRequest {
 
     @When("^I open the app for the first time$")
-    public void i_open_the_app_for_the_first_time() throws Throwable {
+    public static void i_open_the_app_for_the_first_time() throws Throwable {
         App.driver.removeApp(App.bundleid);
         new App().launch(true);
     }
@@ -84,7 +84,7 @@ public class PushPermissionRequest {
 
     @Then("^I do not see the push permission request screen again$")
     public void i_do_not_see_the_push_permission_request_screen_again() throws Throwable {
-        Thread.sleep(7000);
+        Thread.sleep(8000);
         Window.assertNotDisplay(new PushPermissionRequestObject().headline);
         Window.assertNotDisplay(new PushPermissionRequestObject().mainText);
         Window.assertNotDisplay(new PushPermissionRequestObject().byline);

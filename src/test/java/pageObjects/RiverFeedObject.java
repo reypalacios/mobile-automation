@@ -1,5 +1,6 @@
 package pageObjects;
 
+import conditions.ElementPresent;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -8,12 +9,14 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import setUpClasses.App;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static commands.Window.elementHasText;
+import static setUpClasses.App.driver;
 
 /**
  * Created by rpalacios on 12/11/15.
@@ -72,6 +75,7 @@ public class RiverFeedObject {
 
     public void clickTopPost() throws InterruptedException {
         try {
+            new WebDriverWait(driver, 30).until(new ElementPresent(postHeadlines.get(0)));
             postHeadlines.get(0).click();
         }catch (WebDriverException we){
             if(i>10){
@@ -81,6 +85,8 @@ public class RiverFeedObject {
                 i++;
                 clickTopPost();
             }
+        }catch(IndexOutOfBoundsException o){
+            o.printStackTrace();
         }
         Thread.sleep(1000);
     }

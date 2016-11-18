@@ -29,6 +29,7 @@ public class PostsLoadWhenScrollingDownVertical {
         riverFeed = new RiverFeedObject();
         WebDriverWait wait = new WebDriverWait(driver, 30);
 
+
         wait.until(new ElementPresent(postHeadlines.get(0)));
     }
 

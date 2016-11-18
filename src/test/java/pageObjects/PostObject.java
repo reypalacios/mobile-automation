@@ -21,7 +21,7 @@ public class PostObject{
     @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAElement[1]/UIAScrollView[1]/UIAWebView[1]/UIAStaticText[1]")
     public static WebElement title;
 
-    @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[2]")
+    @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAElement[1]/UIAScrollView[1]/UIAWebView[1]/UIAStaticText[2]")
     public static WebElement author;
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[3]")

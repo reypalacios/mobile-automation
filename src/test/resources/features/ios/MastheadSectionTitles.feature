@@ -1,4 +1,4 @@
- @ios @android @masthead
+ @ios @android @masthead @iosbug
 Feature: Masthead Section Titles
 
  As a user, I want to see a vertical heading on the masthead so I can see where I am in the app as I navigate around.

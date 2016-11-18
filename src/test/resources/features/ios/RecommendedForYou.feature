@@ -1,4 +1,4 @@
-@ios @recommended
+@ios @recommended @iosbug
 Feature: Recommended For You
 
  As a user, I want to see recommended posts at the bottom of post pages

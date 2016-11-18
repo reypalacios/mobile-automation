@@ -19,7 +19,7 @@ public class PushPermissionRequest extends App {
     //DeviceSettingsObject deviceSettings = new DeviceSettingsObject();
 
     @When("^I open the app for the first time$")
-    public void i_open_the_app_for_the_first_time() throws Throwable {
+    public static void i_open_the_app_for_the_first_time() throws Throwable {
         Window.resetApp();
         Thread.sleep(4000);
     }

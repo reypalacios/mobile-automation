@@ -11,11 +11,6 @@ I want more posts to load when I scroll down a vertical
     When I scroll down <total> posts
     Then more than <total> posts are displayed
 
-    @ios
-    Examples:
-      | total |
-      | 18    |
-
     @android
     Examples:
       | total |
