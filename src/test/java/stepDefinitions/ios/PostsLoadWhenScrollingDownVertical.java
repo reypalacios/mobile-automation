@@ -14,6 +14,7 @@ import pageObjects.RiverFeedObject;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
+import static commands.Window.assertChar;
 import static commands.Window.verticalSwipe;
 import static pageObjects.RiverFeedObject.*;
 import static setUpClasses.App.driver;
@@ -26,6 +27,7 @@ public class PostsLoadWhenScrollingDownVertical {
 
     @Given("^the first payload of posts display in a vertical$")
     public void theFirstPayloadOfPostsDisplayInAVertical() throws Throwable {
+
         System.out.println("I AM ON A VERTICAL");
         riverFeed = new RiverFeedObject();
         WebDriverWait wait = new WebDriverWait(driver, 30);

@@ -267,10 +267,7 @@ public class Window {
         try{
             Assert.assertEquals(element.isDisplayed(), true);
             scrollIntoView(element);
-            //embedScreenshot(element);
-        }catch (AssertionError e){
-            e.printStackTrace();
-        } catch (InterruptedException e) {
+        }catch (Exception e){
             e.printStackTrace();
         }
     }
@@ -278,7 +275,7 @@ public class Window {
     public static void assertEnabled(WebElement element) {
         try{
             Assert.assertEquals(element.isEnabled(), true);
-        }catch (AssertionError e){
+        }catch (Exception e){
             e.printStackTrace();
         }
     }
@@ -286,16 +283,14 @@ public class Window {
     public static void assertSelected(WebElement element) {
         try{
             Assert.assertEquals(element.isSelected(), true);
-            //embedScreenshot(element);
-        }catch (AssertionError e){
+        }catch (Exception e){
             e.printStackTrace();
         }
     }
     public static void assertNotSelected(WebElement element) {
         try{
             Assert.assertEquals(element.isDisplayed(), false);
-            //embedScreenshot(element);
-        }catch (AssertionError e){
+        }catch (Exception e){
             e.printStackTrace();
         }
     }
@@ -303,7 +298,7 @@ public class Window {
     public static void assertChar(String actual, String expected) {
         try{
             Assert.assertEquals(actual,expected);
-        }catch (AssertionError e){
+        }catch (Exception e){
             e.printStackTrace();
         }
     }
@@ -313,7 +308,7 @@ public class Window {
             Assert.assertEquals(element.isDisplayed(), false);
         }catch (NoSuchElementException n){
             System.out.println("Assertion has passed");
-        }catch (AssertionError e){
+        }catch (Exception e){
             e.printStackTrace();
         }
     }
@@ -330,7 +325,7 @@ public class Window {
     public static void assertTrue(Boolean condition, String message) {
         try{
             Assert.assertTrue(condition, message);
-        }catch (AssertionError e){
+        }catch (Exception e){
             e.printStackTrace();
         }
     }

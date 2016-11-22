@@ -12,8 +12,6 @@
     <name>mobile-automation</name>
     <url>http://maven.apache.org</url>
 
-
-
     <dependencies>
         <dependency>
             <groupId>info.cukes</groupId>
@@ -94,6 +92,14 @@
             <groupId>com.github.mkolisnyk</groupId>
             <artifactId>cucumber-reports</artifactId>
             <version>0.0.12</version>
+        </dependency>
+
+        <!-- TestNG dependency -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.8</version>
+            <scope>test</scope>
         </dependency>
 
 

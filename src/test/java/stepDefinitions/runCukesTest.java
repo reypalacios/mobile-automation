@@ -1,8 +1,6 @@
 package stepDefinitions;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.Scenario;
-import cucumber.api.java.Before;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -18,10 +16,10 @@ import java.util.Date;
         //,"~@iosbug" }
         //,"~@androidbug"}
         //,tags = {"~@androidbug"}
-        ,tags = {"~@iosbug"}
+        ,tags = {"@river","~@iosbug"}
 )
 
-public class runCukesTest extends AbstractTestNGCucumberTests{
+public class RunCukesTest extends AbstractTestNGCucumberTests{
     @BeforeSuite
     public static void SetUp() throws IOException, InterruptedException {
         new App().launch(true);

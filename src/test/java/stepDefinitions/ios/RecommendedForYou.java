@@ -1,5 +1,6 @@
 package stepDefinitions.ios;
 
+import commands.Window;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -18,7 +19,7 @@ public class RecommendedForYou {
     Boolean checkPostTitle = true;
 
     @Given("^I am on the post page$")
-    public void I_am_on_the_post_page() throws Throwable {
+    public void I_am_on_the_post_page() throws InterruptedException {
         RiverFeed.clickTopPost();
     }
 
