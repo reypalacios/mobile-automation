@@ -1,5 +1,6 @@
 package pageObjects;
 
+import commands.Window;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -17,17 +18,17 @@ import java.io.IOException;
 public class PostObject{
 
     @AndroidFindBy(id = "post_headline_text")
-    @iOSFindBy(xpath = "//UIAScrollView[1]/UIAScrollView[2]/UIAWebView[1]/UIAStaticText[1]")
+    @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAElement[1]/UIAScrollView[1]/UIAWebView[1]/UIAStaticText[1]")
     public static WebElement title;
 
-    @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[2]")
+    @iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAElement[1]/UIAScrollView[1]/UIAWebView[1]/UIAStaticText[2]")
     public static WebElement author;
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[3]")
-    public static WebElement posteddate;
+    public static WebElement postedDate;
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[4]")
-    public static WebElement postedtime;
+    public static WebElement postedTime;
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[5]")
     public static WebElement views;
@@ -39,18 +40,14 @@ public class PostObject{
     public static WebElement image;
 
     @iOSFindBy(xpath = "//UIAWebView/UIAStaticText[6]")
-    public static WebElement imagecaption;
+    public static WebElement imageCaption;
 
     public PostObject() {
         PageFactory.initElements(new AppiumFieldDecorator(App.driver), this);
     }
 
     public void assertTitle(String expectedTitle) throws InterruptedException, IOException {
-        try {
-            Assert.assertEquals(title.getText().toLowerCase(), expectedTitle.toLowerCase());
-        }catch(Exception e){
-            e.printStackTrace();
-        }
+        Window.assertChar(title.getText(), expectedTitle);
     }
 
     public boolean isAPost() {

@@ -1,5 +1,6 @@
 package stepDefinitions.android;
 
+import commands.Window;
 import conditions.ElementNotVisible;
 import conditions.ElementPresent;
 import conditions.ElementsPresent;
@@ -13,7 +14,7 @@ import pageObjects.RiverFeedObject;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-import static commands.window.verticalSwipe;
+import static commands.Window.verticalSwipe;
 import static pageObjects.RiverFeedObject.*;
 import static setUpClasses.App.driver;
 
@@ -29,7 +30,7 @@ public class PostsLoadWhenScrollingDownVertical {
         riverFeed = new RiverFeedObject();
         WebDriverWait wait = new WebDriverWait(driver, 30);
 
-        wait.until(new ElementPresent(topPost));
+        wait.until(new ElementPresent(postHeadlines.get(0)));
     }
 
     @When("^I scroll down (\\w+) posts$")
@@ -40,7 +41,7 @@ public class PostsLoadWhenScrollingDownVertical {
 
         while (verticalPostTitles.size() < totalPosts) {
             int totalTitlesBeforeSwipe = verticalPostTitles.size();
-            wait.until(new ElementsPresent(postHeadline));
+            wait.until(new ElementsPresent(postHeadlines));
             verticalPostTitles.addAll(getVerticalPostTitles());
             verticalSwipe(0.90, 0.30);
             wait.until(new ElementNotVisible(spinner));
@@ -48,7 +49,7 @@ public class PostsLoadWhenScrollingDownVertical {
 
             Boolean areMorePostsPresent = totalTitlesAfterSwipe > totalTitlesBeforeSwipe;
             // Verify that more posts are displayed
-            Assert.assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
+            Window.assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
 
             System.out.println("TOTAL TITLES: " + verticalPostTitles.size());
         }
@@ -71,7 +72,7 @@ public class PostsLoadWhenScrollingDownVertical {
         riverFeed = new RiverFeedObject();
         WebDriverWait wait = new WebDriverWait(driver, 15);
 
-        wait.until(new ElementsPresent(postHeadline));
+        wait.until(new ElementsPresent(postHeadlines));
         verticalSwipe(0.90, 0.30);
         verticalPostTitles.addAll(getVerticalPostTitles());
 

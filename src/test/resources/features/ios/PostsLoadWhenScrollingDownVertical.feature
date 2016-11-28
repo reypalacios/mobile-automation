@@ -1,4 +1,3 @@
-@river
 
 Feature: Posts load when scrolling down a vertical
 
@@ -16,7 +15,3 @@ I want more posts to load when I scroll down a vertical
       | total |
       | 18    |
 
-    @android
-    Examples:
-      | total |
-      | 8     |

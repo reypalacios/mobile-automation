@@ -9,8 +9,14 @@ import setUpClasses.App;
  */
 public class SetUp {
     @Before
-    public static void before(Scenario scenario){
+    public static void before(Scenario scenario) throws Throwable {
         System.out.println("Scenario: "+scenario.getName());
         App.scenario = scenario;
+
+        // I added this check because when I start saveArticles test,
+        // there should be NO saved articles already.
+        if (scenario.getName().equals("I save a post")) {
+            PushPermissionRequest.i_open_the_app_for_the_first_time();
+        }
     }
 }

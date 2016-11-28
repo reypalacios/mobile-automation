@@ -69,6 +69,17 @@ public class App {
             }
 
             capabilities.setCapability("platformName", App.launchOn);
+
+
+//            Runtime rt = Runtime.getRuntime();
+//            try {
+//                rt.exec("networksetup -setairportpower en0 off");
+//                System.out.println("Wifi OFF Successfully");
+//            } catch (IOException e) {
+//                // TODO Auto-generated catch block
+//                e.printStackTrace();
+//            }
+
             if (App.launchOn.equals("Android")) {
                 capabilities.setCapability("platformVersion", App.platformVersion);
                 capabilities.setCapability("avd", App.VD);
@@ -89,6 +100,7 @@ public class App {
                         return null;
                     }
                 };
+
 
             }
             if (App.launchOn.equals("iOS")) {
@@ -122,8 +134,8 @@ public class App {
 
             try {
                 if (App.scenario==null || !App.scenario.getName().contains("notification")) {WebDriverWait wait = new WebDriverWait(App.driver, 4);
-                    wait.until(ExpectedConditions.visibilityOf(new PushPermissionRequestObject().enablealerts));
-                    new PushPermissionRequestObject().enablealerts.click();
+                    wait.until(ExpectedConditions.visibilityOf(new PushPermissionRequestObject().enableAlerts));
+                    new PushPermissionRequestObject().clickEnableAlerts();
                 }
             }catch(TimeoutException e){
                 System.out.println("Push permission request screen wasn't displayed");
@@ -178,7 +190,7 @@ public class App {
         System.out.println("Test Done");
     }
 
-    public static void launchDeviceSettings() {
+    public static void launchDeviceSettings() throws InterruptedException {
         try{
             capabilities.setCapability("app", "settings");
             driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
@@ -193,6 +205,7 @@ public class App {
                     }
              };
              driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+            Thread.sleep(3000);
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (UnreachableBrowserException e){

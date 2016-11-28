@@ -14,13 +14,13 @@ import java.util.List;
 public class DeviceSettingsObject {
 
 
-    @iOSFindBy(xpath = "//UIAStaticText[@name='Game Center']")
+    @iOSFindBy(accessibility = "Game Center")
     public static WebElement gameCenter;
 
-    @iOSFindBy(xpath = "//UIAStaticText[@name='BI']")
+    @iOSFindBy(accessibility = "BI")
     public static WebElement BI;
 
-    @iOSFindBy(xpath = "//UIAStaticText[@name='Notifications']")
+    @iOSFindBy(accessibility = "Notifications")
     public static WebElement notifications;
 
     @iOSFindBy(accessibility = "Allow Notifications")
