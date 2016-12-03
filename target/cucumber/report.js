@@ -1,9 +1,9 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("SavedArticles.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("PostsLoadWhenScrollingDownVertical.feature");
 formatter.feature({
-  "line": 2,
-  "name": "Saved Articles",
-  "description": "\nAs a user, I want to see the saved posts added to the top of the Saved Articles section instead of the bottom\nso I can access more recently saved posts more easily.",
-  "id": "saved-articles",
+  "line": 3,
+  "name": "Posts load when scrolling down a vertical",
+  "description": "\nIn order to browse posts in a vertical\nAs a user\nI want more posts to load when I scroll down a vertical",
+  "id": "posts-load-when-scrolling-down-a-vertical",
   "keyword": "Feature",
   "tags": [
     {
@@ -12,72 +12,112 @@ formatter.feature({
     },
     {
       "line": 1,
-      "name": "@save"
-    }
-  ]
-});
-formatter.before({
-  "duration": 36515206033,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 8,
-  "name": "I save a post",
-  "description": "",
-  "id": "saved-articles;i-save-a-post",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 7,
       "name": "@river"
     }
   ]
 });
-formatter.step({
+formatter.scenarioOutline({
   "line": 9,
-  "name": "I am on the post page",
-  "keyword": "When "
+  "name": "I scroll down a vertical",
+  "description": "",
+  "id": "posts-load-when-scrolling-down-a-vertical;i-scroll-down-a-vertical",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 10,
-  "name": "I save the post",
-  "keyword": "Then "
+  "name": "the first payload of posts display in a vertical",
+  "keyword": "Given "
 });
 formatter.step({
-  "line": 12,
-  "name": "I go the the Saved Articles section",
+  "line": 11,
+  "name": "I scroll down \u003ctotal\u003e posts",
   "keyword": "When "
 });
 formatter.step({
-  "line": 13,
-  "name": "Saved post is available",
+  "line": 12,
+  "name": "more than \u003ctotal\u003e posts are displayed",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 15,
+  "name": "",
+  "description": "",
+  "id": "posts-load-when-scrolling-down-a-vertical;i-scroll-down-a-vertical;",
+  "rows": [
+    {
+      "cells": [
+        "total"
+      ],
+      "line": 16,
+      "id": "posts-load-when-scrolling-down-a-vertical;i-scroll-down-a-vertical;;1"
+    },
+    {
+      "cells": [
+        "18"
+      ],
+      "line": 17,
+      "id": "posts-load-when-scrolling-down-a-vertical;i-scroll-down-a-vertical;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 141279,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "I scroll down a vertical",
+  "description": "",
+  "id": "posts-load-when-scrolling-down-a-vertical;i-scroll-down-a-vertical;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@river"
+    },
+    {
+      "line": 1,
+      "name": "@ios"
+    }
+  ]
+});
+formatter.step({
+  "line": 10,
+  "name": "the first payload of posts display in a vertical",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 11,
+  "name": "I scroll down 18 posts",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 12,
+  "name": "more than 18 posts are displayed",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "Then "
 });
 formatter.match({
-  "location": "RecommendedForYou.I_am_on_the_post_page()"
+  "location": "PostsLoadWhenScrollingDownVertical.theFirstPayloadOfPostsDisplayInAVertical()"
 });
 formatter.result({
-  "duration": 477031794,
-  "error_message": "java.lang.AssertionError: expected [test1] but found [test]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\n\tat org.testng.Assert.assertEquals(Assert.java:125)\n\tat org.testng.Assert.assertEquals(Assert.java:178)\n\tat org.testng.Assert.assertEquals(Assert.java:188)\n\tat commands.Window.assertChar(Window.java:300)\n\tat stepDefinitions.ios.RecommendedForYou.I_am_on_the_post_page(RecommendedForYou.java:23)\n\tat ✽.When I am on the post page(SavedArticles.feature:9)\n",
-  "status": "failed"
+  "duration": 3755370376,
+  "status": "passed"
 });
 formatter.match({
-  "location": "SavedArticles.i_save_the_post()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "SavedArticles.i_go_the_the_Saved_Articles_section()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "SavedArticles.saved_post_is_available()"
-});
-formatter.result({
-  "status": "skipped"
-});
+  "arguments": [
+    {
+      "val": "18",
+      "offset": 14
+    }
+  ],
+  "location": "PostsLoadWhenScrollingDownVertical.iScrollDownToTheLastPostInTheFirstPayload(int)"
 });

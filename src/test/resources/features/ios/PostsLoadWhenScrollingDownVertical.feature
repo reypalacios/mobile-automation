@@ -1,3 +1,4 @@
+@ios @river
 
 Feature: Posts load when scrolling down a vertical
 

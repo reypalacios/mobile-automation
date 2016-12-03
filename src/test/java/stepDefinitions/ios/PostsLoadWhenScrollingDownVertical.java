@@ -1,6 +1,5 @@
 package stepDefinitions.ios;
 
-import commands.Window;
 import conditions.ElementNotVisible;
 import conditions.ElementPresent;
 import conditions.ElementsPresent;
@@ -8,14 +7,13 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import pageObjects.RiverFeedObject;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-import static commands.Window.assertChar;
 import static commands.Window.verticalSwipe;
+import static org.testng.Assert.assertTrue;
 import static pageObjects.RiverFeedObject.*;
 import static setUpClasses.App.driver;
 
@@ -52,7 +50,7 @@ public class PostsLoadWhenScrollingDownVertical {
 
             Boolean areMorePostsPresent = totalTitlesAfterSwipe > totalTitlesBeforeSwipe;
             // Verify that more posts are displayed
-            Window.assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
+            assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
 
             System.out.println("TOTAL TITLES: " + verticalPostTitles.size());
         }
@@ -93,6 +91,6 @@ public class PostsLoadWhenScrollingDownVertical {
         //iOS=19 Android=9
         Boolean areMorePostsPresent = totalPostsNextPayload > totalPosts;
         // Verify that more posts are displayed
-        Assert.assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
+        assertTrue(areMorePostsPresent, "ERROR: MORE POSTS DID NOT LOAD");
     }
 }

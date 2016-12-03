@@ -322,10 +322,10 @@ public class Window {
         }
     }
 
-    public static void assertTrue(Boolean condition, String message) {
+    public static void catchAssertTrue(Boolean condition, String message) {
         try{
             Assert.assertTrue(condition, message);
-        }catch (Exception e){
+        }catch (AssertionError e){
             e.printStackTrace();
         }
     }
