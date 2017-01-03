@@ -14,7 +14,6 @@ import pageObjects.RiverFeedObject;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-import static commands.Window.assertChar;
 import static commands.Window.verticalSwipe;
 import static pageObjects.RiverFeedObject.*;
 import static setUpClasses.App.driver;

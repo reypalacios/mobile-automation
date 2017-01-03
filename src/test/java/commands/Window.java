@@ -260,7 +260,7 @@ public class Window {
         int y_start = (int) (size.height * 0.60);
         int y_end = (int) (size.height * 0.30);
         int x = size.width / 2;
-        driver.swipe(x, y_start, x, y_end, 100);
+        driver.swipe(x, y_start, x, -y_end, 100);
     }
 
     public static void assertDisplay(WebElement element) {

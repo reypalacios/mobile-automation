@@ -1,0 +1,259 @@
+
+/* Portrait - iPhone 4 and iPhone 5 */
+
+@media screen and (max-width: 320px) {
+    
+    body {
+        opacity: 1;
+        margin: 0px 10px 0px 10px !important;
+    }
+    .container {
+        max-width:300px !important;
+    }
+    body.responsive {
+        min-width: 300px !important;
+        max-width: 300px !important;
+        width: 300px !Important;
+    }
+    .content {
+        max-width: 300px !important;
+    }
+    div#main-content.container {
+        margin-top: -40px;
+    }
+    divKonaBody.post-content {
+        margin-top: 0px;
+    }
+    .responsive .container {
+        width: 300px !important;
+    }
+    div.span8 {
+        width: 300px !important;
+    }
+    span.date {
+        width: 300px !important;
+    }
+}
+
+/* Portrait - iPhone 6 */
+
+@media screen and (min-width: 370px) and (max-width: 380px) {
+    
+    body {
+        opacity: 1;
+        margin: 0px 15px 0px 15px !important;
+    }
+    .container {
+        max-width:345px !important;
+    }
+    body.responsive {
+        min-width: 345px !important;
+        max-width: 345px !important;
+        width: 345px !Important;
+    }
+    .content {
+        max-width: 345px !important;
+    }
+    div#main-content.container {
+        margin-top: -40px;
+    }
+    divKonaBody.post-content {
+        margin-top: 0px;
+    }
+    .responsive .container {
+        width: 345px !important;
+    }
+    div.span8 {
+        width: 345px !important;
+    }
+    span.date {
+        width: 345px !important;
+    }
+}
+
+
+
+/* Portrait - iPhone 6 Plus */
+
+@media screen and (min-width: 400px) and (max-width: 420px) {
+    
+    body {
+        opacity: 1;
+        margin: 0px 15px 0px 15px !important;
+    }
+    .container {
+        max-width:400px !important;
+    }
+    body.responsive {
+        min-width: 380px !important;
+        max-width: 380px !important;
+        width: 380px !Important;
+    }
+    .content {
+        max-width: 380px !important;
+    }
+    div#main-content.container {
+        margin-top: -40px;
+    }
+    divKonaBody.post-content {
+        margin-top: 0px;
+    }
+    .responsive .container {
+        width: 380px !important;
+    }
+    div.span8 {
+        width: 380px !important;
+    }
+    span.date {
+        width: 380px !important;
+    }
+}
+
+/* Landscape iPhone 4 */
+@media screen and (min-width: 450px) and (max-width: 480px) {
+    body {
+        opacity: 1;
+        margin: 0px 10px 0px 10px !important;
+    }
+    
+    .container {
+        max-width:460px !important;
+    }
+    body.responsive {
+        min-width: 321px !important;
+        max-width: 460px !important;
+        width: 460px !Important;
+    }
+    .content {
+        max-width: 460px !important;
+    }
+    div#main-content.container {
+        margin-top: -40px;
+    }
+    divKonaBody.post-content {
+        margin-top: 0px;
+    }
+    
+    .responsive .container {
+        width: 460px !important;
+    }
+    div.span8 {
+        width: 460px !important;
+    }
+    span.date {
+        width: 460px !important;
+    }
+}
+
+
+
+/* Landscape iPhone 5 */
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    body {
+        opacity: 1;
+        margin: 0px 10px 0px 10px !important;
+    }
+    
+    .container {
+        max-width:540px !important;
+    }
+    body.responsive {
+        min-width: 321px !important;
+        max-width: 540px !important;
+        width: 540px !Important;
+    }
+    .content {
+        max-width: 540px !important;
+    }
+    div#main-content.container {
+        margin-top: -40px;
+    }
+    divKonaBody.post-content {
+        margin-top: 0px;
+    }
+    
+    .responsive .container {
+        width: 540px !important;
+    }
+    div.span8 {
+        width: 540px !important;
+    }
+    span.date {
+        width: 540px !important;
+    }
+}
+
+
+
+/* Landscape iPhone 6 */
+@media screen and (min-width: 650px) and (max-width: 690px) {
+    body {
+        opacity: 1;
+        margin: 0px 15px 0px 20px !important;
+    }
+    
+    .container {
+        max-width:625px !important;
+    }
+    body.responsive {
+        min-width: 625px !important;
+        max-width: 625px !important;
+        width: 625px !Important;
+    }
+    .content {
+        max-width: 625px !important;
+    }
+    div#main-content.container {
+        margin-top: -40px;
+    }
+    divKonaBody.post-content {
+        margin-top: 0px;
+    }
+    
+    .responsive .container {
+        width: 625px !important;
+    }
+    div.span8 {
+        width: 625px !important;
+    }
+    span.date {
+        width: 625px !important;
+    }
+}
+
+
+/* Landscape iPhone 6 Plus */
+@media screen and (min-width: 700px) and (max-width: 750px) {
+    body {
+        opacity: 1;
+        margin: 0px 15px 0px 20px !important;
+    }
+    
+    .container {
+        max-width:650px !important;
+    }
+    body.responsive {
+        min-width: 650px !important;
+        max-width: 650px !important;
+        width: 650px !Important;
+    }
+    .content {
+        max-width: 650px !important;
+    }
+    div#main-content.container {
+        margin-top: -40px;
+    }
+    divKonaBody.post-content {
+        margin-top: 0px;
+    }
+    
+    .responsive .container {
+        width: 650px !important;
+    }
+    div.span8 {
+        width: 650px !important;
+    }
+    span.date {
+        width: 650px !important;
+    }
+}

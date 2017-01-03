@@ -105,18 +105,22 @@ public class App {
             }
             if (App.launchOn.equals("iOS")) {
 
-                capabilities.setCapability("deviceName", App.VD.split(" \\(")[0]);
-                capabilities.setCapability("platformVersion", App.VD.split("\\(")[1].replaceAll("\\)", "").replace(")",""));
+                //capabilities.setCapability("deviceName", App.VD.split(" \\(")[0]);
+                //capabilities.setCapability("platformVersion", App.VD.split("\\(")[1].replaceAll("\\)", "").replace(")",""));
                 //These capabilities will make it run in real device
-                //capabilities.setCapability("deviceName", "bi's iPhone");
-                //capabilities.setCapability("platformVersion", "9.2");
-                //capabilities.setCapability("udid", "d70d5498f3cba8bd30993ffacac90cbb1bcc9919");
+                capabilities.setCapability("deviceName", "bi's iPhone");
+                capabilities.setCapability("platformVersion", "9.2");
+                capabilities.setCapability("udid", "d70d5498f3cba8bd30993ffacac90cbb1bcc9919");
                 capabilities.setCapability("bundleId", App.bundleid);
 
                 //File would be grabbed from default location where xcode creates the app.
-                File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphonesimulator/iPhoneBI.app");
+                //File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphonesimulator/iPhoneBI.app");
+
+                //File file = new File("/Users/rpalacios/Library/Developer/Xcode/DerivedData/iPhoneBI-cujhzgeypvptwgcnxpynvnbdlmld/Build/Products/Debug-iphoneos/iPhoneBI.app");
+
+
                 //File file = new File("/Users/tcollins/Library/Developer/Xcode/DerivedData/iPhoneBI-gxwmwoxvdetzlaamxmmutkvocdfo//Build/Products/Debug-iphonesimulator/iPhoneBI.app");
-                //File file = new File("iOSApps/"+App.app);
+                File file = new File("iOSApps/"+App.app);
                 capabilities.setCapability("app", file.getAbsolutePath());
 
                 driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
